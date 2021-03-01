@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="830px" height="180px" viewBox="0 0 830 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="SFMono-Regular, SF Mono" font-size="45" font-weight="normal">
+        <text id="Title">
+            <tspan x="31" y="76" fill="#5D6C79">// Swift Monthly Newsletter</tspan>
+            <tspan x="782.069336" y="76" font-family="SFMono-Semibold, SF Mono" font-size="50" font-weight="500" fill="#9B2393"></tspan>
+            <tspan x="31" y="130" font-family="SFMono-Semibold, SF Mono" font-size="50" font-weight="500" fill="#9B2393">import </tspan>
+            <tspan x="247.357422" y="130" font-size="50" fill="#000000" fill-opacity="0.845771416">IdeaKit</tspan>
+        </text>
+    </g>
+</svg>
