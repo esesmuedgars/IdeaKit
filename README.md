@@ -12,29 +12,29 @@ There is a lot of information available - release notes, newsletters, blog posts
 
 ## Table of Contents
 
-- [Tutorials](https://github.com/esesmuedgars/IdeaKit/blob/1.0/README.md#tutorials)
-  * [Swift Accelerate and vImage frameworks](https://github.com/esesmuedgars/IdeaKit/blob/1.0/README.md#swift-accelerate-and-vimage-frameworks)
-  * [Re-creating Apple Photos layout and animations with compositional layout](https://github.com/esesmuedgars/IdeaKit/blob/1.0/README.md#re-creating-apple-photos-layout-and-animations-with-compositional-layout)
-  * [How to scan images and perform text recognition in SwiftUI using VisionKit](https://github.com/esesmuedgars/IdeaKit/blob/1.0/README.md#how-to-scan-images-and-perform-text-recognition-in-swiftui-using-visionkit)
-- [Enhanced programming]()
-  * [Writing high-performance Swift code](https://github.com/esesmuedgars/IdeaKit/blob/1.0/README.md#writing-high-performance-swift-code)
-  * [Swift and Xcode tips](https://github.com/esesmuedgars/IdeaKit/blob/1.0/README.md#swift-and-xcode-tips)
-  * [Lifecycle bahaviors](https://github.com/esesmuedgars/IdeaKit/blob/1.0/README.md#lifecycle-bahaviors)
-  * [GraphQL in Swift](https://github.com/esesmuedgars/IdeaKit/blob/1.0/README.md#graphql-in-swift)
-  * [Returning an Opaque Type](https://github.com/esesmuedgars/IdeaKit/blob/1.0/README.md#graphql-in-swift)
-  * [How Uber deals with large iOS application size](https://github.com/esesmuedgars/IdeaKit/blob/1.0/README.md#how-uber-deals-with-large-ios-application-size)
-  * [Developing Xcode extensions](https://github.com/esesmuedgars/IdeaKit/blob/1.0/README.md#how-uber-deals-with-large-ios-application-size)
-  * [Dependency inversion as a driver to scale mobile development](https://github.com/esesmuedgars/IdeaKit/blob/1.0/README.md#dependency-inversion-as-a-driver-to-scale-mobile-development)
-  * [Distributing closed-source frameworks with Swift Package Manager](https://github.com/esesmuedgars/IdeaKit/blob/1.0/README.md#distributing-closed-source-frameworks-with-swift-package-manager)
-  * [Using `async`/`await` in SwiftUI](https://github.com/esesmuedgars/IdeaKit/blob/1.0/README.md#distributing-closed-source-frameworks-with-swift-package-manager)
-  * [`[weak self]` is not always the solution](https://github.com/esesmuedgars/IdeaKit/blob/1.0/README.md#weak-self-is-not-always-the-solution)
-  * [How to use `@autoclosure` in Swift to improve performance](https://github.com/esesmuedgars/IdeaKit/blob/1.0/README.md#weak-self-is-not-always-the-solution)
-- [Tools](https://github.com/esesmuedgars/IdeaKit/blob/1.0/README.md#tools)
-  * [Homebrew 3.0.0](https://github.com/esesmuedgars/IdeaKit/blob/1.0/README.md#homebrew-300)
-  * [Testing push notifications on the iOS simulator](https://github.com/esesmuedgars/IdeaKit/blob/1.0/README.md#testing-push-notifications-on-the-ios-simulator)
-  * [Getting to know the simulator better](https://github.com/esesmuedgars/IdeaKit/blob/1.0/README.md#getting-to-know-the-simulator-better)
-  * [Swift WebSockets](https://github.com/esesmuedgars/IdeaKit/blob/1.0/README.md#swift-websockets)
-  * [Localizing strings in a project](https://github.com/esesmuedgars/IdeaKit/blob/1.0/README.md#localizing-strings-in-a-project)
+- [Tutorials](#tutorials)
+  * [Swift Accelerate and vImage frameworks](#swift-accelerate-and-vimage-frameworks)
+  * [Re-creating Apple Photos layout and animations with compositional layout](#re-creating-apple-photos-layout-and-animations-with-compositional-layout)
+  * [How to scan images and perform text recognition in SwiftUI using VisionKit](#how-to-scan-images-and-perform-text-recognition-in-swiftui-using-visionkit)
+- [Enhanced programming](#enhanced-programming)
+  * [Writing high-performance Swift code](#writing-high-performance-swift-code)
+  * [Swift and Xcode tips](#swift-and-xcode-tips)
+  * [View controller lifecycle bahaviors](#view-controller-lifecycle-bahaviors)
+  * [GraphQL in Swift](#graphql-in-swift)
+  * [Returning an Opaque Type](#graphql-in-swift)
+  * [How Uber deals with large iOS application size](#how-uber-deals-with-large-ios-application-size)
+  * [Developing Xcode extensions](#how-uber-deals-with-large-ios-application-size)
+  * [Dependency inversion as a driver to scale mobile development](#dependency-inversion-as-a-driver-to-scale-mobile-development)
+  * [Distributing closed-source frameworks with Swift Package Manager](#distributing-closed-source-frameworks-with-swift-package-manager)
+  * [Using `async`/`await` in SwiftUI](#using-asyncawait-in-swiftui)
+  * [`[weak self]` is not always the solution](#weak-self-is-not-always-the-solution)
+  * [How to use `@autoclosure` in Swift to improve performance](#weak-self-is-not-always-the-solution)
+- [Tools](#tools)
+  * [Homebrew 3.0.0](#homebrew-300)
+  * [Testing push notifications on the iOS simulator](#testing-push-notifications-on-the-ios-simulator)
+  * [Getting to know the simulator better](#getting-to-know-the-simulator-better)
+  * [Swift WebSockets](#swift-websockets)
+  * [Localizing strings in a project](#localizing-strings-in-a-project)
 
 ## Tutorials
 
@@ -60,7 +60,7 @@ What makes a good user experience? I believe it's safe to say speed is one of th
 
 Adding `-com.apple.CoreData.ConcurrencyDebug 1` launch argument helps you to ensure you’re not violating Core Data’s threading rules. `defaults write http://com.apple.dt.Xcode IDEAdditionalCounterpartSuffixes -array-add "ViewModel" "View" "Screen"` makes Xcode's Assistant Editor aware for your view models, views, etc. And many more great Swift and Xcode tips have been shared by developer community on [Paul Hudson's](https://twitter.com/twostraws) Twitter [thread](https://twitter.com/twostraws/status/1364538061837791232).
 
-### Lifecycle bahaviors
+### View controller lifecycle bahaviors
 
 View controller propagates its lifecycle methods to child view controllers, core rule [Bryan Irace](https://twitter.com/irace) used to write an [article](https://irace.me/lifecycle-behaviors) about reusable view controller’s lifecycle behaviors.
 
