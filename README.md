@@ -2,6 +2,10 @@
 
 ![Issue](https://img.shields.io/badge/issue-1.0-informational.svg)
 
+> Extra! Extra! Read all about it!
+Under the Interactive umbrella, in Mobile we have a lot of different teams delivering various software applications. Recent activity indicates that we're shifting towards a more of a start-up mindset. From my observations there has been far less - I'm a developer, it's not my job to do anything besides programming - mentalitty. Individuals are creating my accenture posts, brown bags are held where knowledge is shared and Arkadi brags about C4. Like a set of companies within a bigger company. 
+This is a pilot and viewing statistics will be used to determine the fate of the newsletter. It would be beneficial for me to dedicate all this time for.a single person to visit a pair of topics. As long as everyone reads a topic, I'd say we're good.
+
 ## Tutorials
 
 ### Swift Accelerate and vImage frameworks
@@ -75,5 +79,17 @@ When it comes to WebSocket protocol, there are two main libraries - [Starscream]
 <!--Character credit goes to [Pablo Stanley](https://twitter.com/pablostanley) with his [Open Peeps](https://www.openpeeps.com) hand-drawn illustration library.-->
 <br>
 <br>
-Reach out if you would like to contribute.
+Found a topic insightful? You can add your comments and open discussion using conversation sidebar.
 </p>
+<p align="center">
+Reach out in case you spot any inconsistencies, errors or have any suggestions.
+</p>
+___
+
+- [ ] Distributing closed-source frameworks with SPM [article] by [Daniel Saidi](https://twitter.com/danielsaidi);
+- [ ] How to Scan Images and Perform Text Recognition in SwiftUI Using VisionKit [tutorial](https://www.appcoda.com/swiftui-text-recognition) by [Gabriel Theodoropoulos](https://twitter.com/gabtheodor);
+- [ ] DispatchGroup in Swift [article](https://dev.to/fmo91/dispatchgroup-in-swift-gg7) by [Fernando Martín Ortiz](https://twitter.com/fmo_91);
+- [ ] Code Generating Swift Mocks with Sourcery [article](https://www.vadimbulavin.com/mocking-in-swift-using-sourcery) by [Vadim Bulavin](https://twitter.com/V8tr);
+- [ ] Tuist Template: What is it and how to create them [article](https://sarunw.com/posts/tuist-template) by [Sarun Wongpatcharapakornand](https://twitter.com/sarunw);
+- [ ] `[weak self]` is not always the solution [article](https://iosmith.com/weak-self-not-always-the-solution) by [Zsolt Kovács](https://www.linkedin.com/in/zs-kovacs);
+- [ ] How to use `@autoclosure` in Swift to improve performance [article](https://www.avanderlee.com/swift/autoclosure) by [Antoine van der Lee](https://twitter.com/twannl).
