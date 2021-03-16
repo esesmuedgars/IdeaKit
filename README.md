@@ -60,6 +60,7 @@ When it comes to WebSocket protocol, there are two main libraries - [Starscream]
 <br>
 <p align="center">
 <img width="25%" alt="Curator" src="https://github.com/esesmuedgars/IdeaKit/blob/1.0/character.svg" />
+<!--Character credit goes to [Pablo Stanley](https://twitter.com/pablostanley) with his [Open Peeps](https://www.openpeeps.com) hand-drawn illustration library.-->
 <br>
 <br>
 Reach out if you would like to contribute.
