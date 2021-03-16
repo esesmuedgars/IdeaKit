@@ -3,7 +3,11 @@
 ![Issue](https://img.shields.io/badge/issue-1.0-informational.svg)
 
 Extra! Extra! Read all about it!
-Under the Interactive umbrella, in Mobile division, we have multiple teams delivering various software applications. Recent activity indicates that we're shifting towards a more of a start-up mindset. From my observations there has been far less - I'm a developer, it's not my job to do anything besides programming - mentality. Individuals are creating My Accenture posts, brown bags are held where knowledge is shared and Arkadi brags about C4. Like a set of companies within a bigger company. 
+Under the Interactive umbrella, in Mobile division, we have multiple teams delivering various software applications. In my opinion, recent activity indicates that we're shifting towards a developer community mindset. There has been less of "I'm a developer, it's not my job to do anything besides programming" mentality. Individuals are creating My Accenture posts, brown bags are held where knowledge is shared and [Arkadzi Daniyelian](mailto:arkadzi.daniyelian@accenture.com) gets a chance to brag about [Channel 4](https://apps.apple.com/gb/app/all-4-watch-live-on-demand/id432494037).
+
+There is a lot information available - release notes, newsletters, blog posts, articles, tutorials, presentations, podcasts, etc., I believe you could benefit from a collective list of hand-picked items that I commit to bundle and deliver at your doorstep on a monthly basis.
+
+Subject to change
 This is a pilot and viewing statistics will be used to determine the fate of the newsletter. It would be beneficial for me to dedicate all this time for a single person to visit a pair of topics. As long as everyone reads a topic, I'd say we're good.
 
 ## Tutorials
