@@ -1,6 +1,6 @@
 <img width="100%" alt="import IdeaKit - Swift Monthly Newsletter" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/title.svg" />
 
-![Issue](https://img.shields.io/badge/issue-Pilot-informational.svg)
+![Issue](https://img.shields.io/badge/issue-pilot-informational.svg)
 
 Extra! Extra! Read all about it!
 Under the Interactive umbrella, in Mobile division, we have multiple teams delivering various software applications. In my opinion, recent activity indicates that we're shifting towards a developer community mindset. There has been less of "I'm a developer, it's not my job to do anything besides programming" mentality. Individuals are creating My Accenture posts, brown bags are held where knowledge is shared and [Arkadzi Daniyelian](mailto:arkadzi.daniyelian@accenture.com) gets a chance to brag about [Channel 4](https://apps.apple.com/gb/app/all-4-watch-live-on-demand/id432494037).
