@@ -4,6 +4,7 @@
 
 Extra! Extra! Read all about it!
 <br>
+<br>
 Under the _Interactive_ umbrella, in the _Mobile_ division, we have multiple teams delivering various software applications. In my opinion, recent activity indicates that we're shifting towards a developer community mindset. There has been less of an "I'm a developer, it's not my job to do anything besides programming" mentality. [Artjoms Vorona](https://my.accenture.lv/users/artjoms_vorona) created several My Accenture posts about Apple developer topics, there are regular _Brown Bags_ where [Kristaps Knets](https://my.accenture.lv/users/kristaps_knets) introduced Unity, [Mykhailo Dontsov](https://my.accenture.lv/users/mykhailo_dontsov) introduced Kotlin Multiplatform. There are _Demo Days_ where [Arkadzi Daniyelian](https://my.accenture.lv/users/arkadzi_daniyelian), [Pavels Vetlugins](https://my.accenture.lv/users/pavels_vetlugins) and [Deniss Lapins](https://my.accenture.lv/users/deniss_lapins) had a chance to brag about [Channel 4](https://apps.apple.com/gb/app/all-4-watch-live-on-demand/id432494037). 
 
 There is a lot of information available - release notes, newsletters, blog posts, articles, tutorials, presentations, podcasts, etc., but how to navigate such a vast amount of information? I'm excited to announce the first issue of _import IdeaKit - Swift Monthly Newsletter_ a list of hand-picked items about Swift that I commit to bundle and deliver at your digital doorstep every month.
@@ -124,7 +125,7 @@ When it comes to WebSocket protocol, there are two main libraries - [Starscream]
 
 <br>
 <p align="center">
-<img width="25%" alt="Curator" src="https://github.com/esesmuedgars/IdeaKit/blob/1.0/character.svg" />
+<img width="25%" alt="Curator" src="https://github.com/esesmuedgars/IdeaKit/blob/pilot/character.svg" />
 <!--Character credit goes to [Pablo Stanley](https://twitter.com/pablostanley) with his [Open Peeps](https://www.openpeeps.com) hand-drawn illustration library.-->
 </p>
 <p align="center">
