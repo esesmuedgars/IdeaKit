@@ -51,6 +51,10 @@ As application's codebase grows, so does it's size. Engineers at Uber dove beyon
 
 Often functionality is shared accross applications be it data persistance, authorization or billing. But how are these dependencies managed in your codebase? Are they loosely coupled where dependency details are encapsulated within and dependency interfaces are used for cross-dependency communication? In his [article](https://developers.soundcloud.com/blog/dependency-inversion-as-a-driver-to-scale-mobile-development) [Firat Karatas](https://twitter.com/firatov) provides Swift examples as well as describes how to apply dependency inversion principle to frameworks.
 
+### Distributing closed-source frameworks with Swift Package Manager
+
+[Daniel Saidi](https://twitter.com/danielsaidi) wrote an [article](https://danielsaidi.com/blog/2021/02/15/distributing-closed-source-frameworks-with-spm) explaining how to set up project, distribute library and tackle problems along the way.
+
 ## Tools
 
 ### Homebrew 3.0.0
@@ -77,16 +81,21 @@ When it comes to WebSocket protocol, there are two main libraries - [Starscream]
 <p align="center">
 <img width="25%" alt="Curator" src="https://github.com/esesmuedgars/IdeaKit/blob/1.0/character.svg" />
 <!--Character credit goes to [Pablo Stanley](https://twitter.com/pablostanley) with his [Open Peeps](https://www.openpeeps.com) hand-drawn illustration library.-->
-<br>
-<br>
-Found a topic insightful? You can add your comments and open discussion using conversation sidebar.
 </p>
 <p align="center">
-Reach out in case you spot any inconsistencies, errors or have any suggestions.
+Thank you for taking the time to expand your knowledge.
+<br>
+<br>
+Found a topic insightful? You can add your comments and open a discussion using conversation sidebar.
+<br>
+Help others by moving up items with highest ROI.
+<br>
+<br>
+Reach out in case you spot any inconsistencies, errors or would like to make suggestions.
 </p>
 ___
 
-- [ ] Distributing closed-source frameworks with SPM [article] by [Daniel Saidi](https://twitter.com/danielsaidi);
+
 - [ ] How to Scan Images and Perform Text Recognition in SwiftUI Using VisionKit [tutorial](https://www.appcoda.com/swiftui-text-recognition) by [Gabriel Theodoropoulos](https://twitter.com/gabtheodor);
 - [ ] DispatchGroup in Swift [article](https://dev.to/fmo91/dispatchgroup-in-swift-gg7) by [Fernando Martín Ortiz](https://twitter.com/fmo_91);
 - [ ] Code Generating Swift Mocks with Sourcery [article](https://www.vadimbulavin.com/mocking-in-swift-using-sourcery) by [Vadim Bulavin](https://twitter.com/V8tr);
