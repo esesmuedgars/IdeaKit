@@ -39,6 +39,14 @@ With the release of SwiftUI, Apple’s declarative UI framework, one feature tha
 
 As application's codebase grows, so does it's size. Engineers at Uber dove beyond high-level language features and calling conventions and improved Swift binary size via like time optimization. Read an [article](https://eng.uber.com/how-uber-deals-with-large-ios-app-size) where [Milind Chabbi](https://twitter.com/ChabbiMilind), [Jin Lin](https://www.linkedin.com/in/jinlin) and [Raj Barik](https://github.com/rajbarik) describe how they reduced application sizes using advanced compiler technologies.
 
+### Developing Xcode extensions
+
+[Artem Novichkov](https://twitter.com/iosartem) wrote an [article](https://blog.artemnovichkov.com/developing-xcode-extensions-tips-and-tricks) about Xcode extension he created that let's you to create minimalistic code snippet images from selection with the help of [Ray.so](https://ray.so) tool.
+
+### Dependency inversion as a driver to scale mobile development
+
+Often functionality is shared accross applications be it data persistance, authorization or billing. But how are these dependencies managed in your codebase? Are they loosely coupled where dependency details are encapsulated within and dependency interfaces are used for cross-dependency communication? In his [article](https://developers.soundcloud.com/blog/dependency-inversion-as-a-driver-to-scale-mobile-development) [Firat Karatas](https://twitter.com/firatov) provides Swift examples as well as describes how to apply dependency inversion principle to frameworks.
+
 ## Tools
 
 ### Homebrew 3.0.0
@@ -56,6 +64,10 @@ When developing iOS applications push notifications are common functionality. Pr
 ### Swift WebSockets
 
 When it comes to WebSocket protocol, there are two main libraries - [Starscream](https://github.com/daltoniam/Starscream) and [URLSession](https://developer.apple.com/documentation/foundation/urlsession). [Matheus Cardoso](https://twitter.com/cardosodev) wrote an [article](https://dev.to/cardoso/swift-websockets-starscream-or-urlsession-in-2021-fck) comparing both of them.
+
+### Localizing strings in a project
+
+[Guillermo Culkin](https://twitter.com/gmoraleda_) wrote an [article](http://moraleda.info/2021/02/19/localization) about centralizing your localization strigs and generating a namespace data class for in-application usage as a part of a build process.
 
 <br>
 <p align="center">
