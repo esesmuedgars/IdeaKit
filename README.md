@@ -4,11 +4,37 @@
 
 Extra! Extra! Read all about it!
 <br>
-Under the Interactive umbrella, in Mobile division, we have multiple teams delivering various software applications. In my opinion, recent activity indicates that we're shifting towards a developer community mindset. There has been less of an "I'm a developer, it's not my job to do anything besides programming" mentality. [Artjoms Vorona](https://my.accenture.lv/users/artjoms_vorona) created several My Accenture posts about Apple developer topics, there are regular _Brown Bags_ where [Kristaps Knets](https://my.accenture.lv/users/kristaps_knets) introduced Unity, [Mykhailo Dontsov](https://my.accenture.lv/users/mykhailo_dontsov) introduced Kotlin Multiplatform. There are _Demo Days_ where [Arkadzi Daniyelian](https://my.accenture.lv/users/arkadzi_daniyelian), [Pavels Vetlugins](https://my.accenture.lv/users/pavels_vetlugins) and [Deniss Lapins](https://my.accenture.lv/users/deniss_lapins) had a chance to brag about [Channel 4](https://apps.apple.com/gb/app/all-4-watch-live-on-demand/id432494037).
+Under the _Interactive_ umbrella, in the _Mobile_ division, we have multiple teams delivering various software applications. In my opinion, recent activity indicates that we're shifting towards a developer community mindset. There has been less of an "I'm a developer, it's not my job to do anything besides programming" mentality. [Artjoms Vorona](https://my.accenture.lv/users/artjoms_vorona) created several My Accenture posts about Apple developer topics, there are regular _Brown Bags_ where [Kristaps Knets](https://my.accenture.lv/users/kristaps_knets) introduced Unity, [Mykhailo Dontsov](https://my.accenture.lv/users/mykhailo_dontsov) introduced Kotlin Multiplatform. There are _Demo Days_ where [Arkadzi Daniyelian](https://my.accenture.lv/users/arkadzi_daniyelian), [Pavels Vetlugins](https://my.accenture.lv/users/pavels_vetlugins) and [Deniss Lapins](https://my.accenture.lv/users/deniss_lapins) had a chance to brag about [Channel 4](https://apps.apple.com/gb/app/all-4-watch-live-on-demand/id432494037). 
 
-There is a lot of information available - release notes, newsletters, blog posts, articles, tutorials, presentations, podcasts, etc., I'm excited to announce first issue of _import IdeaKit_ a list of hand-picked items about Swift that I commit to bundle and deliver at your digital doorstep every month.
+There is a lot of information available - release notes, newsletters, blog posts, articles, tutorials, presentations, podcasts, etc., but how to navigate such a vast amount of information? I'm excited to announce the first issue of _import IdeaKit - Swift Monthly Newsletter_ a list of hand-picked items about Swift that I commit to bundle and deliver at your digital doorstep every month.
 
-**NB!** This is a pilot issue and you directly impact newsletter's future outcome. Timeline, concept, and title are subject to change.
+**NB!** This is a pilot issue and you directly impact the newsletter's future outcome. Timeline, concept, and title are subject to change.
+
+## Table of Contents
+
+- [Tutorials]()
+  * [Swift Accelerate and vImage frameworks]()
+  * [Re-creating Apple Photos layout and animations with compositional layout]()
+  * [How to scan images and perform text recognition in SwiftUI using VisionKit]()
+- [Enhanced programming]()
+  * [Writing high-performance Swift code]()
+  * [Swift and Xcode tips]()
+  * [Lifecycle bahaviors]()
+  * [GraphQL in Swift]()
+  * [Returning an Opaque Type]()
+  * [How Uber deals with large iOS application size]()
+  * [Developing Xcode extensions]()
+  * [Dependency inversion as a driver to scale mobile development]()
+  * [Distributing closed-source frameworks with Swift Package Manager]()
+  * [Using `async`/`await` in SwiftUI]()
+  * [`[weak self]` is not always the solution]()
+  * [How to use `@autoclosure` in Swift to improve performance]()
+- [Tools]()
+  * [Homebrew 3.0.0]()
+  * [Testing push notifications on the iOS simulator]()
+  * [Getting to know the simulator better]()
+  * [Swift WebSockets]()
+  * [Localizing strings in a project]()
 
 ## Tutorials
 
