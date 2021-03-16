@@ -5,10 +5,12 @@
 Extra! Extra! Read all about it!
 Under the Interactive umbrella, in Mobile division, we have multiple teams delivering various software applications. In my opinion, recent activity indicates that we're shifting towards a developer community mindset. There has been less of "I'm a developer, it's not my job to do anything besides programming" mentality. Individuals are creating My Accenture posts, brown bags are held where knowledge is shared and [Arkadzi Daniyelian](mailto:arkadzi.daniyelian@accenture.com) gets a chance to brag about [Channel 4](https://apps.apple.com/gb/app/all-4-watch-live-on-demand/id432494037).
 
-There is a lot information available - release notes, newsletters, blog posts, articles, tutorials, presentations, podcasts, etc., I believe you could benefit from a collective list of hand-picked items that I commit to bundle and deliver at your doorstep on a monthly basis.
+There is a lot information available - release notes, newsletters, blog posts, articles, tutorials, presentations, podcasts, etc., I believe you could benefit from a collective list of hand-picked items that I commit to bundle and deliver at your digital doorstep on a monthly basis.
 
-Subject to change
 This is a pilot and viewing statistics will be used to determine the fate of the newsletter. It would be beneficial for me to dedicate all this time for a single person to visit a pair of topics. As long as everyone reads a topic, I'd say we're good.
+You directly impact if newsletter is here to stay.
+
+**NB!** Timeline and concept is subject to change.
 
 ## Tutorials
 
@@ -102,13 +104,13 @@ When it comes to WebSocket protocol, there are two main libraries - [Starscream]
 <!--Character credit goes to [Pablo Stanley](https://twitter.com/pablostanley) with his [Open Peeps](https://www.openpeeps.com) hand-drawn illustration library.-->
 </p>
 <p align="center">
-Thank you for taking the time to expand your knowledge.
+Thank you for taking the time to expand your knowledge!
 <br>
 <br>
 Found a topic insightful? You can add your comments and open a discussion using the conversation sidebar.
 <br>
-Help others by moving up items with the highest ROI.
+Help others by moving up items with the highest ROI!
 <br>
 <br>
-Reach out in case you spot any inconsistencies or errors. Feedback and suggestions are also welcome.
+Reach out in case you spot any inconsistencies or errors! Feedback and suggestions are also welcome.
 </p>
