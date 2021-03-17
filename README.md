@@ -5,7 +5,7 @@
 Extra! Extra! Read all about it!
 <br>
 <br>
-Under the _Interactive_ umbrella, in the _Mobile_ division, we have multiple teams delivering various software applications. In my opinion, recent activity indicates that we're shifting towards a developer community mindset. There has been less of an "I'm a developer, it's not my job to do anything besides programming" mentality. [Artjoms Vorona](https://my.accenture.lv/users/artjoms_vorona) created several My Accenture posts about Apple developer topics, there are regular _Brown Bags_ where [Kristaps Knets](https://my.accenture.lv/users/kristaps_knets) introduced Unity, [Mykhailo Dontsov](https://my.accenture.lv/users/mykhailo_dontsov) introduced Kotlin Multiplatform. There are _Demo Days_ where [Arkadzi Daniyelian](https://my.accenture.lv/users/arkadzi_daniyelian), [Pavels Vetlugins](https://my.accenture.lv/users/pavels_vetlugins) and [Deniss Lapins](https://my.accenture.lv/users/deniss_lapins) had a chance to brag about [Channel 4](https://apps.apple.com/gb/app/all-4-watch-live-on-demand/id432494037). 
+Under the _Interactive_ umbrella, in the _Mobile_ division, we have multiple teams delivering various software applications. In my opinion, recent activity indicates that we're shifting towards a developer community mindset. There has been less of an "I'm a developer, it's not my job to do anything besides programming" mentality. [Artjoms Vorona](https://people.accenture.com/People/user/artjoms.vorona) created several posts about Apple developer topics, there are regular _Brown Bags_ where [Kristaps Knets](https://people.accenture.com/People/user/kristaps.knets) introduced Unity, [Mykhailo Dontsov](https://people.accenture.com/People/user/mykhailo.dontsov) introduced Kotlin Multiplatform. There are _Demo Days_ where [Arkadzi Daniyelian](https://people.accenture.com/People/user/arkadzi.daniyelian), [Pavels Vetlugins](https://people.accenture.com/People/user/pavels.vetlugins) and [Deniss Lapins](https://people.accenture.com/People/user/deniss.lapins) had a chance to brag about [Channel 4](https://apps.apple.com/gb/app/all-4-watch-live-on-demand/id432494037). 
 
 There is a lot of information available - release notes, newsletters, blog posts, articles, tutorials, presentations, podcasts, etc., but how to navigate such a vast amount of information? I'm excited to announce the first issue of _import IdeaKit - Swift Monthly Newsletter_ a list of hand-picked items about Swift that I commit to bundle and deliver at your digital doorstep every month.
 
@@ -45,7 +45,7 @@ There is a lot of information available - release notes, newsletters, blog posts
 
 ### Re-creating Apple Photos layout and animations with compositional layout
 
-During WWDC 2019, Apple introduced declarative `UICollectionViewCompositionalLayout` API intending to simplify the development process of complex layouts in our applications. Learn how to re-creating Apple Photos application layout and animations in [tutorial](https://nemecek.be/blog/86/re-creating-apple-photos-layout-animations-with-compositional-layout) by [Filip Němeček](https://github.com/nemecek-filip).
+During WWDC 2019, Apple introduced declarative `UICollectionViewCompositionalLayout` API intending to simplify the development process of complex layouts in our applications. Learn how to re-create Apple Photos application layout and animations in [tutorial](https://nemecek.be/blog/86/re-creating-apple-photos-layout-animations-with-compositional-layout) by [Filip Němeček](https://github.com/nemecek-filip).
 
 ### How to scan images and perform text recognition in SwiftUI using VisionKit
 
@@ -132,10 +132,10 @@ When it comes to WebSocket protocol, there are two main libraries - [Starscream]
 Thank you for taking the time to expand your knowledge!
 <br>
 <br>
-Found a topic insightful? You can add your comments and open a discussion using the conversation sidebar.
+Found a topic insightful? You can add your comments and open a discussion using the comment section below.
 <br>
-Help others by moving up items with the highest ROI!
+Help others improve their Swift knowledge by liking and sharing this post.
 <br>
 <br>
-Reach out in case you spot any inconsistencies or errors! Feedback and suggestions are also welcome.
+Reach out in case you would like to contribute or spot any errors! Feedback and suggestions are also welcome.
 </p>
