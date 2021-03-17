@@ -105,7 +105,7 @@ An `@autoclosure` can be a great solution to prevent unnecessary work if code is
 
 ### Homebrew 3.0.0
 
-Homebrew 3.0.0 is now available with an official Apple Silicon support and a new bottle format in formulae. Read through a [list of changes](https://brew.sh/2021/02/05/homebrew-3.0.0) by [Mike McQuaid](https://twitter.com/MikeMcQuaid).
+Homebrew 3.0.0 is now available with an official Apple silicon support and a new bottle format in formulae. Read through a [list of changes](https://brew.sh/2021/02/05/homebrew-3.0.0) by [Mike McQuaid](https://twitter.com/MikeMcQuaid).
 
 ### Testing push notifications on the iOS simulator
 
