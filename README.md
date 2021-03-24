@@ -1,127 +1,24 @@
-<img width="100%" alt="import IdeaKit - Swift Monthly Newsletter" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/title.svg" />
+# Trojanized Xcode project targeting Apple developers discovered
 
-![Issue](https://img.shields.io/badge/issue-pilot-informational.svg)
+###### 2 minute read
 
-Extra! Extra! Read all about it!
-<br>
-<br>
-Under the _Interactive_ umbrella, in the _Mobile_ division, we have multiple teams delivering various software applications. In my opinion, recent activity indicates that we're shifting towards a developer community mindset. There has been less of an "I'm a developer, it's not my job to do anything besides programming" mentality. [Artjoms Vorona](https://people.accenture.com/People/user/artjoms.vorona) created several posts about Apple developer topics, there are regular _Brown Bags_ where [Kristaps Knets](https://people.accenture.com/People/user/kristaps.knets) introduced Unity, [Mykhailo Dontsov](https://people.accenture.com/People/user/mykhailo.dontsov) introduced Kotlin Multiplatform. There are _Demo Days_ where [Arkadzi Daniyelian](https://people.accenture.com/People/user/arkadzi.daniyelian), [Pavels Vetlugins](https://people.accenture.com/People/user/pavels.vetlugins) and [Deniss Lapins](https://people.accenture.com/People/user/deniss.lapins) had a chance to brag about [Channel 4](https://apps.apple.com/gb/app/all-4-watch-live-on-demand/id432494037). 
+A new backdoor threat has been discovered that aims to compromise Apple developers’ macOS devices with a trojanized Xcode project along with a persistence mechanism. This malware can record victims’ microphone, camera, keyboard as well as upload and download files.
 
-There is a lot of information available - release notes, newsletters, blog posts, articles, tutorials, presentations, podcasts, etc., but how to navigate such a vast amount of information? I'm excited to announce the first issue of _import IdeaKit - Swift Monthly Newsletter_ a list of hand-picked items about Swift that I commit to bundle and deliver at your digital doorstep every month.
+The new malicious Xcode project was discovered by Sentinel Labs. The researchers have named the threat XcodeSpy which is a custom variant of the EggShell backdoor.
 
-**NB!** This is a pilot issue and you directly impact the newsletter's future outcome. Timeline, concept, and title are subject to change.
+The trojanized code hides as a malicious replica of a legitimate open-source Xcode project and works by exploiting the Run Script feature in the Xcode IDE. Sentinel Labs explains:
 
-## Table of Contents
+> We recently became aware of a trojanized Xcode project in the wild targeting iOS developers thanks to a tip from an anonymous researcher. The malicious project is a doctored version of a legitimate, open-source project available on GitHub. The project offers iOS developers several advanced features for animating the iOS Tab Bar based on user interaction.
 
-- [Tutorials](#tutorials)
-  * [Swift Accelerate and vImage frameworks](#swift-accelerate-and-vimage-frameworks)
-  * [Re-creating Apple Photos layout and animations with compositional layout](#re-creating-apple-photos-layout-and-animations-with-compositional-layout)
-  * [How to scan images and perform text recognition in SwiftUI using VisionKit](#how-to-scan-images-and-perform-text-recognition-in-swiftui-using-visionkit)
-- [Enhanced programming](#enhanced-programming)
-  * [Writing high-performance Swift code](#writing-high-performance-swift-code)
-  * [Swift and Xcode tips](#swift-and-xcode-tips)
-  * [View controller lifecycle bahaviors](#view-controller-lifecycle-bahaviors)
-  * [GraphQL in Swift](#graphql-in-swift)
-  * [Returning an Opaque Type](#graphql-in-swift)
-  * [How Uber deals with large iOS application size](#how-uber-deals-with-large-ios-application-size)
-  * [Developing Xcode extensions](#how-uber-deals-with-large-ios-application-size)
-  * [Dependency inversion as a driver to scale mobile development](#dependency-inversion-as-a-driver-to-scale-mobile-development)
-  * [Distributing closed-source frameworks with Swift Package Manager](#distributing-closed-source-frameworks-with-swift-package-manager)
-  * [Using `async`/`await` in SwiftUI](#using-asyncawait-in-swiftui)
-  * [`[weak self]` is not always the solution](#weak-self-is-not-always-the-solution)
-  * [How to use `@autoclosure` in Swift to improve performance](#weak-self-is-not-always-the-solution)
-- [Tools](#tools)
-  * [Homebrew 3.0.0](#homebrew-300)
-  * [Testing push notifications on the iOS simulator](#testing-push-notifications-on-the-ios-simulator)
-  * [Getting to know the simulator better](#getting-to-know-the-simulator-better)
-  * [Swift WebSockets](#swift-websockets)
-  * [Localizing strings in a project](#localizing-strings-in-a-project)
+> The XcodeSpy version, however, has been subtly changed to execute an obfuscated Run Script when the developer’s build target is launched. The script contacts the attackers’ C2 and drops a custom variant of the EggShell backdoor on the development machine. The malware installs a user LaunchAgent for persistence and is able to record information from the victim’s microphone, camera, and keyboard.
 
-## Tutorials
+The researchers at Sentinel Labs have found two variants of the payload and so far have seen a single case of the threat found within a U.S. organization. Analyzed sample used a copy of the [TabBarInteraction](https://github.com/potato04/TabBarInteraction) project. They believe the malware campaign may have run from July to October 2020 and say the extent of the spread is unknown for now but other XcodeSpy projects may exist.
 
-### Swift Accelerate and vImage frameworks
+> We have thus far been unable to discover other samples of trojanized Xcode projects and cannot gauge the extent of this activity. However, the timeline from known samples and other indicators mentioned below suggest that other XcodeSpy projects may exist. By sharing details of this campaign, we hope to raise awareness of this attack vector and highlight the fact that developers are high-value targets for attackers.
 
-[Accelerate](https://developer.apple.com/documentation/accelerate) framework provides Apple developers with a high-performance, energy-efficient computation library for large-scale mathematical or image-based calculations. It uses the vector-processing capabilities on CPUs to perform calculations quickly while maintaining efficient energy usage. Learn how to process images using Accelerate and vImage in a SwiftUI application in [tutorial](https://www.raywenderlich.com/19456196-swift-accelerate-and-vimage-getting-started) by [Bill Morefield](https://twitter.com/bmorefield).
+Consequently, all Apple developers are cautioned to check for the presence of malicious Run Scripts whenever adopting third-party Xcode projects. Sentinel Labs provide simple method developers can use to scan their existing local Xcode repositories in the [Detection and Mitigation](https://labs.sentinelone.com/new-macos-malware-xcodespy-targets-xcode-developers-with-eggshell-backdoor/#DTM) section. If you uncover any trace of XcodeSpy on your Accenture owned macOS device, you should immediately call the Accenture Security Operations Center (ASOC) hotline at [+1 202 728 0645](tel://+12027280645).
 
-### Re-creating Apple Photos layout and animations with compositional layout
-
-During WWDC 2019, Apple introduced declarative `UICollectionViewCompositionalLayout` API intending to simplify the development process of complex layouts in our applications. Learn how to re-create Apple Photos application layout and animations in [tutorial](https://nemecek.be/blog/86/re-creating-apple-photos-layout-animations-with-compositional-layout) by [Filip Němeček](https://github.com/nemecek-filip).
-
-### How to scan images and perform text recognition in SwiftUI using VisionKit
-
-Previously, we had to use [Tesseract OCR](https://github.com/gali8/Tesseract-OCR-iOS) library in order to implement optical character recognition in our applications. [Gabriel Theodoropoulos](https://twitter.com/gabtheodor) uses Apple's [Vision](https://developer.apple.com/documentation/vision) and [VisionKit](https://developer.apple.com/documentation/visionkit) frameworks in his detailed [tutorial](https://www.appcoda.com/swiftui-text-recognition) to build a text recognition application.
-
-## Enhanced programming
-
-### Writing high-performance Swift code
-
-What makes a good user experience? I believe it's safe to say speed is one of the determining factors. We devote a noticeable portion of effort refactoring and optimizing our codebases, but did you know Swift documents have a comprehensive [list of tips](https://github.com/apple/swift/blob/main/docs/OptimizationTips.rst) on writing high-performant Swift code?
-
-### Swift and Xcode tips
-
-Adding `-com.apple.CoreData.ConcurrencyDebug 1` launch argument helps you to ensure you’re not violating Core Data’s threading rules. `defaults write http://com.apple.dt.Xcode IDEAdditionalCounterpartSuffixes -array-add "ViewModel" "View" "Screen"` makes Xcode's Assistant Editor aware for your view models, views, etc. And many more great Swift and Xcode tips have been shared by developer community on [Paul Hudson's](https://twitter.com/twostraws) Twitter [thread](https://twitter.com/twostraws/status/1364538061837791232).
-
-### View controller lifecycle bahaviors
-
-View controller propagates its lifecycle methods to child view controllers, core rule [Bryan Irace](https://twitter.com/irace) used to write an [article](https://irace.me/lifecycle-behaviors) about reusable view controller’s lifecycle behaviors.
-
-### GraphQL in Swift
-
-We build applications of all shapes and sizes, but a common element is that they communicate with servers. Today, a handful of applications operate without some sort of internet connectivity. During rainy days, developers end up reusing web APIs which leads to oversaturated responses, not only does this impact performance, it could potentially be a security threat. In his [article](https://swiftwithmajid.com/2021/02/24/graphql-in-swift/) [Majid Jabrayilov](https://twitter.com/mecid) walks us through the benefits and practice of GraphQL.
- 
-### Returning an Opaque Type
-
-With the release of SwiftUI, Apple’s declarative UI framework, one feature that stood out when looking at the sample code was the `some` keyword. This keyword enables functions, subscripts, and computed properties to declare opaque return types. Read an [article](https://learnappmaking.com/some-swift-opaque-types-how-to) where [Reinder de Vries](https://twitter.com/reinder42) explains how to get rid of unpleasant compile-time error "Protocol '...' can only be used as a generic constraint because it has Self or associated type requirements".
-
-### How Uber deals with large iOS application size
-
-As an application's codebase grows, so does its size. Engineers at Uber dove beyond high-level language features and calling conventions and improved Swift binary size via like time optimization. Read an [article](https://eng.uber.com/how-uber-deals-with-large-ios-app-size) where [Milind Chabbi](https://twitter.com/ChabbiMilind), [Jin Lin](https://www.linkedin.com/in/jinlin) and [Raj Barik](https://github.com/rajbarik) describe how they reduced application sizes using advanced compiler technologies.
-
-### Developing Xcode extensions
-
-[Artem Novichkov](https://twitter.com/iosartem) wrote an [article](https://blog.artemnovichkov.com/developing-xcode-extensions-tips-and-tricks) about Xcode extension he created that lets you create minimalistic code snippet images from selection with the help of [Ray.so](https://ray.so) tool.
-
-### Dependency inversion as a driver to scale mobile development
-
-Often functionality is shared across applications be it data persistence, authorization, or billing. But how are these dependencies managed in your codebase? Are they loosely coupled where dependency details are encapsulated within and dependency interfaces are used for cross-dependency communication? In his [article](https://developers.soundcloud.com/blog/dependency-inversion-as-a-driver-to-scale-mobile-development) [Firat Karatas](https://twitter.com/firatov) provides Swift examples as well as describes how to apply dependency inversion principle to frameworks.
-
-### Distributing closed-source frameworks with Swift Package Manager
-
-[Daniel Saidi](https://twitter.com/danielsaidi) wrote an [article](https://danielsaidi.com/blog/2021/02/15/distributing-closed-source-frameworks-with-spm) explaining how to set up a project, distribute library, and tackle problems along the way.
-
-### Using `async`/`await` in SwiftUI
-
-[SE-0296](https://github.com/apple/swift-evolution/blob/main/proposals/0296-async-await.md) proposal has been implemented and will be released as a part of the future version of Swift. [Peter Friese](https://twitter.com/peterfriese) in his an [article](https://peterfriese.dev/async-await-in-swiftui) describes how to install the compiler toolchain, activate this new feature, and rewrite a callback-based code using `async`/`await`.
-
-### `[weak self]` is not always the solution
-
-Everyone is afraid of retain cycles when working with closures, but do all closures must have `[weak self]`? Read an [article](https://iosmith.com/weak-self-not-always-the-solution) by [Zsolt Kovács](https://www.linkedin.com/in/zs-kovacs) where he offers an alternative to `[weak self]`.
-
-### How to use `@autoclosure` in Swift to improve performance
-
-An `@autoclosure` can be a great solution to prevent unnecessary work if code isn’t used. [Antoine van der Lee](https://twitter.com/twannl) wrote an [article](https://www.avanderlee.com/swift/autoclosure) on how you can optimize your code using `@autoclosure`.
-
-## Tools
-
-### Homebrew 3.0.0
-
-Homebrew 3.0.0 is now available with an official Apple silicon support and a new bottle format in formulae. Read through a [list of changes](https://brew.sh/2021/02/05/homebrew-3.0.0) by [Mike McQuaid](https://twitter.com/MikeMcQuaid).
-
-### Testing push notifications on the iOS simulator
-
-When developing iOS applications push notifications are common functionality. Previously, to test out push notifications we depended on physical devices,  Xcode 11.4 Beta introduced a new way to simulate push notifications on iOS simulator by adding `simctl` command. Read [article](https://sarunw.com/posts/testing-remote-push-notification-in-ios-simulator) by [Sarun Wongpatcharapakornand](https://twitter.com/sarunw) and [article](https://www.avanderlee.com/workflow/testing-push-notifications-ios-simulator) by [Antoine van der Lee](https://twitter.com/twannl).
-
-### Getting to know the simulator better
-
-[Andy Ibanez](https://twitter.com/AndyIbanezK) wrote an [article](https://www.andyibanez.com/posts/getting-to-know-the-simulator-better) about multiple simulator features provided by Xcode and the `xcrun simctl` tool.
-
-### Swift WebSockets
-
-When it comes to WebSocket protocol, there are two main libraries - [Starscream](https://github.com/daltoniam/Starscream) and [URLSession](https://developer.apple.com/documentation/foundation/urlsession). [Matheus Cardoso](https://twitter.com/cardosodev) wrote an [article](https://dev.to/cardoso/swift-websockets-starscream-or-urlsession-in-2021-fck) comparing both of them.
-
-### Localizing strings in a project
-
-[Guillermo Culkin](https://twitter.com/gmoraleda_) wrote an [article](http://moraleda.info/2021/02/19/localization) about centralizing your localization strigs and generating a namespace data class for in-application usage as a part of a build process.
+Check out the full technical details of XcodeSpy in the [full report](https://labs.sentinelone.com/new-macos-malware-xcodespy-targets-xcode-developers-with-eggshell-backdoor).
 
 <br>
 <p align="center">
@@ -133,9 +30,4 @@ Thank you for taking the time to expand your knowledge!
 <br>
 <br>
 Found a topic insightful? You can add your comments and open a discussion using the comment section below.
-<br>
-Help others improve their Swift knowledge by liking and sharing this post.
-<br>
-<br>
-Reach out in case you would like to contribute or spot any errors! Feedback and suggestions are also welcome.
 </p>
