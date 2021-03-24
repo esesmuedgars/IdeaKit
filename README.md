@@ -2,7 +2,7 @@
 
 ###### 4 minute read
 
-Recent activity around NFT climaxed with all-time high media coverage and search volume. First purely digital artwork ever offered by a major auction house - Christie’s on the 11th of March sold "[Everydays - The First 5000 Days](https://onlineonly.christies.com/s/beeple-first-5000-days/beeple-b-1981-1/112924)" non-fungible token by [Beeple](https://twitter.com/beeple) for over $69 million. If you have managed to avoid the topic thus far it is about to change, let’s better understand the nuances of NFT.
+Recent activity around NFT climaxed with all-time high media coverage and search volume. First purely digital artwork ever offered by a major auction house - Christie’s on the 11<sup>th</sup> of March sold "[Everydays - The First 5000 Days](https://onlineonly.christies.com/s/beeple-first-5000-days/beeple-b-1981-1/112924)" non-fungible token by [Beeple](https://twitter.com/beeple) for over $69 million. If you have managed to avoid the topic thus far it is about to change, let’s better understand the nuances of NFT.
 
 ## Table of Contents
 
