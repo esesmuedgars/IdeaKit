@@ -18,9 +18,9 @@ Non-fungible token.
 
 ## What is a non-fungible token?
 
-A non-fungible token is a unit of data on a blockchain (if you’re not familiar with the basic concept of a blockchain I invite you to complete the [TQ Blockchain course](https://app.pluralsight.com/partner-cr/accenture/summary/cr-tq-blockchain)). Where each NFT represents a unique digital asset. Examples include collectibles, game items, digital art, event tickets, domain names, audios, videos, articles, tweets, and even ownership records for physical assets.
+A non-fungible token is a unit of data on a blockchain (if you’re not familiar with the basic concept of a blockchain I invite you to complete the [TQ Blockchain course](https://app.pluralsight.com/partner-cr/accenture/summary/cr-tq-blockchain)), where each NFT represents a unique digital asset. Examples include collectibles, game items, digital art, event tickets, domain names, audios, videos, articles, tweets, and even ownership records for physical assets.
 
-Non-fungible means not interchangeable. The majority of your belonging are non-fungible. Those are not replaceable by another identical item. A currency is a classic example of a fungible asset. Five dollars is always five dollars no matter the serial number on the specific five-dollar bill, or whether it’s five dollars sitting in your bank account. The ability to replace a five-dollar bill with another five-dollar bill (or five ones, for that matter) is what makes currency fungible.
+Non-fungible means not interchangeable. The majority of your belonging are non-fungible or semi-fungible. Those are not replaceable by another identical item. A currency is a classic example of a fungible asset. Five dollars is always five dollars no matter the serial number on the specific five-dollar bill, or whether it’s five dollars sitting in your bank account. The ability to replace a five-dollar bill with another five-dollar bill (or five ones, for that matter) is what makes currency fungible.
 
 ## What do NFTs bring to the table?
 
