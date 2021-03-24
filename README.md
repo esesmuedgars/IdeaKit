@@ -2,17 +2,15 @@
 
 ###### 4 minute read
 
-Recent activity around NFT climaxed with all-time high media coverage and search volume. If you have managed to avoid the topic thus far it is about to change, let’s better understand the nuances of NFT.
-
-First purely digital artwork ever offered by a major auction house - Christie’s on the 11th of March sold "[Everydays - The First 5000 Days](https://onlineonly.christies.com/s/beeple-first-5000-days/beeple-b-1981-1/112924)" non-fungible token by Beeple for over $69 million.
+Recent activity around NFT climaxed with all-time high media coverage and search volume. First purely digital artwork ever offered by a major auction house - Christie’s on the 11th of March sold "[Everydays - The First 5000 Days](https://onlineonly.christies.com/s/beeple-first-5000-days/beeple-b-1981-1/112924)" non-fungible token by [Beeple](https://twitter.com/beeple) for over $69 million. If you have managed to avoid the topic thus far it is about to change, let’s better understand the nuances of NFT.
 
 ## Table of Contents
 
-- [What does NFT abbreviation mean?](#)
-- [What is a non-fungible token?](#)
-- [What do NFTs bring to the table?](#)
-- [How do NFTs work?](#)
-- [With digital art, a copy is literally as good as the original](#)
+- [What does NFT abbreviation mean?](#what-does-nft-abbreviation-mean)
+- [What is a non-fungible token?](#what-is-a-non-fungible-token)
+- [What do NFTs bring to the table?](#what-do-nfts-bring-to-the-table)
+- [How do NFTs work?](#how-do-nfts-work)
+- [With digital art, a copy is literally as good as the original](#with-digital-art-a-copy-is-literally-as-good-as-the-original)
 
 ## What does NFT abbreviation mean?
 
