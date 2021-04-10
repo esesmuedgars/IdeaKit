@@ -4,9 +4,15 @@
 
 ![Issue](https://img.shields.io/badge/issue-1.4-informational.svg)
 
-## News
+Welcome back! I would like to thank you for your activity, pilot issue [of the newsletter] was a success, so let's continue by building on top of that!
 
-### XcodeSpy Targets Xcode Developers with EggShell Backdoor ![important](https://img.shields.io/badge/important-important.svg)
+There has been a pair of improvements to the newsletter. Firstly, the _[News](#news)_ section highlighting the must-know security threats and important Apple announcements.
+
+On 29<sup>th</sup> of March multiple people have begun their journey in Accenture Latvia ATC as mobile development interns. To support new talents _[Fundamentals](#fundamentals)_ section has been added to the newsletter. Fundamentals is a beginner-friendly section dedicated to interns, trainees, junior developers, and anyone and everyone who is looking to get familiar with the Swift programming language.
+
+## News ![new](https://img.shields.io/badge/new-success.svg)
+
+### XcodeSpy targets Xcode developers with EggShell backdoor ![important](https://img.shields.io/badge/important-important.svg)
 
 [article](https://labs.sentinelone.com/new-macos-malware-xcodespy-targets-xcode-developers-with-eggshell-backdoor) by [Phil Stokes](https://twitter.com/philofishal).
 
@@ -19,8 +25,6 @@
 [Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=8h0btjq7) incentivizes to prepare applications for upcoming public release. To access app-related data for tracking the user or the device all applications must use the `AppTrackingTransparency` framework to request the user's permission.
 
 ## Fundamentals ![new](https://img.shields.io/badge/new-success.svg)
-
-Fundamentals is a beginner-friendly section dedicated to interns, trainees, junior developers, and anyone and everyone who is looking to get familiar with the Swift programming language.
 
 ### Becoming iOS developer in this day and age
 
