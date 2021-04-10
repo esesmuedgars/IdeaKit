@@ -11,6 +11,22 @@
 
 ### Subtitle
 
+## Fundamentals ![NEW](https://img.shields.io/badge/NEW-success.svg)
+
+The [Apple Worldwide Developers Conference](https://developer.apple.com/wwdc21) is coming to a screen near you, on 7<sup>th</sup> of June.
+
+ - [ ] [Dependency Injection for Property Wrappers](https://otbivnoe.ru/2021/03/13/Dependency-Injection-for-Property-Wrappers.html) article by [Nikita Ermolenko](https://twitter.com/iOtbivnoe)
+ - [ ] [Introducing Swift Collections](https://swift.org/blog/swift-collections) Swift blog post by [Karoy Lorentey](https://twitter.com/lorentey)
+ 
+ Daily technical articles and code samples from Apple’s documentation. Yes, yes, I know what you’re thinking. Apple’s documentation? Isn’t that, like… not great? Yes, there’s room for improvement. But there are a lot of hidden gems in it, and they’re hard to find:
+ 
+- [ ] [Distributing Your App for Beta Testing and Releases](https://developer.apple.com/documentation/xcode/distributing_your_app_for_beta_testing_and_releases) article by [Apple](https://twitter.com/apple)
+- [ ] [Transferring Data Between Bluetooth Low Energy Devices](https://developer.apple.com/documentation/corebluetooth/transferring_data_between_bluetooth_low_energy_devices) sample code by [Apple](https://twitter.com/apple)
+- [ ] [Monitoring Basic Memory Statistics](https://developer.apple.com/documentation/metal/frame_capture_debugging_tools/improving_memory_and_resource_usage/monitoring_basic_memory_statistics) article by [Apple](https://twitter.com/apple)
+
+- [ ] [Unsafe memory pointers in Swift](https://theswiftdev.com/unsafe-memory-pointers-in-swift) article by [Tibor Bödecs](https://twitter.com/tiborbodecs)
+- [ ] []() by []()
+
 <br>
 <p align="center">
 <img width="25%" alt="Curator" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/character.svg" />
