@@ -8,26 +8,26 @@ Welcome back! I would like to thank you for your activity, pilot issue [of the n
 
 There has been a pair of improvements to the newsletter. Firstly, the _[News](#news)_ section highlighting the must-know security threats and important Apple announcements.
 
-Secondly, on 29<sup>th</sup> of March multiple people have begun their journey in Accenture Latvia ATC as mobile development interns. To support new talents _[Fundamentals](#fundamentals)_ section has been added to the newsletter. Fundamentals is a beginner-friendly section dedicated to interns, trainees, junior developers, and anyone and everyone who is looking to get familiar with the Swift programming language.
+Secondly, on the 29<sup>th</sup> of March, multiple people have begun their journey in Accenture Latvia ATC as mobile development interns. To support new talents _[Fundamentals](#fundamentals)_ section has been added to the newsletter. Fundamentals is a beginner-friendly section dedicated to interns, trainees, junior developers, and anyone and everyone who is looking to get familiar with the Swift programming language.
 
 ## News ![new](https://img.shields.io/badge/new-success.svg)
 
 ### XcodeSpy targets Xcode developers with EggShell backdoor ![important](https://img.shields.io/badge/important-important.svg)
 
-A new backdoor threat has been discovered that aims to compromise developers’ macOS devices with a trojanized Xcode project along with a persistence mechanism. This malware can record victims’ microphones, cameras, keyboards as well as upload and download files. [Phil Stokes](https://twitter.com/philofishal) of Sentinel Labs provides simple method developers can use to scan their existing local Xcode repositories in the _Detection and Mitigation_ section of [report](https://labs.sentinelone.com/new-macos-malware-xcodespy-targets-xcode-developers-with-eggshell-backdoor). 
+A new backdoor threat has been discovered that aims to compromise developers’ macOS devices with a trojanized Xcode project along with a persistence mechanism. This malware can record victims’ microphones, cameras, keyboards as well as upload and download files. [Phil Stokes](https://twitter.com/philofishal) of Sentinel Labs provides simple method developers can use to scan their existing local Xcode repositories in the _Detection and Mitigation_ section of the [report](https://labs.sentinelone.com/new-macos-malware-xcodespy-targets-xcode-developers-with-eggshell-backdoor). 
 If you uncover any trace of XcodeSpy on your Accenture-owned macOS device, you should immediately call the Accenture Security Operations Center (ASOC) hotline at +1 202 728 0645.
 
 ### macOS minumum version update for Accenture workstations ![important](https://img.shields.io/badge/important-important.svg)
 
-On 17<sup>th</sup> of May the minimum compliant version of macOS will be set to macOS Catalina 10.15.7. Afterward, if your macOS device version is below Catalina you will lose _Conditional Access_ (with it access to resources such as Microsoft Office, Microsoft Teams, etc.). Read full Accenture Mac Workstation blog [post](https://blog.accenture.com/accenturemacworkstation/2021/04/13/conditional-access-minimum-version-macos-update) by [Chad Proctor](https://people.accenture.com/People/user/r.chad.proctor).
+On the 17<sup>th</sup> of May, the minimum compliant version of macOS will be set to macOS Catalina 10.15.7. Afterward, if your macOS device version is below Catalina you will lose _Conditional Access_ (with it access to resources such as Microsoft Office, Microsoft Teams, etc.). Read the full Accenture Mac Workstation blog [post](https://blog.accenture.com/accenturemacworkstation/2021/04/13/conditional-access-minimum-version-macos-update) by [Chad Proctor](https://people.accenture.com/People/user/r.chad.proctor).
 
 ### macOS Big Sur available for Accenture workstations
 
-Visit Accenture Mac Workstation blog [post](https://blog.accenture.com/accenturemacworkstation/2021/04/07/macos-11-big-sur-pilot) by [Chad Proctor](https://people.accenture.com/People/user/r.chad.proctor) to check if your macOS device meets recommended requirements and upgrade today to use operating systems [latest features](https://www.apple.com/macos/big-sur/features).
+Visit the Accenture Mac Workstation blog [post](https://blog.accenture.com/accenturemacworkstation/2021/04/07/macos-11-big-sur-pilot) by [Chad Proctor](https://people.accenture.com/People/user/r.chad.proctor) to check if your macOS device meets recommended requirements and upgrade today to use the operating system's [latest features](https://www.apple.com/macos/big-sur/features).
 
 ### WWDC 2021
 
-[Apple](https://twitter.com/apple) announced that an all-online [Apple Worldwide Developers Conference](https://developer.apple.com/wwdc21) will take place on 7<sup>th</sup> of June.
+[Apple](https://twitter.com/apple) announced that an all-online [Apple Worldwide Developers Conference](https://developer.apple.com/wwdc21) will take place on the 7<sup>th</sup> of June.
 
 ###  `AppTrackingTransparency` framework
 
