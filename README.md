@@ -160,16 +160,16 @@ Apple's documentation is often criticized, SwiftUI developer community has creat
 
 ### Convert JSON into Swift objects
 
-[Quicktype](https://app.quicktype.io) web tool and Xcode [extension](https://apps.apple.com/us/app/paste-json-as-code-quicktype/id1330801220) by [David Siegel](https://twitter.com/dvdsgl) saves developer's time by eliminating the need to type out data structures of data transfer objects.
+[Quicktype](https://app.quicktype.io) web tool and Xcode [extension](https://apps.apple.com/us/app/paste-json-as-code-quicktype/id1330801220) by [David Siegel](https://twitter.com/dvdsgl) save developer's time by eliminating the need to type out data structures of data transfer objects.
 
 ### Testing application's accessibility with Evinced
 
-There aren't any shortcuts to testing application's accessibility, manual test will always be the most valuable form of accessibility testing possible. But with some carefully designed automated checks, you can detect common accessibility issues quicker and earlier. [Rob Whitaker](https://twitter.com/RobRWAPP)
+There aren't any shortcuts to testing the application's accessibility, manual tests will always be the most valuable form of accessibility testing possible. But with some carefully designed automated checks, you can detect common accessibility issues quicker and earlier. [Rob Whitaker](https://twitter.com/RobRWAPP)
 [reviewed](https://mobilea11y.com/blog/evinced-ios) Evinced - digital accessibility platform.
 
 ### Inspect application's network traffic using Charles Proxy
 
-Learn how to use Charles Proxy to inspect unencrypted and encrypted network traffic for both your own applications, as well as third-party applications in [tutorial](https://www.raywenderlich.com/1827524-charles-proxy-tutorial-for-ios) written by [Aaron Douglas](https://twitter.com/astralbodies) and updated by [Tom Elliott](https://twitter.com/temelliott).
+Learn how to use Charles Proxy to inspect unencrypted and encrypted network traffic for both your applications, as well as third-party applications in a [tutorial](https://www.raywenderlich.com/1827524-charles-proxy-tutorial-for-ios) written by [Aaron Douglas](https://twitter.com/astralbodies) and updated by [Tom Elliott](https://twitter.com/temelliott).
 
 <br>
 <p align="center">
