@@ -8,13 +8,22 @@ Welcome back! I would like to thank you for your activity, pilot issue [of the n
 
 There has been a pair of improvements to the newsletter. Firstly, the _[News](#news)_ section highlighting the must-know security threats and important Apple announcements.
 
-On 29<sup>th</sup> of March multiple people have begun their journey in Accenture Latvia ATC as mobile development interns. To support new talents _[Fundamentals](#fundamentals)_ section has been added to the newsletter. Fundamentals is a beginner-friendly section dedicated to interns, trainees, junior developers, and anyone and everyone who is looking to get familiar with the Swift programming language.
+Secondly, on 29<sup>th</sup> of March multiple people have begun their journey in Accenture Latvia ATC as mobile development interns. To support new talents _[Fundamentals](#fundamentals)_ section has been added to the newsletter. Fundamentals is a beginner-friendly section dedicated to interns, trainees, junior developers, and anyone and everyone who is looking to get familiar with the Swift programming language.
 
 ## News ![new](https://img.shields.io/badge/new-success.svg)
 
 ### XcodeSpy targets Xcode developers with EggShell backdoor ![important](https://img.shields.io/badge/important-important.svg)
 
-[article](https://labs.sentinelone.com/new-macos-malware-xcodespy-targets-xcode-developers-with-eggshell-backdoor) by [Phil Stokes](https://twitter.com/philofishal).
+A new backdoor threat has been discovered that aims to compromise developers’ macOS devices with a trojanized Xcode project along with a persistence mechanism. This malware can record victims’ microphones, cameras, keyboards as well as upload and download files. [Phil Stokes](https://twitter.com/philofishal) of Sentinel Labs provides simple method developers can use to scan their existing local Xcode repositories in the _Detection and Mitigation_ section of [report](https://labs.sentinelone.com/new-macos-malware-xcodespy-targets-xcode-developers-with-eggshell-backdoor). 
+If you uncover any trace of XcodeSpy on your Accenture-owned macOS device, you should immediately call the Accenture Security Operations Center (ASOC) hotline at +1 202 728 0645.
+
+### macOS minumum version update for Accenture workstations ![important](https://img.shields.io/badge/important-important.svg)
+
+On 17<sup>th</sup> of May the minimum compliant version of macOS will be set to macOS Catalina 10.15.7. Afterward, if your macOS device version is below Catalina you will lose _Conditional Access_ (with it access to resources such as Microsoft Office, Microsoft Teams, etc.). Read full Accenture Mac Workstation blog [post](https://blog.accenture.com/accenturemacworkstation/2021/04/13/conditional-access-minimum-version-macos-update) by [Chad Proctor](https://people.accenture.com/People/user/r.chad.proctor).
+
+### macOS Big Sur available for Accenture workstations
+
+Visit Accenture Mac Workstation blog [post](https://blog.accenture.com/accenturemacworkstation/2021/04/07/macos-11-big-sur-pilot) by [Chad Proctor](https://people.accenture.com/People/user/r.chad.proctor) to check if your macOS device meets recommended requirements and upgrade today to use operating systems [latest features](https://www.apple.com/macos/big-sur/features).
 
 ### WWDC 2021
 
@@ -28,23 +37,23 @@ On 29<sup>th</sup> of March multiple people have begun their journey in Accentur
 
 ### Becoming iOS developer in this day and age
 
-[article](https://www.hackingwithswift.com/articles/230/how-to-become-an-ios-developer) by [Paul Hudson](https://twitter.com/twostraws)
+[Paul Hudson](https://twitter.com/twostraws) describes the core skills you need to know to become an iOS developer as well as extension skills that are nice to have and will help you stand out. Highlights common mistakes beginners make when they are trying to learn and lists free resources that will help you learn Swift, among other things in his [article](https://www.hackingwithswift.com/articles/230/how-to-become-an-ios-developer) aimed at two groups of people: absolute beginners to Swift – folks who have never built anything for iOS before – and also so-called false beginners, who are folks who might have tried to learn Swift before but never really reached their goal of getting a full-time job.
 
 ### Protocols in Swift
 
-[video series](https://www.youtube.com/watch?v=80Qma2hUyUk&list=PLHWvYoDHvsOX_H712wbhzSW0xqHsFy2j9) by [Pedro Rojas](https://twitter.com/pitt500), [video](https://www.youtube.com/watch?v=QZjz2PL9IS8) by [Kyle Lee](https://twitter.com/kilo_loco), and [article](https://learnappmaking.com/protocols-swift-how-to) by [Reinder de Vries](https://twitter.com/reinder42).
+Working with protocols is one of Swift’s most fundamental features. With protocols, you define a blueprint that an adopting class must conform to. This principle lets you write decoupled, modular, and extensible Swift code. [Video series](https://www.youtube.com/watch?v=80Qma2hUyUk&list=PLHWvYoDHvsOX_H712wbhzSW0xqHsFy2j9) by [Pedro Rojas](https://twitter.com/pitt500), [video](https://www.youtube.com/watch?v=QZjz2PL9IS8) by [Kyle Lee](https://twitter.com/kilo_loco), and [article](https://learnappmaking.com/protocols-swift-how-to) by [Reinder de Vries](https://twitter.com/reinder42) attempt to help you understand.
 
 ### Delegate pattern
 
-[video](https://www.youtube.com/watch?v=UQnSdXFDAQQ) by [Alex Nagy](https://twitter.com/alex_rebeloper), [video](https://www.youtube.com/watch?v=DBWu6TnhLeY) by [Sean Allen](https://twitter.com/seanallen_dev) and [article](https://www.swiftbysundell.com/articles/delegation-in-swift) by [John Sundell](https://twitter.com/johnsundell).
+The purpose of the delegate pattern is to allow an object to communicate with another object in a decoupled way. One of the most common example of delegate pattern is `UITableViewDataSource` with two required methods `tableView(_:numberOfRowsInSection)` and `tableView(_:cellForRowAt:)`. Visit [video](https://www.youtube.com/watch?v=UQnSdXFDAQQ) by [Alex Nagy](https://twitter.com/alex_rebeloper), [video](https://www.youtube.com/watch?v=DBWu6TnhLeY) by [Sean Allen](https://twitter.com/seanallen_dev) and [article](https://www.swiftbysundell.com/articles/delegation-in-swift) by [John Sundell](https://twitter.com/johnsundell) to learn about delegation pattern.
 
 ### Closures in Swift
 
-[article](https://mandovision.hashnode.dev/closures) by [Kushal Pagolu](https://hashnode.com/@kushalp).
+Closures are self-contained blocks of functionality that can be passed around and used in your code. [Kushal Pagolu](https://hashnode.com/@kushalp) wrote an [article](https://mandovision.hashnode.dev/closures) explaining closures and their nuances.
 
 ### Generics in Swift
 
-[video series](https://www.youtube.com/watch?v=W947iXBIFu4&list=PLHWvYoDHvsOVP-9UvMBBYJCqxrJ3E8Cry) by [Pedro Rojas](https://twitter.com/pitt500), [tutorial](https://www.raywenderlich.com/3535703-swift-generics-tutorial-getting-started) by [Michael Katz](https://twitter.com/TheMikeKatz), [video](https://www.youtube.com/watch?v=EUgAiOSSI3A) by [Daniel Autenrieth](https://twitter.com/brianadventcode), and [article](https://medium.com/codex/swift-generics-made-simple-13a1894a2f9d) by [Artturi Jalli](https://twitter.com/ArtturiJalli).
+Generics are one of the most powerful features of Swift, and much of the Swift standard library is built with generic code. Generic code enables you to write flexible, reusable functions and types that can work with any type. You can write code that avoids duplication and expresses its intent in a clear, abstracted manner. All resources - [video series](https://www.youtube.com/watch?v=W947iXBIFu4&list=PLHWvYoDHvsOVP-9UvMBBYJCqxrJ3E8Cry) by [Pedro Rojas](https://twitter.com/pitt500), [tutorial](https://www.raywenderlich.com/3535703-swift-generics-tutorial-getting-started) written by [Mikael Konutgan](https://twitter.com/mkonutgan) and updated by [Michael Katz](https://twitter.com/TheMikeKatz), [video](https://www.youtube.com/watch?v=EUgAiOSSI3A) by [Daniel Autenrieth](https://twitter.com/brianadventcode), and [article](https://medium.com/codex/swift-generics-made-simple-13a1894a2f9d) by [Artturi Jalli](https://twitter.com/ArtturiJalli) - will help you understand generics clearer.
 
 ### Networking in Swift with `URLSession`
 
@@ -110,10 +119,6 @@ Swift blog [post](https://swift.org/blog/swift-collections) by [Karoy Lorentey](
 
 [article](https://www.swiftbysundell.com/articles/exploring-some-of-the-lesser-known-formatter-types) by [John Sundell](https://twitter.com/johnsundell).
 
-### Specification pattern ![optional](https://img.shields.io/badge/optional-inactive.svg)
-
-[article](https://medium.com/swift2go/mastering-generics-with-protocols-the-specification-pattern-5e2e303af4ca) by [Tim Beals](https://github.com/timmybea).
-
 ### Customizing the appearance of a navigation bar
 
 iOS 13+
@@ -148,10 +153,6 @@ Twitter [thread](https://twitter.com/AirspeedSwift/status/1372912675785568256) b
 [article](https://useyourloaf.com/blog/app-bound-domains) by [Keith Harrison](https://twitter.com/kharrison).
 
 ## Tools
-
-### macOS Big Sur available for Accenture workstations
-
-Accenture Mac Workstation blog [post](https://blog.accenture.com/accenturemacworkstation/2021/04/07/macos-11-big-sur-pilot) by [Chad Proctor](https://people.accenture.com/People/user/r.chad.proctor) describes how to update.
 
 ### Complete SwiftUI documentation with examples
 
