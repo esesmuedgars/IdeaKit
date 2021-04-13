@@ -87,21 +87,21 @@ On rare occasions, when interacting with low-level or legacy APIs, developers ar
 
 The XCFramework format allows developers to conveniently distribute binary libraries for multiple platforms and architectures in a single bundle. [Rad Azzouz](https://twitter.com/radazzouz) in his [article](https://pspdfkit.com/blog/2021/advances-in-xcframeworks) goes over the recent advances in the XCFramework format in Xcode 12.
 
-### Demystifying autoclosures
+### Demystifying `@autoclosure`
 
-[article](https://medium.com/codex/swift-demystifying-autoclosures-dc106e4bc04a) by [Artturi Jalli](https://twitter.com/ArtturiJalli).
+[Artturi Jalli](https://twitter.com/ArtturiJalli) wrote an [article](https://medium.com/codex/swift-demystifying-autoclosures-dc106e4bc04a) explainig what is `@autoclosure`, describes it's benefits, and how to use it in Swift.
 
-### Scene Delegate vs. App Delegate explained
+### `AppDelegate` vs. `SceneDelegate` 
 
-[article](https://learnappmaking.com/scene-delegate-app-delegate-xcode-11-ios-13) by [Reinder de Vries](https://twitter.com/reinder42).
+If you’ve developed application prior to iOS 13, you probably are familiar with `AppDelegate`. In iOS 13, Apple has moved some of the `AppDelegate` responsibilities to the `SceneDelegate`. [Reinder de Vries](https://twitter.com/reinder42) wrote an [article](https://learnappmaking.com/scene-delegate-app-delegate-xcode-11-ios-13) where he outlines different roles of both and how they interact to launch an application.
 
 ### Understanding and resolving `EXC_BAD_ACCESS` crash errors
 
-[article](https://www.avanderlee.com/swift/exc-bad-access-crash) by [Antoine van der Lee](https://twitter.com/twannl).
+`EXC_BAD_ACCESS` is a common crash we run into. [Antoine van der Lee](https://twitter.com/twannl) in his [article](https://www.avanderlee.com/swift/exc-bad-access-crash) not only translates the error but also proposes actions to help track down and solve root cause of the issue.
 
 ### Manually symbolicate crash reports
 
-[article](https://sarunw.com/posts/symbolicate-crash-reports) by [Sarun Wongpatcharapakornand](https://twitter.com/sarunw).
+[Sarun Wongpatcharapakornand](https://twitter.com/sarunw) wrote an [article](https://sarunw.com/posts/symbolicate-crash-reports) where he reports on how to acquire Xcode Debugging Symbol file (dSYM) and manually symbolicate crash reports.
 
 ### Encrypt DNS In iOS 14 applications
 
