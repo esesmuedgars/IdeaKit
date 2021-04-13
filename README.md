@@ -35,7 +35,7 @@ Visit Accenture Mac Workstation blog [post](https://blog.accenture.com/accenture
 
 ## Fundamentals ![new](https://img.shields.io/badge/new-success.svg)
 
-### Becoming iOS developer in this day and age
+### Becoming an iOS developer in this day and age
 
 [Paul Hudson](https://twitter.com/twostraws) describes the core skills you need to know to become an iOS developer as well as extension skills that are nice to have and will help you stand out. Highlights common mistakes beginners make when they are trying to learn and lists free resources that will help you learn Swift, among other things in his [article](https://www.hackingwithswift.com/articles/230/how-to-become-an-ios-developer) aimed at two groups of people: absolute beginners to Swift – folks who have never built anything for iOS before – and also so-called false beginners, who are folks who might have tried to learn Swift before but never really reached their goal of getting a full-time job.
 
@@ -45,7 +45,7 @@ Working with protocols is one of Swift’s most fundamental features. With proto
 
 ### Delegate pattern
 
-The purpose of the delegate pattern is to allow an object to communicate with another object in a decoupled way. One of the most common example of delegate pattern is `UITableViewDataSource` with two required methods `tableView(_:numberOfRowsInSection)` and `tableView(_:cellForRowAt:)`. Visit [video](https://www.youtube.com/watch?v=UQnSdXFDAQQ) by [Alex Nagy](https://twitter.com/alex_rebeloper), [video](https://www.youtube.com/watch?v=DBWu6TnhLeY) by [Sean Allen](https://twitter.com/seanallen_dev) and [article](https://www.swiftbysundell.com/articles/delegation-in-swift) by [John Sundell](https://twitter.com/johnsundell) to learn about delegation pattern.
+The purpose of the delegate pattern is to allow an object to communicate with another object in a decoupled way. One of the most common example of delegate pattern is `UITableViewDataSource` with two required methods `tableView(_:numberOfRowsInSection)` and `tableView(_:cellForRowAt:)`. Visit [video](https://www.youtube.com/watch?v=UQnSdXFDAQQ) by [Alex Nagy](https://twitter.com/alex_rebeloper), [video](https://www.youtube.com/watch?v=DBWu6TnhLeY) by [Sean Allen](https://twitter.com/seanallen_dev), and [article](https://www.swiftbysundell.com/articles/delegation-in-swift) by [John Sundell](https://twitter.com/johnsundell) to learn about delegation pattern.
 
 ### Closures in Swift
 
@@ -53,11 +53,11 @@ Closures are self-contained blocks of functionality that can be passed around an
 
 ### Generics in Swift
 
-Generics are one of the most powerful features of Swift, and much of the Swift standard library is built with generic code. Generic code enables you to write flexible, reusable functions and types that can work with any type. You can write code that avoids duplication and expresses its intent in a clear, abstracted manner. All resources - [video series](https://www.youtube.com/watch?v=W947iXBIFu4&list=PLHWvYoDHvsOVP-9UvMBBYJCqxrJ3E8Cry) by [Pedro Rojas](https://twitter.com/pitt500), [tutorial](https://www.raywenderlich.com/3535703-swift-generics-tutorial-getting-started) written by [Mikael Konutgan](https://twitter.com/mkonutgan) and updated by [Michael Katz](https://twitter.com/TheMikeKatz), [video](https://www.youtube.com/watch?v=EUgAiOSSI3A) by [Daniel Autenrieth](https://twitter.com/brianadventcode), and [article](https://medium.com/codex/swift-generics-made-simple-13a1894a2f9d) by [Artturi Jalli](https://twitter.com/ArtturiJalli) - will help you understand generics clearer.
+Generics are one of the most powerful features of Swift, and much of the Swift standard library is built with generic code. Generic code enables you to write flexible, reusable functions and types that can work with any type. You can write code that avoids duplication and expresses its intent in a clear, abstracted manner. All resources - [video series](https://www.youtube.com/watch?v=W947iXBIFu4&list=PLHWvYoDHvsOVP-9UvMBBYJCqxrJ3E8Cry) by [Pedro Rojas](https://twitter.com/pitt500), a [tutorial](https://www.raywenderlich.com/3535703-swift-generics-tutorial-getting-started) written by [Mikael Konutgan](https://twitter.com/mkonutgan) and updated by [Michael Katz](https://twitter.com/TheMikeKatz), [video](https://www.youtube.com/watch?v=EUgAiOSSI3A) by [Daniel Autenrieth](https://twitter.com/brianadventcode), and [article](https://medium.com/codex/swift-generics-made-simple-13a1894a2f9d) by [Artturi Jalli](https://twitter.com/ArtturiJalli) - will help you understand generics clearer.
 
 ### Networking in Swift with `URLSession`
 
-[article](https://learnappmaking.com/urlsession-swift-networking-how-to) by [Reinder de Vries](https://twitter.com/reinder42).
+I could name only a handful of iOS applications that support offline mode, most of which are by Apple. Nowadays most applications require a network connection to provide access to some/all of the features. We could depend on network data-transfer libraries (e.g., [Alamofire](https://github.com/Alamofire/Alamofire)) to execute HTTP requests or we could use a first-party `URLSession` class. [Reinder de Vries](https://twitter.com/reinder42) wrote an [article](https://learnappmaking.com/urlsession-swift-networking-how-to) on how to use the latter one.
 
 ## Tutorials
 
