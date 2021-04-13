@@ -45,7 +45,7 @@ Working with protocols is one of Swift’s most fundamental features. With proto
 
 ### Delegate pattern
 
-The purpose of the delegate pattern is to allow an object to communicate with another object in a decoupled way. One of the most common example of delegate pattern is `UITableViewDataSource` with two required methods `tableView(_:numberOfRowsInSection)` and `tableView(_:cellForRowAt:)`. Visit [video](https://www.youtube.com/watch?v=UQnSdXFDAQQ) by [Alex Nagy](https://twitter.com/alex_rebeloper), [video](https://www.youtube.com/watch?v=DBWu6TnhLeY) by [Sean Allen](https://twitter.com/seanallen_dev), and [article](https://www.swiftbysundell.com/articles/delegation-in-swift) by [John Sundell](https://twitter.com/johnsundell) to learn about delegation pattern.
+The purpose of the delegate pattern is to allow an object to communicate with another object in a decoupled way. One of the most common example of delegation pattern is `UITableViewDataSource` with two required methods `tableView(_:numberOfRowsInSection)` and `tableView(_:cellForRowAt:)`. Visit [video](https://www.youtube.com/watch?v=UQnSdXFDAQQ) by [Alex Nagy](https://twitter.com/alex_rebeloper), [video](https://www.youtube.com/watch?v=DBWu6TnhLeY) by [Sean Allen](https://twitter.com/seanallen_dev), and [article](https://www.swiftbysundell.com/articles/delegation-in-swift) by [John Sundell](https://twitter.com/johnsundell) to learn about delegation pattern.
 
 ### Closures in Swift
 
