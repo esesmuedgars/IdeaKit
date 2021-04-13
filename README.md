@@ -53,7 +53,7 @@ Generics are one of the most powerful features of Swift, and much of the Swift s
 
 ### Networking in Swift with `URLSession`
 
-I could name only a handful of iOS applications that support offline mode, most of which are by Apple. Nowadays most applications require a network connection to provide access to some/all of the features. We could depend on network data-transfer libraries (e.g., [Alamofire](https://github.com/Alamofire/Alamofire)) to execute HTTP requests or we could use a first-party `URLSession` class. [Reinder de Vries](https://twitter.com/reinder42) wrote an [article](https://learnappmaking.com/urlsession-swift-networking-how-to) on how to use the latter one.
+I could name only a handful of iOS applications that support offline mode, most of which are by Apple. Nowadays most applications require a network connection to provide access to some, or all, of the features. We could depend on network data-transfer libraries (e.g., [Alamofire](https://github.com/Alamofire/Alamofire)) to execute HTTP requests or we could use a first-party `URLSession` class. [Reinder de Vries](https://twitter.com/reinder42) wrote an [article](https://learnappmaking.com/urlsession-swift-networking-how-to) on how to use the latter one.
 
 ## Tutorials
 
@@ -65,27 +65,28 @@ Push notifications enable developers to inform users when new data becomes avail
 
 ### Dependency injection for property wrappers
 
-[article](https://otbivnoe.ru/2021/03/13/Dependency-Injection-for-Property-Wrappers.html) by [Nikita Ermolenko](https://twitter.com/iOtbivnoe).
+[Nikita Ermolenko](https://twitter.com/iOtbivnoe) in his [article](https://otbivnoe.ru/2021/03/13/Dependency-Injection-for-Property-Wrappers.html) describes his counterintuitive solution to property wrapper dependency injection.
 
-### Introducing Swift collections
+### Introducing Swift Collections
 
-Swift blog [post](https://swift.org/blog/swift-collections) by [Karoy Lorentey](https://twitter.com/lorentey).
+[Karoy Lorentey](https://twitter.com/lorentey) announced `Collections`, a new open-source package focused on extending the set of available Swift data structures, in his Swift blog [post](https://swift.org/blog/swift-collections). Currently available data structures are `Deque`, `OrderedSet`, and `OrderedDictionary`.
   
-### Distributing Your App for Beta Testing and Releases
+### Distributing your app for beta testing and releases
 
-[article](https://developer.apple.com/documentation/xcode/distributing_your_app_for_beta_testing_and_releases) by [Apple](https://twitter.com/apple).
+[Apple](https://twitter.com/apple) has an [article](https://developer.apple.com/documentation/xcode/distributing_your_app_for_beta_testing_and_releases) guiding you through application's distribution process.
 
 ### Transferring data between Bluetooth Low Energy devices
 
-[sample code](https://developer.apple.com/documentation/corebluetooth/transferring_data_between_bluetooth_low_energy_devices) by [Apple](https://twitter.com/apple).
+[Apple](https://twitter.com/apple) provides [sample code](https://developer.apple.com/documentation/corebluetooth/transferring_data_between_bluetooth_low_energy_devices) showing how to create a Bluetooth LE central and peripheral device, and how to transfer data between two iOS devices.
 
 ### Monitoring basic memory statistics
 
+>
 [article](https://developer.apple.com/documentation/metal/frame_capture_debugging_tools/improving_memory_and_resource_usage/monitoring_basic_memory_statistics) by [Apple](https://twitter.com/apple).
 
 ### Unsafe memory pointers in Swift
 
-[article](https://theswiftdev.com/unsafe-memory-pointers-in-swift) by [Tibor Bödecs](https://twitter.com/tiborbodecs).
+On rare occasions, when interacting with low level or legacy APIs, developers are required the use of manual memory management. [Tibor Bödecs](https://twitter.com/tiborbodecs) wrote an [article](https://theswiftdev.com/unsafe-memory-pointers-in-swift) about how to use raw pointer references, interact with unsafe pointers and manually manage memory addresses in Swift.
 
 ### XCFrameworks advancements
 
