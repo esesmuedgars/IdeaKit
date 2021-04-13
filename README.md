@@ -21,10 +21,6 @@ If you uncover any trace of XcodeSpy on your Accenture-owned macOS device, you s
 
 On the 17<sup>th</sup> of May, the minimum compliant version of macOS will be set to macOS Catalina 10.15.7. Afterward, if your macOS device version is below Catalina you will lose _Conditional Access_ (with it access to resources such as Microsoft Office, Microsoft Teams, etc.). Read the full Accenture Mac Workstation blog [post](https://blog.accenture.com/accenturemacworkstation/2021/04/13/conditional-access-minimum-version-macos-update) by [Chad Proctor](https://people.accenture.com/People/user/r.chad.proctor).
 
-### macOS Big Sur available for Accenture workstations
-
-Visit the Accenture Mac Workstation blog [post](https://blog.accenture.com/accenturemacworkstation/2021/04/07/macos-11-big-sur-pilot) by [Chad Proctor](https://people.accenture.com/People/user/r.chad.proctor) to check if your macOS device meets recommended requirements and upgrade today to use the operating system's [latest features](https://www.apple.com/macos/big-sur/features).
-
 ### WWDC 2021
 
 [Apple](https://twitter.com/apple) announced that an all-online [Apple Worldwide Developers Conference](https://developer.apple.com/wwdc21) will take place on the 7<sup>th</sup> of June.
@@ -154,17 +150,22 @@ Twitter [thread](https://twitter.com/AirspeedSwift/status/1372912675785568256) b
 
 ## Tools
 
+### macOS Big Sur available for Accenture workstations
+
+Visit the Accenture Mac Workstation blog [post](https://blog.accenture.com/accenturemacworkstation/2021/04/07/macos-11-big-sur-pilot) by [Chad Proctor](https://people.accenture.com/People/user/r.chad.proctor) to check if your macOS device meets recommended requirements and upgrade today to use the operating system's [latest features](https://www.apple.com/macos/big-sur/features).
+
 ### Complete SwiftUI documentation with examples
 
-SwiftOnTap tool [documentation](https://swiftontap.com) [open-source](https://twitter.com/swiftontap).
+Apple's documentation is often criticized, SwiftUI developer community has created [SwiftOnTap](https://swiftontap.com) [open-source](https://twitter.com/swiftontap) SwiftUI documentation with examples.
 
 ### Convert JSON into Swift objects
 
-[Quicktype](https://app.quicktype.io) tool and Xcode [extension](https://apps.apple.com/us/app/paste-json-as-code-quicktype/id1330801220) by [David Siegel](https://twitter.com/dvdsgl).
+[Quicktype](https://app.quicktype.io) web tool and Xcode [extension](https://apps.apple.com/us/app/paste-json-as-code-quicktype/id1330801220) by [David Siegel](https://twitter.com/dvdsgl) saves developer's time by eliminating the need to type out data structures of data transfer objects.
 
 ### Testing application's accessibility with Evinced
 
-Evinced iOS accessibilty debugger [review](https://mobilea11y.com/blog/evinced-ios) by [Rob Whitaker](https://twitter.com/RobRWAPP).
+There aren't any shortcuts to testing application's accessibility, manual test will always be the most valuable form of accessibility testing possible. But with some carefully designed automated checks, you can detect common accessibility issues quicker and earlier. [Rob Whitaker](https://twitter.com/RobRWAPP)
+[reviewed](https://mobilea11y.com/blog/evinced-ios) Evinced - digital accessibility platform.
 
 ### Inspect application's network traffic using Charles Proxy
 
@@ -176,7 +177,7 @@ Learn how to use Charles Proxy to inspect unencrypted and encrypted network traf
 <!--Character credit goes to [Pablo Stanley](https://twitter.com/pablostanley) with his [Open Peeps](https://www.openpeeps.com) hand-drawn illustration library.-->
 </p>
 <p align="center">
-Thank you for taking the time to expand your knowledge! For additional study materials visit <a href="https://github.com/esesmuedgars/IdeaKit/blob/pilot/README.md">previous issue</a>!
+Thank you for taking the time to expand your knowledge! For additional study materials visit the <a href="https://github.com/esesmuedgars/IdeaKit/blob/pilot/README.md">previous issue</a>!
 <br>
 <br>
 Found a topic insightful? You can add your comments and open a discussion using the comment section below.
