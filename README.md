@@ -69,28 +69,23 @@ Push notifications enable developers to inform users when new data becomes avail
 
 ### Introducing Swift Collections
 
-[Karoy Lorentey](https://twitter.com/lorentey) announced `Collections`, a new open-source package focused on extending the set of available Swift data structures, in his Swift blog [post](https://swift.org/blog/swift-collections). Currently available data structures are `Deque`, `OrderedSet`, and `OrderedDictionary`.
+[Karoy Lorentey](https://twitter.com/lorentey) announced `Collections`, a new open-source package focused on extending the set of available Swift data structures, in his Swift blog [post](https://swift.org/blog/swift-collections). Currently, available data structures are `Deque`, `OrderedSet`, and `OrderedDictionary`.
   
 ### Distributing your app for beta testing and releases
 
-[Apple](https://twitter.com/apple) has an [article](https://developer.apple.com/documentation/xcode/distributing_your_app_for_beta_testing_and_releases) guiding you through application's distribution process.
+[Apple](https://twitter.com/apple) has an [article](https://developer.apple.com/documentation/xcode/distributing_your_app_for_beta_testing_and_releases) guiding you through the application's distribution process.
 
 ### Transferring data between Bluetooth Low Energy devices
 
-[Apple](https://twitter.com/apple) provides [sample code](https://developer.apple.com/documentation/corebluetooth/transferring_data_between_bluetooth_low_energy_devices) showing how to create a Bluetooth LE central and peripheral device, and how to transfer data between two iOS devices.
-
-### Monitoring basic memory statistics
-
->
-[article](https://developer.apple.com/documentation/metal/frame_capture_debugging_tools/improving_memory_and_resource_usage/monitoring_basic_memory_statistics) by [Apple](https://twitter.com/apple).
+[Apple](https://twitter.com/apple) provides a [sample code](https://developer.apple.com/documentation/corebluetooth/transferring_data_between_bluetooth_low_energy_devices) showing how to create a Bluetooth LE central and peripheral device, and how to transfer data between two iOS devices.
 
 ### Unsafe memory pointers in Swift
 
-On rare occasions, when interacting with low level or legacy APIs, developers are required the use of manual memory management. [Tibor Bödecs](https://twitter.com/tiborbodecs) wrote an [article](https://theswiftdev.com/unsafe-memory-pointers-in-swift) about how to use raw pointer references, interact with unsafe pointers and manually manage memory addresses in Swift.
+On rare occasions, when interacting with low-level or legacy APIs, developers are required to use manual memory management. [Tibor Bödecs](https://twitter.com/tiborbodecs) wrote an [article](https://theswiftdev.com/unsafe-memory-pointers-in-swift) about how to use raw pointer references, interact with unsafe pointers, and manually manage memory addresses in Swift.
 
 ### XCFrameworks advancements
 
-[article](https://pspdfkit.com/blog/2021/advances-in-xcframeworks) by [Rad Azzouz](https://twitter.com/radazzouz).
+The XCFramework format allows developers to conveniently distribute binary libraries for multiple platforms and architectures in a single bundle. [Rad Azzouz](https://twitter.com/radazzouz) in his [article](https://pspdfkit.com/blog/2021/advances-in-xcframeworks) goes over the recent advances in the XCFramework format in Xcode 12.
 
 ### Demystifying autoclosures
 
@@ -135,7 +130,7 @@ Twitter [thread](https://twitter.com/AirspeedSwift/status/1372912675785568256) b
 
 ### Flatten a nested JSON response into a single `struct` using `Codable`
 
-[article](https://www.donnywals.com/flattening-a-nested-json-response-into-a-single-struct-with-codable) by [Donny Wals](https://twitter.com/DonnyWals).
+When JSON you receive is nested several levels deep and you do not require nested objects as seperate data structures, you can use nested containers instead. Learn how to decode nested JSON data into a single data structure using `Codable` in [article](https://www.donnywals.com/flattening-a-nested-json-response-into-a-single-struct-with-codable) by [Donny Wals](https://twitter.com/DonnyWals).
 
 ### Codable synthesis for enums with associated values
 
@@ -143,11 +138,11 @@ Twitter [thread](https://twitter.com/AirspeedSwift/status/1372912675785568256) b
 
 ### Xcode new file templates
 
-[article](https://www.andyibanez.com/posts/xcode-new-file-templates) by [Andy Ibanez](https://twitter.com/AndyIbanezK).
+Learn how to create our own Xcode template for common files in [article](https://www.andyibanez.com/posts/xcode-new-file-templates) by [Andy Ibanez](https://twitter.com/AndyIbanezK).
 
 ### Limit `WKWebView` to a list of specified domains
 
-[article](https://useyourloaf.com/blog/app-bound-domains) by [Keith Harrison](https://twitter.com/kharrison).
+Many applications use `WKWebView` as a convenient way to display websites without requiring users to leave the app. App-Bound Domains is opt-in `WKWebView` technology that improves in-app browsing by offering greater privacy to users limiting the domains on which an app can utilize APIs to track users. [Keith Harrison](https://twitter.com/kharrison) uses App-Bound Domains to limit navigable domains described in his [article](https://useyourloaf.com/blog/app-bound-domains).
 
 ## Tools
 
