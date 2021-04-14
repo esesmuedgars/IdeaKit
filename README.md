@@ -61,6 +61,10 @@ I could name only a handful of iOS applications that support offline mode, most 
 
 Push notifications enable developers to inform users when new data becomes available for application. Follow the [tutorial](https://www.raywenderlich.com/20201639-firebase-cloud-messaging-for-ios-push-notifications) written by [Andy Pereira](https://twitter.com/macandyp) to learn how to use Firebase Cloud Messaging, formerly known as Google Cloud Messaging, to send and receive remote push notifications in the SwiftUI iOS application.
 
+### Inspect application's network traffic using Charles Proxy
+
+Learn how to use Charles Proxy to inspect unencrypted and encrypted network traffic for both your applications, as well as third-party applications in a [tutorial](https://www.raywenderlich.com/1827524-charles-proxy-tutorial-for-ios) written by [Aaron Douglas](https://twitter.com/astralbodies) and updated by [Tom Elliott](https://twitter.com/temelliott).
+
 ## Enhanced programming
 
 ### Dependency injection for property wrappers
@@ -137,7 +141,7 @@ When JSON you receive is nested several levels deep and you do not require neste
 
 ### Xcode new file templates
 
-Learn how to create our own Xcode template for common files in an [article](https://www.andyibanez.com/posts/xcode-new-file-templates) by [Andy Ibanez](https://twitter.com/AndyIbanezK).
+Learn how to create your own Xcode template for common files in an [article](https://www.andyibanez.com/posts/xcode-new-file-templates) by [Andy Ibanez](https://twitter.com/AndyIbanezK).
 
 ### Limit `WKWebView` to a list of specified domains
 
@@ -161,10 +165,6 @@ Apple's documentation is often criticized, SwiftUI developer community has creat
 
 There aren't any shortcuts to testing the application's accessibility, manual tests will always be the most valuable form of accessibility testing possible. But with some carefully designed automated checks, you can detect common accessibility issues quicker and earlier. [Rob Whitaker](https://twitter.com/RobRWAPP)
 [reviewed](https://mobilea11y.com/blog/evinced-ios) Evinced - digital accessibility platform.
-
-### Inspect application's network traffic using Charles Proxy
-
-Learn how to use Charles Proxy to inspect unencrypted and encrypted network traffic for both your applications, as well as third-party applications in a [tutorial](https://www.raywenderlich.com/1827524-charles-proxy-tutorial-for-ios) written by [Aaron Douglas](https://twitter.com/astralbodies) and updated by [Tom Elliott](https://twitter.com/temelliott).
 
 <br>
 <p align="center">
