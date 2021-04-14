@@ -83,7 +83,7 @@ Push notifications enable developers to inform users when new data becomes avail
 
 On rare occasions, when interacting with low-level or legacy APIs, developers are required to use manual memory management. [Tibor Bödecs](https://twitter.com/tiborbodecs) wrote an [article](https://theswiftdev.com/unsafe-memory-pointers-in-swift) about how to use raw pointer references, interact with unsafe pointers, and manually manage memory addresses in Swift.
 
-### XCFrameworks advancements
+### Advancements in XCFramework
 
 The XCFramework format allows developers to conveniently distribute binary libraries for multiple platforms and architectures in a single bundle. [Rad Azzouz](https://twitter.com/radazzouz) in his [article](https://pspdfkit.com/blog/2021/advances-in-xcframeworks) goes over the recent advances in the XCFramework format in Xcode 12.
 
@@ -109,7 +109,7 @@ In iOS 14, Apple introduced support for passing the DNS queries over HTTPS (DoH)
 
 ### Unpopular `Foundation` formatter types
 
-`DateFormatter` is arguably the most popular formatter type [John Sundell](https://twitter.com/johnsundell) brings to our attention lesser-known, built-in formatter types such as `PersonNameComponentsFormatter`, `CNPostalAddressFormatter`, `RelativeDateTimeFormatter`, and `ListFormatter` in the following [article](https://www.swiftbysundell.com/articles/exploring-some-of-the-lesser-known-formatter-types).
+`DateFormatter` is arguably the most popular formatter type, [John Sundell](https://twitter.com/johnsundell) brings to our attention lesser-known, built-in formatter types such as `PersonNameComponentsFormatter`, `CNPostalAddressFormatter`, `RelativeDateTimeFormatter`, and `ListFormatter` in the following [article](https://www.swiftbysundell.com/articles/exploring-some-of-the-lesser-known-formatter-types).
 
 ### Customizing the appearance of a navigation bar
 
@@ -117,7 +117,7 @@ Apple changed the navigation bar appearance in iOS 13. [Sarun Wongpatcharapakorn
 
 ### `var array: [Int] = []` is the only correct syntax
 
-[Ben Cohen](https://twitter.com/AirspeedSwift) in his Twitter [thread](https://twitter.com/AirspeedSwift/status/1372912675785568256) why you should prefer `var array: [Int] = []` over any other initialization syntax.
+[Ben Cohen](https://twitter.com/AirspeedSwift) in his Twitter [thread](https://twitter.com/AirspeedSwift/status/1372912675785568256) arguments why you should prefer `var array: [Int] = []` over any other initialization syntax.
 
 ### How to use the `rethrows` in Swift
 
