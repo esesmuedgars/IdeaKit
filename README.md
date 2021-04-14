@@ -69,7 +69,7 @@ Push notifications enable developers to inform users when new data becomes avail
 
 ### Introducing Swift Collections
 
-[Karoy Lorentey](https://twitter.com/lorentey) announced `Collections`, a new open-source package focused on extending the set of available Swift data structures, in his Swift blog [post](https://swift.org/blog/swift-collections). Currently, available data structures are `Deque`, `OrderedSet`, and `OrderedDictionary`.
+[Karoy Lorentey](https://twitter.com/lorentey) announced `Collections`, a new open-source package focused on extending the set of available Swift Standard Library data structures, in his Swift blog [post](https://swift.org/blog/swift-collections). Currently, available data structures are `Deque`, `OrderedSet`, and `OrderedDictionary`.
   
 ### Distributing your app for beta testing and releases
 
