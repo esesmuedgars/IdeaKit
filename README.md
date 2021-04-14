@@ -105,28 +105,27 @@ If you’ve developed application prior to iOS 13, you probably are familiar wit
 
 ### Encrypt DNS In iOS 14 applications
 
-[article](https://stavrosschizas.com/post/encrypt-dns-in-ios-14-applications) by [Stavros Schizas](https://twitter.com/StavrosSchizas).
+In iOS 14, Apple introduced support for passing the DNS queries over HTTPS (DoH) or TLS (DoT). Learn how to increase your application user's privacy by encrypting DNS queries in [article](https://stavrosschizas.com/post/encrypt-dns-in-ios-14-applications) by [Stavros Schizas](https://twitter.com/StavrosSchizas).
 
 ### Unpopular `Foundation` formatter types
 
-[article](https://www.swiftbysundell.com/articles/exploring-some-of-the-lesser-known-formatter-types) by [John Sundell](https://twitter.com/johnsundell).
+`DateFormatter` is arguably the most popular formatter type [John Sundell](https://twitter.com/johnsundell) brings to our attention lesser-known, built-in formatter types such as `PersonNameComponentsFormatter`, `CNPostalAddressFormatter`, `RelativeDateTimeFormatter`, and `ListFormatter` in following [article](https://www.swiftbysundell.com/articles/exploring-some-of-the-lesser-known-formatter-types).
 
 ### Customizing the appearance of a navigation bar
 
-iOS 13+
-[article](https://sarunw.com/posts/uinavigationbar-changes-in-ios13) and [article](https://sarunw.com/posts/uinavigationbar-changes-in-ios13-part2) by [Sarun Wongpatcharapakornand](https://twitter.com/sarunw).
+Apple changed navigation bar appearance in iOS 13. [Sarun Wongpatcharapakornand](https://twitter.com/sarunw) illustrates the differences and demostrates how to customize `UINavigationBar` appearance using appearance proxy in his [article](https://sarunw.com/posts/uinavigationbar-changes-in-ios13). Additionally seperate [article](https://sarunw.com/posts/uinavigationbar-changes-in-ios13-part2) has been dedicated to navigation bar with `UISearchBar` and `UISearchController`.
 
-### Preferred `var array: [Int] = []`
+### `var array: [Int] = []` is the only correct syntax
 
-Twitter [thread](https://twitter.com/AirspeedSwift/status/1372912675785568256) by [Ben Cohen](https://twitter.com/AirspeedSwift)
+[Ben Cohen](https://twitter.com/AirspeedSwift) in his Twitter [thread](https://twitter.com/AirspeedSwift/status/1372912675785568256) why you should prefer `var array: [Int] = []` over any other initialization syntax.
 
 ### How to use the `rethrows` in Swift
 
-[article](https://www.avanderlee.com/swift/rethrows) by [Antoine van der Lee](https://twitter.com/twannl).
+[Antoine van der Lee](https://twitter.com/twannl) wrote an [article](https://www.avanderlee.com/swift/rethrows) explaining `rethrows` keyword and walks us through real-case example.
 
 ### Decrease application launch time
 
-[article](https://www.avanderlee.com/optimization/launch-time-performance-optimization) by [Antoine van der Lee](https://twitter.com/twannl).
+Improve launch performance of your application by decreasing launch time. Follow optimization tips [Antoine van der Lee](https://twitter.com/twannl) gives in his [article](https://www.avanderlee.com/optimization/launch-time-performance-optimization).
 
 ### Flatten a nested JSON response into a single `struct` using `Codable`
 
