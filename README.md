@@ -59,7 +59,7 @@ I could name only a handful of iOS applications that support offline mode, most 
 
 ### Firebase Cloud Messaging for iOS in SwiftUI
 
-Push notifications enable developers to inform users when new data becomes available for application. Follow the [tutorial](https://www.raywenderlich.com/20201639-firebase-cloud-messaging-for-ios-push-notifications) written by [Andy Pereira](https://twitter.com/macandyp) to learn how to use Firebase Cloud Messaging, formerly known as Google Cloud Messaging, to send and receive remote push notifications in SwiftUI iOS application.
+Push notifications enable developers to inform users when new data becomes available for application. Follow the [tutorial](https://www.raywenderlich.com/20201639-firebase-cloud-messaging-for-ios-push-notifications) written by [Andy Pereira](https://twitter.com/macandyp) to learn how to use Firebase Cloud Messaging, formerly known as Google Cloud Messaging, to send and receive remote push notifications in the SwiftUI iOS application.
 
 ## Enhanced programming
 
