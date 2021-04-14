@@ -117,7 +117,7 @@ Apple changed the navigation bar appearance in iOS 13. [Sarun Wongpatcharapakorn
 
 ### `var array: [Int] = []` is the only correct syntax
 
-[Ben Cohen](https://twitter.com/AirspeedSwift) in his Twitter [thread](https://twitter.com/AirspeedSwift/status/1372912675785568256) arguments why you should prefer `var array: [Int] = []` over any other initialization syntax.
+[Ben Cohen](https://twitter.com/AirspeedSwift) in his Twitter [thread](https://twitter.com/AirspeedSwift/status/1372912675785568256) arguments why you should prefer `var array: [Int] = []` to any other initialization syntax.
 
 ### How to use the `rethrows` in Swift
 
