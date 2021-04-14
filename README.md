@@ -23,7 +23,7 @@ On the 17<sup>th</sup> of May, the minimum compliant version of macOS will be se
 
 ### _Spring Loaded_ event
 
-[Apple](https://twitter.com/apple) announced a long-awaited [spring event](https://www.apple.com/apple-events) for the 20th of April. [Add _Spring Loaded_ event to your calendar](https://www.apple.com/v/apple-events/home/p/built/assets/event.ics)!
+[Apple](https://twitter.com/apple) announced a long-awaited [spring event](https://www.apple.com/apple-events) for the 20<sup>th</sup> of April. [Add _Spring Loaded_ event to your calendar](https://www.apple.com/v/apple-events/home/p/built/assets/event.ics)!
 
 ### WWDC 2021
 
