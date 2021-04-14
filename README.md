@@ -21,6 +21,10 @@ If you uncover any trace of XcodeSpy on your Accenture-owned macOS device, you s
 
 On the 17<sup>th</sup> of May, the minimum compliant version of macOS will be set to macOS Catalina 10.15.7. Afterward, if your macOS device version is below Catalina you will lose _Conditional Access_ (with it access to resources such as Microsoft Office, Microsoft Teams, etc.). Read the full Accenture Mac Workstation blog [post](https://blog.accenture.com/accenturemacworkstation/2021/04/13/conditional-access-minimum-version-macos-update) by [Chad Proctor](https://people.accenture.com/People/user/r.chad.proctor).
 
+### Spring Loaded event
+
+[Apple](https://twitter.com/apple) announced a long-awaited [spring event](https://www.apple.com/apple-events) for the 20th of April. [Add _Spring Loaded_ event to your calendar](https://www.apple.com/v/apple-events/home/p/built/assets/event.ics)!
+
 ### WWDC 2021
 
 [Apple](https://twitter.com/apple) announced that an all-online [Apple Worldwide Developers Conference](https://developer.apple.com/wwdc21) will take place on the 7<sup>th</sup> of June.
