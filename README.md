@@ -89,15 +89,15 @@ The XCFramework format allows developers to conveniently distribute binary libra
 
 ### Demystifying `@autoclosure`
 
-[Artturi Jalli](https://twitter.com/ArtturiJalli) wrote an [article](https://medium.com/codex/swift-demystifying-autoclosures-dc106e4bc04a) explainig what is `@autoclosure`, describes it's benefits, and how to use it in Swift.
+[Artturi Jalli](https://twitter.com/ArtturiJalli) wrote an [article](https://medium.com/codex/swift-demystifying-autoclosures-dc106e4bc04a) explaining what is `@autoclosure`, describes its benefits, and how to use it in Swift.
 
 ### `AppDelegate` vs. `SceneDelegate` 
 
-If you’ve developed application prior to iOS 13, you probably are familiar with `AppDelegate`. In iOS 13, Apple has moved some of the `AppDelegate` responsibilities to the `SceneDelegate`. [Reinder de Vries](https://twitter.com/reinder42) wrote an [article](https://learnappmaking.com/scene-delegate-app-delegate-xcode-11-ios-13) where he outlines different roles of both and how they interact to launch an application.
+If you’ve developed an application before iOS 13, you probably are familiar with `AppDelegate`. In iOS 13, Apple has moved some of the `AppDelegate` responsibilities to the `SceneDelegate`. [Reinder de Vries](https://twitter.com/reinder42) wrote an [article](https://learnappmaking.com/scene-delegate-app-delegate-xcode-11-ios-13) where he outlines the different roles of both and how they interact to launch an application.
 
 ### Understanding and resolving `EXC_BAD_ACCESS` crash errors
 
-`EXC_BAD_ACCESS` is a common crash we run into. [Antoine van der Lee](https://twitter.com/twannl) in his [article](https://www.avanderlee.com/swift/exc-bad-access-crash) not only translates the error but also proposes actions to help track down and solve root cause of the issue.
+`EXC_BAD_ACCESS` is a common crash we run into. [Antoine van der Lee](https://twitter.com/twannl) in his [article](https://www.avanderlee.com/swift/exc-bad-access-crash) not only translates the error but also proposes actions to help track down and solve the root cause of the issue.
 
 ### Manually symbolicate crash reports
 
@@ -105,15 +105,15 @@ If you’ve developed application prior to iOS 13, you probably are familiar wit
 
 ### Encrypt DNS In iOS 14 applications
 
-In iOS 14, Apple introduced support for passing the DNS queries over HTTPS (DoH) or TLS (DoT). Learn how to increase your application user's privacy by encrypting DNS queries in [article](https://stavrosschizas.com/post/encrypt-dns-in-ios-14-applications) by [Stavros Schizas](https://twitter.com/StavrosSchizas).
+In iOS 14, Apple introduced support for passing the DNS queries over HTTPS (DoH) or TLS (DoT). Learn how to increase your application user's privacy by encrypting DNS queries in an [article](https://stavrosschizas.com/post/encrypt-dns-in-ios-14-applications) by [Stavros Schizas](https://twitter.com/StavrosSchizas).
 
 ### Unpopular `Foundation` formatter types
 
-`DateFormatter` is arguably the most popular formatter type [John Sundell](https://twitter.com/johnsundell) brings to our attention lesser-known, built-in formatter types such as `PersonNameComponentsFormatter`, `CNPostalAddressFormatter`, `RelativeDateTimeFormatter`, and `ListFormatter` in following [article](https://www.swiftbysundell.com/articles/exploring-some-of-the-lesser-known-formatter-types).
+`DateFormatter` is arguably the most popular formatter type [John Sundell](https://twitter.com/johnsundell) brings to our attention lesser-known, built-in formatter types such as `PersonNameComponentsFormatter`, `CNPostalAddressFormatter`, `RelativeDateTimeFormatter`, and `ListFormatter` in the following [article](https://www.swiftbysundell.com/articles/exploring-some-of-the-lesser-known-formatter-types).
 
 ### Customizing the appearance of a navigation bar
 
-Apple changed navigation bar appearance in iOS 13. [Sarun Wongpatcharapakornand](https://twitter.com/sarunw) illustrates the differences and demostrates how to customize `UINavigationBar` appearance using appearance proxy in his [article](https://sarunw.com/posts/uinavigationbar-changes-in-ios13). Additionally seperate [article](https://sarunw.com/posts/uinavigationbar-changes-in-ios13-part2) has been dedicated to navigation bar with `UISearchBar` and `UISearchController`.
+Apple changed the navigation bar appearance in iOS 13. [Sarun Wongpatcharapakornand](https://twitter.com/sarunw) illustrates the differences and demonstrates how to customize `UINavigationBar` appearance using appearance proxy in his [article](https://sarunw.com/posts/uinavigationbar-changes-in-ios13). Additionally, a separate [article](https://sarunw.com/posts/uinavigationbar-changes-in-ios13-part2) has been dedicated to the navigation bar with `UISearchBar` and `UISearchController`.
 
 ### `var array: [Int] = []` is the only correct syntax
 
@@ -121,15 +121,15 @@ Apple changed navigation bar appearance in iOS 13. [Sarun Wongpatcharapakornand]
 
 ### How to use the `rethrows` in Swift
 
-[Antoine van der Lee](https://twitter.com/twannl) wrote an [article](https://www.avanderlee.com/swift/rethrows) explaining `rethrows` keyword and walks us through real-case example.
+[Antoine van der Lee](https://twitter.com/twannl) wrote an [article](https://www.avanderlee.com/swift/rethrows) explaining `rethrows` keyword and walks us through a real-case example.
 
 ### Decrease application launch time
 
-Improve launch performance of your application by decreasing launch time. Follow optimization tips [Antoine van der Lee](https://twitter.com/twannl) gives in his [article](https://www.avanderlee.com/optimization/launch-time-performance-optimization).
+Improve the launch performance of your application by decreasing launch time. Follow optimization tips [Antoine van der Lee](https://twitter.com/twannl) gives in his [article](https://www.avanderlee.com/optimization/launch-time-performance-optimization).
 
 ### Flatten a nested JSON response into a single `struct` using `Codable`
 
-When JSON you receive is nested several levels deep and you do not require nested objects as seperate data structures, you can use nested containers instead. Learn how to decode nested JSON data into a single data structure using `Codable` in [article](https://www.donnywals.com/flattening-a-nested-json-response-into-a-single-struct-with-codable) by [Donny Wals](https://twitter.com/DonnyWals).
+When JSON you receive is nested several levels deep and you do not require nested objects as separate data structures, you can use nested containers instead. Learn how to decode nested JSON data into a single data structure using `Codable` in an [article](https://www.donnywals.com/flattening-a-nested-json-response-into-a-single-struct-with-codable) by [Donny Wals](https://twitter.com/DonnyWals).
 
 ### Codable synthesis for enums with associated values
 
@@ -137,7 +137,7 @@ When JSON you receive is nested several levels deep and you do not require neste
 
 ### Xcode new file templates
 
-Learn how to create our own Xcode template for common files in [article](https://www.andyibanez.com/posts/xcode-new-file-templates) by [Andy Ibanez](https://twitter.com/AndyIbanezK).
+Learn how to create our own Xcode template for common files in an [article](https://www.andyibanez.com/posts/xcode-new-file-templates) by [Andy Ibanez](https://twitter.com/AndyIbanezK).
 
 ### Limit `WKWebView` to a list of specified domains
 
