@@ -8,7 +8,7 @@ Welcome back! I would like to thank you for your activity, pilot issue [of the n
 
 There has been a pair of improvements to the newsletter. Firstly, the _[News](#news-)_ section highlighting the must-know security threats and important announcements.
 
-Secondly, on the 29<sup>th</sup> of March, multiple people have begun their journey in Accenture Latvia ATC as mobile development interns. To support new talents _[Fundamentals](#fundamentals-)_ section has been added to the newsletter. Fundamentals is a beginner-friendly section dedicated to interns, trainees, junior developers, and anyone and everyone who is looking to get familiar with the Swift programming language.
+Secondly, on the 29<sup>th</sup> of March, multiple people have begun their journey in Accenture Latvia ATC as mobile development interns. To support new talents _[Fundamentals](#fundamentals-)_ section has been added to the newsletter. _[Fundamentals](#fundamentals-)_ is a beginner-friendly section dedicated to interns, trainees, junior developers, and anyone and everyone who is looking to get familiar with the Swift programming language.
 
 ## News ![new](https://img.shields.io/badge/new-success.svg)
 
