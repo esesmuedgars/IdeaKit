@@ -1,135 +1,182 @@
 <img width="100%" alt="import IdeaKit - Swift Monthly Newsletter" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/title.svg" />
 
-![Issue](https://img.shields.io/badge/issue-pilot-informational.svg)
+###### 9 minute read
 
-Extra! Extra! Read all about it!
-<br>
-<br>
-Under the _Interactive_ umbrella, in the _Mobile_ division, we have multiple teams delivering various software applications. In my opinion, recent activity indicates that we're shifting towards a developer community mindset. There has been less of an "I'm a developer, it's not my job to do anything besides programming" mentality. [Artjoms Vorona](https://people.accenture.com/People/user/artjoms.vorona) created several posts about Apple developer topics, there are regular _Brown Bags_ where [Kristaps Knets](https://people.accenture.com/People/user/kristaps.knets) introduced Unity, [Mykhailo Dontsov](https://people.accenture.com/People/user/mykhailo.dontsov) introduced Kotlin Multiplatform. There are _Demo Days_ where [Arkadzi Daniyelian](https://people.accenture.com/People/user/arkadzi.daniyelian), [Pavels Vetlugins](https://people.accenture.com/People/user/pavels.vetlugins) and [Deniss Lapins](https://people.accenture.com/People/user/deniss.lapins) had a chance to brag about [Channel 4](https://apps.apple.com/gb/app/all-4-watch-live-on-demand/id432494037). 
+![Issue](https://img.shields.io/badge/issue-1.4-informational.svg)
 
-There is a lot of information available - release notes, newsletters, blog posts, articles, tutorials, presentations, podcasts, etc., but how to navigate such a vast amount of information? I'm excited to announce the first issue of _import IdeaKit - Swift Monthly Newsletter_ a list of hand-picked items about Swift that I commit to bundle and deliver at your digital doorstep every month.
+Welcome back! I would like to thank you for your activity, pilot issue [of the newsletter] was a success, so let's continue by building on top of that!
 
-**NB!** This is a pilot issue and you directly impact the newsletter's future outcome. Timeline, concept, and title are subject to change.
+There has been a pair of improvements to the newsletter. Firstly, the _[News](#news-)_ section highlighting the must-know security threats and important announcements.
 
-## Table of Contents
+Secondly, on the 29<sup>th</sup> of March, multiple people have begun their journey in Accenture Latvia ATC as mobile development interns. To support new talents _[Fundamentals](#fundamentals-)_ section has been added to the newsletter. _[Fundamentals](#fundamentals-)_ is a beginner-friendly section dedicated to interns, trainees, junior developers, and anyone and everyone who is looking to get familiar with the Swift programming language.
 
-- [Tutorials](#tutorials)
-  * [Swift Accelerate and vImage frameworks](#swift-accelerate-and-vimage-frameworks)
-  * [Re-creating Apple Photos layout and animations with compositional layout](#re-creating-apple-photos-layout-and-animations-with-compositional-layout)
-  * [How to scan images and perform text recognition in SwiftUI using VisionKit](#how-to-scan-images-and-perform-text-recognition-in-swiftui-using-visionkit)
-- [Enhanced programming](#enhanced-programming)
-  * [Writing high-performance Swift code](#writing-high-performance-swift-code)
-  * [Swift and Xcode tips](#swift-and-xcode-tips)
-  * [View controller lifecycle bahaviors](#view-controller-lifecycle-bahaviors)
-  * [GraphQL in Swift](#graphql-in-swift)
-  * [Returning an Opaque Type](#graphql-in-swift)
-  * [How Uber deals with large iOS application size](#how-uber-deals-with-large-ios-application-size)
-  * [Developing Xcode extensions](#how-uber-deals-with-large-ios-application-size)
-  * [Dependency inversion as a driver to scale mobile development](#dependency-inversion-as-a-driver-to-scale-mobile-development)
-  * [Distributing closed-source frameworks with Swift Package Manager](#distributing-closed-source-frameworks-with-swift-package-manager)
-  * [Using `async`/`await` in SwiftUI](#using-asyncawait-in-swiftui)
-  * [`[weak self]` is not always the solution](#weak-self-is-not-always-the-solution)
-  * [How to use `@autoclosure` in Swift to improve performance](#weak-self-is-not-always-the-solution)
-- [Tools](#tools)
-  * [Homebrew 3.0.0](#homebrew-300)
-  * [Testing push notifications on the iOS simulator](#testing-push-notifications-on-the-ios-simulator)
-  * [Getting to know the simulator better](#getting-to-know-the-simulator-better)
-  * [Swift WebSockets](#swift-websockets)
-  * [Localizing strings in a project](#localizing-strings-in-a-project)
+## News ![new](https://img.shields.io/badge/new-success.svg)
+
+### XcodeSpy targets Xcode developers with EggShell backdoor ![important](https://img.shields.io/badge/important-important.svg)
+
+A new backdoor threat has been discovered that aims to compromise developers’ macOS devices with a trojanized Xcode project along with a persistence mechanism. This malware can record victims’ microphones, cameras, keyboards as well as upload and download files. [Phil Stokes](https://twitter.com/philofishal) of Sentinel Labs provides simple method developers can use to scan their existing local Xcode repositories in the _Detection and Mitigation_ section of the [report](https://labs.sentinelone.com/new-macos-malware-xcodespy-targets-xcode-developers-with-eggshell-backdoor). 
+If you uncover any trace of XcodeSpy on your Accenture-owned macOS device, you should immediately call the Accenture Security Operations Center (ASOC) hotline at +1 202 728 0645.
+
+### macOS minumum version update for Accenture workstations ![important](https://img.shields.io/badge/important-important.svg)
+
+On the 17<sup>th</sup> of May, the minimum compliant version of macOS will be set to macOS Catalina 10.15.7. Afterward, if your macOS device version is below Catalina you will lose _Conditional Access_ (with it access to resources such as Microsoft Office, Microsoft Teams, etc.). Read the full Accenture Mac Workstation blog [post](https://blog.accenture.com/accenturemacworkstation/2021/04/13/conditional-access-minimum-version-macos-update) by [Chad Proctor](https://people.accenture.com/People/user/r.chad.proctor).
+
+### _Spring Loaded_ event
+
+[Apple](https://twitter.com/apple) announced a long-awaited [spring event](https://www.apple.com/apple-events) for the 20<sup>th</sup> of April. [Add _Spring Loaded_ event to your calendar](https://www.apple.com/v/apple-events/home/p/built/assets/event.ics)!
+
+### WWDC 2021
+
+[Apple](https://twitter.com/apple) announced that an all-online [Apple Worldwide Developers Conference](https://developer.apple.com/wwdc21) will take place on the 7<sup>th</sup> of June.
+
+###  `AppTrackingTransparency` framework
+
+[Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=8h0btjq7) incentivizes to prepare applications for upcoming public release. To access app-related data for tracking the user or the device all applications must use the `AppTrackingTransparency` framework to request the user's permission.
+
+## Fundamentals ![new](https://img.shields.io/badge/new-success.svg)
+
+### Becoming an iOS developer in this day and age
+
+[Paul Hudson](https://twitter.com/twostraws) describes the core skills you need to know to become an iOS developer as well as extension skills that are nice to have and will help you stand out. Highlights common mistakes beginners make when they are trying to learn and lists free resources that will help you learn Swift, among other things in his [article](https://www.hackingwithswift.com/articles/230/how-to-become-an-ios-developer) aimed at two groups of people: absolute beginners to Swift – folks who have never built anything for iOS before – and also so-called false beginners, who are folks who might have tried to learn Swift before but never really reached their goal of getting a full-time job.
+
+### Protocols in Swift
+
+Working with protocols is one of Swift’s most fundamental features. With protocols, you define a blueprint that an adopting class must conform to. This principle lets you write decoupled, modular, and extensible Swift code. [Video series](https://www.youtube.com/watch?v=80Qma2hUyUk&list=PLHWvYoDHvsOX_H712wbhzSW0xqHsFy2j9) by [Pedro Rojas](https://twitter.com/pitt500), [video](https://www.youtube.com/watch?v=QZjz2PL9IS8) by [Kyle Lee](https://twitter.com/kilo_loco), and [article](https://learnappmaking.com/protocols-swift-how-to) by [Reinder de Vries](https://twitter.com/reinder42) attempt to help you understand.
+
+### Delegate pattern
+
+The purpose of the delegate pattern is to allow an object to communicate with another object in a decoupled way. One of the most common example of delegation pattern is `UITableViewDataSource` with two required methods `tableView(_:numberOfRowsInSection)` and `tableView(_:cellForRowAt:)`. Visit [video](https://www.youtube.com/watch?v=UQnSdXFDAQQ) by [Alex Nagy](https://twitter.com/alex_rebeloper), [video](https://www.youtube.com/watch?v=DBWu6TnhLeY) by [Sean Allen](https://twitter.com/seanallen_dev), and [article](https://www.swiftbysundell.com/articles/delegation-in-swift) by [John Sundell](https://twitter.com/johnsundell) to learn about delegation pattern.
+
+### Closures in Swift
+
+Closures are self-contained blocks of functionality that can be passed around and used in your code. [Kushal Pagolu](https://hashnode.com/@kushalp) wrote an [article](https://mandovision.hashnode.dev/closures) explaining closures and their nuances.
+
+### Generics in Swift
+
+Generics are one of the most powerful features of Swift, and much of the Swift standard library is built with generic code. Generic code enables you to write flexible, reusable functions and types that can work with any type. You can write code that avoids duplication and expresses its intent in a clear, abstracted manner. All resources - [video series](https://www.youtube.com/watch?v=W947iXBIFu4&list=PLHWvYoDHvsOVP-9UvMBBYJCqxrJ3E8Cry) by [Pedro Rojas](https://twitter.com/pitt500), a [tutorial](https://www.raywenderlich.com/3535703-swift-generics-tutorial-getting-started) written by [Mikael Konutgan](https://twitter.com/mkonutgan) and updated by [Michael Katz](https://twitter.com/TheMikeKatz), [video](https://www.youtube.com/watch?v=EUgAiOSSI3A) by [Daniel Autenrieth](https://twitter.com/brianadventcode), and [article](https://medium.com/codex/swift-generics-made-simple-13a1894a2f9d) by [Artturi Jalli](https://twitter.com/ArtturiJalli) - will help you understand generics clearer.
+
+### Networking in Swift with `URLSession`
+
+I could name only a handful of iOS applications that support offline mode, most of which are by Apple. Nowadays most applications require a network connection to provide access to some, or all, of the features. We could depend on network data-transfer libraries (e.g., [Alamofire](https://github.com/Alamofire/Alamofire)) to execute HTTP requests or we could use a first-party `URLSession` class. [Reinder de Vries](https://twitter.com/reinder42) wrote an [article](https://learnappmaking.com/urlsession-swift-networking-how-to) on how to use the latter one.
 
 ## Tutorials
 
-### Swift Accelerate and vImage frameworks
+### Firebase Cloud Messaging for iOS in SwiftUI
 
-[Accelerate](https://developer.apple.com/documentation/accelerate) framework provides Apple developers with a high-performance, energy-efficient computation library for large-scale mathematical or image-based calculations. It uses the vector-processing capabilities on CPUs to perform calculations quickly while maintaining efficient energy usage. Learn how to process images using Accelerate and vImage in a SwiftUI application in [tutorial](https://www.raywenderlich.com/19456196-swift-accelerate-and-vimage-getting-started) by [Bill Morefield](https://twitter.com/bmorefield).
+Push notifications enable developers to inform users when new data becomes available for application. Follow the [tutorial](https://www.raywenderlich.com/20201639-firebase-cloud-messaging-for-ios-push-notifications) written by [Andy Pereira](https://twitter.com/macandyp) to learn how to use Firebase Cloud Messaging, formerly known as Google Cloud Messaging, to send and receive remote push notifications in the SwiftUI iOS application.
 
-### Re-creating Apple Photos layout and animations with compositional layout
+### Inspect application's network traffic using Charles Proxy
 
-During WWDC 2019, Apple introduced declarative `UICollectionViewCompositionalLayout` API intending to simplify the development process of complex layouts in our applications. Learn how to re-create Apple Photos application layout and animations in [tutorial](https://nemecek.be/blog/86/re-creating-apple-photos-layout-animations-with-compositional-layout) by [Filip Němeček](https://github.com/nemecek-filip).
-
-### How to scan images and perform text recognition in SwiftUI using VisionKit
-
-Previously, we had to use [Tesseract OCR](https://github.com/gali8/Tesseract-OCR-iOS) library in order to implement optical character recognition in our applications. [Gabriel Theodoropoulos](https://twitter.com/gabtheodor) uses Apple's [Vision](https://developer.apple.com/documentation/vision) and [VisionKit](https://developer.apple.com/documentation/visionkit) frameworks in his detailed [tutorial](https://www.appcoda.com/swiftui-text-recognition) to build a text recognition application.
+Learn how to use Charles Proxy to inspect unencrypted and encrypted network traffic for both your applications, as well as third-party applications in a [tutorial](https://www.raywenderlich.com/1827524-charles-proxy-tutorial-for-ios) written by [Aaron Douglas](https://twitter.com/astralbodies) and updated by [Tom Elliott](https://twitter.com/temelliott).
 
 ## Enhanced programming
 
-### Writing high-performance Swift code
+### Dependency injection for property wrappers
 
-What makes a good user experience? I believe it's safe to say speed is one of the determining factors. We devote a noticeable portion of effort refactoring and optimizing our codebases, but did you know Swift documents have a comprehensive [list of tips](https://github.com/apple/swift/blob/main/docs/OptimizationTips.rst) on writing high-performant Swift code?
+[Nikita Ermolenko](https://twitter.com/iOtbivnoe) in his [article](https://otbivnoe.ru/2021/03/13/Dependency-Injection-for-Property-Wrappers.html) describes his counterintuitive solution to property wrapper dependency injection.
 
-### Swift and Xcode tips
+### Introducing Swift Collections
 
-Adding `-com.apple.CoreData.ConcurrencyDebug 1` launch argument helps you to ensure you’re not violating Core Data’s threading rules. `defaults write http://com.apple.dt.Xcode IDEAdditionalCounterpartSuffixes -array-add "ViewModel" "View" "Screen"` makes Xcode's Assistant Editor aware for your view models, views, etc. And many more great Swift and Xcode tips have been shared by developer community on [Paul Hudson's](https://twitter.com/twostraws) Twitter [thread](https://twitter.com/twostraws/status/1364538061837791232).
+[Karoy Lorentey](https://twitter.com/lorentey) announced `Collections`, a new open-source package focused on extending the set of available Swift Standard Library data structures, in his Swift blog [post](https://swift.org/blog/swift-collections). Currently, available data structures are `Deque`, `OrderedSet`, and `OrderedDictionary`.
+  
+### Distributing your app for beta testing and releases
 
-### View controller lifecycle bahaviors
+[Apple](https://twitter.com/apple) has an [article](https://developer.apple.com/documentation/xcode/distributing_your_app_for_beta_testing_and_releases) guiding you through the application's distribution process.
 
-View controller propagates its lifecycle methods to child view controllers, core rule [Bryan Irace](https://twitter.com/irace) used to write an [article](https://irace.me/lifecycle-behaviors) about reusable view controller’s lifecycle behaviors.
+### Transferring data between Bluetooth Low Energy devices
 
-### GraphQL in Swift
+[Apple](https://twitter.com/apple) provides a [sample code](https://developer.apple.com/documentation/corebluetooth/transferring_data_between_bluetooth_low_energy_devices) showing how to create a Bluetooth LE central and peripheral device, and how to transfer data between two iOS devices.
 
-We build applications of all shapes and sizes, but a common element is that they communicate with servers. Today, a handful of applications operate without some sort of internet connectivity. During rainy days, developers end up reusing web APIs which leads to oversaturated responses, not only does this impact performance, it could potentially be a security threat. In his [article](https://swiftwithmajid.com/2021/02/24/graphql-in-swift/) [Majid Jabrayilov](https://twitter.com/mecid) walks us through the benefits and practice of GraphQL.
- 
-### Returning an Opaque Type
+### Unsafe memory pointers in Swift
 
-With the release of SwiftUI, Apple’s declarative UI framework, one feature that stood out when looking at the sample code was the `some` keyword. This keyword enables functions, subscripts, and computed properties to declare opaque return types. Read an [article](https://learnappmaking.com/some-swift-opaque-types-how-to) where [Reinder de Vries](https://twitter.com/reinder42) explains how to get rid of unpleasant compile-time error "Protocol '...' can only be used as a generic constraint because it has Self or associated type requirements".
+On rare occasions, when interacting with low-level or legacy APIs, developers are required to use manual memory management. [Tibor Bödecs](https://twitter.com/tiborbodecs) wrote an [article](https://theswiftdev.com/unsafe-memory-pointers-in-swift) about how to use raw pointer references, interact with unsafe pointers, and manually manage memory addresses in Swift.
 
-### How Uber deals with large iOS application size
+### Advancements in XCFramework
 
-As an application's codebase grows, so does its size. Engineers at Uber dove beyond high-level language features and calling conventions and improved Swift binary size via link time optimization. Read an [article](https://eng.uber.com/how-uber-deals-with-large-ios-app-size) where [Milind Chabbi](https://twitter.com/ChabbiMilind), [Jin Lin](https://www.linkedin.com/in/jinlin) and [Raj Barik](https://github.com/rajbarik) describe how they reduced application sizes using advanced compiler technologies.
+The XCFramework format allows developers to conveniently distribute binary libraries for multiple platforms and architectures in a single bundle. [Rad Azzouz](https://twitter.com/radazzouz) in his [article](https://pspdfkit.com/blog/2021/advances-in-xcframeworks) goes over the recent advances in the XCFramework format in Xcode 12.
 
-### Developing Xcode extensions
+### Demystifying `@autoclosure`
 
-[Artem Novichkov](https://twitter.com/iosartem) wrote an [article](https://blog.artemnovichkov.com/developing-xcode-extensions-tips-and-tricks) about Xcode extension he created that lets you create minimalistic code snippet images from selection with the help of [Ray.so](https://ray.so) tool.
+[Artturi Jalli](https://twitter.com/ArtturiJalli) wrote an [article](https://medium.com/codex/swift-demystifying-autoclosures-dc106e4bc04a) explaining what is `@autoclosure`, describes its benefits, and how to use it in Swift.
 
-### Dependency inversion as a driver to scale mobile development
+### `AppDelegate` vs. `SceneDelegate` 
 
-Often functionality is shared across applications be it data persistence, authorization, or billing. But how are these dependencies managed in your codebase? Are they loosely coupled where dependency details are encapsulated within and dependency interfaces are used for cross-dependency communication? In his [article](https://developers.soundcloud.com/blog/dependency-inversion-as-a-driver-to-scale-mobile-development) [Firat Karatas](https://twitter.com/firatov) provides Swift examples as well as describes how to apply dependency inversion principle to frameworks.
+If you’ve developed an application before iOS 13, you probably are familiar with `AppDelegate`. In iOS 13, Apple has moved some of the `AppDelegate` responsibilities to the `SceneDelegate`. [Reinder de Vries](https://twitter.com/reinder42) wrote an [article](https://learnappmaking.com/scene-delegate-app-delegate-xcode-11-ios-13) where he outlines the different roles of both and how they interact to launch an application.
 
-### Distributing closed-source frameworks with Swift Package Manager
+### Understanding and resolving `EXC_BAD_ACCESS` crash errors
 
-[Daniel Saidi](https://twitter.com/danielsaidi) wrote an [article](https://danielsaidi.com/blog/2021/02/15/distributing-closed-source-frameworks-with-spm) explaining how to set up a project, distribute library, and tackle problems along the way.
+`EXC_BAD_ACCESS` is a common crash we run into. [Antoine van der Lee](https://twitter.com/twannl) in his [article](https://www.avanderlee.com/swift/exc-bad-access-crash) not only translates the error but also proposes actions to help track down and solve the root cause of the issue.
 
-### Using `async`/`await` in SwiftUI
+### Manually symbolicate crash reports
 
-[SE-0296](https://github.com/apple/swift-evolution/blob/main/proposals/0296-async-await.md) proposal has been implemented and will be released as a part of the future version of Swift. [Peter Friese](https://twitter.com/peterfriese) in his an [article](https://peterfriese.dev/async-await-in-swiftui) describes how to install the compiler toolchain, activate this new feature, and rewrite a callback-based code using `async`/`await`.
+[Sarun Wongpatcharapakornand](https://twitter.com/sarunw) wrote an [article](https://sarunw.com/posts/symbolicate-crash-reports) where he reports on how to acquire Xcode Debugging Symbol file (dSYM) and manually symbolicate crash reports.
 
-### `[weak self]` is not always the solution
+### Encrypt DNS In iOS 14 applications
 
-Everyone is afraid of retain cycles when working with closures, but do all closures must have `[weak self]`? Read an [article](https://iosmith.com/weak-self-not-always-the-solution) by [Zsolt Kovács](https://www.linkedin.com/in/zs-kovacs) where he offers an alternative to `[weak self]`.
+In iOS 14, Apple introduced support for passing the DNS queries over HTTPS (DoH) or TLS (DoT). Learn how to increase your application user's privacy by encrypting DNS queries in an [article](https://stavrosschizas.com/post/encrypt-dns-in-ios-14-applications) by [Stavros Schizas](https://twitter.com/StavrosSchizas).
 
-### How to use `@autoclosure` in Swift to improve performance
+### Unpopular `Foundation` formatter types
 
-An `@autoclosure` can be a great solution to prevent unnecessary work if code isn’t used. [Antoine van der Lee](https://twitter.com/twannl) wrote an [article](https://www.avanderlee.com/swift/autoclosure) on how you can optimize your code using `@autoclosure`.
+`DateFormatter` is arguably the most popular formatter type, [John Sundell](https://twitter.com/johnsundell) brings to our attention lesser-known, built-in formatter types such as `PersonNameComponentsFormatter`, `CNPostalAddressFormatter`, `RelativeDateTimeFormatter`, and `ListFormatter` in the following [article](https://www.swiftbysundell.com/articles/exploring-some-of-the-lesser-known-formatter-types).
+
+### Customizing the appearance of a navigation bar
+
+Apple changed the navigation bar appearance in iOS 13. [Sarun Wongpatcharapakornand](https://twitter.com/sarunw) illustrates the differences and demonstrates how to customize `UINavigationBar` appearance using appearance proxy in his [article](https://sarunw.com/posts/uinavigationbar-changes-in-ios13). Additionally, a separate [article](https://sarunw.com/posts/uinavigationbar-changes-in-ios13-part2) has been dedicated to the navigation bar with `UISearchBar` and `UISearchController`.
+
+### `var array: [Int] = []` is the only correct syntax
+
+[Ben Cohen](https://twitter.com/AirspeedSwift) in his Twitter [thread](https://twitter.com/AirspeedSwift/status/1372912675785568256) arguments why you should prefer `var array: [Int] = []` to any other initialization syntax.
+
+### How to use the `rethrows` in Swift
+
+[Antoine van der Lee](https://twitter.com/twannl) wrote an [article](https://www.avanderlee.com/swift/rethrows) explaining `rethrows` keyword and walks us through a real-case example.
+
+### Decrease application launch time
+
+Improve the launch performance of your application by decreasing launch time. Follow optimization tips [Antoine van der Lee](https://twitter.com/twannl) gives in his [article](https://www.avanderlee.com/optimization/launch-time-performance-optimization).
+
+### Flatten a nested JSON response into a single `struct` using `Codable`
+
+When JSON you receive is nested several levels deep and you do not require nested objects as separate data structures, you can use nested containers instead. Learn how to decode nested JSON data into a single data structure using `Codable` in an [article](https://www.donnywals.com/flattening-a-nested-json-response-into-a-single-struct-with-codable) by [Donny Wals](https://twitter.com/DonnyWals).
+
+### Codable synthesis for enums with associated values
+
+[Dario Rexin's](https://twitter.com/evonox) [SE-0295](https://github.com/apple/swift-evolution/blob/main/proposals/0295-codable-synthesis-for-enums-with-associated-values.md) proposal to extend the support for auto-synthesis of `Encodable` and `Decodable` conformance for `class` and `struct` types to enums with associated values has been accepted.
+
+### Xcode new file templates
+
+Learn how to create your own Xcode template for common files in an [article](https://www.andyibanez.com/posts/xcode-new-file-templates) by [Andy Ibanez](https://twitter.com/AndyIbanezK).
+
+### Limit `WKWebView` to a list of specified domains
+
+Many applications use `WKWebView` as a convenient way to display websites without requiring users to leave the app. App-Bound Domains is opt-in `WKWebView` technology that improves in-app browsing by offering greater privacy to users limiting the domains on which an app can utilize APIs to track users. [Keith Harrison](https://twitter.com/kharrison) uses App-Bound Domains to limit navigable domains described in his [article](https://useyourloaf.com/blog/app-bound-domains).
 
 ## Tools
 
-### Homebrew 3.0.0
+### macOS Big Sur available for Accenture workstations
 
-Homebrew 3.0.0 is now available with an official Apple silicon support and a new bottle format in formulae. Read through a [list of changes](https://brew.sh/2021/02/05/homebrew-3.0.0) by [Mike McQuaid](https://twitter.com/MikeMcQuaid).
+Visit the Accenture Mac Workstation blog [post](https://blog.accenture.com/accenturemacworkstation/2021/04/07/macos-11-big-sur-pilot) by [Chad Proctor](https://people.accenture.com/People/user/r.chad.proctor) to check if your macOS device meets recommended requirements and upgrade today to use the operating system's [latest features](https://www.apple.com/macos/big-sur/features).
 
-### Testing push notifications on the iOS simulator
+### Complete SwiftUI documentation with examples
 
-When developing iOS applications push notifications are common functionality. Previously, to test out push notifications we depended on physical devices,  Xcode 11.4 Beta introduced a new way to simulate push notifications on iOS simulator by adding `simctl` command. Read [article](https://sarunw.com/posts/testing-remote-push-notification-in-ios-simulator) by [Sarun Wongpatcharapakornand](https://twitter.com/sarunw) and [article](https://www.avanderlee.com/workflow/testing-push-notifications-ios-simulator) by [Antoine van der Lee](https://twitter.com/twannl).
+Apple's documentation is often criticized, SwiftUI developer community has created [SwiftOnTap](https://swiftontap.com) [open-source](https://twitter.com/swiftontap) SwiftUI documentation with examples.
 
-### Getting to know the simulator better
+### Convert JSON into Swift objects
 
-[Andy Ibanez](https://twitter.com/AndyIbanezK) wrote an [article](https://www.andyibanez.com/posts/getting-to-know-the-simulator-better) about multiple simulator features provided by Xcode and the `xcrun simctl` tool.
+[Quicktype](https://app.quicktype.io) web tool and Xcode [extension](https://apps.apple.com/us/app/paste-json-as-code-quicktype/id1330801220) by [David Siegel](https://twitter.com/dvdsgl) save developer's time by eliminating the need to type out data structures of data transfer objects.
 
-### Swift WebSockets
+### Testing application's accessibility with Evinced
 
-When it comes to WebSocket protocol, there are two main libraries - [Starscream](https://github.com/daltoniam/Starscream) and [URLSession](https://developer.apple.com/documentation/foundation/urlsession). [Matheus Cardoso](https://twitter.com/cardosodev) wrote an [article](https://dev.to/cardoso/swift-websockets-starscream-or-urlsession-in-2021-fck) comparing both of them.
-
-### Localizing strings in a project
-
-[Guillermo Culkin](https://twitter.com/gmoraleda_) wrote an [article](http://moraleda.info/2021/02/19/localization) about centralizing your localization strigs and generating a namespace data class for in-application usage as a part of a build process.
+There aren't any shortcuts to testing the application's accessibility, manual tests will always be the most valuable form of accessibility testing possible. But with some carefully designed automated checks, you can detect common accessibility issues quicker and earlier. [Rob Whitaker](https://twitter.com/RobRWAPP)
+[reviewed](https://mobilea11y.com/blog/evinced-ios) Evinced - digital accessibility platform.
 
 <br>
 <p align="center">
-<img width="25%" alt="Curator" src="https://github.com/esesmuedgars/IdeaKit/blob/pilot/character.svg" />
+<img width="25%" alt="Curator" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/character.svg" />
 <!--Character credit goes to [Pablo Stanley](https://twitter.com/pablostanley) with his [Open Peeps](https://www.openpeeps.com) hand-drawn illustration library.-->
 </p>
 <p align="center">
-Thank you for taking the time to expand your knowledge!
+Thank you for taking the time to expand your knowledge! For additional study materials visit the <a href="https://github.com/esesmuedgars/IdeaKit/blob/pilot/README.md">previous issue</a>!
 <br>
 <br>
 Found a topic insightful? You can add your comments and open a discussion using the comment section below.
@@ -138,4 +185,7 @@ Help others improve their Swift knowledge by liking and sharing this post.
 <br>
 <br>
 Reach out in case you would like to contribute or spot any errors! Feedback and suggestions are also welcome.
+<br>
+<br>
+Subscribe to the <a href="https://blog.accenture.com/design">Riga Interactive blog</a> and follow the <a href="https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI1Nzg0ODAwNDYwOCJ9/all">Riga Interactive Yammer community</a> for further insightful content!
 </p>
