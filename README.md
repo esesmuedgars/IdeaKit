@@ -8,16 +8,15 @@
 
 ### Swift 5.4
 
-[Ted Kremenek](https://twitter.com/tkremenek) in his Swift blog [post](https://swift.org/blog/swift-5-4-released) announced the official release of Swift 5.4, alternatively get familiar with new Swift language features by reviewing [code examples](https://www.whatsnewinswift.com/?from=5.3&to=5.4) created by [Paul Hudson](https://twitter.com/twostraws). Main changes to Swift Package Manager are described by [Federico Zanetello](https://twitter.com/zntfdr) in his [article](https://www.fivestars.blog/articles/spm-5-4).
+[Ted Kremenek](https://twitter.com/tkremenek) in his Swift blog [post](https://swift.org/blog/swift-5-4-released) announced the official release of Swift 5.4, alternatively get familiar with new Swift language features by reviewing [code examples](https://www.whatsnewinswift.com/?from=5.3&to=5.4) created by [Paul Hudson](https://twitter.com/twostraws) and main changes to Swift Package Manager are described by [Federico Zanetello](https://twitter.com/zntfdr) in his [article](https://www.fivestars.blog/articles/spm-5-4).
 
 ### Updates to age rating settings in App Store Connect
 
-[Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=fwpxy9kw)
+An age rating is a required application information property used by the parental controls on the App Store. [Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=fwpxy9kw) describe changes to App Store Connect age rating settings.
 
 ### App Store submission update
 
-Starting April 26, 2021, all iPhone and iPad apps submitted to the App Store must be built with Xcode 12 and the iOS 14 SDK or later. The iOS SDK provides access to exciting new features like App Clips, Home screen widgets, ARKit, RealityKit, and much more.
-[Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=ib31uj1j)
+[Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=ib31uj1j) broadcasted that all iOS, iPadOS and watchOS applications submitted to the App Store must be built with Xcode 12 starting the 26<sup>th</sup> of April.
 
 ### WWDC 2021
 
@@ -27,23 +26,23 @@ An all-online [Apple Worldwide Developers Conference](https://developer.apple.co
 
 ### Swift keywords
 
-[article](https://www.swiftjectivec.com/swift-keywords-v-3-0-1) by [Jordan Morgan](https://twitter.com/jordanmorgan10)
+[Jordan Morgan](https://twitter.com/jordanmorgan10) has an [article](https://www.swiftjectivec.com/swift-keywords-v-3-0-1) explaining every single reserved keyword in Swift with added minimalistic code snippets to illustrate their use.
 
-### How to write `if case let` statements in Swift?
+### `if case let` statements in Swift
 
-[article](https://fuckingifcaseletsyntax.com) by [Zoë Smith](https://twitter.com/zoejessica)
+When working with enumerations ocasionally you may come accross enumeration cases with arguments. Using switch statement enables you to match enumeration values and optionally extract the associated values as constants or variables. Supposing your main point-of-iterest is a single enumeration case, as opposed to using default case to cover all remaining cases that aren’t addressed explicitly use `if case let` statement instead. [Zoë Smith](https://twitter.com/zoejessica) wrote an [article](https://fuckingifcaseletsyntax.com) explaining how to write them.
 
 ### Difference between a singleton and a shared instance
 
-[article](https://www.donnywals.com/whats-the-difference-between-a-singleton-and-a-shared-instance-in-swift) by [Donny Wals](https://twitter.com/DonnyWals)
+A common anti-pattern in Swift is to define an instance of an object that you can access in your application globaly. [Donny Wals](https://twitter.com/DonnyWals) draws the line between singleton and a shared instance in his [article](https://www.donnywals.com/whats-the-difference-between-a-singleton-and-a-shared-instance-in-swift).
 
 ### Error handling in Swift
 
-[article](https://www.avanderlee.com/swift/try-catch-throw-error-handling) by [Antoine van der Lee](https://twitter.com/twannl), [video](https://www.youtube.com/watch?v=Lrc-MX8WgNc) by [Sean Allen](https://twitter.com/seanallen_dev), and [article](https://www.hackingwithswift.com/example-code/language/how-to-use-try-catch-in-swift-to-handle-exceptions) by [Paul Hudson](https://twitter.com/twostraws)
+Some operations aren’t guaranteed to always complete execution or produce a useful output and when an operation fails, it’s often useful to understand what caused the failure, so that you can respond to and recover from an error conditions accordingly. Visit [article](https://www.avanderlee.com/swift/try-catch-throw-error-handling) by [Antoine van der Lee](https://twitter.com/twannl), [article](https://www.hackingwithswift.com/example-code/language/how-to-use-try-catch-in-swift-to-handle-exceptions) by [Paul Hudson](https://twitter.com/twostraws), and [video](https://www.youtube.com/watch?v=Lrc-MX8WgNc) by [Sean Allen](https://twitter.com/seanallen_dev) to learn about emitting and handling errors.
 
-### Auto layout in Swift
+### Auto Layout in Swift
 
-MISSING
+Auto Layout constraints empower us to create views that dynamically adjust to different size classes and positions. The constraints will make sure that views dynamically respond to both internal and external changes. In his [video](https://www.youtube.com/watch?v=emojd8GFB0o) [Chris Ching](https://twitter.com/codewithchris) teaches how to size and position user interface elements by setting contraints in Interface Builder and [Antoine van der Lee](https://twitter.com/twannl) has an [article](https://www.avanderlee.com/swift/auto-layout-programmatically) that will help you create constraints programmatically.
 
 ## Tutorials
 
