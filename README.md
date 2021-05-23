@@ -4,19 +4,21 @@
 
 ![Issue](https://img.shields.io/badge/issue-1.5-informational.svg)
 
+PREFIX
+
 ## News
 
 ### Swift 5.4
 
-[Ted Kremenek](https://twitter.com/tkremenek) in his Swift blog [post](https://swift.org/blog/swift-5-4-released) announced the official release of Swift 5.4, alternatively get familiar with new Swift language features by reviewing [code examples](https://www.whatsnewinswift.com/?from=5.3&to=5.4) created by [Paul Hudson](https://twitter.com/twostraws) and main changes to Swift Package Manager are described by [Federico Zanetello](https://twitter.com/zntfdr) in his [article](https://www.fivestars.blog/articles/spm-5-4).
+[Ted Kremenek](https://twitter.com/tkremenek) in his Swift blog [post](https://swift.org/blog/swift-5-4-released) announced the official release of Swift 5.4, alternatively get familiar with new Swift language features by reviewing [code examples](https://www.whatsnewinswift.com/?from=5.3&to=5.4) created by [Paul Hudson](https://twitter.com/twostraws), and main changes to Swift Package Manager are described by [Federico Zanetello](https://twitter.com/zntfdr) in his [article](https://www.fivestars.blog/articles/spm-5-4).
 
 ### Updates to age rating settings in App Store Connect
 
-An age rating is a required application information property used by the parental controls on the App Store. [Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=fwpxy9kw) describe changes to App Store Connect age rating settings.
+An age rating is a required application information property used by the parental controls on the App Store. [Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=fwpxy9kw) describes changes to App Store Connect age rating settings.
 
 ### App Store submission update
 
-[Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=ib31uj1j) broadcasted that all iOS, iPadOS and watchOS applications submitted to the App Store must be built with Xcode 12 starting the 26<sup>th</sup> of April.
+[Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=ib31uj1j) broadcasted that all iOS, iPadOS, and watchOS applications submitted to the App Store must be built with Xcode 12 starting the 26<sup>th</sup> of April.
 
 ### WWDC 2021
 
@@ -30,29 +32,29 @@ An age rating is a required application information property used by the parenta
 
 ### `if case let` statements in Swift
 
-When working with enumerations ocasionally you may come accross enumeration cases with arguments. Using switch statement enables you to match enumeration values and optionally extract the associated values as constants or variables. Supposing your main point-of-iterest is a single enumeration case, as opposed to using default case to cover all remaining cases that aren’t addressed explicitly use `if case let` statement instead. [Zoë Smith](https://twitter.com/zoejessica) wrote an [article](https://fuckingifcaseletsyntax.com) explaining how to write them.
+When working with enumerations occasionally you may come across enumeration cases with arguments. Using a switch statement enables you to match enumeration values and optionally extract the associated values as constants or variables. Supposing your main point of interest is a single enumeration case, as opposed to using default case to cover all remaining cases that aren’t addressed explicitly use `if case let` statement instead. [Zoë Smith](https://twitter.com/zoejessica) wrote an [article](https://fuckingifcaseletsyntax.com) explaining how to write them.
 
 ### Difference between a singleton and a shared instance
 
-A common anti-pattern in Swift is to define an instance of an object that you can access in your application globaly. [Donny Wals](https://twitter.com/DonnyWals) draws the line between singleton and a shared instance in his [article](https://www.donnywals.com/whats-the-difference-between-a-singleton-and-a-shared-instance-in-swift).
+A common anti-pattern in Swift is to define an instance of an object that you can access in your application globally. [Donny Wals](https://twitter.com/DonnyWals) draws the line between singleton and a shared instance in his [article](https://www.donnywals.com/whats-the-difference-between-a-singleton-and-a-shared-instance-in-swift).
 
 ### Error handling in Swift
 
-Some operations aren’t guaranteed to always complete execution or produce a useful output and when an operation fails, it’s often useful to understand what caused the failure, so that you can respond to and recover from an error conditions accordingly. Visit [article](https://www.avanderlee.com/swift/try-catch-throw-error-handling) by [Antoine van der Lee](https://twitter.com/twannl), [article](https://www.hackingwithswift.com/example-code/language/how-to-use-try-catch-in-swift-to-handle-exceptions) by [Paul Hudson](https://twitter.com/twostraws), and [video](https://www.youtube.com/watch?v=Lrc-MX8WgNc) by [Sean Allen](https://twitter.com/seanallen_dev) to learn about emitting and handling errors.
+Some operations aren’t guaranteed to always complete execution or produce a useful output and when an operation fails, it’s often useful to understand what caused the failure, so that you can respond to and recover from error conditions accordingly. Visit the [article](https://www.avanderlee.com/swift/try-catch-throw-error-handling) by [Antoine van der Lee](https://twitter.com/twannl), [article](https://www.hackingwithswift.com/example-code/language/how-to-use-try-catch-in-swift-to-handle-exceptions) by [Paul Hudson](https://twitter.com/twostraws), and [video](https://www.youtube.com/watch?v=Lrc-MX8WgNc) by [Sean Allen](https://twitter.com/seanallen_dev) to learn about emitting and handling errors.
 
 ### Auto Layout in Swift
 
-Auto Layout constraints empower us to create views that dynamically adjust to different size classes and positions. The constraints will make sure that views dynamically respond to both internal and external changes. In his [video](https://www.youtube.com/watch?v=emojd8GFB0o) [Chris Ching](https://twitter.com/codewithchris) teaches how to size and position user interface elements by setting contraints in Interface Builder and [Antoine van der Lee](https://twitter.com/twannl) has an [article](https://www.avanderlee.com/swift/auto-layout-programmatically) that will help you create constraints programmatically.
+Auto Layout constraints empower us to create views that dynamically adjust to different size classes and positions. The constraints will make sure that views dynamically respond to both internal and external changes. In his [video](https://www.youtube.com/watch?v=emojd8GFB0o), [Chris Ching](https://twitter.com/codewithchris) teaches how to size and position user interface elements by setting constraints in Interface Builder and [Antoine van der Lee](https://twitter.com/twannl) has an [article](https://www.avanderlee.com/swift/auto-layout-programmatically) that will help you create constraints programmatically.
 
 ## Tutorials
 
 ### iOS unit and UI testing
 
-There is nothing worse than to find out some functionality of application you're building doesn't work when it previously did. When scaling and optimizing our applications we often revisit previous implementations in our codebases'. It is crucial to be confident that no defects have been introduced when releasing new features. Purpose of well-written tests is to reassure. In [tutorial](https://www.raywenderlich.com/21020457-ios-unit-testing-and-ui-testing-tutorial) written by [Audrey Tam](https://twitter.com/mataharimau) and updated by [David Piper](https://twitter.com/HeyDaveTheDev) you can learn how to write test cases, imitate services, and gather test coverage.
+There is nothing worse than to find out some functionality of the application you're building doesn't work when it previously did. When scaling and optimizing our applications we often revisit previous implementations in our codebases. It is crucial to be confident that no defects have been introduced when releasing new features. The purpose of well-written tests is to reassure. In a [tutorial](https://www.raywenderlich.com/21020457-ios-unit-testing-and-ui-testing-tutorial) written by [Audrey Tam](https://twitter.com/mataharimau) and updated by [David Piper](https://twitter.com/HeyDaveTheDev) you can learn how to write test cases, imitate services, and gather test coverage.
 
 ### Geofencing with `UNLocationNotificationTrigger`
 
-In [tutorial](https://www.raywenderlich.com/20690666-location-notifications-with-unlocationnotificationtrigger) by [Graham Connolly](https://www.linkedin.com/in/graham-connolly-37756a53) learn how to use  `UNLocationNotificationTrigger` to schedule a local notification to be delivered when device enters or leaves a specific geographic region.
+In [tutorial](https://www.raywenderlich.com/20690666-location-notifications-with-unlocationnotificationtrigger) by [Graham Connolly](https://www.linkedin.com/in/graham-connolly-37756a53) learn how to use  `UNLocationNotificationTrigger` to schedule a local notification to be delivered when a device enters or leaves a specific geographic region.
 
 ### Monitoring for iOS with `MetricKit`
 
@@ -60,14 +62,14 @@ In iOS 13 Apple introduced [MetricKit](https://developer.apple.com/documentation
 
 ## Enhanced programming
 
-### Logging into application with Face ID or Touch ID
+### Logging into the application with Face ID or Touch ID
 
-Supplement your own authentication scheme with biometric authentication, making it easy for users to access sensitive parts of your app.
+Supplement your authentication scheme with biometric authentication, making it easy for users to access sensitive parts of your app.
 [sample code](https://developer.apple.com/documentation/localauthentication/logging_a_user_into_your_app_with_face_id_or_touch_id) by [Apple](https://twitter.com/apple)
 
 ### Improving application's performance
 
-Model, measure, and boost the performance of your app by using a continuous-improvement cycle.
+Model, measure and boost the performance of your app by using a continuous improvement cycle.
 [article](https://developer.apple.com/documentation/metrickit/improving_your_app_s_performance) by [Apple](https://twitter.com/apple)
 
 ### Pushing background updates
@@ -114,7 +116,7 @@ Apple in their news [article](https://developer.apple.com/news/?id=8h0btjq7) inc
 
 [article](https://dev.to/midhetfatema94/uiview-animations-in-swift-5cnj) by [Midhet Sulemani](https://twitter.com/itsnotmidget)
 
-### `print` in depth
+### `print` in-depth
 
 [article](https://www.andyibanez.com/posts/swift-print-in-depth) by [Andy Ibanez](https://twitter.com/AndyIbanezK)
 
@@ -171,13 +173,13 @@ Apple in their news [article](https://developer.apple.com/news/?id=8h0btjq7) inc
 
 ### Accenture workstations running macOS Big Sur VPN connectivity issues
 
-After the recent security updates for macOS Big Sur 11.3 and 11.3.1, you may be experiencing issues with connecting to VPN on Accenture workstation. [Article](https://in.accenture.com/mycomputer/mac-workstation-vpn-configuration) describes workaround which leverages an older method of connecting to VPN via the Safari web browser. 
+After the recent security updates for macOS Big Sur 11.3 and 11.3.1, you may be experiencing issues with connecting to VPN on the Accenture workstation. The [article](https://in.accenture.com/mycomputer/mac-workstation-vpn-configuration) describes a workaround that leverages an older method of connecting to VPN via the Safari web browser. 
 
 If you are in a Client Delivery Location, contact your local support channels for any questions or issues. 
 
-### Xcode 12.5 iOS simulator HTTPs traffic recording issues using Charles Proxy
+### Xcode 12.5 iOS simulator HTTPS traffic recording issues using Charles Proxy
 
-If you're like me, and were unable to use Charles Proxy SSL proxying from the Xcode 12.5 iOS simulator, [Simon Støvring](https://twitter.com/simonbs) in his Twitter [thread](https://twitter.com/simonbs/status/1382578719412338691) highlights that “Install Charles Root Certificate in iOS Simulators” doesn't work with Xcode 12.5. You work around that by manually exporting certificate, draging it into simulator, and trusting it.
+If you're like me and were unable to use Charles Proxy SSL proxying from the Xcode 12.5 iOS simulator, [Simon Støvring](https://twitter.com/simonbs) in his Twitter [thread](https://twitter.com/simonbs/status/1382578719412338691) highlights that “Install Charles Root Certificate in iOS Simulators” doesn't work with Xcode 12.5. You work around that by manually exporting the certificate, dragging it into the simulator, and trusting it.
 
 ### Integrating the Firebase App Distribution iOS SDK
 
@@ -193,17 +195,17 @@ Google I/O 2021 had a [codelab](https://firebase.google.com/codelabs/appdistribu
 
 [Sarun Wongpatcharapakornand](https://twitter.com/sarunw) has an [article](https://sarunw.com/posts/multi-cursor-editing-in-xcode) illustrating how to enable multi-cursor editing and provides a couple of usage examples.
 
-### Output object's contents using its mirror to the stream using `dump`
+### Output object's contents using its mirror to the stream using `dump` function
 
-All of us have used `print` function in debuging, [Vincent Pradeilles](https://twitter.com/v_pradeilles) created a [video](https://www.youtube.com/watch?v=fyjdnqLvJcc) to point out that there exists a powerful alternative - `dump` function.
+All of us have used the `print` function in debugging, [Vincent Pradeilles](https://twitter.com/v_pradeilles) created a [video](https://www.youtube.com/watch?v=fyjdnqLvJcc) to point out that there exists a powerful alternative - `dump` function.
 
 ### Detecting a retain cycle in a view controller
 
-Apple offers sophisticated tools, such as Instruments (using Allocations and Leaks profiling templates) and Memory Graph Debugger, for debugging memory leaks, however empirically for many cases adding `print` statement to deinitializer of a view controller is suffecient to detect a retain cycle. In reference to [Cédric Luthi's](https://twitter.com/0xced) Twitter [post](https://twitter.com/0xced/status/900692839557992449) [Sarun Wongpatcharapakornand](https://twitter.com/sarunw) wrote an [article](https://sarunw.com/posts/easy-way-to-detect-retain-cycle-in-view-controller) encouraging to use a Symbolic Breakpoint to play a sound when a view controller is deinitialized to help detect retain cycles.
+Apple offers sophisticated tools, such as Instruments (using Allocations and Leaks profiling templates) and Memory Graph Debugger, for debugging memory leaks, however empirically for many cases adding a `print` statement to the deinitializer of a view controller is sufficient to detect a retain cycle. Referring to [Cédric Luthi's](https://twitter.com/0xced) Twitter [post](https://twitter.com/0xced/status/900692839557992449) [Sarun Wongpatcharapakornand](https://twitter.com/sarunw) wrote an [article](https://sarunw.com/posts/easy-way-to-detect-retain-cycle-in-view-controller) encouraging to use of a Symbolic Breakpoint to play a sound when a view controller is deinitialized to help detect retain cycles.
 
 ### Documentation deep linking into source code
 
-[Jordan Morgan](https://twitter.com/JordanMorgan10) in his Twitter [post](https://twitter.com/JordanMorgan10/status/1384865768039399430) shows how to deep link from a markdown file to source code.
+[Jordan Morgan](https://twitter.com/JordanMorgan10) in his Twitter [post](https://twitter.com/JordanMorgan10/status/1384865768039399430) shows how to deep-link from a markdown file to source code.
 
 ### Recording videos using an iOS simulator and saving them as animated GIF images
 
@@ -211,8 +213,8 @@ Apple offers sophisticated tools, such as Instruments (using Allocations and Lea
 
 ### The LLDB Debugger `v` command preference over `po` command
 
-[Dave Lee](https://twitter.com/kastiglione) in his Twitter [post](https://twitter.com/kastiglione/status/1392565131826003971) added to [Krzysztof Zabłocki's](https://twitter.com/merowing_) Twitter [post](https://twitter.com/merowing_/status/1392389928844156928) promoting the use of LLDB Debugger `v` command which is fater because it doesn’t compile and execute any code.
-Additionally [Michael Dube](https://twitter.com/dubemike) had written an [article](https://medium.com/@dubemike/level-up-your-debugging-skills-with-lldbs-v-p-and-po-commands-fec76c1ffee) describing LLDB Debugger three basic commands - `po`, `p`, and `v`.
+[Dave Lee](https://twitter.com/kastiglione) in his Twitter [post](https://twitter.com/kastiglione/status/1392565131826003971) added to [Krzysztof Zabłocki's](https://twitter.com/merowing_) Twitter [post](https://twitter.com/merowing_/status/1392389928844156928) promoting the use of LLDB Debugger `v` command which is faster because it doesn’t compile and execute any code.
+Additionally, [Michael Dube](https://twitter.com/dubemike) had written an [article](https://medium.com/@dubemike/level-up-your-debugging-skills-with-lldbs-v-p-and-po-commands-fec76c1ffee) describing LLDB Debugger's three basic commands - `po`, `p`, and `v`.
 
 <br>
 <p align="center">
