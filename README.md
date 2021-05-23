@@ -169,55 +169,50 @@ Apple in their news [article](https://developer.apple.com/news/?id=8h0btjq7) inc
 
 ## Tools
 
-### macOS Big Sur Accenture workstation VPN connectivity issues
+### Accenture workstations running macOS Big Sur VPN connectivity issues
 
-You are currently participating in the macOS Big Sur pilot. After the recent security updates for Big Sur 11.3 and 11.3.1, you may be experiencing issues with connecting to VPN from your Accenture-deployed Mac.
-Please follow the steps under the [article](https://in.accenture.com/mycomputer/mac-workstation-vpn-configuration) section which leverage the older method of connecting to VPN via the Safari browser if you experience issues with connecting to VPN on Big Sur.
+After the recent security updates for macOS Big Sur 11.3 and 11.3.1, you may be experiencing issues with connecting to VPN on Accenture workstation. [Article](https://in.accenture.com/mycomputer/mac-workstation-vpn-configuration) describes workaround which leverages an older method of connecting to VPN via the Safari web browser. 
 
 If you are in a Client Delivery Location, contact your local support channels for any questions or issues. 
 
 ### Xcode 12.5 iOS simulator HTTPs traffic recording issues using Charles Proxy
 
-[Simon Støvring](https://twitter.com/simonbs) in his Twitter [thread](https://twitter.com/simonbs/status/1382578719412338691)
+If you're like me, and were unable to use Charles Proxy SSL proxying from the Xcode 12.5 iOS simulator, [Simon Støvring](https://twitter.com/simonbs) in his Twitter [thread](https://twitter.com/simonbs/status/1382578719412338691) highlights that “Install Charles Root Certificate in iOS Simulators” doesn't work with Xcode 12.5. You work around that by manually exporting certificate, draging it into simulator, and trusting it.
 
 ### Integrating the Firebase App Distribution iOS SDK
 
-Google I/O 2021
-[workshop](https://events.google.com/io/session/78925eb3-8781-4475-af7d-431b180b9b33) by [Ibrahim Ulukaya](https://twitter.com/iulukaya)
+Google I/O 2021 had a [codelab](https://firebase.google.com/codelabs/appdistribution-ios#0) and a [workshop](https://events.google.com/io/session/78925eb3-8781-4475-af7d-431b180b9b33) hosted by [Ibrahim Ulukaya](https://twitter.com/iulukaya) that help you integrate the Firebase App Distribution iOS SDK to distribute new releases and trigger new build in-app alerts.
 
-### A complete guide for Apple's devices' displays
+### A complete guide for Apple's devices' screen sizes
 
-Screen Sizes application. A complete guide for Apple displays.
-[Screen Sizes](https://www.screensizes.app) developed by [Trevor Kay](https://twitter.com/trevormkay) and [Christopher Muller](https://twitter.com/CHRISmullerWEB) of [Toast Studio](https://apps.apple.com/au/developer/toast-studio-australia/id1384420827)
+[Screen Sizes](https://www.screensizes.app) application developed by [Trevor Kay](https://twitter.com/trevormkay) and [Christopher Muller](https://twitter.com/CHRISmullerWEB) is a great reference source for all Apple's devices' screen sizes.
 
 ## Tips ![new](https://img.shields.io/badge/new-success.svg)
 
 ### Multi-cursor editing in Xcode
 
-[article](https://sarunw.com/posts/multi-cursor-editing-in-xcode) by [Sarun Wongpatcharapakornand](https://twitter.com/sarunw)
+[Sarun Wongpatcharapakornand](https://twitter.com/sarunw) has an [article](https://sarunw.com/posts/multi-cursor-editing-in-xcode) illustrating how to enable multi-cursor editing and provides a couple of usage examples.
 
-### Output structured objects to console using `dump`
+### Output object's contents using its mirror to the stream using `dump`
 
-Dumps the given object's contents using its mirror to the specified output stream. Dumps the given object's contents using its mirror to standard output.
-[video](https://www.youtube.com/watch?v=fyjdnqLvJcc) by [Vincent Pradeilles](https://twitter.com/v_pradeilles)
+All of us have used `print` function in debuging, [Vincent Pradeilles](https://twitter.com/v_pradeilles) created a [video](https://www.youtube.com/watch?v=fyjdnqLvJcc) to point out that there exists a powerful alternative - `dump` function.
 
 ### Detecting a retain cycle in a view controller
 
-Using breakpoint's sound action to detect a retain cycle in a view controller.
-[article](https://sarunw.com/posts/easy-way-to-detect-retain-cycle-in-view-controller) by [Sarun Wongpatcharapakornand](https://twitter.com/sarunw)
+Apple offers sophisticated tools, such as Instruments (using Allocations and Leaks profiling templates) and Memory Graph Debugger, for debugging memory leaks, however empirically for many cases adding `print` statement to deinitializer of a view controller is suffecient to detect a retain cycle. In reference to [Cédric Luthi's](https://twitter.com/0xced) Twitter [post](https://twitter.com/0xced/status/900692839557992449) [Sarun Wongpatcharapakornand](https://twitter.com/sarunw) wrote an [article](https://sarunw.com/posts/easy-way-to-detect-retain-cycle-in-view-controller) encouraging to use a Symbolic Breakpoint to play a sound when a view controller is deinitialized to help detect retain cycles.
 
 ### Documentation deep linking into source code
 
-Twitter [post](https://twitter.com/JordanMorgan10/status/1384865768039399430) by [Jordan Morgan](https://twitter.com/JordanMorgan10)
+[Jordan Morgan](https://twitter.com/JordanMorgan10) in his Twitter [post](https://twitter.com/JordanMorgan10/status/1384865768039399430) shows how to deep link from a markdown file to source code.
 
-### Recording videos using iOS simulator and saving them as animated GIF images
+### Recording videos using an iOS simulator and saving them as animated GIF images
 
-[article](https://www.appcoda.com/xcode-simulator-animated-gif)  by [Simon Ng](https://twitter.com/simonng)
+[Simon Ng](https://twitter.com/simonng) wrote an [article](https://www.appcoda.com/xcode-simulator-animated-gif) explaining how to record videos and save them as animated GIF images using Xcode 12.5 iOS simulator's capabilities.
 
-### The LLDB Debuger `v` command preference over `po` command
+### The LLDB Debugger `v` command preference over `po` command
 
-[Dave Lee](https://twitter.com/kastiglione) in his Twitter [post](https://twitter.com/kastiglione/status/1392565131826003971) added to [Krzysztof Zabłocki's](https://twitter.com/merowing_) Twitter [post](https://twitter.com/merowing_/status/1392389928844156928).
-[article](https://medium.com/@dubemike/level-up-your-debugging-skills-with-lldbs-v-p-and-po-commands-fec76c1ffee) by [Michael Dube](https://twitter.com/dubemike)
+[Dave Lee](https://twitter.com/kastiglione) in his Twitter [post](https://twitter.com/kastiglione/status/1392565131826003971) added to [Krzysztof Zabłocki's](https://twitter.com/merowing_) Twitter [post](https://twitter.com/merowing_/status/1392389928844156928) promoting the use of LLDB Debugger `v` command which is fater because it doesn’t compile and execute any code.
+Additionally [Michael Dube](https://twitter.com/dubemike) had written an [article](https://medium.com/@dubemike/level-up-your-debugging-skills-with-lldbs-v-p-and-po-commands-fec76c1ffee) describing LLDB Debugger three basic commands - `po`, `p`, and `v`.
 
 <br>
 <p align="center">
