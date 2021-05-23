@@ -20,7 +20,7 @@ An age rating is a required application information property used by the parenta
 
 ### WWDC 2021
 
-An all-online [Apple Worldwide Developers Conference](https://developer.apple.com/wwdc21) will be taking place on Monday, the 7th of June.
+[Apple Worldwide Developers Conference](https://developer.apple.com/wwdc21) is just around the corner, an all-online event will be taking place on Monday, the 7th of June.
 
 ## Fundamentals
 
@@ -46,18 +46,17 @@ Auto Layout constraints empower us to create views that dynamically adjust to di
 
 ## Tutorials
 
-### iOS Unit and UI Testing
+### iOS unit and UI testing
 
-[tutorial](https://www.raywenderlich.com/21020457-ios-unit-testing-and-ui-testing-tutorial) written by [Audrey Tam](https://twitter.com/mataharimau) and updated by [David Piper](https://twitter.com/HeyDaveTheDev)
+There is nothing worse than to find out some functionality of application you're building doesn't work when it previously did. When scaling and optimizing our applications we often revisit previous implementations in our codebases'. It is crucial to be confident that no defects have been introduced when releasing new features. Purpose of well-written tests is to reassure. In [tutorial](https://www.raywenderlich.com/21020457-ios-unit-testing-and-ui-testing-tutorial) written by [Audrey Tam](https://twitter.com/mataharimau) and updated by [David Piper](https://twitter.com/HeyDaveTheDev) you can learn how to write test cases, imitate services, and gather test coverage.
 
-### Location Notifications with UNLocationNotificationTrigger
+### Geofencing with `UNLocationNotificationTrigger`
 
-Learn how to use UNLocationNotificationTrigger to set up location-triggered notifications for your iOS app.
-[tutorial](https://www.raywenderlich.com/20690666-location-notifications-with-unlocationnotificationtrigger) by [Graham Connolly](https://www.linkedin.com/in/graham-connolly-37756a53)
+In [tutorial](https://www.raywenderlich.com/20690666-location-notifications-with-unlocationnotificationtrigger) by [Graham Connolly](https://www.linkedin.com/in/graham-connolly-37756a53) learn how to use  `UNLocationNotificationTrigger` to schedule a local notification to be delivered when device enters or leaves a specific geographic region.
 
 ### Monitoring for iOS with `MetricKit`
 
-[tutorial](https://www.raywenderlich.com/20952676-monitoring-for-ios-with-metrickit-getting-started) by [Adam Rush](https://twitter.com/adam9rush)
+In iOS 13 Apple introduced [MetricKit](https://developer.apple.com/documentation/metrickit) to help you receive on-device application diagnostics as well as power and performance metrics captured by the system. [Adam Rush](https://twitter.com/adam9rush) has created a [tutorial](https://www.raywenderlich.com/20952676-monitoring-for-ios-with-metrickit-getting-started), where you'll explore framework APIs by simulating receiving diagnostics in Xcode.
 
 ## Enhanced programming
 
