@@ -44,7 +44,7 @@ Some operations aren’t guaranteed to always complete execution or produce a us
 
 ### Auto Layout in Swift
 
-Auto Layout constraints empower us to create views that dynamically adjust to different size classes and positions. The constraints will make sure that views dynamically respond to both internal and external changes. In his [video](https://www.youtube.com/watch?v=emojd8GFB0o), [Chris Ching](https://twitter.com/codewithchris) teaches how to size and position user interface elements by setting constraints in Interface Builder and [Antoine van der Lee](https://twitter.com/twannl) has an [article](https://www.avanderlee.com/swift/auto-layout-programmatically) that will help you create constraints programmatically.
+Auto Layout constraints empower us to create views that dynamically adjust to different size classes and positions. The constraints will make sure that views dynamically respond to both internal and external changes. In his [video](https://www.youtube.com/watch?v=emojd8GFB0o), [Chris Ching](https://twitter.com/codewithchris) teaches how to size and position user interface elements by setting constraints in Interface Builder, [Antoine van der Lee](https://twitter.com/twannl) has an [article](https://www.avanderlee.com/swift/auto-layout-programmatically) that will help you create constraints programmatically, and [Paul Hudson](https://twitter.com/twostraws) had created a [cheet sheet](https://www.hackingwithswift.com/articles/140/the-auto-layout-cheat-sheet) addressing common Auto Layout requirements.
 
 ## Tutorials
 
@@ -60,121 +60,117 @@ In [tutorial](https://www.raywenderlich.com/20690666-location-notifications-with
 
 In iOS 13 Apple introduced [MetricKit](https://developer.apple.com/documentation/metrickit) to help you receive on-device application diagnostics as well as power and performance metrics captured by the system. [Adam Rush](https://twitter.com/adam9rush) has created a [tutorial](https://www.raywenderlich.com/20952676-monitoring-for-ios-with-metrickit-getting-started), where you'll explore framework APIs by simulating receiving diagnostics in Xcode.
 
+### `UIView` animations
+
+[Midhet Sulemani](https://twitter.com/itsnotmidget) in her [tutorial](https://dev.to/midhetfatema94/uiview-animations-in-swift-5cnj) tutors about animatable properties of `UIView` class.
+
 ## Enhanced programming
 
 ### Logging into the application with Face ID or Touch ID
 
-Supplement your authentication scheme with biometric authentication, making it easy for users to access sensitive parts of your app.
-[sample code](https://developer.apple.com/documentation/localauthentication/logging_a_user_into_your_app_with_face_id_or_touch_id) by [Apple](https://twitter.com/apple)
+[Apple](https://twitter.com/apple) provides a [sample code](https://developer.apple.com/documentation/localauthentication/logging_a_user_into_your_app_with_face_id_or_touch_id) showing how you can supplement your authentication scheme with biometric authentication, making it easy for users to access sensitive parts of your application.
 
 ### Improving application's performance
 
-Model, measure and boost the performance of your app by using a continuous improvement cycle.
-[article](https://developer.apple.com/documentation/metrickit/improving_your_app_s_performance) by [Apple](https://twitter.com/apple)
+[Apple](https://twitter.com/apple) describes continuous-improvement cycle and shares a list of resources to model, measure and boost the performance of your application in following [article](https://developer.apple.com/documentation/metrickit/improving_your_app_s_performance).
 
 ### Pushing background updates
 
-Deliver notifications that wake your app and update it in the background.
-[article](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/pushing_background_updates_to_your_app) by [Apple](https://twitter.com/apple)
+[Apple](https://twitter.com/apple) has an [article](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/pushing_background_updates_to_your_app) detailing how to deliver background notification to wake your application without displaying an alert, playing a sound, or adding badge to your application's icon and updating it in the background.
 
-### Customizing the appearance of notifications
+### Customizing the appearance of iOS application's notification alerts
 
-Customize the appearance of your iOS app’s notification alerts with a notification content app extension.
-[article](https://developer.apple.com/documentation/usernotificationsui/customizing_the_appearance_of_notifications) by [Apple](https://twitter.com/apple)
+[Apple](https://twitter.com/apple) has an [article](https://developer.apple.com/documentation/usernotificationsui/customizing_the_appearance_of_notifications) guiding you through the process of customizing the appearance of your iOS application’s notification alerts with a notification content application extension.
 
 ### Extending capabilities of an iOS simulator
 
-[article](https://medium.com/flawless-app-stories/simulator-on-steroids-c12774ca6b) by [Ahmed Sulaiman](https://twitter.com/ahmed_sulajman)
+[Ahmed Sulaiman](https://twitter.com/ahmed_sulajman) had written an [article](https://medium.com/flawless-app-stories/simulator-on-steroids-c12774ca6b) exploring various hidden features of an iOS simulator.
 
 ### Unit test best practices
 
-[article](https://www.avanderlee.com/swift/unit-tests-best-practices) by [Antoine van der Lee](https://twitter.com/twannl)
+When was the last time you've refactored and optimized your unit tests a not just added a new case? [Antoine van der Lee](https://twitter.com/twannl) in his [article](https://www.avanderlee.com/swift/unit-tests-best-practices) shares his rules for writing clean unit tests.
 
 ### Caching in Swift
 
-[article](https://swiftbysundell.com/articles/caching-in-swift) by [John Sundell](https://twitter.com/johnsundell)
+Caching data to avoid uneccessary work repetition will positively impact application's performance. No matter how optimized your approach to loading data is, not having to load data at all will always be faster — and caching can be a great way to achieve that. Learn how to cache data in [article](https://swiftbysundell.com/articles/caching-in-swift) by [John Sundell](https://twitter.com/johnsundell).
 
-### Every SwiftUI protocol explained
+### Every SwiftUI public protocol explained
 
-[article](https://www.fivestars.blog/articles/swiftui-protocols) by [Federico Zanetello](https://twitter.com/zntfdr)
+[Federico Zanetello](https://twitter.com/zntfdr) wrote an [article](https://www.fivestars.blog/articles/swiftui-protocols) where he looks at all of the exposed protocols in SwiftUI.
 
 ### Implementing `AppTrackingTransparency` framework
 
-Apple in their news [article](https://developer.apple.com/news/?id=8h0btjq7) incentivizes to prepare applications for upcoming public release. To access app-related data for tracking the user or the device all applications must use the AppTrackingTransparency framework to request the user's permission.
-[article](https://swiftsenpai.com/development/get-ready-apptrackingtransparency) by [Lee Kah Seng](https://twitter.com/Lee_Kah_Seng)
-[article](https://appfigures.com/resources/guides/att-prompt-copywriting) by [Ariel Michaeli](https://twitter.com/arielmichaeli)
+With the public releases of iOS 14.5, iPadOS 14.5, and tvOS 14.5, to access app-related data for tracking the user or the device all applications must use the `AppTrackingTransparency` framework to request the user's permission. [Lee Kah Seng](https://twitter.com/Lee_Kah_Seng) wrote an [article](https://swiftsenpai.com/development/get-ready-apptrackingtransparency) clarifying Identifier for Advertisers (IDFA) and how to request user's permission to gather data for tracking.
+Additionally, review [article](https://appfigures.com/resources/guides/att-prompt-copywriting) by [Ariel Michaeli](https://twitter.com/arielmichaeli) in which he he evaluates some of the pre-prompt examples and lays out rules to follow when creating one for yourself.
 
-### Coordinators and Tab Bars: A Love Story
+### Coordinator structural design pattern
 
-[article](https://holyswift.app/coordinators-and-tab-bars-a-love-story) by [Leonardo Maia Pugliese](https://twitter.com/Leo_Pugliese)
+Read [article](https://holyswift.app/coordinators-and-tab-bars-a-love-story) by [Leonardo Maia Pugliese](https://twitter.com/Leo_Pugliese) on how he solves a problem navigating from one tab navigation stack's topmost view controller to another tab navigation stack's topmost view controller implementing coordinator structural design pattern.
 
 ### Content-hugging and compression-resistance priorities
 
+When working with auto layout
 [article](https://abhimuralidharan.medium.com/ios-content-hugging-and-content-compression-resistance-priorities-476fb5828ef) by [Abhilash Muralidharan](https://twitter.com/abhilashkm1992)
-
-### UIView animations
-
-[article](https://dev.to/midhetfatema94/uiview-animations-in-swift-5cnj) by [Midhet Sulemani](https://twitter.com/itsnotmidget)
 
 ### `print` in-depth
 
-[article](https://www.andyibanez.com/posts/swift-print-in-depth) by [Andy Ibanez](https://twitter.com/AndyIbanezK)
+How many days you can last without calling `print` function? Learn how to customize and redirect output of print statements in [article](https://www.andyibanez.com/posts/swift-print-in-depth) by [Andy Ibanez](https://twitter.com/AndyIbanezK).
 
-### OSLog and Unified logging as recommended by Apple
+### `OSLog` and unified logging as recommended by Apple
 
-[article](https://www.avanderlee.com/debugging/oslog-unified-logging) by [Antoine van der Lee](https://twitter.com/twannl)
+Migrate from print statements to `OSLog` class, introduced in iOS 14, in combination with [Console](https://support.apple.com/guide/console/welcome/mac) application to debug issues more effeciently. [Antoine van der Lee](https://twitter.com/twannl) had written an[article](https://www.avanderlee.com/debugging/oslog-unified-logging) illustrating how to make that replacement.
 
-### Hacking native ARM64 binaries to run on the iOS Simulator
+### Hacking native ARM64 binaries to run on the iOS simulator
 
-[article](https://bogo.wtf/arm64-to-sim.html) by [Bogo Giertler](https://twitter.com/giertler)
+[Bogo Giertler](https://twitter.com/giertler) in his [article](https://bogo.wtf/arm64-to-sim.html) reports his findings on ARM64 architecture static library transmogrification.
 
 ### Debugging Core Data
 
-[article](https://useyourloaf.com/blog/debugging-core-data) by [Keith Harrison](https://twitter.com/kharrison)
+[Keith Harrison](https://twitter.com/kharrison) wrote an [article](https://useyourloaf.com/blog/debugging-core-data) highlighting valuable launch arguments and environmet variables you can add to your Xcode scheme to catch and debug Core Data issues.
 
 ### The `NSDateInterval` object
 
-[article](https://www.andyibanez.com/posts/the-nsdateinterval-object) by [Andy Ibanez](https://twitter.com/AndyIbanezK)
+[Andy Ibanez](https://twitter.com/AndyIbanezK) wrote an [article](https://www.andyibanez.com/posts/the-nsdateinterval-object) educating on how to use  `NSDateInterval` to calculate time interval between two dates or to check if a given date is withing a certain time frame.
 
-### Hash Functions in Swift
+### Hash functions in Swift
 
-[article](https://holyswift.app/hash-function-in-swift) by [Leonardo Maia Pugliese](https://twitter.com/Leo_Pugliese)
+Cryptography gained wider acknowledgement with the increasing popularity of cryptocurrencies. Hashing is a basic conpect of cryptography used to equate. Technique allows you to immediately know if both comperables are different without exposing details of comperable. In iOS 13, Apple released [CryptoKit](https://developer.apple.com/documentation/cryptokit) whereas previously you might have used [CryptoSwift](https://cryptoswift.io) developed by [Marcin Krzyżanowski](https://twitter.com/krzyzanowskim). [Leonardo Maia Pugliese](https://twitter.com/Leo_Pugliese) wrote an [article](https://holyswift.app/hash-function-in-swift) explaining what are hash values and how to create them using `CryptoKit`.
 
-### Automated Deployment with Fastlane on iOS
+### Automated deployment with fastlane on iOS
 
-[article](https://www.rubicon-world.com/blog/2019/05/automated-deployment-with-fastlane-on-ios) by [Sabahudin Kodro](https://twitter.com/cuperdino)
+Development effort is better spend elsewhere than manually generating and distributing application builds. Learn how to automate application deployment using [fastlane](https://fastlane.tools)
+in [article](https://www.rubicon-world.com/blog/2019/05/automated-deployment-with-fastlane-on-ios) by [Sabahudin Kodro](https://twitter.com/cuperdino).
 
-### Swift Actors
+### Swift actors
 
-[John McCall's](https://twitter.com/pathofshrines), [Doug Gregor's](https://twitter.com/dgregor79), [Konrad Malawski's](https://twitter.com/ktosopl), and [Chris Lattner's](https://twitter.com/clattner_llvm) proposal [SE-0306](https://github.com/apple/swift-evolution/blob/main/proposals/0306-actors.md) has been implemented and will be released as a part of the future version of Swift.
-[part 1](https://trycombine.com/posts/swift-actors) and [part 2](https://trycombine.com/posts/swift-actors-combine) by [Marin Todorov](https://twitter.com/icanzilb)
+[John McCall's](https://twitter.com/pathofshrines), [Doug Gregor's](https://twitter.com/dgregor79), [Konrad Malawski's](https://twitter.com/ktosopl), and [Chris Lattner's](https://twitter.com/clattner_llvm) proposal [SE-0306](https://github.com/apple/swift-evolution/blob/main/proposals/0306-actors.md) has been implemented and will be released as a part of the future version of Swift. An actor is a reference type that protects access to its mutable state, and is introduced with the keyword `actor`. Each actor protects its own data through actor isolation, ensuring that only a single thread will access that data at a given time, even when many clients are concurrently making requests. [Marin Todorov](https://twitter.com/icanzilb) wrote an [article](https://trycombine.com/posts/swift-actors) exploring Swift actors and supplies practical example.
+Additionally, a separate [article](https://trycombine.com/posts/swift-actors-combine) has been dedicated to Swift actors and [Combine](https://developer.apple.com/documentation/combine) framework.
 
-### How to set up iOS environments: develop, staging, and production
+### Setting up iOS environments
 
-[article](https://sarunw.com/posts/how-to-set-up-ios-environments) by [Sarun Wongpatcharapakornand](https://twitter.com/sarunw)
+We can't afford to develop and test our applications in the same environment that our users use, that can escallate quickly and put users at harms way. We require multiple environemts for our development. [Sarun Wongpatcharapakornand](https://twitter.com/sarunw) wrote an [article](https://sarunw.com/posts/how-to-set-up-ios-environments) demonstrating how to set up multiple environments.
 
-### Create a Dynamic Form in UIKit (Compositional Layout, Diffable Data Source, UICollectionView)
+### Create a dynamic form in UIKit
 
-[video](https://www.youtube.com/watch?v=4YIckjckiWI) by [Tunde Adegoroye](https://twitter.com/tundsdev) 
+Learn how to use `UICollectionViewCompositionalLayout` and `UICollectionViewDiffableDataSource` classes to build a scalable dynamic form in UIKit with self sizing collection view cells in [video](https://www.youtube.com/watch?v=4YIckjckiWI) by [Tunde Adegoroye](https://twitter.com/tundsdev) 
 
-### Allowing parallel iOS UI tests runs in CI
+### Allowing parallel iOS UI test runs in CI
 
-[article](https://blog.kulman.sk/parallel-ui-test-runs) by [Igor Kulman](https://twitter.com/igorkulman)
+If you have your CI machine that allows multiple jobs to run in parallel you most likely have encountered a problem that you cannot run multiple iOS UI tests in the same simulator at the same time. [Igor Kulman](https://twitter.com/igorkulman) in his [article](https://blog.kulman.sk/parallel-ui-test-runs) describes how to solve it by creating new iOS simulator instance for every job.
 
-### Testing In-App Purchases Locally in Simulator
+### Testing in-app purchases locally in iOS simulator
 
-[article](https://levelup.gitconnected.com/testing-in-app-purchases-locally-in-simulator-7cdfd5031462) by [Michael Abadi](https://twitter.com/michaelabadiii)
+During development of [Tripzy](https://apps.apple.com/th/app/tripzy/id1564625604) [Michael Abadi](https://twitter.com/michaelabadiii) discovered that you do not need a device with an internal tester account and you can test in-app purchases using simulator. Read about his findings in [article](https://levelup.gitconnected.com/testing-in-app-purchases-locally-in-simulator-7cdfd5031462).
 
-### Automatic Keyboard Avoidance for UIKit
+### UIKit automatic keyboard avoidance
 
-[article](https://swiftsenpai.com/development/uikit-keyboard-avoidance) by [Lee Kah Seng](https://twitter.com/Lee_Kah_Seng)
+Every iOS developer, at least once in their career, had to adjust layout of the interface to accomodate for surfacing keyboard frame. In iOS 14, Apple added automatic keyboard avoidance as a default behavior in SwiftUI. [Lee Kah Seng](https://twitter.com/Lee_Kah_Seng) wrote an [article](https://swiftsenpai.com/development/uikit-keyboard-avoidance) sharing with implementation to enable automatic keyboard avoidance in UIKit.
 
 ## Tools
 
 ### Accenture workstations running macOS Big Sur VPN connectivity issues
 
 After the recent security updates for macOS Big Sur 11.3 and 11.3.1, you may be experiencing issues with connecting to VPN on the Accenture workstation. The [article](https://in.accenture.com/mycomputer/mac-workstation-vpn-configuration) describes a workaround that leverages an older method of connecting to VPN via the Safari web browser. 
-
 If you are in a Client Delivery Location, contact your local support channels for any questions or issues. 
 
 ### Xcode 12.5 iOS simulator HTTPS traffic recording issues using Charles Proxy
@@ -201,7 +197,7 @@ All of us have used the `print` function in debugging, [Vincent Pradeilles](http
 
 ### Detecting a retain cycle in a view controller
 
-Apple offers sophisticated tools, such as Instruments (using Allocations and Leaks profiling templates) and Memory Graph Debugger, for debugging memory leaks, however empirically for many cases adding a `print` statement to the deinitializer of a view controller is sufficient to detect a retain cycle. Referring to [Cédric Luthi's](https://twitter.com/0xced) Twitter [post](https://twitter.com/0xced/status/900692839557992449) [Sarun Wongpatcharapakornand](https://twitter.com/sarunw) wrote an [article](https://sarunw.com/posts/easy-way-to-detect-retain-cycle-in-view-controller) encouraging to use of a Symbolic Breakpoint to play a sound when a view controller is deinitialized to help detect retain cycles.
+Apple offers sophisticated tools, such as Instruments (using Allocations and Leaks profiling templates) and Memory Graph Debugger, for debugging memory leaks, however empirically for many cases adding a print statement to the deinitializer of a view controller is sufficient to detect a retain cycle. Referring to [Cédric Luthi's](https://twitter.com/0xced) Twitter [post](https://twitter.com/0xced/status/900692839557992449) [Sarun Wongpatcharapakornand](https://twitter.com/sarunw) wrote an [article](https://sarunw.com/posts/easy-way-to-detect-retain-cycle-in-view-controller) encouraging to use of a Symbolic Breakpoint to play a sound when a view controller is deinitialized to help detect retain cycles.
 
 ### Documentation deep linking into source code
 
