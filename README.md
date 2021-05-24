@@ -28,7 +28,7 @@ An age rating is a required application information property used by the parenta
 
 ### WWDC 2021
 
-[Apple Worldwide Developers Conference](https://developer.apple.com/wwdc21) is just around the corner, an all-online event will be taking place on Monday, the 7th of June.
+[Apple Worldwide Developers Conference](https://developer.apple.com/wwdc21) is just around the corner, an all-online event will be taking place on Monday, the 7<sup>th</sup> of June.
 
 ## Fundamentals
 
@@ -100,9 +100,9 @@ When was the last time you've refactored and optimized your unit tests and not j
 
 Caching data to avoid unnecessary work repetition will positively impact the application's performance. No matter how optimized your approach to loading data is, not having to load data at all will always be faster — and caching can be a great way to achieve that. Learn how to cache data in an [article](https://swiftbysundell.com/articles/caching-in-swift) by [John Sundell](https://twitter.com/johnsundell).
 
-### Every SwiftUI public protocol explained
+### Every `SwiftUI` public protocol explained
 
-[Federico Zanetello](https://twitter.com/zntfdr) wrote an [article](https://www.fivestars.blog/articles/swiftui-protocols) where he looks at all of the exposed protocols in SwiftUI.
+[Federico Zanetello](https://twitter.com/zntfdr) wrote an [article](https://www.fivestars.blog/articles/swiftui-protocols) where he looks at all of the exposed protocols in `SwiftUI`.
 
 ### Implementing `AppTrackingTransparency` framework
 
@@ -150,9 +150,9 @@ Additionally, a separate [article](https://trycombine.com/posts/swift-actors-com
 
 We can't afford to develop and test our applications in the same environment that our users use, which can escalate quickly and put users in harm's way. We require multiple environments for our development. [Sarun Wongpatcharapakornand](https://twitter.com/sarunw) wrote an [article](https://sarunw.com/posts/how-to-set-up-ios-environments) demonstrating how to set up multiple environments.
 
-### Create a dynamic form in UIKit
+### Create a dynamic form in `UIKit`
 
-Learn how to use `UICollectionViewCompositionalLayout` and `UICollectionViewDiffableDataSource` classes to build a scalable dynamic form in UIKit with self-sizing collection view cells in a [video](https://www.youtube.com/watch?v=4YIckjckiWI) by [Tunde Adegoroye](https://twitter.com/tundsdev) 
+Learn how to use `UICollectionViewCompositionalLayout` and `UICollectionViewDiffableDataSource` classes to build a scalable dynamic form in `UIKit` with self-sizing collection view cells in a [video](https://www.youtube.com/watch?v=4YIckjckiWI) by [Tunde Adegoroye](https://twitter.com/tundsdev).
 
 ### Allowing parallel iOS UI test runs in CI
 
@@ -162,9 +162,9 @@ If your CI machine allows multiple jobs to run in parallel you most likely have 
 
 During the development of [Tripzy](https://apps.apple.com/th/app/tripzy/id1564625604) [Michael Abadi](https://twitter.com/michaelabadiii) discovered that you do not need a device with an internal tester account and you can test in-app purchases using a simulator. Read about his findings in the [article](https://levelup.gitconnected.com/testing-in-app-purchases-locally-in-simulator-7cdfd5031462).
 
-### UIKit automatic keyboard avoidance
+### `UIKit` automatic keyboard avoidance
 
-Every iOS developer, at least once in their career, had to adjust the layout of the interface to accommodate for surfacing keyboard frame. In iOS 14, Apple added automatic keyboard avoidance as the default behavior in SwiftUI. [Lee Kah Seng](https://twitter.com/Lee_Kah_Seng) wrote an [article](https://swiftsenpai.com/development/uikit-keyboard-avoidance) sharing implementation to enable automatic keyboard avoidance in UIKit.
+Every iOS developer, at least once in their career, had to adjust the layout of the interface to accommodate for surfacing keyboard frame. In iOS 14, Apple added automatic keyboard avoidance as the default behavior in `SwiftUI`. [Lee Kah Seng](https://twitter.com/Lee_Kah_Seng) wrote an [article](https://swiftsenpai.com/development/uikit-keyboard-avoidance) sharing implementation to enable automatic keyboard avoidance in `UIKit`.
 
 ## Tools
 
@@ -193,7 +193,7 @@ Google I/O 2021 had a [codelab](https://firebase.google.com/codelabs/appdistribu
 
 ### Output object's contents using its mirror to the stream using `dump` function
 
-All of us have used the `print` function in debugging, [Vincent Pradeilles](https://twitter.com/v_pradeilles) created a [video](https://www.youtube.com/watch?v=fyjdnqLvJcc) to point out that there exists a powerful alternative - `dump` function.
+All of us have used the `print` function in debugging, [Vincent Pradeilles](https://twitter.com/v_pradeilles) created a [video](https://www.youtube.com/watch?v=fyjdnqLvJcc) to point out that there exists a powerful alternative — `dump` function.
 
 ### Detecting a retain cycle in a view controller
 
@@ -210,7 +210,7 @@ Apple offers sophisticated tools, such as Instruments (using Allocations and Lea
 ### The LLDB Debugger `v` command preference over `po` command
 
 [Dave Lee](https://twitter.com/kastiglione) in his Twitter [post](https://twitter.com/kastiglione/status/1392565131826003971) added to [Krzysztof Zabłocki's](https://twitter.com/merowing_) Twitter [post](https://twitter.com/merowing_/status/1392389928844156928) promoting the use of LLDB Debugger `v` command which is faster because it doesn’t compile and execute any code.
-Additionally, [Michael Dube](https://twitter.com/dubemike) had written an [article](https://medium.com/@dubemike/level-up-your-debugging-skills-with-lldbs-v-p-and-po-commands-fec76c1ffee) describing LLDB Debugger's three basic commands - `po`, `p`, and `v`.
+Additionally, [Michael Dube](https://twitter.com/dubemike) had written an [article](https://medium.com/@dubemike/level-up-your-debugging-skills-with-lldbs-v-p-and-po-commands-fec76c1ffee) describing LLDB Debugger's three basic commands — `po`, `p`, and `v`.
 
 <br>
 <p align="center">
