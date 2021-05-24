@@ -1,10 +1,16 @@
 <img width="100%" alt="import IdeaKit - Swift Monthly Newsletter" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/title.svg" />
 
-###### 0 minute read
+###### 11 minute read
 
 ![Issue](https://img.shields.io/badge/issue-1.5-informational.svg)
 
-PREFIX
+Greetings!
+
+Another issue of the newsletter brings us another improvement. To spotlight helpful Twitter posts and minute articles with great bits of advice the _[Tips](#tips-)_ section has been added to the newsletter.
+
+As we are a single step away from summer and nature is flourishing, developers also use energy from the sun to fuel their creativity and increase their output, ahead of you is an extensive list of great sources of information.
+
+Happy learning!
 
 ## News
 
@@ -14,7 +20,7 @@ PREFIX
 
 ### Updates to age rating settings in App Store Connect
 
-An age rating is a required application information property used by the parental controls on the App Store. [Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=fwpxy9kw) describes changes to App Store Connect age rating settings.
+An age rating is a required application information property used by the parental controls on the App Store. [Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=fwpxy9kw) describe changes to App Store Connect age rating settings.
 
 ### App Store submission update
 
@@ -32,7 +38,7 @@ An age rating is a required application information property used by the parenta
 
 ### `if case let` statements in Swift
 
-When working with enumerations occasionally you may come across enumeration cases with arguments. Using a switch statement enables you to match enumeration values and optionally extract the associated values as constants or variables. Supposing your main point of interest is a single enumeration case, as opposed to using default case to cover all remaining cases that aren’t addressed explicitly use `if case let` statement instead. [Zoë Smith](https://twitter.com/zoejessica) wrote an [article](https://fuckingifcaseletsyntax.com) explaining how to write them.
+When working with enumerations occasionally you may come across enumeration cases with arguments. Using a switch statement enables you to match enumeration values and optionally extract the associated values as constants or variables. Supposing your main point of interest is a single enumeration case, as opposed to using default case to cover all remaining cases that aren’t addressed explicitly, use `if case let` statement instead. [Zoë Smith](https://twitter.com/zoejessica) wrote an [article](https://fuckingifcaseletsyntax.com) explaining how to write those statements.
 
 ### Difference between a singleton and a shared instance
 
@@ -44,7 +50,7 @@ Some operations aren’t guaranteed to always complete execution or produce a us
 
 ### Auto Layout in Swift
 
-Auto Layout constraints empower us to create views that dynamically adjust to different size classes and positions. The constraints will make sure that views dynamically respond to both internal and external changes. In his [video](https://www.youtube.com/watch?v=emojd8GFB0o), [Chris Ching](https://twitter.com/codewithchris) teaches how to size and position user interface elements by setting constraints in Interface Builder, [Antoine van der Lee](https://twitter.com/twannl) has an [article](https://www.avanderlee.com/swift/auto-layout-programmatically) that will help you create constraints programmatically, and [Paul Hudson](https://twitter.com/twostraws) had created a [cheat sheet](https://www.hackingwithswift.com/articles/140/the-auto-layout-cheat-sheet) addressing common Auto Layout requirements.
+Auto Layout constraints empower us to create views that dynamically adjust to different size classes and positions. The constraints will make sure that views dynamically respond to both internal and external changes. In his [video](https://www.youtube.com/watch?v=emojd8GFB0o), [Chris Ching](https://twitter.com/codewithchris) teaches how to size and position user interface elements by setting constraints in an Interface Builder, [Antoine van der Lee](https://twitter.com/twannl) has an [article](https://www.avanderlee.com/swift/auto-layout-programmatically) that will help you create constraints programmatically, and [Paul Hudson](https://twitter.com/twostraws) had created a [cheat sheet](https://www.hackingwithswift.com/articles/140/the-auto-layout-cheat-sheet) addressing common Auto Layout requirements.
 
 ## Tutorials
 
@@ -68,15 +74,15 @@ In iOS 13 Apple introduced [MetricKit](https://developer.apple.com/documentation
 
 ### Logging into the application with Face ID or Touch ID
 
-[Apple](https://twitter.com/apple) provides a [sample code](https://developer.apple.com/documentation/localauthentication/logging_a_user_into_your_app_with_face_id_or_touch_id) showing how you can supplement your authentication scheme with biometric authentication, making it easy for users to access sensitive parts of your application.
+[Apple](https://twitter.com/apple) provide a [sample code](https://developer.apple.com/documentation/localauthentication/logging_a_user_into_your_app_with_face_id_or_touch_id) showing how you can supplement your authentication scheme with biometric authentication, making it easy for users to access sensitive parts of your application.
 
 ### Improving application's performance
 
-[Apple](https://twitter.com/apple) describes the continuous improvement cycle and shares a list of resources to model, measure, and boost the performance of your application in the following [article](https://developer.apple.com/documentation/metrickit/improving_your_app_s_performance).
+[Apple](https://twitter.com/apple) describe the continuous improvement cycle and share a list of resources to model, measure, and boost the performance of your application in the following [article](https://developer.apple.com/documentation/metrickit/improving_your_app_s_performance).
 
 ### Pushing background updates
 
-[Apple](https://twitter.com/apple) has an [article](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/pushing_background_updates_to_your_app) detailing how to deliver background notification to wake your application without displaying an alert, playing a sound, or badging your application's icon and updating it in the background.
+[Apple](https://twitter.com/apple) has an [article](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/pushing_background_updates_to_your_app) detailing how to deliver background notifications to wake your application without displaying an alert, playing a sound, or badging your application's icon and updating it in the background.
 
 ### Customizing the appearance of iOS application's notification alerts
 
@@ -88,7 +94,7 @@ In iOS 13 Apple introduced [MetricKit](https://developer.apple.com/documentation
 
 ### Unit test best practices
 
-When was the last time you've refactored and optimized your unit tests a not just added a new case? [Antoine van der Lee](https://twitter.com/twannl) in his [article](https://www.avanderlee.com/swift/unit-tests-best-practices) shares his rules for writing clean unit tests.
+When was the last time you've refactored and optimized your unit tests and not just added a new case? [Antoine van der Lee](https://twitter.com/twannl) in his [article](https://www.avanderlee.com/swift/unit-tests-best-practices) shares his rules for writing clean unit tests.
 
 ### Caching in Swift
 
@@ -101,7 +107,7 @@ Caching data to avoid unnecessary work repetition will positively impact the app
 ### Implementing `AppTrackingTransparency` framework
 
 With the public releases of iOS 14.5, iPadOS 14.5, and tvOS 14.5, to access app-related data for tracking the user or the device all applications must use the `AppTrackingTransparency` framework to request the user's permission. [Lee Kah Seng](https://twitter.com/Lee_Kah_Seng) wrote an [article](https://swiftsenpai.com/development/get-ready-apptrackingtransparency) clarifying Identifier for Advertisers (IDFA) and how to request user's permission to gather data for tracking.
-Additionally, review the [article](https://appfigures.com/resources/guides/att-prompt-copywriting) by [Ariel Michaeli](https://twitter.com/arielmichaeli) in which he evaluates some of the pre-prompt examples and lays out rules to follow when creating one for yourself.
+Additionally, review the [article](https://appfigures.com/resources/guides/att-prompt-copywriting) by [Ariel Michaeli](https://twitter.com/arielmichaeli) in which he evaluates some of the pre-prompt examples and lays out some rules to follow when creating one for yourself.
 
 ### Coordinator structural design pattern
 
@@ -129,7 +135,7 @@ Migrate from print statements to `OSLog` class, introduced in iOS 14, in combina
 
 ### Hash functions in Swift
 
-Cryptography gained wider acknowledgment with the increasing popularity of cryptocurrencies. Hashing is a basic concept of cryptography used to equate. The technique allows you to immediately know if both comparables are different without exposing details of comparable. In iOS 13, Apple released [CryptoKit](https://developer.apple.com/documentation/cryptokit) whereas previously you might have used [CryptoSwift](https://cryptoswift.io) developed by [Marcin Krzyżanowski](https://twitter.com/krzyzanowskim). [Leonardo Maia Pugliese](https://twitter.com/Leo_Pugliese) wrote an [article](https://holyswift.app/hash-function-in-swift) explaining what are hash values and how to create them using `CryptoKit`.
+Cryptography gained wider acknowledgment with the increasing popularity of cryptocurrencies. Hashing is a basic concept of cryptography used to equate. The technique allows you to immediately know if both comparables are different without exposing any details. In iOS 13, Apple released [CryptoKit](https://developer.apple.com/documentation/cryptokit) whereas previously you might have used [CryptoSwift](https://cryptoswift.io) developed by [Marcin Krzyżanowski](https://twitter.com/krzyzanowskim). [Leonardo Maia Pugliese](https://twitter.com/Leo_Pugliese) wrote an [article](https://holyswift.app/hash-function-in-swift) explaining what are hash values and how to create them using `CryptoKit`.
 
 ### Automated deployment with fastlane on iOS
 
@@ -150,7 +156,7 @@ Learn how to use `UICollectionViewCompositionalLayout` and `UICollectionViewDiff
 
 ### Allowing parallel iOS UI test runs in CI
 
-If you have your CI machine that allows multiple jobs to run in parallel you most likely have encountered a problem that you cannot run multiple iOS UI tests in the same simulator at the same time. [Igor Kulman](https://twitter.com/igorkulman) in his [article](https://blog.kulman.sk/parallel-ui-test-runs) describes how to solve it by creating a new iOS simulator instance for every job.
+If your CI machine allows multiple jobs to run in parallel you most likely have encountered a problem that you cannot run multiple iOS UI tests in the same simulator at the same time. [Igor Kulman](https://twitter.com/igorkulman) in his [article](https://blog.kulman.sk/parallel-ui-test-runs) describes how to solve it by creating a new iOS simulator instance for every job.
 
 ### Testing in-app purchases locally in iOS simulator
 
@@ -195,7 +201,7 @@ Apple offers sophisticated tools, such as Instruments (using Allocations and Lea
 
 ### Documentation deep linking into source code
 
-[Jordan Morgan](https://twitter.com/JordanMorgan10) in his Twitter [post](https://twitter.com/JordanMorgan10/status/1384865768039399430) shows how to deep-link from a markdown file to source code.
+[Jordan Morgan](https://twitter.com/JordanMorgan10) in his Twitter [post](https://twitter.com/JordanMorgan10/status/1384865768039399430) shows how to deep-link from a markdown file to the source code.
 
 ### Recording videos using an iOS simulator and saving them as animated GIF images
 
