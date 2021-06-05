@@ -4,7 +4,9 @@
 
 ![Issue](https://img.shields.io/badge/issue-1.6-informational.svg)
 
-Co-author [Artjoms Vorona](https://people.accenture.com/People/user/artjoms.vorona)
+Co-author [Artjoms Vorona](https://people.accenture.com/People/user/artjoms.vorona) announcement
+
+Congratulations to all Midyear Cycle promotees, prominently to the Latvia ATC iOS developers - [Artjoms Vorona](https://people.accenture.com/People/user/artjoms.vorona), [Kristaps Knets](https://people.accenture.com/People/user/kristaps.knets), and [Armands Mikanovskis-Mikalovskis](https://people.accenture.com/People/user/armands.mikanovskis)!
 
 ## News
 
@@ -30,7 +32,6 @@ Additionally, [article](https://nshipster.com/network-link-conditioner) by [Matt
 ### `defer` in Swift
 
 YouTube [video](https://www.youtube.com/watch?v=_VswqQqVlHo) by [Vincent Pradeilles](https://twitter.com/v_pradeilles)
-
 
 <br>
 <p align="center">
