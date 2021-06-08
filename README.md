@@ -4,13 +4,21 @@
 
 ![Issue](https://img.shields.io/badge/issue-1.6-informational.svg)
 
-Co-author [Artjoms Vorona](https://people.accenture.com/People/user/artjoms.vorona) announcement
+Good morning and welcome to _import IdeaKit_!
+
+Shout-out to [Artjoms Vorona](https://people.accenture.com/People/user/artjoms.vorona) for his contribution to 3<sup>rd</sup> issue of the newsletter! The backlog has plenty more unassigned user stories, consider this as an invitation to join the team.
 
 Congratulations to all Midyear Cycle promotees, prominently to the Latvia ATC iOS developers - [Artjoms Vorona](https://people.accenture.com/People/user/artjoms.vorona), [Kristaps Knets](https://people.accenture.com/People/user/kristaps.knets), and [Armands Mikanovskis-Mikalovskis](https://people.accenture.com/People/user/armands.mikanovskis)! 👏🏼
+
+During [WWDC21](https://developer.apple.com/wwdc21) [Apple](https://twitter.com/Apple) announced [Xcode Cloud](https://developer.apple.com/xcode-cloud), concurrency in Swift, Universal Control, tab groups in Safari, live text, Mentions, tags, and activity collaboration in Notes, focus mode, and notification summary among a vast amount of other features, watch [keynote](https://www.apple.com/apple-events/event-stream/index.html) if you have missed the event.
 
 ## News
 
 ## Fundamentals
+
+### Beginner Tips
+
+YouTube [video](https://www.youtube.com/watch?v=4TTSZZkdOs4) by [Vincent Pradeilles](https://twitter.com/v_pradeilles)
 
 ## Tutorials
 
