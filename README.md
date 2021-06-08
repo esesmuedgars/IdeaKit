@@ -43,7 +43,7 @@ YouTube [video](https://www.youtube.com/watch?v=_VswqQqVlHo) by [Vincent Pradeil
 
 <br>
 <p align="center">
-<img width="25%" alt="Curator" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/character.svg" />
+<img width="35%" alt="Curators" src="curators.svg" />
 <!--Character credit goes to [Pablo Stanley](https://twitter.com/pablostanley) with his [Open Peeps](https://www.openpeeps.com) hand-drawn illustration library.-->
 </p>
 <p align="center">
