@@ -24,7 +24,7 @@ YouTube [video](https://www.youtube.com/watch?v=4TTSZZkdOs4) by [Vincent Pradeil
 
 ### Firebase Dynamic Links
 
-[tutorial](https://www.raywenderlich.com/21376846-firebase-dynamic-links-getting-started) by [Danijela Vrzan](https://twitter.com/dvrzan)
+[Danijela Vrzan](https://twitter.com/dvrzan) in her [tutorial](https://www.raywenderlich.com/21376846-firebase-dynamic-links-getting-started) teaches how to implement deep linking on iOS using Firebase Dynamic Links. By the end of the tutorial you will be able to create, test, handle deep links if the application is not installed, and navigate to a specific view with `SwiftUI`.
 
 ## Enhanced programming
 
