@@ -6,13 +6,20 @@
 
 Good morning and welcome to _import IdeaKit_!
 
-Shout-out to [Artjoms Vorona](https://people.accenture.com/People/user/artjoms.vorona) for his contribution to 3<sup>rd</sup> issue of the newsletter! The backlog has plenty more unassigned user stories, consider this as an invitation to join the team.
+Shout-out to [Artjoms Vorona](https://people.accenture.com/People/user/artjoms.vorona) for his contribution to 3<sup>rd</sup> issue of the newsletter! The backlog has plenty more unassigned user stories, consider this as an invitation to join the team. All aboard!
 
 Congratulations to all Midyear Cycle promotees, prominently to the Latvia ATC iOS developers - [Artjoms Vorona](https://people.accenture.com/People/user/artjoms.vorona), [Kristaps Knets](https://people.accenture.com/People/user/kristaps.knets), and [Armands Mikanovskis-Mikalovskis](https://people.accenture.com/People/user/armands.mikanovskis)! 👏🏼
 
-During [WWDC21](https://developer.apple.com/wwdc21) [Apple](https://twitter.com/Apple) announced [Xcode Cloud](https://developer.apple.com/xcode-cloud), concurrency in Swift, Universal Control, tab groups in Safari, live text, mentions and tags in Notes, focus mode, and notification summary among a vast amount of other features, watch [keynote](https://www.apple.com/apple-events/event-stream/index.html) if you have missed the event.
+During [WWDC21](https://developer.apple.com/wwdc21) [Apple](https://twitter.com/Apple) announced [Xcode Cloud](https://developer.apple.com/xcode-cloud), concurrency in Swift, Universal Control, tab groups in Safari, live text, mentions and tags in Notes, focus mode, and notification summary among a vast amount of other features, watch [keynote](https://www.apple.com/apple-events/event-stream/index.html) and [Platforms State of the Union](https://developer.apple.com/videos/play/wwdc2021/102) (a deeper dive into the new tools, technologies, and advances across Apple platforms) if you have missed the event.
 
 ## News
+
+### Xcode 13 is now available
+
+Xcode 13 adds powerful new team development features, perfect for working with Xcode Cloud as well as with GitHub, Bitbucket, and GitLab collaboration features. Initiate, review, comment, and merge pull requests directly within Xcode. See your teammates’ comments right inside your code. And quickly compare any two versions of your code files.
+[Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=pq8tb86o)
+
+[article](https://www.hackingwithswift.com/articles/236/whats-new-in-xcode-13) by [Paul Hudson](https://twitter.com/twostraws)
 
 ## Fundamentals
 
@@ -28,10 +35,14 @@ YouTube [video](https://www.youtube.com/watch?v=4TTSZZkdOs4) by [Vincent Pradeil
 
 ## Enhanced programming
 
+### WWDC 2021 highlights
+
+Apple Worldwide Developers Conference has concluded. Aftermath, [Apple](https://twitter.com/apple) provides [selection of documentation](https://developer.apple.com/documentation/New-Technologies-WWDC-2021) for new technologies, frameworks, and APIs introduced at WWDC 2021.
+
 ### `DocC` documentation in Xcode
 
 Discover how you can use DocC to build and share documentation for Swift packages and frameworks. We'll show you how to begin generating documentation from your own code — or from third-party code you depend upon — and write and format it using Markdown. And we'll also take you through the export process, helping you generate DocC archives to share with the public.
-[Apple](https://twitter.com/apple) announced [DocC](https://developer.apple.com/documentation/docc) framework, watch WWDC21 session [video](https://developer.apple.com/videos/play/wwdc2021/10166) by [Victoria Mitchell](<!--Couldn't find Victoria Mitchell's any social media account-->) and [Ethan Kusters](https://twitter.com/ethankusters)
+[Apple](https://twitter.com/apple) announced [DocC](https://developer.apple.com/documentation/docc) framework, watch WWDC21 session [video](https://developer.apple.com/videos/play/wwdc2021/10166) by [Victoria Mitchell](<!--Couldn't find Victoria Mitchell's single social media account-->) and [Ethan Kusters](https://twitter.com/ethankusters)
 
 [article](https://www.hackingwithswift.com/articles/238/how-to-document-your-project-with-docc) by [Paul Hudson](https://twitter.com/twostraws)
 
@@ -80,6 +91,22 @@ Dive into the details of Swift concurrency and discover how Swift provides great
 Doug Gregor from Apple joins John to discuss Swift 5.5’s new concurrency features in great detail. How do features like async/await and actors work under the hood, and how were those concepts adapted in order to feel right at home within Swift’s existing ecosystem? That, and much more, on this WWDC21 special episode of the show.
 [Swift by Sundell](https://twitter.com/swiftbysundell) [John Sundell](https://twitter.com/johnsundell) [podcast](https://podcasts.apple.com/lv/podcast/swift-by-sundell/id1267161825?i=1000525108228) with special guest [Doug Gregor](https://twitter.com/dgregor79)
 
+### Data formatters to display human-friendly content
+
+Convert data into readable strings or Swift objects using formatters.
+[Apple](https://twitter.com/apple) has a [sample code](https://developer.apple.com/documentation/foundation/formatter/displaying_human-friendly_content)
+
+Save yourself time and frustration: When you display data in your app — including dates, times, measurements, names, lists, numbers, or strings — learn how to format it correctly and provide a great experience. We'll walk you through the Formatter APIs as well as how SwiftUI works with stringsdict, and show you how they can help do the heavy lifting of formatting data. Learn about best practices and how to avoid common mistakes.
+[Apple](https://twitter.com/apple) WWDC20 session [video](https://developer.apple.com/videos/play/wwdc2020/10160) by [Karan Miśra](https://www.linkedin.com/in/karanmisra)
+
+### Adding Capabilities to Your App
+
+[Apple](https://twitter.com/apple) has an [article](https://developer.apple.com/documentation/Xcode/adding-capabilities-to-your-app)
+
+### Implementing User Authentication with Sign in with Apple
+
+[Apple](https://twitter.com/apple) provides an [sample code](https://developer.apple.com/documentation/authenticationservices/implementing_user_authentication_with_sign_in_with_apple)
+
 ### Kotlin Multiplatform for iOS developers
 
 Vimeo [video](https://vimeo.com/showcase/7769418/video/479639284) by (she/her) [Dinorah Tovar](https://twitter.com/DDinorahtovar)
@@ -89,13 +116,29 @@ Vimeo [video](https://vimeo.com/showcase/7769418/video/479639284) by (she/her) [
 [Core NFC](https://developer.apple.com/documentation/corenfc) framework
 Vimeo [video](https://vimeo.com/showcase/7769418/video/479350475) by [Maxim Tsvetkov](https://twitter.com/777maxxx777)
 
-### Data formatters to display human-friendly content
+### New approach to formatters in iOS 15
 
-Convert data into readable strings or Swift objects using formatters.
-[Apple](https://twitter.com/apple) has a [sample code](https://developer.apple.com/documentation/foundation/formatter/displaying_human-friendly_content)
+[article](https://nemecek.be/blog/106/new-approach-to-formatters-in-ios-15) by [Filip Němeček](https://twitter.com/nemecek_f)
 
-Save yourself time and frustration: When you display data in your app — including dates, times, measurements, names, lists, numbers, or strings — learn how to format it correctly and provide a great experience. We'll walk you through the Formatter APIs as well as how SwiftUI works with stringsdict, and show you how they can help do the heavy lifting of formatting data. Learn about best practices and how to avoid common mistakes.
-[Apple](https://twitter.com/apple) WWDC20 session [video](https://developer.apple.com/videos/play/wwdc2020/10160) by [Karan Miśra](https://www.linkedin.com/in/karanmisra)
+### Meet the new bottom sheet in iOS 15
+
+[article](https://nemecek.be/blog/108/meet-the-new-bottom-sheet-in-ios-15) by [Filip Němeček](https://twitter.com/nemecek_f)
+
+### iOS 15: Notable UIKit Additions (?)
+
+[article](https://www.swiftjectivec.com/ios-15-notable-uikit-additions) by [Jordan Morgan](https://twitter.com/jordanmorgan10)
+
+### Taking UIKit’s new button configuration API for a spin
+
+[article](https://wwdcbysundell.com/2021/uikits-new-button-configuration-api) by [John Sundell](https://twitter.com/johnsundell)
+
+### Core Data In Memory Store
+
+[article](https://useyourloaf.com/blog/core-data-in-memory-store) by [Keith Harrison](https://twitter.com/kharrison)
+
+### Swift 5.5
+
+[article](https://www.hackingwithswift.com/articles/233/whats-new-in-swift-5-5) and [code examples](https://www.whatsnewinswift.com/?from=5.4&to=5.5) by [Paul Hudson](https://twitter.com/twostraws)
 
 ## Tools
 
@@ -104,10 +147,29 @@ Save yourself time and frustration: When you display data in your app — includ
 StackOverflow [answer](https://stackoverflow.com/questions/2593971/iphone-simulator-simulate-a-slow-connection/27363671#27363671) by [Alan Hogan](https://twitter.com/b01dface)
 Additionally, [article](https://nshipster.com/network-link-conditioner) by [Matthew Thomas Thompson](https://twitter.com/mattt)
 
+### Xcode Cloud
+
+Xcode Cloud is a continuous integration and delivery service built into Xcode and designed expressly for Apple developers. It accelerates the development and delivery of high-quality apps by bringing together cloud-based tools that help you build apps, run automated tests in parallel, deliver apps to testers, and view and manage user feedback. Sign up for the beta today.
+[Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=uno5w59d)
+
 ### SF Symbols 3
 
-[SF Symbols 3](https://developer.apple.com/sf-symbols) beta
+[Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=30qc8oh0)
+[SF Symbols 3](https://developer.apple.com/sf-symbols) beta now available
 [guide](https://www.hackingwithswift.com/articles/237/complete-guide-to-sf-symbols) by [Paul Hudson](https://twitter.com/twostraws)
+
+### Introducing `ShazamKit`
+
+Enrich your app experience with audio recognition. Now you can match music to the millions of songs in Shazam's vast catalog or make any prerecorded audio recognizable by building your own custom catalog using audio from video, podcasts, and more.
+[Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=s0s8up0f)
+
+**Building a Custom Catalog and Matching Audio**
+[Apple](https://twitter.com/apple) provides [sample code](https://developer.apple.com/documentation/shazamkit/building_a_custom_catalog_and_matching_audio)
+
+This sample code project is associated with WWDC21 session
+**Create custom audio experiences with ShazamKit**
+Bring custom audio matching to your app with ShazamKit. Discover how you can use Shazam's exact audio matching to recognize audio against any source when you use custom catalogs on device. Download our starter project and code along with the presenter as we guide you through the process of matching audio against a custom catalog. We'll also explore how easy it is to connect content across devices by building an interactive iOS app that can synchronize perfectly with video being streamed from a TV. To learn more about ShazamKit, check out "Explore ShazamKit" from WWDC21.
+[Apple](https://twitter.com/apple) WWDC21 session [video](https://developer.apple.com/videos/play/wwdc2021/10045) by [Alex Telek](https://twitter.com/alextelek)
 
 ## Tips
 
