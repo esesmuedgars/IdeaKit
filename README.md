@@ -14,24 +14,47 @@ During [WWDC21](https://developer.apple.com/wwdc21) [Apple](https://twitter.com/
 
 ## News
 
-### Xcode 13 is now available
+### App Store Review Guideline updates now available
 
-Xcode 13 adds powerful new team development features, perfect for working with Xcode Cloud as well as with GitHub, Bitbucket, and GitLab collaboration features. Initiate, review, comment, and merge pull requests directly within Xcode. See your teammates’ comments right inside your code. And quickly compare any two versions of your code files.
-[Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=pq8tb86o)
-
-[article](https://www.hackingwithswift.com/articles/236/whats-new-in-xcode-13) by [Paul Hudson](https://twitter.com/twostraws)
+[Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=dovxb62h)
 
 ## Fundamentals
+
+### `class` and `struct`
+
+YouTube [video](https://www.youtube.com/watch?v=zOeC7pxOIhk) by [Pedro Rojas](https://twitter.com/pitt500)
+
+YouTube [video](https://www.youtube.com/watch?v=EhDML-fAqTM) (explaining classes) and YouTube [video](https://www.youtube.com/watch?v=3ox38NBBiNM) (explaining structs) by [Sean Allen](https://twitter.com/seanallen_dev)
 
 ### Beginner tips
 
 YouTube [video](https://www.youtube.com/watch?v=4TTSZZkdOs4) by [Vincent Pradeilles](https://twitter.com/v_pradeilles)
+
+### Debugging with breakpoints
+
+YouTube [video](https://www.youtube.com/watch?v=qPWfOkHcKdU) by [Sean Allen](https://twitter.com/seanallen_dev)
+
+### `UINavigationController`
+
+YouTube [video](https://www.youtube.com/watch?v=LbAd2FIlnos) by [Sean Allen](https://twitter.com/seanallen_dev)
+
+### Higher order functions
+
+[article](https://medium.com/xebia-engineering/higher-order-functions-in-swift-c2f823f970fe) by [Manish Jain](https://www.linkedin.com/in/manish-jain-b5911620)
 
 ## Tutorials
 
 ### Firebase Dynamic Links
 
 [Danijela Vrzan](https://twitter.com/dvrzan) in her [tutorial](https://www.raywenderlich.com/21376846-firebase-dynamic-links-getting-started) teaches how to implement deep linking on iOS using Firebase Dynamic Links. By the end of the tutorial you will be able to create, test, handle deep links if the application is not installed, and navigate to a specific view with `SwiftUI`.
+
+### Building Your App Using Build Configurations and `.xcconfig`
+
+[tutorial](https://www.raywenderlich.com/21441177-building-your-app-using-build-configurations-and-xcconfig) by [Saleh Albuga](https://twitter.com/salehalshami)
+
+### Create a New Project - No Storyboard
+
+YouTube [video tutorial](https://www.youtube.com/watch?v=Htn4h51BQsk) by [Sean Allen](https://twitter.com/seanallen_dev)
 
 ## Enhanced programming
 
@@ -140,12 +163,32 @@ Vimeo [video](https://vimeo.com/showcase/7769418/video/479350475) by [Maxim Tsve
 
 [article](https://www.hackingwithswift.com/articles/233/whats-new-in-swift-5-5) and [code examples](https://www.whatsnewinswift.com/?from=5.4&to=5.5) by [Paul Hudson](https://twitter.com/twostraws)
 
+### Quick Tip: Notifying Users of App Updates - For Free
+
+[article](https://www.andyibanez.com/posts/quick-tip-notifying-users-app-updates-for-free) by [Andy Ibanez](https://twitter.com/AndyIbanezK)
+
+### Why Should You Care about Manual Testing?
+
+[article](https://pspdfkit.com/blog/2021/pragmatic-manual-testing) by [Tomáš Šurín](https://twitter.com/tomassurin)
+
+### A first look at Swift’s new AttributedString
+
+[article](https://wwdcbysundell.com/2021/a-first-look-at-attributed-string) by [John Sundell](https://twitter.com/johnsundell)
+
+iOS 15 Brings Attributed Strings to SwiftUI [article](https://betterprogramming.pub/ios-15-attributed-strings-in-swiftui-markdown-271204bec5c1) by [Andrew Zheng](https://www.linkedin.com/in/aheze)
+
+### Avoiding problematic cases when using Swift enums
+
+[article](https://swiftbysundell.com/articles/avoiding-problematic-enum-cases-in-swift) by [John Sundell](https://twitter.com/johnsundell)
+
 ## Tools
 
-### Simulating adverse networking environments with Network Link Conditioner
+### Xcode 13 is now available
 
-StackOverflow [answer](https://stackoverflow.com/questions/2593971/iphone-simulator-simulate-a-slow-connection/27363671#27363671) by [Alan Hogan](https://twitter.com/b01dface)
-Additionally, [article](https://nshipster.com/network-link-conditioner) by [Matthew Thomas Thompson](https://twitter.com/mattt)
+Xcode 13 adds powerful new team development features, perfect for working with Xcode Cloud as well as with GitHub, Bitbucket, and GitLab collaboration features. Initiate, review, comment, and merge pull requests directly within Xcode. See your teammates’ comments right inside your code. And quickly compare any two versions of your code files.
+[Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=pq8tb86o)
+
+[article](https://www.hackingwithswift.com/articles/236/whats-new-in-xcode-13) by [Paul Hudson](https://twitter.com/twostraws)
 
 ### Xcode Cloud
 
@@ -171,6 +214,11 @@ This sample code project is associated with WWDC21 session
 Bring custom audio matching to your app with ShazamKit. Discover how you can use Shazam's exact audio matching to recognize audio against any source when you use custom catalogs on device. Download our starter project and code along with the presenter as we guide you through the process of matching audio against a custom catalog. We'll also explore how easy it is to connect content across devices by building an interactive iOS app that can synchronize perfectly with video being streamed from a TV. To learn more about ShazamKit, check out "Explore ShazamKit" from WWDC21.
 [Apple](https://twitter.com/apple) WWDC21 session [video](https://developer.apple.com/videos/play/wwdc2021/10045) by [Alex Telek](https://twitter.com/alextelek)
 
+### Simulating adverse networking environments with Network Link Conditioner
+
+StackOverflow [answer](https://stackoverflow.com/questions/2593971/iphone-simulator-simulate-a-slow-connection/27363671#27363671) by [Alan Hogan](https://twitter.com/b01dface)
+Additionally, [article](https://nshipster.com/network-link-conditioner) by [Matthew Thomas Thompson](https://twitter.com/mattt)
+
 ## Tips
 
 ### `defer` in Swift
@@ -181,6 +229,10 @@ YouTube [video](https://www.youtube.com/watch?v=_VswqQqVlHo) by [Vincent Pradeil
 
 Twitter [post](https://twitter.com/sarunw/status/1403516739615404041) by [Sarun Wongpatcharapakornand](https://twitter.com/sarunw)
 Additionally, [article](https://sarunw.com/posts/custom-uistackview-spacing)
+
+### Native async image decoding
+
+Twitter [post](https://twitter.com/marcoarment/status/1401997686102970369) by [Marco Arment](https://twitter.com/marcoarment)
 
 <br>
 <p align="center">
