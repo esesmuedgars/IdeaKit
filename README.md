@@ -153,15 +153,16 @@ In another [article](https://nemecek.be/blog/108/meet-the-new-bottom-sheet-in-io
 
 ### Taking UIKit’s new button configuration API for a spin
 
-[article](https://wwdcbysundell.com/2021/uikits-new-button-configuration-api) by [John Sundell](https://twitter.com/johnsundell)
+With iOS 15, `UIButton` - one of the most fundamental UIKit classes, is getting a new system for configuring a button's appearance and behavior.
+[John Sundell](https://twitter.com/johnsundell) has a first look [article](https://wwdcbysundell.com/2021/uikits-new-button-configuration-api) on how to use a new button configuration API.
 
 ### Core Data In Memory Store
 
-[article](https://useyourloaf.com/blog/core-data-in-memory-store) by [Keith Harrison](https://twitter.com/kharrison)
+In the [article](https://useyourloaf.com/blog/core-data-in-memory-store) by [Keith Harrison](https://twitter.com/kharrison), you can find out how to speed up your tests and `SwiftUI` previews by creating `Core Data` stack with an in-memory store.
 
 ### Swift 5.5
 
-[article](https://www.hackingwithswift.com/articles/233/whats-new-in-swift-5-5) and [code examples](https://www.whatsnewinswift.com/?from=5.4&to=5.5) by [Paul Hudson](https://twitter.com/twostraws)
+Swift 5.5 comes with a lot of improvements  – async/await, actors, throwing properties, and many more. [Paul Hudson](https://twitter.com/twostraws) in his [article](https://www.hackingwithswift.com/articles/233/whats-new-in-swift-5-5) walks through each of the changes with [code samples](https://www.whatsnewinswift.com/?from=5.4&to=5.5). 
 
 ### Quick Tip: Notifying Users of App Updates - For Free
 
