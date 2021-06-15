@@ -124,28 +124,28 @@ Save yourself time and frustration: When you display data in your app — includ
 
 ### Adding Capabilities to Your App
 
-[Apple](https://twitter.com/apple) has an [article](https://developer.apple.com/documentation/Xcode/adding-capabilities-to-your-app)
+A capability grants the application access to an app service provided by [Apple](https://twitter.com/apple), such as CloudKit, In-App Purchase, or push notifications. The company has an [article](https://developer.apple.com/documentation/Xcode/adding-capabilities-to-your-app) guiding you through the process of adding app capabilities.
 
 ### Implementing User Authentication with Sign in with Apple
 
-[Apple](https://twitter.com/apple) provides an [sample code](https://developer.apple.com/documentation/authenticationservices/implementing_user_authentication_with_sign_in_with_apple)
+[Apple](https://twitter.com/apple) provides a [sample code](https://developer.apple.com/documentation/authenticationservices/implementing_user_authentication_with_sign_in_with_apple) on how to use [Authentication Services](https://developer.apple.com/documentation/authenticationservices) framework to provide users an interface to set up accounts and sign in with their Apple ID.
 
 ### Kotlin Multiplatform for iOS developers
 
-Vimeo [video](https://vimeo.com/showcase/7769418/video/479639284) by (she/her) [Dinorah Tovar](https://twitter.com/DDinorahtovar)
+[Kotlin Multiplatform](https://kotlinlang.org/lp/mobile/) allows you to use a single codebase for the business logic of iOS and Android applications. At the same time, native UI can be written in a platform-specific language. 
+[Dinorah Tovar](https://twitter.com/DDinorahtovar) in her [video](https://vimeo.com/showcase/7769418/video/479639284) talks about how to get started with Kotlin Multiplatform for iOS.
 
 ### Scan and verify identity documents with `Core NFC`
 
-[Core NFC](https://developer.apple.com/documentation/corenfc) framework
-Vimeo [video](https://vimeo.com/showcase/7769418/video/479350475) by [Maxim Tsvetkov](https://twitter.com/777maxxx777)
+[Core NFC](https://developer.apple.com/documentation/corenfc) is an iOS framework that can be used to scan and verify identity documents. [Maxim Tsvetkov](https://twitter.com/777maxxx777) gave a [talk](https://vimeo.com/showcase/7769418/video/479350475) on what data can be extracted and how the authenticity of these documents can be verified. 
 
 ### New approach to formatters in iOS 15
 
-[article](https://nemecek.be/blog/106/new-approach-to-formatters-in-ios-15) by [Filip Němeček](https://twitter.com/nemecek_f)
+[Filip Němeček](https://twitter.com/nemecek_f) in his [article](https://nemecek.be/blog/106/new-approach-to-formatters-in-ios-15) shows how to use the new formatters API in iOS 15. Now there is no need to instantiate the formatters - this is moved behind the scenes.
 
 ### Meet the new bottom sheet in iOS 15
 
-[article](https://nemecek.be/blog/108/meet-the-new-bottom-sheet-in-ios-15) by [Filip Němeček](https://twitter.com/nemecek_f)
+In another [article](https://nemecek.be/blog/108/meet-the-new-bottom-sheet-in-ios-15) by [Filip Němeček](https://twitter.com/nemecek_f), the so-called "bottom sheet" native implementation is explained, which is available for every view controller, starting with iOS 15.
 
 ### iOS 15: Notable UIKit Additions (?)
 
