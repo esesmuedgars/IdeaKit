@@ -225,6 +225,10 @@ Additionally, [article](https://nshipster.com/network-link-conditioner) by [Matt
 
 YouTube [video](https://www.youtube.com/watch?v=_VswqQqVlHo) by [Vincent Pradeilles](https://twitter.com/v_pradeilles)
 
+### Confusing Swift syntax
+
+YouTube [video](https://www.youtube.com/watch?v=p3qdi6KyzDk) by [Vincent Pradeilles](https://twitter.com/v_pradeilles)
+
 ### Custom `UIStackView` spacing
 
 Twitter [post](https://twitter.com/sarunw/status/1403516739615404041) by [Sarun Wongpatcharapakornand](https://twitter.com/sarunw)
