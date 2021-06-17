@@ -14,6 +14,10 @@ During [WWDC21](https://developer.apple.com/wwdc21) [Apple](https://twitter.com/
 
 ## News
 
+### Swift 5.5
+
+Swift 5.5 comes with a lot of changes providing major new language features that deliver power and safety to the Swift developers. [Paul Hudson](https://twitter.com/twostraws) in his [article](https://www.hackingwithswift.com/articles/233/whats-new-in-swift-5-5) offers [code samples](https://www.whatsnewinswift.com/?from=5.4&to=5.5) of all of the main changes.
+
 ### App Store Review Guideline updates now available
 
 [Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=dovxb62h)
@@ -148,18 +152,13 @@ iOS 15 adds means to present view controller as a sheet. In an [article](https:/
 describes resizable sheet implementation and customization.
 Alternatively, discover how to create layered and fine-tuned sheet experience in `UIKit` in [Apple's](https://twitter.com/apple) WWDC21 session [video](https://developer.apple.com/videos/play/wwdc2021/10063) by [Russell Ladd](https://www.linkedin.com/in/russellladd).
 
-### Taking UIKit’s new button configuration API for a spin
+### iOS 15 `UIButton` configuration API
 
-With iOS 15, `UIButton` - one of the most fundamental UIKit classes, is getting a new system for configuring a button's appearance and behavior.
-[John Sundell](https://twitter.com/johnsundell) has a first look [article](https://wwdcbysundell.com/2021/uikits-new-button-configuration-api) on how to use a new button configuration API.
+iOS 15 enhances the way in which we configure `UIButton` appearance and behavior with a new API that takes many common and previously time-consuming layout and styling tasks and turns them into one-line configuration properties. [John Sundell](https://twitter.com/johnsundell) in his [article](https://wwdcbysundell.com/2021/uikits-new-button-configuration-api) has a first look on how to use the new button configuration API.
 
-### Core Data In Memory Store
+### Core Data with `NSInMemoryStoreType`
 
 In the [article](https://useyourloaf.com/blog/core-data-in-memory-store) by [Keith Harrison](https://twitter.com/kharrison), you can find out how to speed up your tests and `SwiftUI` previews by creating `Core Data` stack with an in-memory store.
-
-### Swift 5.5
-
-Swift 5.5 comes with a lot of improvements  – async/await, actors, throwing properties, and many more. [Paul Hudson](https://twitter.com/twostraws) in his [article](https://www.hackingwithswift.com/articles/233/whats-new-in-swift-5-5) walks through each of the changes with [code samples](https://www.whatsnewinswift.com/?from=5.4&to=5.5). 
 
 ### Quick Tip: Notifying Users of App Updates - For Free
 
