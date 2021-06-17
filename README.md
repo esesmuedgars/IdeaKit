@@ -18,33 +18,32 @@ During [WWDC21](https://developer.apple.com/wwdc21) [Apple](https://twitter.com/
 
 Swift 5.5 comes with a lot of changes providing major new language features that deliver power and safety to the Swift developers. [Paul Hudson](https://twitter.com/twostraws) in his [article](https://www.hackingwithswift.com/articles/233/whats-new-in-swift-5-5) offers [code samples](https://www.whatsnewinswift.com/?from=5.4&to=5.5) of all of the main changes.
 
-### App Store Review Guideline updates now available
+### App Store Review Guideline updates
 
-[Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=dovxb62h)
+Review latest App Store Review Guidelines in [Apple](https://twitter.com/apple) news [article](https://developer.apple.com/news/?id=dovxb62h).
 
 ## Fundamentals
 
 ### `class` and `struct`
 
-YouTube [video](https://www.youtube.com/watch?v=zOeC7pxOIhk) by [Pedro Rojas](https://twitter.com/pitt500)
+In case I was your _TechBuddy_ (also know as technical mentor) during your iOS internship you most likely have received feedback to use structures instead of classes for data models when decoding HTTP responses. [Pedro Rojas](https://twitter.com/pitt500) in his YouTube [video](https://www.youtube.com/watch?v=zOeC7pxOIhk) compares both of them and points out the differences.
+Additionally, [Sean Allen](https://twitter.com/seanallen_dev) offers YouTube [video](https://www.youtube.com/watch?v=EhDML-fAqTM) explaining classes and YouTube [video](https://www.youtube.com/watch?v=3ox38NBBiNM) explaining structures.
 
-YouTube [video](https://www.youtube.com/watch?v=EhDML-fAqTM) (explaining classes) and YouTube [video](https://www.youtube.com/watch?v=3ox38NBBiNM) (explaining structs) by [Sean Allen](https://twitter.com/seanallen_dev)
+### Tips to improve your Swift code
 
-### Beginner tips
-
-YouTube [video](https://www.youtube.com/watch?v=4TTSZZkdOs4) by [Vincent Pradeilles](https://twitter.com/v_pradeilles)
+In his YouTube [video](https://www.youtube.com/watch?v=4TTSZZkdOs4) [Vincent Pradeilles](https://twitter.com/v_pradeilles) gives advice to increase quality of your Swift code. It is also recommended that you any Swift style guide (e.g., Airbnb Swift [style guide](https://github.com/airbnb/swift), LinkedIn Swift [style guide](https://github.com/linkedin/swift-style-guide), raywenderlich.com Swift [style guide](https://github.com/raywenderlich/swift-style-guide), or Google Swift [style guide](https://google.github.io/swift)) to have clear, consistent and precise codebase.
 
 ### Debugging with breakpoints
 
-YouTube [video](https://www.youtube.com/watch?v=qPWfOkHcKdU) by [Sean Allen](https://twitter.com/seanallen_dev)
+Breakpoints are locations in your source code where the Xcode debugger will pause so that you can inspect the state of your program and step through your code to pin point the root cause of an issue or isolate a bug. [Sean Allen](https://twitter.com/seanallen_dev) in his YouTube [video](https://www.youtube.com/watch?v=qPWfOkHcKdU) exhibits how to debug an application with the help of breakpoints.
 
 ### `UINavigationController`
 
-YouTube [video](https://www.youtube.com/watch?v=LbAd2FIlnos) by [Sean Allen](https://twitter.com/seanallen_dev)
+Watch YouTube [video](https://www.youtube.com/watch?v=LbAd2FIlnos) by [Sean Allen](https://twitter.com/seanallen_dev) where he explains what navigation controllers are, how do they work, and how to customize a navigation controller to match your application's look and feel.
 
-### Higher order functions
+### Higher-order functions
 
-[article](https://medium.com/xebia-engineering/higher-order-functions-in-swift-c2f823f970fe) by [Manish Jain](https://www.linkedin.com/in/manish-jain-b5911620)
+[Manish Jain](https://www.linkedin.com/in/manish-jain-b5911620) wrote a short [article](https://medium.com/xebia-engineering/higher-order-functions-in-swift-c2f823f970fe) educating about some of the most common higher-order functions such as `map(_:)`, `filter(_:)`, and `contains(_:)`.
 
 ## Tutorials
 
