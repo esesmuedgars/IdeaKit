@@ -148,10 +148,6 @@ iOS 15 adds means to present view controller as a sheet. In an [article](https:/
 describes resizable sheet implementation and customization.
 Alternatively, discover how to create layered and fine-tuned sheet experience in `UIKit` in [Apple's](https://twitter.com/apple) WWDC21 session [video](https://developer.apple.com/videos/play/wwdc2021/10063) by [Russell Ladd](https://www.linkedin.com/in/russellladd).
 
-### iOS 15: Notable UIKit Additions (?)
-
-[article](https://www.swiftjectivec.com/ios-15-notable-uikit-additions) by [Jordan Morgan](https://twitter.com/jordanmorgan10)
-
 ### Taking UIKit’s new button configuration API for a spin
 
 With iOS 15, `UIButton` - one of the most fundamental UIKit classes, is getting a new system for configuring a button's appearance and behavior.
