@@ -51,13 +51,15 @@ Watch YouTube [video](https://www.youtube.com/watch?v=LbAd2FIlnos) by [Sean Alle
 
 [Danijela Vrzan](https://twitter.com/dvrzan) in her [tutorial](https://www.raywenderlich.com/21376846-firebase-dynamic-links-getting-started) teaches how to implement deep linking on iOS using Firebase Dynamic Links. By the end of the tutorial you will be able to create, test, handle deep links if the application is not installed, and navigate to a specific view with `SwiftUI`.
 
-### Building Your App Using Build Configurations and `.xcconfig`
+### Building your application using Xcode build configuration files
 
-[tutorial](https://www.raywenderlich.com/21441177-building-your-app-using-build-configurations-and-xcconfig) by [Saleh Albuga](https://twitter.com/salehalshami)
+[Saleh Albuga](https://twitter.com/salehalshami) created a comprehensive [tutorial](https://www.raywenderlich.com/21441177-building-your-app-using-build-configurations-and-xcconfig) educating 
+how to use Xcode build configuration files, manage build settings across multiple environments and targets, and access build settings from source code.
+Additionally, study [aticle](https://nshipster.com/xcconfig) by [Matthew Thomas Thompson](https://twitter.com/mattt) where he encourages developers to extract their applications' configurations to `.xcconfig` files.
 
-### Create a New Project - No Storyboard
+### Create a new Xcode project without storyboards
 
-YouTube [video tutorial](https://www.youtube.com/watch?v=Htn4h51BQsk) by [Sean Allen](https://twitter.com/seanallen_dev)
+Concise YouTube [video tutorial](https://www.youtube.com/watch?v=Htn4h51BQsk) by [Sean Allen](https://twitter.com/seanallen_dev) demonstrating how to create a fresh Xcode project with programmaticly initialized `UIViewController` subclasses in iOS 13.0+.
 
 ## Enhanced programming
 
@@ -214,6 +216,10 @@ Bring custom audio matching to your app with ShazamKit. Discover how you can use
 
 StackOverflow [answer](https://stackoverflow.com/questions/2593971/iphone-simulator-simulate-a-slow-connection/27363671#27363671) by [Alan Hogan](https://twitter.com/b01dface)
 Additionally, [article](https://nshipster.com/network-link-conditioner) by [Matthew Thomas Thompson](https://twitter.com/mattt)
+
+### 
+
+https://xcodebuildsettings.com
 
 ## Tips
 
