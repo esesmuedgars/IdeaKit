@@ -20,7 +20,7 @@ Swift 5.5 comes with a lot of changes providing major new language features that
 
 ### App Store Review Guideline updates
 
-Review latest App Store Review Guidelines in [Apple](https://twitter.com/apple) news [article](https://developer.apple.com/news/?id=dovxb62h).
+"Apps supporting account creation must also offer account deletion" and other additions to the App Store Review Guidelines you can familiarize with in [Apple](https://twitter.com/apple) news [article](https://developer.apple.com/news/?id=dovxb62h).
 
 ## Fundamentals
 
