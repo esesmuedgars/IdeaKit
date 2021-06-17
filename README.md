@@ -217,28 +217,28 @@ Bring custom audio matching to your app with ShazamKit. Discover how you can use
 StackOverflow [answer](https://stackoverflow.com/questions/2593971/iphone-simulator-simulate-a-slow-connection/27363671#27363671) by [Alan Hogan](https://twitter.com/b01dface)
 Additionally, [article](https://nshipster.com/network-link-conditioner) by [Matthew Thomas Thompson](https://twitter.com/mattt)
 
-### 
+### Xcode build settings
 
-https://xcodebuildsettings.com
+[project](https://xcodebuildsettings.com)
 
 ## Tips
 
 ### `defer` in Swift
 
-YouTube [video](https://www.youtube.com/watch?v=_VswqQqVlHo) by [Vincent Pradeilles](https://twitter.com/v_pradeilles)
+[Vincent Pradeilles](https://twitter.com/v_pradeilles) in his YouTube [video](https://www.youtube.com/watch?v=_VswqQqVlHo) offers an exemplary use case for `defer` keyword.
 
-### Confusing Swift syntax
+### Confusing Swift syntaxes
 
-YouTube [video](https://www.youtube.com/watch?v=p3qdi6KyzDk) by [Vincent Pradeilles](https://twitter.com/v_pradeilles)
+[Vincent Pradeilles](https://twitter.com/v_pradeilles) created a YouTube [video](https://www.youtube.com/watch?v=p3qdi6KyzDk) to underscore multiple valid but counter-intuitive Swift syntaxes that you too, most likely, have never come across before.
 
 ### Custom `UIStackView` spacing
 
-Twitter [post](https://twitter.com/sarunw/status/1403516739615404041) by [Sarun Wongpatcharapakornand](https://twitter.com/sarunw)
-Additionally, [article](https://sarunw.com/posts/custom-uistackview-spacing)
+Twitter [post](https://twitter.com/sarunw/status/1403516739615404041) by [Sarun Wongpatcharapakornand](https://twitter.com/sarunw) calls to our attention that in order to apply custom spacing between arranged subviews there hasn't been the need to add additional  `UIStackView` as arranged subview since iOS 11 which extended `UIStackView` with `setCustomSpacing(_:after:)` instance method.
+Additionally, read an [article](https://sarunw.com/posts/custom-uistackview-spacing) where he features few caveats.
 
-### Native async image decoding
+### `UIKit` asynchronous image decoding
 
-Twitter [post](https://twitter.com/marcoarment/status/1401997686102970369) by [Marco Arment](https://twitter.com/marcoarment)
+I was delighted to read a Twitter [post](https://twitter.com/marcoarment/status/1401997686102970369) by [Marco Arment](https://twitter.com/marcoarment) in which he shared with his find — native asynchronous image decoding and creation of image thumbnails.
 
 <br>
 <p align="center">
