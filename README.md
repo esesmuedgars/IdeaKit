@@ -14,6 +14,10 @@ During [WWDC21](https://developer.apple.com/wwdc21) [Apple](https://twitter.com/
 
 ## News
 
+### Swift 5.5
+
+Swift 5.5 comes with a lot of changes providing major new language features that deliver power and safety to the Swift developers. [Paul Hudson](https://twitter.com/twostraws) in his [article](https://www.hackingwithswift.com/articles/233/whats-new-in-swift-5-5) offers [code samples](https://www.whatsnewinswift.com/?from=5.4&to=5.5) of all of the main changes.
+
 ### App Store Review Guideline updates now available
 
 [Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=dovxb62h)
@@ -122,46 +126,39 @@ Convert data into readable strings or Swift objects using formatters.
 Save yourself time and frustration: When you display data in your app — including dates, times, measurements, names, lists, numbers, or strings — learn how to format it correctly and provide a great experience. We'll walk you through the Formatter APIs as well as how SwiftUI works with stringsdict, and show you how they can help do the heavy lifting of formatting data. Learn about best practices and how to avoid common mistakes.
 [Apple](https://twitter.com/apple) WWDC20 session [video](https://developer.apple.com/videos/play/wwdc2020/10160) by [Karan Miśra](https://www.linkedin.com/in/karanmisra)
 
-### Adding Capabilities to Your App
+### Application capabilities
 
-[Apple](https://twitter.com/apple) has an [article](https://developer.apple.com/documentation/Xcode/adding-capabilities-to-your-app)
+A capability grants the application access to an app service provided by Apple, such as iCloud, HealthKit, In-App Purchase, or push notifications. [Apple](https://twitter.com/apple) in an [article](https://developer.apple.com/documentation/Xcode/adding-capabilities-to-your-app) guide you through the process of adding application capabilities.
 
-### Implementing User Authentication with Sign in with Apple
+### Sign in with Apple user authentication 
 
-[Apple](https://twitter.com/apple) provides an [sample code](https://developer.apple.com/documentation/authenticationservices/implementing_user_authentication_with_sign_in_with_apple)
+Have you ever abbandoned the idea of trying out new application after realising sign-up is mandatory? I believe it's safe to claim that the majority of user's value their privacy, I've never felt comfortable in linking account to Google or Facebook and at the same time I do not wish to uneccessary expose my e-mail address. [Sign in with Apple](https://developer.apple.com/sign-in-with-apple) grants user's a choice to keep their e-mail address private. [Apple](https://twitter.com/apple) provides a [sample code](https://developer.apple.com/documentation/authenticationservices/implementing_user_authentication_with_sign_in_with_apple) on how to use [Authentication Services](https://developer.apple.com/documentation/authenticationservices) framework to provide users an interface to set up account and authenticates the user’s Apple ID with Sign in with Apple.
 
 ### Kotlin Multiplatform for iOS developers
 
-Vimeo [video](https://vimeo.com/showcase/7769418/video/479639284) by (she/her) [Dinorah Tovar](https://twitter.com/DDinorahtovar)
+Starting the 18<sup>th</sup> of February 2021 in Latvia ATC there have occured multiple _BrownBag_ sessions lead by [Mykhailo Dontsov](https://people.accenture.com/People/user/mykhailo.dontsov) and [Aleksejs Frolovs](https://people.accenture.com/People/user/aleksejs.frolovs) on the topic of [Kotlin Multiplatform](https://kotlinlang.org/lp/mobile). Kotlin Multiplatform enables you to use a single codebase for the business logic of multiple applications. At the same time, native user interfaces can be written in a platform-specific language. [Dinorah Tovar](https://twitter.com/DDinorahtovar) in her [presentation](https://vimeo.com/showcase/7769418/video/479639284) talks about how to get started with Kotlin Multiplatform for iOS.
 
 ### Scan and verify identity documents with `Core NFC`
 
-[Core NFC](https://developer.apple.com/documentation/corenfc) framework
-Vimeo [video](https://vimeo.com/showcase/7769418/video/479350475) by [Maxim Tsvetkov](https://twitter.com/777maxxx777)
+Using [Core NFC](https://developer.apple.com/documentation/corenfc) framework you can detect Near Field Communication (NFC) tags and read messages that contain NFC Data Exchange Format (NDEF) data. [Maxim Tsvetkov](https://twitter.com/777maxxx777) gave a [presentation](https://vimeo.com/showcase/7769418/video/479350475) on what tool are available out-of-the-box, what data can be extracted, and how to verify document authenticity. 
 
-### New approach to formatters in iOS 15
+### Data formatting in iOS 15
 
-[article](https://nemecek.be/blog/106/new-approach-to-formatters-in-ios-15) by [Filip Němeček](https://twitter.com/nemecek_f)
+Up until recently, in order to format data we were creating and configuring different formatter classes, which are expensive operations (e.g., [Sarun Wongpatcharapakornand](https://twitter.com/sarunw) has an [article](https://sarunw.com/posts/how-expensive-is-dateformatter) where he provides statistics on the cost of `DateFormatter` creation and property mutation). Hopefully, that will be tthe thing of the past wiith the introduuction of new formatting API. Read [article](https://nemecek.be/blog/106/new-approach-to-formatters-in-ios-15) by [Filip Němeček](https://twitter.com/nemecek_f).
 
-### Meet the new bottom sheet in iOS 15
+### `UISheetPresentationController`
 
-[article](https://nemecek.be/blog/108/meet-the-new-bottom-sheet-in-ios-15) by [Filip Němeček](https://twitter.com/nemecek_f)
+iOS 15 adds means to present view controller as a sheet. In an [article](https://nemecek.be/blog/108/meet-the-new-bottom-sheet-in-ios-15) [Filip Němeček](https://twitter.com/nemecek_f)
+describes resizable sheet implementation and customization.
+Alternatively, discover how to create layered and fine-tuned sheet experience in `UIKit` in [Apple's](https://twitter.com/apple) WWDC21 session [video](https://developer.apple.com/videos/play/wwdc2021/10063) by [Russell Ladd](https://www.linkedin.com/in/russellladd).
 
-### iOS 15: Notable UIKit Additions (?)
+### iOS 15 `UIButton` configuration API
 
-[article](https://www.swiftjectivec.com/ios-15-notable-uikit-additions) by [Jordan Morgan](https://twitter.com/jordanmorgan10)
+iOS 15 enhances the way in which we configure `UIButton` appearance and behavior with a new API that takes many common and previously time-consuming layout and styling tasks and turns them into one-line configuration properties. [John Sundell](https://twitter.com/johnsundell) in his [article](https://wwdcbysundell.com/2021/uikits-new-button-configuration-api) has a first look on how to use the new button configuration API.
 
-### Taking UIKit’s new button configuration API for a spin
+### Core Data with `NSInMemoryStoreType`
 
-[article](https://wwdcbysundell.com/2021/uikits-new-button-configuration-api) by [John Sundell](https://twitter.com/johnsundell)
-
-### Core Data In Memory Store
-
-[article](https://useyourloaf.com/blog/core-data-in-memory-store) by [Keith Harrison](https://twitter.com/kharrison)
-
-### Swift 5.5
-
-[article](https://www.hackingwithswift.com/articles/233/whats-new-in-swift-5-5) and [code examples](https://www.whatsnewinswift.com/?from=5.4&to=5.5) by [Paul Hudson](https://twitter.com/twostraws)
+In the [article](https://useyourloaf.com/blog/core-data-in-memory-store) by [Keith Harrison](https://twitter.com/kharrison), you can find out how to speed up your tests and `SwiftUI` previews by creating `Core Data` stack with an in-memory store.
 
 ### Quick Tip: Notifying Users of App Updates - For Free
 
