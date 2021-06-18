@@ -12,6 +12,8 @@ Congratulations to all Midyear Cycle promotees, prominently to the Latvia ATC iO
 
 During [WWDC21](https://developer.apple.com/wwdc21) [Apple](https://twitter.com/Apple) announced [Xcode Cloud](https://developer.apple.com/xcode-cloud), concurrency in Swift, Universal Control, tab groups in Safari, live text, mentions and tags in Notes, focus mode, and notification summary among a vast amount of other features, watch [keynote](https://www.apple.com/apple-events/event-stream/index.html) and [Platforms State of the Union](https://developer.apple.com/videos/play/wwdc2021/102) (a deeper dive into the new tools, technologies, and advances across Apple platforms) if you have missed the event.
 
+Happy learning!
+
 ## News
 
 ### Swift 5.5
@@ -196,7 +198,7 @@ Additionally, visit [guide](https://www.hackingwithswift.com/articles/237/comple
 
 ### Introducing `ShazamKit`
 
-[Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=s0s8up0f) announced `ShazamKit`. Framework uses a unique acoustic signature of an audio recording to find a match to the millions of songs in a vast catalog or to make any prerecorded audio recognizable by building custom catalog using audio from video, podcasts, etc. Apple provides beta [sample code](https://developer.apple.com/documentation/shazamkit/building_a_custom_catalog_and_matching_audio) on matching the audio to a custom reference signature and associated metadata (sample code is associated with WWDC21 session [video](https://developer.apple.com/videos/play/wwdc2021/10045) where [Alex Telek](https://twitter.com/alextelek) guides us through the process of using exact audio matching to recognize audio against a custom catalog).
+[Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=s0s8up0f) announced `ShazamKit`. Framework uses a unique acoustic signature of an audio recording to find a match to the millions of songs in a vast catalog or to make any prerecorded audio recognizable by building custom catalog using audio from video, podcasts, etc. Apple provides beta [sample code](https://developer.apple.com/documentation/shazamkit/building_a_custom_catalog_and_matching_audio) on matching the audio to a custom reference signature and associated metadata (sample code is associated with WWDC21 session [video](https://developer.apple.com/videos/play/wwdc2021/10045) where [Alex Telek](https://twitter.com/alextelek) guides viewers through the process of using exact audio matching to recognize audio against a custom catalog).
 
 ### Simulating adverse networking environments with Network Link Conditioner
 
