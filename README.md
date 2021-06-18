@@ -181,36 +181,22 @@ iOS 15 Brings Attributed Strings to SwiftUI [article](https://betterprogramming.
 
 ## Tools
 
-### Xcode 13 is now available
+### Xcode 13
 
-Xcode 13 adds powerful new team development features, perfect for working with Xcode Cloud as well as with GitHub, Bitbucket, and GitLab collaboration features. Initiate, review, comment, and merge pull requests directly within Xcode. See your teammates’ comments right inside your code. And quickly compare any two versions of your code files.
-[Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=pq8tb86o)
-
-[article](https://www.hackingwithswift.com/articles/236/whats-new-in-xcode-13) by [Paul Hudson](https://twitter.com/twostraws)
+[Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=pq8tb86o) announced [Xcode 13 beta](https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_13_beta/Xcode_13_beta.xip). Review several of the IDE's latest key features, source editor improvements, and performance enhancements in an [article](https://www.hackingwithswift.com/articles/236/whats-new-in-xcode-13) by [Paul Hudson](https://twitter.com/twostraws).
 
 ### Xcode Cloud
 
-Xcode Cloud is a continuous integration and delivery service built into Xcode and designed expressly for Apple developers. It accelerates the development and delivery of high-quality apps by bringing together cloud-based tools that help you build apps, run automated tests in parallel, deliver apps to testers, and view and manage user feedback. Sign up for the beta today.
-[Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=uno5w59d)
+[Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=uno5w59d) opened a sign-up for Xcode Cloud (continuous integration and delivery beta service) that accelerates the development and delivery of applications by bringing together cloud-based tools that help developers to run automated tests in parallel, deliver applications to testers, and view and manage user feedback.
 
 ### SF Symbols 3
 
-[Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=30qc8oh0)
-[SF Symbols 3](https://developer.apple.com/sf-symbols) beta now available
-[guide](https://www.hackingwithswift.com/articles/237/complete-guide-to-sf-symbols) by [Paul Hudson](https://twitter.com/twostraws)
+[Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=30qc8oh0) declared availability of [SF Symbols 3](https://developer.apple.com/sf-symbols) beta.
+Additionally, visit [guide](https://www.hackingwithswift.com/articles/237/complete-guide-to-sf-symbols) in which [Paul Hudson](https://twitter.com/twostraws) demonstrates techniques how to interact with SF Symbols 3 in both `UIKit` and `SwiftUI`.
 
 ### Introducing `ShazamKit`
 
-Enrich your app experience with audio recognition. Now you can match music to the millions of songs in Shazam's vast catalog or make any prerecorded audio recognizable by building your own custom catalog using audio from video, podcasts, and more.
-[Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=s0s8up0f)
-
-**Building a Custom Catalog and Matching Audio**
-[Apple](https://twitter.com/apple) provides [sample code](https://developer.apple.com/documentation/shazamkit/building_a_custom_catalog_and_matching_audio)
-
-This sample code project is associated with WWDC21 session
-**Create custom audio experiences with ShazamKit**
-Bring custom audio matching to your app with ShazamKit. Discover how you can use Shazam's exact audio matching to recognize audio against any source when you use custom catalogs on device. Download our starter project and code along with the presenter as we guide you through the process of matching audio against a custom catalog. We'll also explore how easy it is to connect content across devices by building an interactive iOS app that can synchronize perfectly with video being streamed from a TV. To learn more about ShazamKit, check out "Explore ShazamKit" from WWDC21.
-[Apple](https://twitter.com/apple) WWDC21 session [video](https://developer.apple.com/videos/play/wwdc2021/10045) by [Alex Telek](https://twitter.com/alextelek)
+[Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=s0s8up0f) announced `ShazamKit`. Framework uses a unique acoustic signature of an audio recording to find a match to the millions of songs in a vast catalog or to make any prerecorded audio recognizable by building custom catalog using audio from video, podcasts, etc. Apple provides beta [sample code](https://developer.apple.com/documentation/shazamkit/building_a_custom_catalog_and_matching_audio) on matching the audio to a custom reference signature and associated metadata (sample code is associated with WWDC21 session [video](https://developer.apple.com/videos/play/wwdc2021/10045) where [Alex Telek](https://twitter.com/alextelek) guides us through the process of using exact audio matching to recognize audio against a custom catalog).
 
 ### Simulating adverse networking environments with Network Link Conditioner
 
@@ -219,7 +205,7 @@ Additionally, [article](https://nshipster.com/network-link-conditioner) by [Matt
 
 ### Xcode build settings
 
-[project](https://xcodebuildsettings.com)
+A convenient [online reference](https://xcodebuildsettings.com) of available build settings for Xcode projects maintained by [Matthew Thomas Thompson](https://twitter.com/mattt).
 
 ## Tips
 
