@@ -154,28 +154,27 @@ iOS 15 enhances the way in which we configure `UIButton` appearance and behavior
 
 In the [article](https://useyourloaf.com/blog/core-data-in-memory-store) by [Keith Harrison](https://twitter.com/kharrison), you can find out how to speed up your tests and `SwiftUI` previews by creating `Core Data` stack with an in-memory store.
 
-### Quick Tip: Notifying Users of App Updates - For Free
+### Notifying users of application updates
 
-**TODO:** [article](https://www.andyibanez.com/posts/quick-tip-notifying-users-app-updates-for-free) by [Andy Ibanez](https://twitter.com/AndyIbanezK)
+What percentage of your userbase is on the latest version of application you are working on? [Andy Ibanez](https://twitter.com/AndyIbanezK) claims that users may not be updating as often as you believe and shares his solution to let them know a new version is available without being invasive in an [article](https://www.andyibanez.com/posts/quick-tip-notifying-users-app-updates-for-free).
 
-### Why Should You Care about Manual Testing?
+### Why should you care about manual testing?
 
-**TODO:** [article](https://pspdfkit.com/blog/2021/pragmatic-manual-testing) by [Tomáš Šurín](https://twitter.com/tomassurin)
+[Tomáš Šurín](https://twitter.com/tomassurin) gives his perspective on manual testing as another tool that, when put to a good use, can improve product quality significantly in his [article](https://pspdfkit.com/blog/2021/pragmatic-manual-testing).
 
-### A first look at Swift’s new AttributedString
+### A first look at `AttributedString`
 
-**TODO:** [article](https://wwdcbysundell.com/2021/a-first-look-at-attributed-string) by [John Sundell](https://twitter.com/johnsundell)
+[John Sundell](https://twitter.com/johnsundell) has written an [article](https://wwdcbysundell.com/2021/a-first-look-at-attributed-string) comparing `NSAttributedString` and `AttributedString` implementation and new type's integration with `SwiftUI` . Spoiler, `AttributedString` has built-in Markdown (lightweight markup language for creating formatted text using a plain-text editor) support.
+Additionally, take a look at [article](https://betterprogramming.pub/ios-15-attributed-strings-in-swiftui-markdown-271204bec5c1) by [Andrew Zheng](https://www.linkedin.com/in/aheze) where he supplies multiple examples on working with `AttributedString`.
 
-iOS 15 Brings Attributed Strings to SwiftUI [article](https://betterprogramming.pub/ios-15-attributed-strings-in-swiftui-markdown-271204bec5c1) by [Andrew Zheng](https://www.linkedin.com/in/aheze)
+### Avoiding problematic cases when using enumerations
 
-### Avoiding problematic cases when using Swift enums
-
-**TODO:** [article](https://swiftbysundell.com/articles/avoiding-problematic-enum-cases-in-swift) by [John Sundell](https://twitter.com/johnsundell)
+[John Sundell](https://twitter.com/johnsundell) wrote an [article](https://swiftbysundell.com/articles/avoiding-problematic-enum-cases-in-swift) warning about certain `enum` cases that can arguably be good to avoid.
 
 ### Modern `RxSwift` architectures
 
-**TODO:** `RxFeedback` [article](https://academy.realm.io/posts/try-swift-nyc-2017-krunoslav-zaher-modern-rxswift-architectures) by [Krunoslav Zaher](https://twitter.com/KrunoslavZaher)
-or [presentation](https://www.youtube.com/watch?v=qZZTYIwrhsY)
+In an [article](https://academy.realm.io/posts/try-swift-nyc-2017-krunoslav-zaher-modern-rxswift-architectures) [Krunoslav Zaher](https://twitter.com/KrunoslavZaher) shares his experience solving cycling data dependencies with `RxFeedback` architecture.
+Alterntively, you can watch [presentation](https://www.youtube.com/watch?v=qZZTYIwrhsY) he gave at a conference.
 
 ## Tools
 
