@@ -55,8 +55,7 @@ Watch YouTube [video](https://www.youtube.com/watch?v=LbAd2FIlnos) by [Sean Alle
 
 ### Building your application using Xcode build configuration files
 
-[Saleh Albuga](https://twitter.com/salehalshami) created a comprehensive [tutorial](https://www.raywenderlich.com/21441177-building-your-app-using-build-configurations-and-xcconfig) educating 
-how to use Xcode build configuration files, manage build settings across multiple environments and targets, and access build settings from source code.
+[Saleh Albuga](https://twitter.com/salehalshami) created a comprehensive [tutorial](https://www.raywenderlich.com/21441177-building-your-app-using-build-configurations-and-xcconfig) educating how to use Xcode build configuration files, manage build settings across multiple environments and targets, and access build settings from source code.
 Additionally, study [aticle](https://nshipster.com/xcconfig) by [Matthew Thomas Thompson](https://twitter.com/mattt) where he encourages developers to extract their applications' configurations to `.xcconfig` files.
 
 ### Create a new Xcode project without storyboards
@@ -67,67 +66,54 @@ Concise YouTube [video tutorial](https://www.youtube.com/watch?v=Htn4h51BQsk) by
 
 ### WWDC 2021 highlights
 
-Apple Worldwide Developers Conference has concluded. Aftermath, [Apple](https://twitter.com/apple) provides [selection of documentation](https://developer.apple.com/documentation/New-Technologies-WWDC-2021) for new technologies, frameworks, and APIs introduced at WWDC 2021.
+WWDC 2021 has concluded, [Apple](https://twitter.com/apple) has followed up with a [selection of documentation](https://developer.apple.com/documentation/New-Technologies-WWDC-2021) for new technologies, frameworks, and APIs introduced at the event.
 
 ### `DocC` documentation in Xcode
 
-Discover how you can use DocC to build and share documentation for Swift packages and frameworks. We'll show you how to begin generating documentation from your own code — or from third-party code you depend upon — and write and format it using Markdown. And we'll also take you through the export process, helping you generate DocC archives to share with the public.
-[Apple](https://twitter.com/apple) announced [DocC](https://developer.apple.com/documentation/docc) framework, watch WWDC21 session [video](https://developer.apple.com/videos/play/wwdc2021/10166) by [Victoria Mitchell](<!--Couldn't find Victoria Mitchell's single social media account-->) and [Ethan Kusters](https://twitter.com/ethankusters)
-
-[article](https://www.hackingwithswift.com/articles/238/how-to-document-your-project-with-docc) by [Paul Hudson](https://twitter.com/twostraws)
-
-A tutorial expands your Swift framework or package’s reference documentation with interactive educational content. Create a tutorial by adding a table of contents and individual tutorial pages that walk the reader through coding exercises that teach your APIs.
-[Apple](https://twitter.com/apple) [article](https://developer.apple.com/documentation/docc/building-an-interactive-tutorial)
+[Apple](https://twitter.com/apple) has announced [DocC](https://developer.apple.com/documentation/docc) framework, watch WWDC21 session [video](https://developer.apple.com/videos/play/wwdc2021/10166) in which software engineers [Victoria Mitchell](<!--Couldn't find Victoria Mitchell's single social media account-->) and [Ethan Kusters](https://twitter.com/ethankusters) give you introduction on new Swift package and framework documentation compiler available in Xcode 13.
+In [Paul Hudson's](https://twitter.com/twostraws) [article](https://www.hackingwithswift.com/articles/238/how-to-document-your-project-with-docc) you can walk through the fundamentals of
+generating and exporting documentation for a framework.  
+Furtherfore, [Apple](https://twitter.com/apple) provides an [article](https://developer.apple.com/documentation/docc/building-an-interactive-tutorial) explaining how to build an interactive tutorial for your Swift package or framework.
 
 ### Streamline your localized strings
 
-When you localize the text within your app, you can help make your app more accessible to a worldwide audience. Discover best practices for building your localization workflow, including how to write and format strings accurately, and learn how to prepare strings for localization in different languages using Xcode.
-[Apple](https://twitter.com/apple) WWDC21 session [video](https://developer.apple.com/videos/play/wwdc2021/10221) by [Thomas Naudet](https://twitter.com/tomn94)
+Discover best practices for building your localization workflow, including how to write and format strings accurately, and learn how to prepare strings for localization in different languages using Xcode in [Apple's](https://twitter.com/apple) WWDC21 session [video](https://developer.apple.com/videos/play/wwdc2021/10221) by [Thomas Naudet](https://twitter.com/tomn94).
 
 ### Automatic Reference Counting in Swift
 
-Learn about the basics of object lifetimes and ARC in Swift. Dive deep into what language features make object lifetimes observable, consequences of relying on observed object lifetimes and some safe techniques to fix them.
-[Apple](https://twitter.com/apple) WWDC21 session [video](https://developer.apple.com/videos/play/wwdc2021/10216) by (she/her) [Meghana Gupta](https://www.linkedin.com/in/meghana-gupta)
+[Meghana Gupta](https://www.linkedin.com/in/meghana-gupta) educates developers about the basics of object lifetimes and Automatic Reference Counting (ARC) in Swift. Learn what language features make object lifetimes observable, what are the consequences of relying on observed object lifetimes and some techniques to avoid them in [Apple's](https://twitter.com/apple) WWDC21 session [video](https://developer.apple.com/videos/play/wwdc2021/10216).
 
 ### Swift concurrency
 
 #### Meet `async`/`await` in Swift
 
-Swift now supports asynchronous functions — a pattern commonly known as async/await. Discover how the new syntax can make your code easier to read and understand. Learn what happens when a function suspends, and find out how to adapt existing completion handlers to asynchronous functions.
+**TODO:** Swift now supports asynchronous functions — a pattern commonly known as async/await. Discover how the new syntax can make your code easier to read and understand. Learn what happens when a function suspends, and find out how to adapt existing completion handlers to asynchronous functions.
 [Apple](https://twitter.com/apple) WWDC21 session [video](https://developer.apple.com/videos/play/wwdc2021/10132) by [Nate Chandler](https://twitter.com/neightchan) and [Robert Widmann](https://twitter.com/CodaFi_)
 
 #### Protect mutable state with Swift actors
 
-Data races occur when two separate threads concurrently access the same mutable state. They are trivial to construct, but are notoriously hard to debug. Discover how you can stop these data races in their tracks with Swift actors, which help synchronize access to data in your code. Discover how actors work and how to share values between them. Learn about how actor isolation affects protocol conformances. And finally, meet the main actor, a new way of ensuring that your code always runs on the main thread when needed. To get the most out of this session, we recommend first watching [_Meet async/await in Swift_](#meet-asyncawait-in-swift).
+**TODO:** Data races occur when two separate threads concurrently access the same mutable state. They are trivial to construct, but are notoriously hard to debug. Discover how you can stop these data races in their tracks with Swift actors, which help synchronize access to data in your code. Discover how actors work and how to share values between them. Learn about how actor isolation affects protocol conformances. And finally, meet the main actor, a new way of ensuring that your code always runs on the main thread when needed. To get the most out of this session, we recommend first watching [_Meet async/await in Swift_](#meet-asyncawait-in-swift).
 [Apple](https://twitter.com/apple) WWDC21 session [video](https://developer.apple.com/videos/play/wwdc2021/10133) by [Dario Rexin](https://twitter.com/evonox) and [Doug Gregor](https://twitter.com/dgregor79)
 
 #### Explore structured concurrency in Swift
 
-When you have code that needs to run at the same time as other code, it's important to choose the right tool for the job. We'll take you through the different kinds of concurrent tasks you can create in Swift, show you how to create groups of tasks, and find out how to cancel tasks in progress. We'll also provide guidance on when you may want to use unstructured tasks. To get the most out of this session, we first recommend watching [_Meet async/await in Swift_](#meet-asyncawait-in-swift).
+**TODO:** When you have code that needs to run at the same time as other code, it's important to choose the right tool for the job. We'll take you through the different kinds of concurrent tasks you can create in Swift, show you how to create groups of tasks, and find out how to cancel tasks in progress. We'll also provide guidance on when you may want to use unstructured tasks. To get the most out of this session, we first recommend watching [_Meet async/await in Swift_](#meet-asyncawait-in-swift).
 [Apple](https://twitter.com/apple) WWDC21 session [video](https://developer.apple.com/videos/play/wwdc2021/10134) by [Kavon Farvardin](https://twitter.com/call1cc) and [Joe Groff](https://twitter.com/jckarter)
 
 #### Swift concurrency in action
 
-Discover Swift concurrency in action: Follow along as we update an existing sample app. Get real-world experience with async/await, actors, and continuations. We'll also explore techniques for migrating existing code to Swift concurrency over time. To get the most out of this code-along, we recommend first watching [_Meet async/await in Swift_](#meet-asyncawait-in-swift) and [_Protect mutable state with Swift actors_](#protect-mutable-state-with-swift-actors).
+**TODO:** Discover Swift concurrency in action: Follow along as we update an existing sample app. Get real-world experience with async/await, actors, and continuations. We'll also explore techniques for migrating existing code to Swift concurrency over time. To get the most out of this code-along, we recommend first watching [_Meet async/await in Swift_](#meet-asyncawait-in-swift) and [_Protect mutable state with Swift actors_](#protect-mutable-state-with-swift-actors).
 [Apple](https://twitter.com/apple) WWDC21 session [video](https://developer.apple.com/videos/play/wwdc2021/10194) by [Ben Cohen](https://twitter.com/AirspeedSwift)
 
 #### Behind the scenes of Swift concurrency
 
-Dive into the details of Swift concurrency and discover how Swift provides greater safety from data races and thread explosion while simultaneously improving performance. We'll explore how Swift tasks differ from Grand Central Dispatch, how the new cooperative threading model works, and how to ensure the best performance for your apps. To get the most out of this session, we recommend first watching [_Meet async/await in Swift_](#meet-asyncawait-in-swift), [_Explore structured concurrency in Swift_](#explore-structured-concurrency-in-swift), and [_Protect mutable state with Swift actors_](#protect-mutable-state-with-swift-actors).
+**TODO:** Dive into the details of Swift concurrency and discover how Swift provides greater safety from data races and thread explosion while simultaneously improving performance. We'll explore how Swift tasks differ from Grand Central Dispatch, how the new cooperative threading model works, and how to ensure the best performance for your apps. To get the most out of this session, we recommend first watching [_Meet async/await in Swift_](#meet-asyncawait-in-swift), [_Explore structured concurrency in Swift_](#explore-structured-concurrency-in-swift), and [_Protect mutable state with Swift actors_](#protect-mutable-state-with-swift-actors).
 [Apple](https://twitter.com/apple) WWDC21 session [video](https://developer.apple.com/videos/play/wwdc2021/10254) by [Rokhini Prabhu](https://twitter.com/rokhinip) and [Varun Gandhi](https://www.linkedin.com/in/varungandhi15)
 
 #### Structured concurrency
 
-Doug Gregor from Apple joins John to discuss Swift 5.5’s new concurrency features in great detail. How do features like async/await and actors work under the hood, and how were those concepts adapted in order to feel right at home within Swift’s existing ecosystem? That, and much more, on this WWDC21 special episode of the show.
+**TODO:** Doug Gregor from Apple joins John to discuss Swift 5.5’s new concurrency features in great detail. How do features like async/await and actors work under the hood, and how were those concepts adapted in order to feel right at home within Swift’s existing ecosystem? That, and much more, on this WWDC21 special episode of the show.
 [Swift by Sundell](https://twitter.com/swiftbysundell) [John Sundell](https://twitter.com/johnsundell) [podcast](https://podcasts.apple.com/lv/podcast/swift-by-sundell/id1267161825?i=1000525108228) with special guest [Doug Gregor](https://twitter.com/dgregor79)
-
-### Data formatters to display human-friendly content
-
-Convert data into readable strings or Swift objects using formatters.
-[Apple](https://twitter.com/apple) has a [sample code](https://developer.apple.com/documentation/foundation/formatter/displaying_human-friendly_content)
-
-Save yourself time and frustration: When you display data in your app — including dates, times, measurements, names, lists, numbers, or strings — learn how to format it correctly and provide a great experience. We'll walk you through the Formatter APIs as well as how SwiftUI works with stringsdict, and show you how they can help do the heavy lifting of formatting data. Learn about best practices and how to avoid common mistakes.
-[Apple](https://twitter.com/apple) WWDC20 session [video](https://developer.apple.com/videos/play/wwdc2020/10160) by [Karan Miśra](https://www.linkedin.com/in/karanmisra)
 
 ### Application capabilities
 
@@ -143,11 +129,16 @@ Starting the 18<sup>th</sup> of February 2021 in Latvia ATC there have occured m
 
 ### Scan and verify identity documents with `Core NFC`
 
-Using [Core NFC](https://developer.apple.com/documentation/corenfc) framework you can detect Near Field Communication (NFC) tags and read messages that contain NFC Data Exchange Format (NDEF) data. [Maxim Tsvetkov](https://twitter.com/777maxxx777) gave a [presentation](https://vimeo.com/showcase/7769418/video/479350475) on what tool are available out-of-the-box, what data can be extracted, and how to verify document authenticity. 
+Using [Core NFC](https://developer.apple.com/documentation/corenfc) framework you can detect Near Field Communication (NFC) tags and read messages that contain NFC Data Exchange Format (NDEF) data. [Maxim Tsvetkov](https://twitter.com/777maxxx777) gave a [presentation](https://vimeo.com/showcase/7769418/video/479350475) on what tool are available out-of-the-box, what data can be extracted, and how to verify document authenticity.
+
+### Data formatters to display human-friendly content
+
+Learn about the best practices of converting data into readable strings or Swift objects and how to avoid common mistakes using formatters in [Apple's](https://twitter.com/apple) [sample code](https://developer.apple.com/documentation/foundation/formatter/displaying_human-friendly_content) (sample code is associated with WWDC20 session [video](https://developer.apple.com/videos/play/wwdc2020/10160) where [Karan Miśra](https://www.linkedin.com/in/karanmisra) walks viewers through the formatter APIs as well as how `SwiftUI` works with `.stringsdict` files.
+Further, learn about modern formatter API in [_Data formatting in iOS 15_](#data-formatting-in-ios-15).
 
 ### Data formatting in iOS 15
 
-Up until recently, in order to format data we were creating and configuring different formatter classes, which are expensive operations (e.g., [Sarun Wongpatcharapakornand](https://twitter.com/sarunw) has an [article](https://sarunw.com/posts/how-expensive-is-dateformatter) where he provides statistics on the cost of `DateFormatter` creation and property mutation). Hopefully, that will be tthe thing of the past wiith the introduuction of new formatting API. Read [article](https://nemecek.be/blog/106/new-approach-to-formatters-in-ios-15) by [Filip Němeček](https://twitter.com/nemecek_f).
+Up until recently, in order to format data we were creating and configuring different formatter classes (highlighted in [_Data formatters to display human-friendly content_](#data-formatters-to-display-human-friendly-content)), which are expensive operations (e.g., [Sarun Wongpatcharapakornand](https://twitter.com/sarunw) has an [article](https://sarunw.com/posts/how-expensive-is-dateformatter) where he provides statistics on the cost of `DateFormatter` creation and property mutation). Hopefully, that will be the thing of the past with the introduction of new formatter API. Read [article](https://nemecek.be/blog/106/new-approach-to-formatters-in-ios-15) by [Filip Němeček](https://twitter.com/nemecek_f).
 
 ### `UISheetPresentationController`
 
@@ -165,21 +156,26 @@ In the [article](https://useyourloaf.com/blog/core-data-in-memory-store) by [Kei
 
 ### Quick Tip: Notifying Users of App Updates - For Free
 
-[article](https://www.andyibanez.com/posts/quick-tip-notifying-users-app-updates-for-free) by [Andy Ibanez](https://twitter.com/AndyIbanezK)
+**TODO:** [article](https://www.andyibanez.com/posts/quick-tip-notifying-users-app-updates-for-free) by [Andy Ibanez](https://twitter.com/AndyIbanezK)
 
 ### Why Should You Care about Manual Testing?
 
-[article](https://pspdfkit.com/blog/2021/pragmatic-manual-testing) by [Tomáš Šurín](https://twitter.com/tomassurin)
+**TODO:** [article](https://pspdfkit.com/blog/2021/pragmatic-manual-testing) by [Tomáš Šurín](https://twitter.com/tomassurin)
 
 ### A first look at Swift’s new AttributedString
 
-[article](https://wwdcbysundell.com/2021/a-first-look-at-attributed-string) by [John Sundell](https://twitter.com/johnsundell)
+**TODO:** [article](https://wwdcbysundell.com/2021/a-first-look-at-attributed-string) by [John Sundell](https://twitter.com/johnsundell)
 
 iOS 15 Brings Attributed Strings to SwiftUI [article](https://betterprogramming.pub/ios-15-attributed-strings-in-swiftui-markdown-271204bec5c1) by [Andrew Zheng](https://www.linkedin.com/in/aheze)
 
 ### Avoiding problematic cases when using Swift enums
 
-[article](https://swiftbysundell.com/articles/avoiding-problematic-enum-cases-in-swift) by [John Sundell](https://twitter.com/johnsundell)
+**TODO:** [article](https://swiftbysundell.com/articles/avoiding-problematic-enum-cases-in-swift) by [John Sundell](https://twitter.com/johnsundell)
+
+### Modern `RxSwift` architectures
+
+**TODO:** `RxFeedback` [article](https://academy.realm.io/posts/try-swift-nyc-2017-krunoslav-zaher-modern-rxswift-architectures) by [Krunoslav Zaher](https://twitter.com/KrunoslavZaher)
+or [presentation](https://www.youtube.com/watch?v=qZZTYIwrhsY)
 
 ## Tools
 
