@@ -33,7 +33,7 @@ Additionally, [Sean Allen](https://twitter.com/seanallen_dev) offers YouTube [vi
 
 ### Tips to improve your Swift code
 
-In his YouTube [video](https://www.youtube.com/watch?v=4TTSZZkdOs4), [Vincent Pradeilles](https://twitter.com/v_pradeilles) advises increasing the quality of your Swift code. It is also recommended that you refer to any Swift style guide (e.g., Airbnb Swift [style guide](https://github.com/airbnb/swift), LinkedIn Swift [style guide](https://github.com/linkedin/swift-style-guide), raywenderlich.com Swift [style guide](https://github.com/raywenderlich/swift-style-guide), or Google Swift [style guide](https://google.github.io/swift)) to have a clear, consistent, and precise codebase.
+In his YouTube [video](https://www.youtube.com/watch?v=4TTSZZkdOs4), [Vincent Pradeilles](https://twitter.com/v_pradeilles) advises increasing the quality of your Swift code. Moreover, it is recommended that you refer to any Swift style guide (e.g., Airbnb Swift [style guide](https://github.com/airbnb/swift), LinkedIn Swift [style guide](https://github.com/linkedin/swift-style-guide), raywenderlich.com Swift [style guide](https://github.com/raywenderlich/swift-style-guide), or Google Swift [style guide](https://google.github.io/swift)) to have a clear, consistent, and precise codebase.
 
 ### Debugging with breakpoints
 
@@ -41,7 +41,7 @@ Breakpoints are locations in your source code where the Xcode debugger will paus
 
 ### `UINavigationController`
 
-Watch a YouTube [video](https://www.youtube.com/watch?v=LbAd2FIlnos) by [Sean Allen](https://twitter.com/seanallen_dev) where he explains what navigation controllers are, how do they work, and how to customize a navigation controller to match your application's look and feel.
+Watch a YouTube [video](https://www.youtube.com/watch?v=LbAd2FIlnos) by [Sean Allen](https://twitter.com/seanallen_dev) where he explains what navigation controllers are, how do they work, and how to customize a navigation controller to match your application's visual identity.
 
 ### Higher-order functions
 
@@ -71,8 +71,7 @@ WWDC 2021 has concluded, [Apple](https://twitter.com/apple) has followed up with
 ### `DocC` documentation in Xcode
 
 [Apple](https://twitter.com/apple) has announced the [DocC](https://developer.apple.com/documentation/docc) framework, watch the WWDC21 [session](https://developer.apple.com/videos/play/wwdc2021/10166) in which software engineers [Victoria Mitchell](<!--Couldn't find Victoria Mitchell's single social media account-->) and [Ethan Kusters](https://twitter.com/ethankusters) give you an introduction to the new Swift package and framework documentation compiler available in Xcode 13.
-In [Paul Hudson's](https://twitter.com/twostraws) [article](https://www.hackingwithswift.com/articles/238/how-to-document-your-project-with-docc), you can walk through the fundamentals of
-generating and exporting documentation for a framework.  
+In [Paul Hudson's](https://twitter.com/twostraws) [article](https://www.hackingwithswift.com/articles/238/how-to-document-your-project-with-docc), you can walk through the fundamentals of generating and exporting documentation for a framework.
 Furthermore, [Apple](https://twitter.com/apple) provides an [article](https://developer.apple.com/documentation/docc/building-an-interactive-tutorial) explaining how to build an interactive tutorial for your Swift package or framework.
 
 ### Streamline your localized strings
@@ -127,7 +126,7 @@ Using the [Core NFC](https://developer.apple.com/documentation/corenfc) framewor
 
 ### Data formatters to display human-friendly content
 
-Learn about the best practices of converting data into readable strings or Swift objects and how to avoid common mistakes using formatters in [Apple's](https://twitter.com/apple) [sample code](https://developer.apple.com/documentation/foundation/formatter/displaying_human-friendly_content) (sample code is associated with WWDC20 [session](https://developer.apple.com/videos/play/wwdc2020/10160) where [Karan Miśra](https://www.linkedin.com/in/karanmisra) walks viewers through the formatter APIs as well as how `SwiftUI` works with `.stringsdict` files.
+Learn about the best practices of converting data into readable strings or Swift objects and how to avoid common mistakes using formatters in [Apple's](https://twitter.com/apple) [sample code](https://developer.apple.com/documentation/foundation/formatter/displaying_human-friendly_content) (sample code is associated with WWDC20 [session](https://developer.apple.com/videos/play/wwdc2020/10160) where [Karan Miśra](https://www.linkedin.com/in/karanmisra) walks viewers through the formatter APIs as well as how `SwiftUI` works with `.stringsdict` files).
 Further, learn about modern formatter API in [_Data formatting in iOS 15_](#data-formatting-in-ios-15).
 
 ### Data formatting in iOS 15
@@ -174,7 +173,7 @@ Alternatively, you can watch the [presentation](https://www.youtube.com/watch?v=
 
 ### Xcode 13
 
-[Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=pq8tb86o) announced [Xcode 13 beta](https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_13_beta/Xcode_13_beta.xip). Review several of the IDE's latest key features, source editor improvements, and performance enhancements in an [article](https://www.hackingwithswift.com/articles/236/whats-new-in-xcode-13) by [Paul Hudson](https://twitter.com/twostraws).
+[Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=pq8tb86o) announced [Xcode 13](https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_13_beta/Xcode_13_beta.xip) beta. Review several of the IDE's latest key features, source editor improvements, and performance enhancements in an [article](https://www.hackingwithswift.com/articles/236/whats-new-in-xcode-13) by [Paul Hudson](https://twitter.com/twostraws).
 
 ### Xcode Cloud
 
@@ -191,8 +190,7 @@ Additionally, visit [guide](https://www.hackingwithswift.com/articles/237/comple
 
 ### Simulating adverse networking environments with Network Link Conditioner
 
-StackOverflow [answer](https://stackoverflow.com/questions/2593971/iphone-simulator-simulate-a-slow-connection/27363671#27363671) by [Alan Hogan](https://twitter.com/b01dface)
-Additionally, [article](https://nshipster.com/network-link-conditioner) by [Matthew Thomas Thompson](https://twitter.com/mattt)
+[Alan Hogan](https://twitter.com/b01dface) gave a StackOverflow [answer](https://stackoverflow.com/questions/2593971/iphone-simulator-simulate-a-slow-connection/27363671#27363671) on how to limit uplink or download bandwidth, latency, and rate of packet loss on iPhone simulators using Network Link Conditioner. Additionally, read an [article](https://nshipster.com/network-link-conditioner) by [Matthew Thomas Thompson](https://twitter.com/mattt).
 
 ### Xcode build settings
 
