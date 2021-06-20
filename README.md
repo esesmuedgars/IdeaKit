@@ -1,6 +1,6 @@
 <img width="100%" alt="import IdeaKit - Swift Monthly Newsletter" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/title.svg" />
 
-###### 0 minute read
+###### 10 minute read
 
 ![Issue](https://img.shields.io/badge/issue-1.6-informational.svg)
 
