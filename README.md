@@ -1,224 +1,227 @@
 <img width="100%" alt="import IdeaKit - Swift Monthly Newsletter" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/title.svg" />
 
-###### 11 minute read
+###### 10 minute read
 
-![Issue](https://img.shields.io/badge/issue-1.5-informational.svg)
+![Issue](https://img.shields.io/badge/issue-1.6-informational.svg)
 
-Greetings!
+Good morning and welcome to _import IdeaKit_!
 
-Another issue of the newsletter brings us another improvement. To spotlight helpful Twitter posts and minute articles with great bits of advice the _[Tips](#tips-)_ section has been added to the newsletter.
+Shout-out to [Artjoms Vorona](https://people.accenture.com/People/user/artjoms.vorona) for his contribution to 3<sup>rd</sup> issue of the newsletter! The backlog has plenty more unassigned user stories, consider this as an invitation to join the team. All aboard!
 
-As we are a single step away from summer and nature is flourishing, developers also use energy from the sun to fuel their creativity and increase their output, ahead of you is an extensive list of great sources of information.
+Congratulations to all Midyear Cycle promotees, prominently to the Latvia ATC iOS developers - [Artjoms Vorona](https://people.accenture.com/People/user/artjoms.vorona), [Kristaps Knets](https://people.accenture.com/People/user/kristaps.knets), and [Armands Mikanovskis-Mikalovskis](https://people.accenture.com/People/user/armands.mikanovskis)! 👏🏼
+
+During [WWDC21](https://developer.apple.com/wwdc21) [Apple](https://twitter.com/Apple) announced [Xcode Cloud](https://developer.apple.com/xcode-cloud), concurrency in Swift, Universal Control, tab groups in Safari, live text, mentions and tags in Notes, focus mode, and notification summary among a vast amount of other features, watch [keynote](https://www.apple.com/apple-events/event-stream/index.html) and [Platforms State of the Union](https://developer.apple.com/videos/play/wwdc2021/102) (a deeper dive into the new tools, technologies, and advances across Apple platforms) if you have missed the event.
 
 Happy learning!
 
 ## News
 
-### Swift 5.4
+### Swift 5.5
 
-[Ted Kremenek](https://twitter.com/tkremenek) in his Swift blog [post](https://swift.org/blog/swift-5-4-released) announced the official release of Swift 5.4, alternatively get familiar with new Swift language features by reviewing [code examples](https://www.whatsnewinswift.com/?from=5.3&to=5.4) created by [Paul Hudson](https://twitter.com/twostraws), and main changes to Swift Package Manager are described by [Federico Zanetello](https://twitter.com/zntfdr) in his [article](https://www.fivestars.blog/articles/spm-5-4).
+Swift 5.5 comes with a lot of changes providing major new language features that deliver power and safety to the Swift developers. [Paul Hudson](https://twitter.com/twostraws) in his [article](https://www.hackingwithswift.com/articles/233/whats-new-in-swift-5-5) offers [code samples](https://www.whatsnewinswift.com/?from=5.4&to=5.5) of all of the main changes.
 
-### Updates to age rating settings in App Store Connect
+### App Store Review Guideline updates
 
-An age rating is a required application information property used by the parental controls on the App Store. [Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=fwpxy9kw) describe changes to App Store Connect age rating settings.
-
-### App Store submission update
-
-[Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=ib31uj1j) broadcasted that all iOS, iPadOS, and watchOS applications submitted to the App Store must be built with Xcode 12 starting the 26<sup>th</sup> of April.
-
-### WWDC 2021
-
-[Apple Worldwide Developers Conference](https://developer.apple.com/wwdc21) is just around the corner, an all-online event will be taking place on Monday, the 7<sup>th</sup> of June.
+"Apps supporting account creation must also offer account deletion" and other additions to the App Store Review Guidelines you can get familiar with in [Apple's](https://twitter.com/apple) news [article](https://developer.apple.com/news/?id=dovxb62h).
 
 ## Fundamentals
 
-### Swift keywords
+### `class` and `struct`
 
-[Jordan Morgan](https://twitter.com/jordanmorgan10) has an [article](https://www.swiftjectivec.com/swift-keywords-v-3-0-1) explaining every single reserved keyword in Swift with added minimalistic code snippets to illustrate their use.
+In case I was your _TechBuddy_ (also known as a technical mentor) during your iOS internship you most likely have received feedback to use structures instead of classes for data models when decoding HTTP responses. [Pedro Rojas](https://twitter.com/pitt500) in his YouTube [video](https://www.youtube.com/watch?v=zOeC7pxOIhk) compares both of them and points out the differences.
+Additionally, [Sean Allen](https://twitter.com/seanallen_dev) offers YouTube [video](https://www.youtube.com/watch?v=EhDML-fAqTM) explaining classes and YouTube [video](https://www.youtube.com/watch?v=3ox38NBBiNM) explaining structures.
 
-### `if case let` statements in Swift
+### Tips to improve your Swift code
 
-When working with enumerations occasionally you may come across enumeration cases with arguments. Using a switch statement enables you to match enumeration values and optionally extract the associated values as constants or variables. Supposing your main point of interest is a single enumeration case, as opposed to using default case to cover all remaining cases that aren’t addressed explicitly, use `if case let` statement instead. [Zoë Smith](https://twitter.com/zoejessica) wrote an [article](https://fuckingifcaseletsyntax.com) explaining how to write those statements.
+In his YouTube [video](https://www.youtube.com/watch?v=4TTSZZkdOs4), [Vincent Pradeilles](https://twitter.com/v_pradeilles) advises increasing the quality of your Swift code. Moreover, it is recommended that you refer to any Swift style guide (e.g., Airbnb Swift [style guide](https://github.com/airbnb/swift), LinkedIn Swift [style guide](https://github.com/linkedin/swift-style-guide), raywenderlich.com Swift [style guide](https://github.com/raywenderlich/swift-style-guide), or Google Swift [style guide](https://google.github.io/swift)) to have a clear, consistent, and precise codebase.
 
-### Difference between a singleton and a shared instance
+### Debugging with breakpoints
 
-A common anti-pattern in Swift is to define an instance of an object that you can access in your application globally. [Donny Wals](https://twitter.com/DonnyWals) draws the line between singleton and a shared instance in his [article](https://www.donnywals.com/whats-the-difference-between-a-singleton-and-a-shared-instance-in-swift).
+Breakpoints are locations in your source code where the Xcode debugger will pause so that you can inspect the state of your program and step through your code to pinpoint the root cause of an issue or isolate a bug. [Sean Allen](https://twitter.com/seanallen_dev) in his YouTube [video](https://www.youtube.com/watch?v=qPWfOkHcKdU) exhibits how to debug an application with the help of breakpoints.
 
-### Error handling in Swift
+### `UINavigationController`
 
-Some operations aren’t guaranteed to always complete execution or produce a useful output and when an operation fails, it’s often useful to understand what caused the failure, so that you can respond to and recover from error conditions accordingly. Visit the [article](https://www.avanderlee.com/swift/try-catch-throw-error-handling) by [Antoine van der Lee](https://twitter.com/twannl), [article](https://www.hackingwithswift.com/example-code/language/how-to-use-try-catch-in-swift-to-handle-exceptions) by [Paul Hudson](https://twitter.com/twostraws), and [video](https://www.youtube.com/watch?v=Lrc-MX8WgNc) by [Sean Allen](https://twitter.com/seanallen_dev) to learn about emitting and handling errors.
+Watch a YouTube [video](https://www.youtube.com/watch?v=LbAd2FIlnos) by [Sean Allen](https://twitter.com/seanallen_dev) where he explains what navigation controllers are, how do they work, and how to customize a navigation controller to match your application's visual identity.
 
-### Auto Layout in Swift
+### Higher-order functions
 
-Auto Layout constraints empower us to create views that dynamically adjust to different size classes and positions. The constraints will make sure that views dynamically respond to both internal and external changes. In his [video](https://www.youtube.com/watch?v=emojd8GFB0o), [Chris Ching](https://twitter.com/codewithchris) teaches how to size and position user interface elements by setting constraints in an Interface Builder, [Antoine van der Lee](https://twitter.com/twannl) has an [article](https://www.avanderlee.com/swift/auto-layout-programmatically) that will help you create constraints programmatically, and [Paul Hudson](https://twitter.com/twostraws) had created a [cheat sheet](https://www.hackingwithswift.com/articles/140/the-auto-layout-cheat-sheet) addressing common Auto Layout requirements.
+[Manish Jain](https://www.linkedin.com/in/manish-jain-b5911620) wrote a short [article](https://medium.com/xebia-engineering/higher-order-functions-in-swift-c2f823f970fe) educating about some of the most common higher-order functions such as `map(_:)`, `filter(_:)`, and `contains(_:)`.
 
 ## Tutorials
 
-### iOS unit and UI testing
+### Firebase Dynamic Links
 
-There is nothing worse than to find out some functionality of the application you're building doesn't work when it previously did. When scaling and optimizing our applications we often revisit previous implementations in our codebases. It is crucial to be confident that no defects have been introduced when releasing new features. The purpose of well-written tests is to reassure. In a [tutorial](https://www.raywenderlich.com/21020457-ios-unit-testing-and-ui-testing-tutorial) written by [Audrey Tam](https://twitter.com/mataharimau) and updated by [David Piper](https://twitter.com/HeyDaveTheDev) you can learn how to write test cases, imitate services, and gather test coverage.
+[Danijela Vrzan](https://twitter.com/dvrzan) in her [tutorial](https://www.raywenderlich.com/21376846-firebase-dynamic-links-getting-started) teaches how to implement deep linking on iOS using Firebase Dynamic Links. By the end of the tutorial you will be able to create, test, handle deep links if the application is not installed, and navigate to a specific view with `SwiftUI`.
 
-### Geofencing with `UNLocationNotificationTrigger`
+### Building your application using Xcode build configuration files
 
-In [tutorial](https://www.raywenderlich.com/20690666-location-notifications-with-unlocationnotificationtrigger) by [Graham Connolly](https://www.linkedin.com/in/graham-connolly-37756a53) learn how to use  `UNLocationNotificationTrigger` to schedule a local notification to be delivered when a device enters or leaves a specific geographic region.
+[Saleh Albuga](https://twitter.com/salehalshami) created a comprehensive [tutorial](https://www.raywenderlich.com/21441177-building-your-app-using-build-configurations-and-xcconfig) educating how to use Xcode build configuration files, manage build settings across multiple environments and targets, and access build settings from source code.
+Additionally, study [article](https://nshipster.com/xcconfig) by [Matthew Thomas Thompson](https://twitter.com/mattt) where he encourages developers to extract their applications' configurations to `.xcconfig` files.
 
-### Monitoring for iOS with `MetricKit`
+### Create a new Xcode project without storyboards
 
-In iOS 13 Apple introduced [MetricKit](https://developer.apple.com/documentation/metrickit) to help you receive on-device application diagnostics as well as power and performance metrics captured by the system. [Adam Rush](https://twitter.com/adam9rush) has created a [tutorial](https://www.raywenderlich.com/20952676-monitoring-for-ios-with-metrickit-getting-started), where you'll explore framework APIs by simulating receiving diagnostics in Xcode.
-
-### `UIView` animations
-
-[Midhet Sulemani](https://twitter.com/itsnotmidget) in her [tutorial](https://dev.to/midhetfatema94/uiview-animations-in-swift-5cnj) tutors about animatable properties of `UIView` class.
+Concise YouTube [video tutorial](https://www.youtube.com/watch?v=Htn4h51BQsk) by [Sean Allen](https://twitter.com/seanallen_dev) demonstrating how to create a fresh Xcode project with programmatically initialized `UIViewController` subclasses in iOS 13.0+.
 
 ## Enhanced programming
 
-### Logging into the application with Face ID or Touch ID
+### WWDC 2021 highlights
 
-[Apple](https://twitter.com/apple) provide a [sample code](https://developer.apple.com/documentation/localauthentication/logging_a_user_into_your_app_with_face_id_or_touch_id) showing how you can supplement your authentication scheme with biometric authentication, making it easy for users to access sensitive parts of your application.
+WWDC 2021 has concluded, [Apple](https://twitter.com/apple) has followed up with a [selection of documentation](https://developer.apple.com/documentation/New-Technologies-WWDC-2021) for new technologies, frameworks, and APIs introduced at the event.
 
-### Improving application's performance
+### `DocC` documentation in Xcode
 
-[Apple](https://twitter.com/apple) describe the continuous improvement cycle and share a list of resources to model, measure, and boost the performance of your application in the following [article](https://developer.apple.com/documentation/metrickit/improving_your_app_s_performance).
+[Apple](https://twitter.com/apple) has announced the [DocC](https://developer.apple.com/documentation/docc) framework, watch the WWDC21 [session](https://developer.apple.com/videos/play/wwdc2021/10166) in which software engineers [Victoria Mitchell](<!--Couldn't find Victoria Mitchell's single social media account-->) and [Ethan Kusters](https://twitter.com/ethankusters) give you an introduction to the new Swift package and framework documentation compiler available in Xcode 13.
+In [Paul Hudson's](https://twitter.com/twostraws) [article](https://www.hackingwithswift.com/articles/238/how-to-document-your-project-with-docc), you can walk through the fundamentals of generating and exporting documentation for a framework.
+Furthermore, [Apple](https://twitter.com/apple) provides an [article](https://developer.apple.com/documentation/docc/building-an-interactive-tutorial) explaining how to build an interactive tutorial for your Swift package or framework.
 
-### Pushing background updates
+### Streamline your localized strings
 
-[Apple](https://twitter.com/apple) has an [article](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/pushing_background_updates_to_your_app) detailing how to deliver background notifications to wake your application without displaying an alert, playing a sound, or badging your application's icon and updating it in the background.
+Discover best practices for building your localization workflow, including how to write and format strings accurately, and learn how to prepare strings for localization in different languages using Xcode in [Apple's](https://twitter.com/apple) WWDC21 [session](https://developer.apple.com/videos/play/wwdc2021/10221) by [Thomas Naudet](https://twitter.com/tomn94).
 
-### Customizing the appearance of iOS application's notification alerts
+### Automatic Reference Counting in Swift
 
-[Apple](https://twitter.com/apple) has an [article](https://developer.apple.com/documentation/usernotificationsui/customizing_the_appearance_of_notifications) guiding you through the process of customizing the appearance of your iOS application’s notification alerts with a notification content application extension.
+[Meghana Gupta](https://www.linkedin.com/in/meghana-gupta) educates developers about the basics of object lifetimes and Automatic Reference Counting (ARC) in Swift. Learn what language features make object lifetimes observable, what are the consequences of relying on observed object lifetimes, and some techniques to avoid them in [Apple's](https://twitter.com/apple) WWDC21 [session](https://developer.apple.com/videos/play/wwdc2021/10216).
 
-### Extending capabilities of an iOS simulator
+### Swift concurrency
 
-[Ahmed Sulaiman](https://twitter.com/ahmed_sulajman) had written an [article](https://medium.com/flawless-app-stories/simulator-on-steroids-c12774ca6b) exploring various hidden features of an iOS simulator.
+#### Meet `async`/`await` in Swift
 
-### Unit test best practices
+Swift beta supports asynchronous functions. Discover how to make your codebase more readable and easier to understand, learn what happens once a function suspends itself, and find out how to adapt existing completion handlers to asynchronous functions in [Apple's](https://twitter.com/apple) WWDC21 [session](https://developer.apple.com/videos/play/wwdc2021/10132) by [Nate Chandler](https://twitter.com/neightchan) and [Robert Widmann](https://twitter.com/CodaFi_).
 
-When was the last time you've refactored and optimized your unit tests and not just added a new case? [Antoine van der Lee](https://twitter.com/twannl) in his [article](https://www.avanderlee.com/swift/unit-tests-best-practices) shares his rules for writing clean unit tests.
+#### Protect mutable state with Swift actors
 
-### Caching in Swift
+Data races occur when two separate threads concurrently access the same mutable state. In [Apple's](https://twitter.com/apple) WWDC21 [session](https://developer.apple.com/videos/play/wwdc2021/10133) (to get the most out of the session, they first recommend watching [_Meet `async`/`await` in Swift_](#meet-asyncawait-in-swift)) [Dario Rexin](https://twitter.com/evonox) and [Doug Gregor](https://twitter.com/dgregor79) instruct how to synchronize access to data and prevent data races with Swift actors. Learn how actors work, how to share values between 'em, as well as how actor isolation affects protocol conformances.
 
-Caching data to avoid unnecessary work repetition will positively impact the application's performance. No matter how optimized your approach to loading data is, not having to load data at all will always be faster — and caching can be a great way to achieve that. Learn how to cache data in an [article](https://swiftbysundell.com/articles/caching-in-swift) by [John Sundell](https://twitter.com/johnsundell).
+#### Explore structured concurrency in Swift
 
-### Every `SwiftUI` public protocol explained
+Watch WWDC21 [session](https://developer.apple.com/videos/play/wwdc2021/10134) (to get the most out of the session, it is recommended first watching [_Meet `async`/`await` in Swift_](#meet-asyncawait-in-swift)) by [Apple](https://twitter.com/apple) where [Kavon Farvardin](https://twitter.com/call1cc) and [Joe Groff](https://twitter.com/jckarter) take you through the different kinds of concurrent tasks developers can create in Swift, show how to create groups of tasks, and share how to cancel running tasks.
 
-[Federico Zanetello](https://twitter.com/zntfdr) wrote an [article](https://www.fivestars.blog/articles/swiftui-protocols) where he looks at all of the exposed protocols in `SwiftUI`.
+#### Swift concurrency in action
 
-### Implementing `AppTrackingTransparency` framework
+Follow along and obtain real-world experience with `async`/`await`, actors, and continuations as [Ben Cohen](https://twitter.com/AirspeedSwift) updates an existing sample application in WWDC21 [session](https://developer.apple.com/videos/play/wwdc2021/10194) (it is recommended viewing [_Meet `async`/`await` in Swift_](#meet-asyncawait-in-swift) and [_Protect mutable state with Swift actors_](#protect-mutable-state-with-swift-actors) before participating in this code-along) by [Apple](https://twitter.com/apple).
 
-With the public releases of iOS 14.5, iPadOS 14.5, and tvOS 14.5, to access app-related data for tracking the user or the device all applications must use the `AppTrackingTransparency` framework to request the user's permission. [Lee Kah Seng](https://twitter.com/Lee_Kah_Seng) wrote an [article](https://swiftsenpai.com/development/get-ready-apptrackingtransparency) clarifying Identifier for Advertisers (IDFA) and how to request user's permission to gather data for tracking.
-Additionally, review the [article](https://appfigures.com/resources/guides/att-prompt-copywriting) by [Ariel Michaeli](https://twitter.com/arielmichaeli) in which he evaluates some of the pre-prompt examples and lays out some rules to follow when creating one for yourself.
+#### Behind the scenes of Swift concurrency
 
-### Coordinator structural design pattern
+Explore how Swift tasks differ from Grand Central Dispatch (GCD), how the cooperative threading model works, and how to ensure the best performance for your applications in [Apple's](https://twitter.com/apple) WWDC21 [session](https://developer.apple.com/videos/play/wwdc2021/10254) (to get the most out of the session, they recommend first watching [_Meet `async`/`await` in Swift_](#meet-asyncawait-in-swift), [_Explore structured concurrency in Swift_](#explore-structured-concurrency-in-swift), and [_Protect mutable state with Swift actors_](#protect-mutable-state-with-swift-actors)) by [Rokhini Prabhu](https://twitter.com/rokhinip) and [Varun Gandhi](https://www.linkedin.com/in/varungandhi15).
 
-Read an [article](https://holyswift.app/coordinators-and-tab-bars-a-love-story) by [Leonardo Maia Pugliese](https://twitter.com/Leo_Pugliese) on how he solves a problem navigating from one tab navigation stack's topmost view controller to another tab navigation stack's topmost view controller implementing coordinator structural design pattern.
+#### Structured concurrency
 
-### `print` in-depth
+[Doug Gregor](https://twitter.com/dgregor79) had joined [John Sundell](https://twitter.com/johnsundell) at [Swift by Sundell](https://twitter.com/swiftbysundell) podcast to discuss new concurrency features in great detail. Listen to their conversation about inner-workings of asynchronous functions and Swift actors in an [episode](https://podcasts.apple.com/lv/podcast/swift-by-sundell/id1267161825?i=1000525108228).
 
-How many days you can last without calling the `print` function? Learn how to customize and redirect the output of print statements in an [article](https://www.andyibanez.com/posts/swift-print-in-depth) by [Andy Ibanez](https://twitter.com/AndyIbanezK).
+### Application capabilities
 
-### `OSLog` and unified logging as recommended by Apple
+A capability grants the application access to an app service provided by Apple, such as iCloud, HealthKit, In-App Purchase, or push notifications. [Apple](https://twitter.com/apple) in an [article](https://developer.apple.com/documentation/Xcode/adding-capabilities-to-your-app) guides you through the process of adding application capabilities.
 
-Migrate from print statements to `OSLog` class, introduced in iOS 14, in combination with [Console](https://support.apple.com/guide/console/welcome/mac) application to debug issues more efficiently. [Antoine van der Lee](https://twitter.com/twannl) had written an [article](https://www.avanderlee.com/debugging/oslog-unified-logging) illustrating how to make that replacement.
+### Sign in with Apple user authentication 
 
-### Hacking native ARM64 binaries to run on the iOS simulator
+Have you ever abandoned the idea of trying out a new application after realizing sign-up is mandatory? I believe it's safe to claim that the majority of users value their privacy, I've never felt comfortable in linking my account to Google or Facebook, and at the same time, I do not wish to unnecessarily expose my e-mail address. [Sign in with Apple](https://developer.apple.com/sign-in-with-apple) grants user's a choice to keep their e-mail address private. [Apple](https://twitter.com/apple) provides a [sample code](https://developer.apple.com/documentation/authenticationservices/implementing_user_authentication_with_sign_in_with_apple) on how to use the [Authentication Services](https://developer.apple.com/documentation/authenticationservices) framework to provide users an interface to set up an account and authenticates the user’s Apple ID with Sign in with Apple.
 
-[Bogo Giertler](https://twitter.com/giertler) in his [article](https://bogo.wtf/arm64-to-sim.html) reports his findings on ARM64 architecture static library transmogrification.
+### Kotlin Multiplatform for iOS developers
 
-### Debugging Core Data
+Starting the 18<sup>th</sup> of February 2021 in Latvia ATC there have occurred multiple _BrownBag_ sessions lead by [Mykhailo Dontsov](https://people.accenture.com/People/user/mykhailo.dontsov) and [Aleksejs Frolovs](https://people.accenture.com/People/user/aleksejs.frolovs) on the topic of [Kotlin Multiplatform](https://kotlinlang.org/lp/mobile). Kotlin Multiplatform enables you to use a single codebase for the business logic of multiple applications. At the same time, native user interfaces can be written in a platform-specific language. [Dinorah Tovar](https://twitter.com/DDinorahtovar) in her [presentation](https://vimeo.com/showcase/7769418/video/479639284) talks about how to get started with Kotlin Multiplatform for iOS.
 
-[Keith Harrison](https://twitter.com/kharrison) wrote an [article](https://useyourloaf.com/blog/debugging-core-data) highlighting valuable launch arguments and environment variables you can add to your Xcode scheme to catch and debug Core Data issues.
+### Scan and verify identity documents with `Core NFC`
 
-### The `NSDateInterval` object
+Using the [Core NFC](https://developer.apple.com/documentation/corenfc) framework you can detect Near Field Communication (NFC) tags and read messages that contain NFC Data Exchange Format (NDEF) data. [Maxim Tsvetkov](https://twitter.com/777maxxx777) gave a [presentation](https://vimeo.com/showcase/7769418/video/479350475) on what tools are available out-of-the-box, what data can be extracted, and how to verify document authenticity.
 
-[Andy Ibanez](https://twitter.com/AndyIbanezK) wrote an [article](https://www.andyibanez.com/posts/the-nsdateinterval-object) educating on how to use  `NSDateInterval` to calculate the time interval between two dates or to check if a given date is within a certain time frame.
+### Data formatters to display human-friendly content
 
-### Hash functions in Swift
+Learn about the best practices of converting data into readable strings or Swift objects and how to avoid common mistakes using formatters in [Apple's](https://twitter.com/apple) [sample code](https://developer.apple.com/documentation/foundation/formatter/displaying_human-friendly_content) (sample code is associated with WWDC20 [session](https://developer.apple.com/videos/play/wwdc2020/10160) where [Karan Miśra](https://www.linkedin.com/in/karanmisra) walks viewers through the formatter APIs as well as how `SwiftUI` works with `.stringsdict` files).
+Further, learn about modern formatter API in [_Data formatting in iOS 15_](#data-formatting-in-ios-15).
 
-Cryptography gained wider acknowledgment with the increasing popularity of cryptocurrencies. Hashing is a basic concept of cryptography used to equate. The technique allows you to immediately know if both comparables are different without exposing any details. In iOS 13, Apple released [CryptoKit](https://developer.apple.com/documentation/cryptokit) whereas previously you might have used [CryptoSwift](https://cryptoswift.io) developed by [Marcin Krzyżanowski](https://twitter.com/krzyzanowskim). [Leonardo Maia Pugliese](https://twitter.com/Leo_Pugliese) wrote an [article](https://holyswift.app/hash-function-in-swift) explaining what are hash values and how to create them using `CryptoKit`.
+### Data formatting in iOS 15
 
-### Automated deployment with fastlane on iOS
+Up until recently, to format data we were creating and configuring different formatter classes (highlighted in [_Data formatters to display human-friendly content_](#data-formatters-to-display-human-friendly-content)), which are expensive operations (e.g., [Sarun Wongpatcharapakornand](https://twitter.com/sarunw) has an [article](https://sarunw.com/posts/how-expensive-is-dateformatter) where he provides statistics on the cost of `DateFormatter` creation and property mutation). Hopefully, that will be the thing of the past with the introduction of a new formatter API. Read [article](https://nemecek.be/blog/106/new-approach-to-formatters-in-ios-15) by [Filip Němeček](https://twitter.com/nemecek_f).
 
-Development effort is better spent elsewhere than manually generating and distributing application builds. Learn how to automate application deployment using [fastlane](https://fastlane.tools) in an [article](https://www.rubicon-world.com/blog/2019/05/automated-deployment-with-fastlane-on-ios) by [Sabahudin Kodro](https://twitter.com/cuperdino).
+### `UISheetPresentationController`
 
-### Swift actors
+iOS 15 adds the means to present the view controller as a sheet. In an [article](https://nemecek.be/blog/108/meet-the-new-bottom-sheet-in-ios-15), [Filip Němeček](https://twitter.com/nemecek_f) describes resizable sheet implementation and customization.
+Alternatively, discover how to create layered and fine-tuned sheet experience in `UIKit` in [Apple's](https://twitter.com/apple) WWDC21 [session](https://developer.apple.com/videos/play/wwdc2021/10063) by [Russell Ladd](https://www.linkedin.com/in/russellladd).
 
-[John McCall's](https://twitter.com/pathofshrines), [Doug Gregor's](https://twitter.com/dgregor79), [Konrad Malawski's](https://twitter.com/ktosopl), and [Chris Lattner's](https://twitter.com/clattner_llvm) proposal [SE-0306](https://github.com/apple/swift-evolution/blob/main/proposals/0306-actors.md) has been implemented and will be released as a part of the future version of Swift. An actor is a reference type that protects access to its mutable state and is introduced with the keyword `actor`. Each actor protects its data through actor isolation, ensuring that only a single thread will access that data at a given time, even when many clients are concurrently making requests. [Marin Todorov](https://twitter.com/icanzilb) wrote an [article](https://trycombine.com/posts/swift-actors) exploring Swift actors and supplies a practical example.
-Additionally, a separate [article](https://trycombine.com/posts/swift-actors-combine) has been dedicated to Swift actors and the [Combine](https://developer.apple.com/documentation/combine) framework.
+### iOS 15 `UIButton` configuration API
 
-### Setting up iOS environments
+iOS 15 enhances how we configure `UIButton` appearance and behavior with a new API that takes many common and previously time-consuming layout and styling tasks and turns them into one-line configuration properties. [John Sundell](https://twitter.com/johnsundell) in his [article](https://wwdcbysundell.com/2021/uikits-new-button-configuration-api) has a first look at how to use the new button configuration API.
+Alternatively, [Sarun Wongpatcharapakornand](https://twitter.com/sarunw) has written an [article](https://sarunw.com/posts/new-way-to-style-uibutton-in-ios15) claiming that, with `UIButton.Configuration`, we are not obligated to subclass `UIButton` anymore.
 
-We can't afford to develop and test our applications in the same environment that our users use, which can escalate quickly and put users in harm's way. We require multiple environments for our development. [Sarun Wongpatcharapakornand](https://twitter.com/sarunw) wrote an [article](https://sarunw.com/posts/how-to-set-up-ios-environments) demonstrating how to set up multiple environments.
+### Core Data with `NSInMemoryStoreType`
 
-### Create a dynamic form in `UIKit`
+In the [article](https://useyourloaf.com/blog/core-data-in-memory-store) by [Keith Harrison](https://twitter.com/kharrison), you can find out how to speed up your tests and `SwiftUI` previews by creating a `Core Data` stack with an in-memory store.
 
-Learn how to use `UICollectionViewCompositionalLayout` and `UICollectionViewDiffableDataSource` classes to build a scalable dynamic form in `UIKit` with self-sizing collection view cells in a [video](https://www.youtube.com/watch?v=4YIckjckiWI) by [Tunde Adegoroye](https://twitter.com/tundsdev).
+### Notifying users of application updates
 
-### Allowing parallel iOS UI test runs in CI
+What percentage of your userbase is on the latest version of the application you are working on? [Andy Ibanez](https://twitter.com/AndyIbanezK) claims that users may not be updating as often as you believe and shares his solution to let them know a new version is available without being invasive in an [article](https://www.andyibanez.com/posts/quick-tip-notifying-users-app-updates-for-free).
 
-If your CI machine allows multiple jobs to run in parallel you most likely have encountered a problem that you cannot run multiple iOS UI tests in the same simulator at the same time. [Igor Kulman](https://twitter.com/igorkulman) in his [article](https://blog.kulman.sk/parallel-ui-test-runs) describes how to solve it by creating a new iOS simulator instance for every job.
+### Why should you care about manual testing?
 
-### Testing in-app purchases locally in iOS simulator
+[Tomáš Šurín](https://twitter.com/tomassurin) gives his perspective on manual testing as another tool that, when put to good use, can improve product quality significantly in his [article](https://pspdfkit.com/blog/2021/pragmatic-manual-testing).
 
-During the development of [Tripzy](https://apps.apple.com/th/app/tripzy/id1564625604) [Michael Abadi](https://twitter.com/michaelabadiii) discovered that you do not need a device with an internal tester account and you can test in-app purchases using a simulator. Read about his findings in the [article](https://levelup.gitconnected.com/testing-in-app-purchases-locally-in-simulator-7cdfd5031462).
+### A first look at `AttributedString`
 
-### `UIKit` automatic keyboard avoidance
+[John Sundell](https://twitter.com/johnsundell) has written an [article](https://wwdcbysundell.com/2021/a-first-look-at-attributed-string) comparing `NSAttributedString` and `AttributedString` implementation and new type's integration with `SwiftUI`. Spoiler, `AttributedString` has built-in Markdown (lightweight markup language for creating formatted text using a plain-text editor) support.
+Additionally, take a look at the [article](https://betterprogramming.pub/ios-15-attributed-strings-in-swiftui-markdown-271204bec5c1) by [Andrew Zheng](https://www.linkedin.com/in/aheze) where he supplies multiple examples on working with `AttributedString`.
 
-Every iOS developer, at least once in their career, had to adjust the layout of the interface to accommodate for surfacing keyboard frame. In iOS 14, Apple added automatic keyboard avoidance as the default behavior in `SwiftUI`. [Lee Kah Seng](https://twitter.com/Lee_Kah_Seng) wrote an [article](https://swiftsenpai.com/development/uikit-keyboard-avoidance) sharing implementation to enable automatic keyboard avoidance in `UIKit`.
+### Avoiding problematic cases when using enumerations
+
+[John Sundell](https://twitter.com/johnsundell) wrote an [article](https://swiftbysundell.com/articles/avoiding-problematic-enum-cases-in-swift) warning about certain `enum` cases that can arguably be good to avoid.
+
+### Modern `RxSwift` architectures
+
+In an [article](https://academy.realm.io/posts/try-swift-nyc-2017-krunoslav-zaher-modern-rxswift-architectures), [Krunoslav Zaher](https://twitter.com/KrunoslavZaher) shares his experience solving cycling data dependencies with `RxFeedback` architecture.
+Alternatively, you can watch the [presentation](https://www.youtube.com/watch?v=qZZTYIwrhsY) he gave at a conference.
 
 ## Tools
 
-### Accenture workstations running macOS Big Sur VPN connectivity issues
+### Xcode 13
 
-After the recent security updates for macOS Big Sur 11.3 and 11.3.1, you may be experiencing issues with connecting to VPN on the Accenture workstation. The [article](https://in.accenture.com/mycomputer/mac-workstation-vpn-configuration) describes a workaround that leverages an older method of connecting to VPN via the Safari web browser. 
-If you are in a Client Delivery Location, contact your local support channels for any questions or issues. 
+[Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=pq8tb86o) announced [Xcode 13](https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_13_beta/Xcode_13_beta.xip) beta. Review several of the IDE's latest key features, source editor improvements, and performance enhancements in an [article](https://www.hackingwithswift.com/articles/236/whats-new-in-xcode-13) by [Paul Hudson](https://twitter.com/twostraws).
 
-### Xcode 12.5 iOS simulator HTTPS traffic recording issues using Charles Proxy
+### Xcode Cloud
 
-If you're like me and were unable to use Charles Proxy SSL proxying from the Xcode 12.5 iOS simulator, [Simon Støvring](https://twitter.com/simonbs) in his Twitter [thread](https://twitter.com/simonbs/status/1382578719412338691) highlights that “Install Charles Root Certificate in iOS Simulators” doesn't work with Xcode 12.5. You work around that by manually exporting the certificate, dragging it into the simulator, and trusting it.
+[Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=uno5w59d) opened a sign-up for Xcode Cloud (continuous integration and delivery beta service) that accelerates the development and delivery of applications by bringing together cloud-based tools that help developers to run automated tests in parallel, deliver applications to testers, and view and manage user feedback.
 
-### Integrating the Firebase App Distribution iOS SDK
+### SF Symbols 3
 
-Google I/O 2021 had a [codelab](https://firebase.google.com/codelabs/appdistribution-ios#0) and a [workshop](https://events.google.com/io/session/78925eb3-8781-4475-af7d-431b180b9b33) hosted by [Ibrahim Ulukaya](https://twitter.com/iulukaya) that help you integrate the Firebase App Distribution iOS SDK to distribute new releases and trigger new build in-app alerts.
+[Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=30qc8oh0) declared the availability of [SF Symbols 3](https://developer.apple.com/sf-symbols) beta.
+Additionally, visit [guide](https://www.hackingwithswift.com/articles/237/complete-guide-to-sf-symbols) in which [Paul Hudson](https://twitter.com/twostraws) demonstrates techniques how to interact with SF Symbols 3 in both `UIKit` and `SwiftUI`.
 
-### A complete guide for Apple's devices' screen sizes
+### Introducing `ShazamKit`
 
-[Screen Sizes](https://www.screensizes.app) application developed by [Trevor Kay](https://twitter.com/trevormkay) and [Christopher Muller](https://twitter.com/CHRISmullerWEB) is a great reference source for all Apple's devices' screen sizes.
+[Apple](https://twitter.com/apple) in their news [article](https://developer.apple.com/news/?id=s0s8up0f) announced `ShazamKit`. The framework uses a unique acoustic signature of an audio recording to find a match to the millions of songs in a vast catalog or to make any prerecorded audio recognizable by building a custom catalog using audio from video, podcasts, etc. Apple provides beta [sample code](https://developer.apple.com/documentation/shazamkit/building_a_custom_catalog_and_matching_audio) on matching the audio to a custom reference signature and associated metadata (sample code is associated with WWDC21 [session](https://developer.apple.com/videos/play/wwdc2021/10045) where [Alex Telek](https://twitter.com/alextelek) guides viewers through the process of using exact audio matching to recognize audio against a custom catalog).
 
-## Tips ![new](https://img.shields.io/badge/new-success.svg)
+### Simulating adverse networking environments with Network Link Conditioner
 
-### Multi-cursor editing in Xcode
+[Alan Hogan](https://twitter.com/b01dface) gave a StackOverflow [answer](https://stackoverflow.com/questions/2593971/iphone-simulator-simulate-a-slow-connection/27363671#27363671) on how to limit uplink or download bandwidth, latency, and rate of packet loss on iPhone simulators using Network Link Conditioner. Additionally, read an [article](https://nshipster.com/network-link-conditioner) by [Matthew Thomas Thompson](https://twitter.com/mattt).
 
-[Sarun Wongpatcharapakornand](https://twitter.com/sarunw) has an [article](https://sarunw.com/posts/multi-cursor-editing-in-xcode) illustrating how to enable multi-cursor editing and provides a couple of usage examples.
+### Xcode build settings
 
-### Output object's contents using its mirror to the stream using `dump` function
+A convenient [online reference](https://xcodebuildsettings.com) of available build settings for Xcode projects maintained by [Matthew Thomas Thompson](https://twitter.com/mattt).
 
-All of us have used the `print` function in debugging, [Vincent Pradeilles](https://twitter.com/v_pradeilles) created a [video](https://www.youtube.com/watch?v=fyjdnqLvJcc) to point out that there exists a powerful alternative — `dump` function.
+## Tips
 
-### Detecting a retain cycle in a view controller
+### `defer` in Swift
 
-Apple offers sophisticated tools, such as Instruments (using Allocations and Leaks profiling templates) and Memory Graph Debugger, for debugging memory leaks, however empirically for many cases adding a print statement to the deinitializer of a view controller is sufficient to detect a retain cycle. Referring to [Cédric Luthi's](https://twitter.com/0xced) Twitter [post](https://twitter.com/0xced/status/900692839557992449) [Sarun Wongpatcharapakornand](https://twitter.com/sarunw) wrote an [article](https://sarunw.com/posts/easy-way-to-detect-retain-cycle-in-view-controller) encouraging to use of a Symbolic Breakpoint to play a sound when a view controller is deinitialized to help detect retain cycles.
+[Vincent Pradeilles](https://twitter.com/v_pradeilles) in his YouTube [video](https://www.youtube.com/watch?v=_VswqQqVlHo) offers an exemplary use case for `defer` keyword.
 
-### Documentation deep linking into source code
+### Confusing Swift syntaxes
 
-[Jordan Morgan](https://twitter.com/JordanMorgan10) in his Twitter [post](https://twitter.com/JordanMorgan10/status/1384865768039399430) shows how to deep-link from a markdown file to the source code.
+[Vincent Pradeilles](https://twitter.com/v_pradeilles) created a YouTube [video](https://www.youtube.com/watch?v=p3qdi6KyzDk) to underscore multiple valid but counter-intuitive Swift syntaxes that you too, most likely, have never come across before.
 
-### Recording videos using an iOS simulator and saving them as animated GIF images
+### Custom `UIStackView` spacing
 
-[Simon Ng](https://twitter.com/simonng) wrote an [article](https://www.appcoda.com/xcode-simulator-animated-gif) explaining how to record videos and save them as animated GIF images using Xcode 12.5 iOS simulator's capabilities.
+Twitter [post](https://twitter.com/sarunw/status/1403516739615404041) by [Sarun Wongpatcharapakornand](https://twitter.com/sarunw) calls to our attention that to apply custom spacing between arranged subviews there hasn't been the need to add additional  `UIStackView` as arranged subview since iOS 11 which extended `UIStackView` with `setCustomSpacing(_:after:)` instance method.
+Additionally, read an [article](https://sarunw.com/posts/custom-uistackview-spacing) where he features few caveats.
 
-### The LLDB Debugger `v` command preference over `po` command
+### `UIKit` asynchronous image decoding
 
-[Dave Lee](https://twitter.com/kastiglione) in his Twitter [post](https://twitter.com/kastiglione/status/1392565131826003971) added to [Krzysztof Zabłocki's](https://twitter.com/merowing_) Twitter [post](https://twitter.com/merowing_/status/1392389928844156928) promoting the use of LLDB Debugger `v` command which is faster because it doesn’t compile and execute any code.
-Additionally, [Michael Dube](https://twitter.com/dubemike) had written an [article](https://medium.com/@dubemike/level-up-your-debugging-skills-with-lldbs-v-p-and-po-commands-fec76c1ffee) describing LLDB Debugger's three basic commands — `po`, `p`, and `v`.
+I was delighted to read a Twitter [post](https://twitter.com/marcoarment/status/1401997686102970369) by [Marco Arment](https://twitter.com/marcoarment) in which he shared with his find — native asynchronous image decoding and creation of image thumbnails.
 
 <br>
 <p align="center">
-<img width="25%" alt="Curator" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/character.svg" />
+<img width="35%" alt="Curators" src="curators.svg" />
 <!--Character credit goes to [Pablo Stanley](https://twitter.com/pablostanley) with his [Open Peeps](https://www.openpeeps.com) hand-drawn illustration library.-->
 </p>
 <p align="center">
-Thank you for taking the time to expand your knowledge! For additional study materials visit the <a href="https://github.com/esesmuedgars/IdeaKit/blob/issue1/README.md">previous issue</a>!
+Thank you for taking the time to expand your knowledge! For additional study materials visit the <a href="https://github.com/esesmuedgars/IdeaKit/blob/issue2/README.md">previous issue</a>!
 <br>
 <br>
 Found a topic insightful? You can add your comments and open a discussion using the comment section below.
