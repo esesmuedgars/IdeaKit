@@ -25,21 +25,22 @@ Even as simple problem as this has more clever solutions than the one your initi
 For numbers in the range between 0 and 9 return spelled out number value.
 Implement `spellOut` method.
  */
- 
- extension Int {
-     /// Spell out number in the range from 0 to 9 (e.g., calling `0.spelledOut` returns `"Zero"`).
-     /// - returns: Capitalized, spelled out number value.
-     var spelledOut: String {
-         assert(0...9 ~= self, "Value is out-of-bounds")
+
+extension Int {
+    /// Spell out number in the range from 0 to 9 (e.g., calling `0.spelledOut` returns `"Zero"`).
+    /// - returns: Capitalized, spelled out number value.
+    var spelledOut: String {
+        assert(0...9 ~= self, "Value is out-of-bounds")
          
-         return spellOut()
-     }
+        return spellOut()
+    }
      
-     private func spellOut() -> String {
-         <#String#>
-     }
- }
+    private func spellOut() -> String {
+        <#String#>
+    }
+}
 ```
+
 <!--
 ```swift
 // Swift challenge No. 1
