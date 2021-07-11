@@ -67,15 +67,15 @@ private func spellOut() -> String {
 
 private func spellOut() -> String {
     let spelledOutNumbers = ["Zero",
-                                              "One",
-                                              "Two",
-                                              "Three",
-                                              "Four",
-                                              "Five",
-                                              "Six",
-                                              "Seven",
-                                              "Eight",
-                                              "Nine"]
+                             "One",
+                             "Two",
+                             "Three",
+                             "Four",
+                             "Five",
+                             "Six",
+                             "Seven",
+                             "Eight",
+                             "Nine"]
 
     return spelledOutNumbers[self]
 }
