@@ -13,7 +13,7 @@
 ## Swift challenge
 
 What Swift challenges are not? Swift challenges are not programming or mathematical problems that have universal solutions.
-What Swift challenges are? Swift challenges highlight problems with purpose to grant insight into Swift syntactical sugar and uncommon, native APIs.
+What Swift challenges are? Swift challenges highlight problems with purpose to grant insight into Swift syntactical sugar and uncommon native APIs.
 Each consecutive newsletter's issue will provide solution(-s) (as well as explanation(-s) and resource hyperlink(-s), where applicable) to a problem described in issue before, besides following challenge.
 
 Let's start things slow, Swift challenge No. 1:
