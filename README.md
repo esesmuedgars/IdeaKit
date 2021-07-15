@@ -1,2 +1,0 @@
-# IdeaKit
-Swift monthly newsletter
