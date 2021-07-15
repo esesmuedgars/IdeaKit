@@ -8,13 +8,13 @@
 
 Newsletter featured images have been created using [Ray.so](https://ray.so) tool.
 
-Blog media library has images up until Issue 36, but to recrerate images used
+<a href="https://blog.accenture.com/design">Baltic Interactive blog's</a> media library has images uploaded up until _import IdeaKit Issue 36_, but to recrerate images used
 
 <p align="center">
 <img alt="Featured image example" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/contributing_featured_image.svg"  width="50%" />
 </p>
 
-### Configuring image through JavaSript injection (use with countion)
+### Configuring image through JavaSript
 
 - Set default values using controls:
     - Colors: `Sunset` (`C`);
@@ -22,10 +22,8 @@ Blog media library has images up until Issue 36, but to recrerate images used
     - Dark mode: `Disabled` (`D`);
     - Padding: `64` (`P`);
     - Language: `Swift` (`L`).
-- Open Element panel ( in Chrome `⌘` + `⌥` + `C`);
-- Navigate to Console tab;
+- Open Chrome DevTools in Console panel ( in Google Chrome `⌘` + `⌥` + `J`). Alternatively, you can right-click and element and select Inspect option;
 - Update text colors to match Xcode's default light theme:
-
 ```javascript
 document.getElementsByClassName("vue-codemirror code-editor")[0].style.cssText = `
 --syntax-comment: #5D6C79;
@@ -34,33 +32,30 @@ document.getElementsByClassName("vue-codemirror code-editor")[0].style.cssText =
 `;
 ```
 - Update text font to match Xcode's default light theme:
-
 ```javascript
 document.querySelectorAll('.cm-keyword')[0].style.fontWeight = "Bolder";
 ```
-
 - Update background gradient colors to match Swift programming language identity:
-
 ```javascript
 document.getElementsByClassName('frame frame')[0].style.background = "linear-gradient(rgb(241, 178, 87), rgb(236, 73, 55))";
 ```
+- Save as PNG (`⌘` + `S`).
 
-Save as PNG (`⌘` + `S`)
+### Manually configuring image
 
-### Configuring image manually
-
-Open Element panel (in Google Chrome `⌘` + `⌥` + `C`)
-You select comment to inspect it (in Google Chrome `⌘` + `⇧` + `C`)
-
-#### Swift text colors
-
-Select child of `<div class="app-frame-header">...</div>`
-
+- Set default values using controls:
+    - Colors: `Sunset` (`C`);
+    - Background: `Enabled` (`B`);
+    - Dark mode: `Disabled` (`D`);
+    - Padding: `64` (`P`);
+    - Language: `Swift` (`L`).
+- Open Chrome DevTools in Elements panel ( in Google Chrome `⌘` + `⌥` + `C`);
+- Update text colors to match Xcode's default light theme:
+    - Locate and select child of `<div class="app-frame">...</div>`:
 ```html
 <div class="vue-codemirror code-editor">...</div>
 ```
-
-and replace
+Replace element's `style` properties from:
 ```html
 --syntax-text: #737568;
 --syntax-background: rgba 0,0,100,0.75;
@@ -79,38 +74,30 @@ and replace
 --syntax-attribute: #807410;
 --syntax-tag: #A1642C;
 ```
-
-edit
+to:
 ```html
 --syntax-comment: #5D6C79;
 --syntax-keyword: #9B2393;
 --syntax-definition: rgba(0, 0, 0, 0.85);
 ```
-
-#### Swift text font
-
-<span class="cm-keyword">import</span>
-
-Add `font-weight: bolder;` to  `cm-keyword` class
-
-#### Swift background colors
-
-Select child of `<div class="content">...</div>`
-
+- Update text font to match Xcode's default light theme:
+    - Locate and select `<span class="cm-keyword">...</span>`;
+    - Add `font-weight: bolder;` to `cm-keyword` CSS class properties
+- Update background gradient colors to match Swift programming language identity:
+    - Locate and select child of `<div class="content">...</div>`:
 ```html
 <div id="frame" class="frame frame">...</div>
 ```
-
-and replace
+Replace element's `background` property from:
 ```html
 background: linear-gradient(140deg, rgb(255, 207, 115), rgb(255, 122, 47));
 ```
-with
+to:
 ```html
 background: linear-gradient(rgb(241, 178, 87), rgb(236, 73, 55));
 ```
+- Save as PNG (`⌘` + `S`).
 
-Headers created using 
 Footer characters created using [Open Peeps](https://www.openpeeps.com) by [Pablo Stanley](https://twitter.com/pablostanley).
 
 ## Resources
