@@ -2,19 +2,54 @@
 
 ## Permissions
 
-[Līva Pilvere](https://people.accenture.com/People/user/liva.pilvere)
+Contributor role is enough to create and publish posts, but Editor is required to add images to library and add feature image of post.
+Contact [Līva Pilvere](https://people.accenture.com/People/user/liva.pilvere)
+
+## Structure
+
+Conserning [Baltic Interactive blog](https://blog.accenture.com/design).
+
+```bash
+.
+├── Title (w/ featured image)
+│   └── Introduction
+├── Body
+│   ├── News
+│   ├── Swift challenge
+│   ├── Fundamentals
+│   ├── Tutorials
+│   ├── Enhanced programming
+│   ├── Tools
+│   └── Tips
+└── Footer
+    └── Footnote
+```
+
+## Annoncements
+
+[Riga Interactive Yammer community](https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI1Nzg0ODAwNDYwOCJ9/all).
+
+[Baltic Interactive (General) channel](https://teams.microsoft.com/l/channel/19%3a44cee4a866b443dcad8be62b72443948%40thread.skype/General?groupId=4fc3b8f5-e079-4567-980c-3c159d453ed0&tenantId=e0793d39-0939-496d-b129-198edd916feb).
+
+## Versioning
+
+Concerning [GitHub repository](https://github.com/esesmuedgars/IdeaKit).
+
+X.Y
+X - Year
+Y - Month
 
 ## Tools
 
 Newsletter featured images have been created using [Ray.so](https://ray.so) tool.
 
-<a href="https://blog.accenture.com/design">Baltic Interactive blog's</a> media library has images uploaded up until _import IdeaKit Issue 36_, but to recrerate images used
+[Baltic Interactive blog's](https://blog.accenture.com/design) media library has images uploaded up until _import IdeaKit Issue 36_, but to recrerate images used
 
 <p align="center">
 <img alt="Featured image example" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/contributing_featured_image.svg"  width="50%" />
 </p>
 
-### Configuring image through JavaSript
+### Configuring image with JavaScript
 
 - Set default values using controls:
     - Colors: `Sunset` (`C`);
@@ -98,7 +133,8 @@ background: linear-gradient(rgb(241, 178, 87), rgb(236, 73, 55));
 ```
 - Save as PNG (`⌘` + `S`).
 
-Footer characters created using [Open Peeps](https://www.openpeeps.com) by [Pablo Stanley](https://twitter.com/pablostanley).
+Footer characters created using [Open Peeps](https://www.openpeeps.com) by [Pablo Stanley](https://twitter.com/pablostanley). Can be edited with [Figma](https://www.figma.com/) free
+free [Grammarly](https://app.grammarly.com)
 
 ## Resources
 
@@ -135,3 +171,11 @@ Footer characters created using [Open Peeps](https://www.openpeeps.com) by [Pabl
 - The iPhreaks Show [podcast](https://podcasts.apple.com/podcast/the-iphreaks-show/id634022060);
 - Under the Radar [podcast](https://podcasts.apple.com/podcast/under-the-radar/id1055685246);
 - Waiting for Review [podcast](https://podcasts.apple.com/podcast/waiting-for-review/id1199635981).
+
+### Other Usefull Resources
+
+- Apple Developer [News and Updates](https://developer.apple.com/news);
+- Swift Official [blog](https://swift.org/blog);
+- The Daily iOS Twitter [account](https://twitter.com/TheDailyiOS);
+- [Vincent Pradeilles's](https://twitter.com/v_pradeilles) YouTube [channel](https://www.youtube.com/c/VincentPradeilles).
+
