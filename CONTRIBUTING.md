@@ -26,9 +26,9 @@ Where `<!--more-->` seperator is inserted before _Body_ of the newsletter, which
     └── Footnote
 ```
 
-## Annoncements
+## Announcements
 
-Once a new newsletter's issue has been published, all subscribers of the blog will receive automatic e-mail announcement. However, to atract additional traffic manual announcement's are required. Following is the list of channels that have been used for communication as well as message examples:
+Once a new newsletter's issue has been published, all subscribers of the blog will receive automatic e-mail announcements. However, to attract additional traffic manual announcements are required. Following is the list of channels that have been used for communication as well as message examples:
 
 - _Riga Interactive_ Yammer [community](https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI1Nzg0ODAwNDYwOCJ9/all):
 
@@ -50,11 +50,31 @@ Once a new newsletter's issue has been published, all subscribers of the blog wi
 
 ## Versioning
 
-Concerning [GitHub repository](https://github.com/esesmuedgars/IdeaKit).
+_Baltic Interactive_ [blog's](https://blog.accenture.com/design) newsletter's issue number is incremented by one with each consecutive release.
+_GitHub_ [repository](https://github.com/esesmuedgars/IdeaKit) newsletter's issues are versioned. [Shields.io](https://shields.io) displays each issue's version number.
+Branches use version numbers, however, once published, tags are using issue numbers (e.g., branch `1.5` becomes tag `issue2`, branch `1.6` becomes tag `issue3`, etc.)
 
+```swift
 X.Y
-X - Year
-Y - Month
+
+/**
+ X (major version) - Year number of the newsletter (begins with 1 and never resets);
+ Y (minor version) - Month number of the issue (possible values are 1 - 12, when minor version resets major version is incremented by one).
+ */
+```
+<!--
+In case of the newsletter's complete revamp, an additional version could be introduced:
+
+X.Y.Z
+
+X (major version) - (begins with 1, resets when newsletter's general curator is replaced or redesign takes place, etc.);
+Y (minor version) - Year number of the newsletter at current state (begins with 1, when minor version resets major version is incremented by one);
+Z (issue version) - Month number of the issue (possible values are 1 - 12, when issue version resets minor version is incremented by one).
+-->
+
+##### Example:
+
+It is October's issue of the first year of the newsletter. As it is the first year - the major version is `1`, October is 10<sup>th</th> month of the year, therefore, the minor version is `10`. That would make the newsletter's version `1.10`.
 
 ## Tools
 
@@ -162,7 +182,7 @@ background: linear-gradient(rgb(241, 178, 87), rgb(236, 73, 55));
 
 ### Footnote
 
-Footer characters have been created using [Open Peeps](https://www.openpeeps.com) by [Pablo Stanley](https://twitter.com/pablostanley). Those can be downloaded for free and edited with [Figma](https://www.figma.com) (requires a free account).
+Footer characters have been created using [Open Peeps](https://www.openpeeps.com) by [Pablo Stanley](https://twitter.com/pablostanley). The library is free for commercial and personal use and can be customized with [Figma](https://www.figma.com) (requires a free account).
 
 ## Resources
 
@@ -179,6 +199,13 @@ Footer characters have been created using [Open Peeps](https://www.openpeeps.com
 - Swift Weekly Brief [newsletter](https://swiftweeklybrief.com);
 - SwiftLee Weekly [newsletter](https://www.avanderlee.com);
 - This Week in Swift [newsletter](https://swiftnews.curated.co).
+
+Subsribe to the newsletters (since it is for work related activities I've used Accenture e-mail).
+While setting-up you will have to approve all senders as they are sending their first e-mails.
+Create folder and add it to favorites.
+(optional) Create contacts for each newsletter (didn't help with whitelisting, nor due newsletter e-mails use contact names or images, but was a little more convenient to create rule).
+Create rule to add newsletterr e-mails to dedicated folder.
+// Add images
 
 ### Swift Podcasts
 
