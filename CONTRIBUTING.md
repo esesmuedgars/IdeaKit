@@ -2,7 +2,7 @@
 
 ## Permissions
 
-Contributor role is enough to create and publish posts, but Editor is required to add images to library and add feature image of post.
+`Contributor` role is enough to create and publish posts, but at least `Editor` role is required to add images to the media library and add feature image of post.
 Contact [Līva Pilvere](https://people.accenture.com/People/user/liva.pilvere).
 
 ## Structure
@@ -28,24 +28,24 @@ Where `<!--more-->` seperator is inserted before _Body_ of the newsletter, which
 
 ## Annoncements
 
-After new newsletter's issue has been published, all subscribers of the blog will receive automatic e-mail announcement. However, to atract additional traffic manual announcement's are required.
+Once a new newsletter's issue has been published, all subscribers of the blog will receive automatic e-mail announcement. However, to atract additional traffic manual announcement's are required. Following is the list of channels that have been used for communication as well as message examples:
 
-- [Riga Interactive Yammer community](https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI1Nzg0ODAwNDYwOCJ9/all).
+- _Riga Interactive_ Yammer [community](https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI1Nzg0ODAwNDYwOCJ9/all):
 
 <p align="center">
-<img alt="Yammer new issue announcement examples" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/Yammer_announcements.png" />
+<img alt="Yammer new issue announcement examples" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/Yammer_announcements.png" width="50%" />
 </p>
 
-- [Baltic Interactive (General) channel](https://teams.microsoft.com/l/channel/19%3a44cee4a866b443dcad8be62b72443948%40thread.skype/General?groupId=4fc3b8f5-e079-4567-980c-3c159d453ed0&tenantId=e0793d39-0939-496d-b129-198edd916feb).
+- _Baltic Interactive_ (General) [channel](https://teams.microsoft.com/l/channel/19%3a44cee4a866b443dcad8be62b72443948%40thread.skype/General?groupId=4fc3b8f5-e079-4567-980c-3c159d453ed0&tenantId=e0793d39-0939-496d-b129-198edd916feb):
 
 <p align="center">
-<img alt="Microsoft Teams new issue announcement examples" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/Teams_announcements.png" />
+<img alt="Microsoft Teams new issue announcement examples" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/Teams_announcements.png" width="60%" />
 </p>
 
-- _Interactive All Hands_ meeting updates
+- _Interactive All Hands_ meeting updates:
 
 <p align="center">
-<img alt="Interactive All Hands meeting update examples" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/All_Hands_updates.png" />
+<img alt="Interactive All Hands meeting update examples" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/All_Hands_updates.png" width="70%" />
 </p>
 
 ## Versioning
@@ -58,15 +58,25 @@ Y - Month
 
 ## Tools
 
-Newsletter featured images have been created using [Ray.so](https://ray.so) tool.
+### Language
 
-[Baltic Interactive blog's](https://blog.accenture.com/design) media library has images uploaded up until _import IdeaKit Issue 36_, but to recrerate images used
+[Grammarly](https://app.grammarly.com) (requires a free account) is used to eliminate spelling, grammar, and punctuation errors. Metrics such as clarity, engagement, delivery, and overall score weren't taken into account, but typical end values have been `very clear`, `very engaging`, `just right`, and `above 85` respectively.
+
+[Grammarly](https://app.grammarly.com), in combination with [Thesaurus.com](https://www.thesaurus.com) and [Google’s](https://www.google.com) English dictionary results, also was applied when searching for synonyms.
+
+Estimated reading time is auto-generated for _Baltic Interactive_ [blog's](https://blog.accenture.com/design) posts, for _GitHub_ issues [Read-o-Meter](https://niram.org/read) by [Tharique Azeez](https://twitter.com/ThariqueAzeez) and [Grammarly](https://app.grammarly.com) were referenced.
+
+### Featured image
+
+Newsletter's featured images have been created using [Ray.so](https://ray.so) tool.
+
+_Baltic Interactive_ [blog's](https://blog.accenture.com/design) [media library](https://blog.accenture.com/design/wp-admin/upload.php) has featured images uploaded up to and including 36<sup>th</sup> issue, below are step-by-step guides to recreate the image:
 
 <p align="center">
-<img alt="Featured image example" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/contributing_featured_image.svg"  width="50%" />
+<img alt="Featured image example" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/contributing_featured_image.svg"  width="60%" />
 </p>
 
-### Configuring image with JavaScript
+#### Configuring image with JavaScript
 
 - Set default values using controls:
     - Colors: `Sunset` (`C`);
@@ -74,7 +84,7 @@ Newsletter featured images have been created using [Ray.so](https://ray.so) tool
     - Dark mode: `Disabled` (`D`);
     - Padding: `64` (`P`);
     - Language: `Swift` (`L`).
-- Open Chrome DevTools in Console panel ( in Google Chrome `⌘` + `⌥` + `J`). Alternatively, you can right-click and element and select Inspect option;
+- Open Chrome DevTools in Console panel (in Google Chrome `⌘` + `⌥` + `J`). Alternatively, you can right-click and element and select Inspect option;
 - Update text colors to match Xcode's default light theme:
 ```javascript
 document.getElementsByClassName("vue-codemirror code-editor")[0].style.cssText = `
@@ -93,7 +103,7 @@ document.getElementsByClassName('frame frame')[0].style.background = "linear-gra
 ```
 - Save as PNG (`⌘` + `S`).
 
-### Manually configuring image
+#### Manually configuring image
 
 - Set default values using controls:
     - Colors: `Sunset` (`C`);
@@ -101,7 +111,7 @@ document.getElementsByClassName('frame frame')[0].style.background = "linear-gra
     - Dark mode: `Disabled` (`D`);
     - Padding: `64` (`P`);
     - Language: `Swift` (`L`).
-- Open Chrome DevTools in Elements panel ( in Google Chrome `⌘` + `⌥` + `C`);
+- Open Chrome DevTools in Elements panel (in Google Chrome `⌘` + `⌥` + `C`);
 - Update text colors to match Xcode's default light theme:
     - Locate and select child of `<div class="app-frame">...</div>`:
 ```html
@@ -150,9 +160,9 @@ background: linear-gradient(rgb(241, 178, 87), rgb(236, 73, 55));
 ```
 - Save as PNG (`⌘` + `S`).
 
-Footer characters created using [Open Peeps](https://www.openpeeps.com) by [Pablo Stanley](https://twitter.com/pablostanley).
-Can be edited with [Figma](https://www.figma.com/).
-Grammar tool [Grammarly](https://app.grammarly.com).
+### Footnote
+
+Footer characters have been created using [Open Peeps](https://www.openpeeps.com) by [Pablo Stanley](https://twitter.com/pablostanley). Those can be downloaded for free and edited with [Figma](https://www.figma.com) (requires a free account).
 
 ## Resources
 
