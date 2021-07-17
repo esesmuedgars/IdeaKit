@@ -3,18 +3,19 @@
 ## Permissions
 
 Contributor role is enough to create and publish posts, but Editor is required to add images to library and add feature image of post.
-Contact [Līva Pilvere](https://people.accenture.com/People/user/liva.pilvere)
+Contact [Līva Pilvere](https://people.accenture.com/People/user/liva.pilvere).
 
 ## Structure
 
 Conserning [Baltic Interactive blog](https://blog.accenture.com/design).
+Where `<!--more-->` seperator is inserted before _Body_ of the newsletter, which results title, introduction and _News_ section to  and "Continue reading" is inserted afterward.
 
 ```bash
 .
 ├── Title (w/ featured image)
-│   └── Introduction
+│   ├── Introduction
+│   └── News
 ├── Body
-│   ├── News
 │   ├── Swift challenge
 │   ├── Fundamentals
 │   ├── Tutorials
@@ -27,9 +28,25 @@ Conserning [Baltic Interactive blog](https://blog.accenture.com/design).
 
 ## Annoncements
 
-[Riga Interactive Yammer community](https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI1Nzg0ODAwNDYwOCJ9/all).
+After new newsletter's issue has been published, all subscribers of the blog will receive automatic e-mail announcement. However, to atract additional traffic manual announcement's are required.
 
-[Baltic Interactive (General) channel](https://teams.microsoft.com/l/channel/19%3a44cee4a866b443dcad8be62b72443948%40thread.skype/General?groupId=4fc3b8f5-e079-4567-980c-3c159d453ed0&tenantId=e0793d39-0939-496d-b129-198edd916feb).
+- [Riga Interactive Yammer community](https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI1Nzg0ODAwNDYwOCJ9/all).
+
+<p align="center">
+<img alt="Yammer new issue announcement examples" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/Yammer_announcements.png" />
+</p>
+
+- [Baltic Interactive (General) channel](https://teams.microsoft.com/l/channel/19%3a44cee4a866b443dcad8be62b72443948%40thread.skype/General?groupId=4fc3b8f5-e079-4567-980c-3c159d453ed0&tenantId=e0793d39-0939-496d-b129-198edd916feb).
+
+<p align="center">
+<img alt="Microsoft Teams new issue announcement examples" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/Teams_announcements.png" />
+</p>
+
+- _Interactive All Hands_ meeting updates
+
+<p align="center">
+<img alt="Interactive All Hands meeting update examples" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/All_Hands_updates.png" />
+</p>
 
 ## Versioning
 
@@ -133,8 +150,9 @@ background: linear-gradient(rgb(241, 178, 87), rgb(236, 73, 55));
 ```
 - Save as PNG (`⌘` + `S`).
 
-Footer characters created using [Open Peeps](https://www.openpeeps.com) by [Pablo Stanley](https://twitter.com/pablostanley). Can be edited with [Figma](https://www.figma.com/) free
-free [Grammarly](https://app.grammarly.com)
+Footer characters created using [Open Peeps](https://www.openpeeps.com) by [Pablo Stanley](https://twitter.com/pablostanley).
+Can be edited with [Figma](https://www.figma.com/).
+Grammar tool [Grammarly](https://app.grammarly.com).
 
 ## Resources
 
