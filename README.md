@@ -231,48 +231,47 @@ I like developing lightly, just mac, no external keyboard, additonal monitors, o
 
 ## Tools
 
-### Prioritize Work with Quality of Service Classes
+### Prioritize work with Quality of Service classes
 
-[Apple](https://twitter.com/Apple) provides [documentation](https://developer.apple.com/library/archive/documentation/Performance/Conceptual/EnergyGuide-iOS/PrioritizeWorkWithQoS.html)
+Mobile applications are competing to use finite resources — CPU (central processing unit), memory, network interfaces, etc. In order for application to remain responsive and efficient it is crucial to prioritize tasks. [Apple](https://twitter.com/Apple) provides [documentation](https://developer.apple.com/library/archive/documentation/Performance/Conceptual/EnergyGuide-iOS/PrioritizeWorkWithQoS.html) on a QoS (Quality of Service) classes and describes their [classes'] intended type of work.
 
-### Analyze HTTP Traffic with new HTTP Instrument
+### Analyze network traffic with new instrument
 
-[article](https://michaelabadi.com/articles/analyse-http-instruments) by [Michael Abadi Santoso](https://twitter.com/michaelabadiii)
+[Charles Proxy](https://www.charlesproxy.com) has been a pivotal tool to inspect unencrypted and encrypted network traffic, it has various other features, but those are rarily required in a day-to-day development (if, however, you are looking for more advanced debugging [Emad Ghorbaninia](https://twitter.com/emadgnia) wrote a [tutorial](https://www.raywenderlich.com/22070831-advanced-charles-proxy-tutorial-for-ios) teaching how to configure Charles Proxy, manipulate requests and responses, automate using Rewrite and Repeat features, use breakpoints, filtering requests). Instruments 13 introduces HTTP traffic instrument, contained in the Network template, focusing on auditing the traffic coming from your application through the Apple Networking stack. Read an [article](https://michaelabadi.com/articles/analyse-http-instruments) by [Michael Abadi Santoso](https://twitter.com/michaelabadiii).
 
-### How 7 iOS Apps Could Save You 500MB of Storage
+### 7 well-known iOS applications that collectively could save 500MB of user's storage
 
-[Emerge](https://www.emergetools.com)
-[article](https://medium.com/swlh/how-7-ios-apps-could-save-you-500mb-of-storage-a828782c973e) by [Noah Martin](https://twitter.com/sond813)
+[Noah Martin](https://twitter.com/sond813) shared his findings in an [article](https://medium.com/swlh/how-7-ios-apps-could-save-you-500mb-of-storage-a828782c973e) about common mistakes that are increasing application installation sizes discovered using [Emerge](https://www.emergetools.com) — binary size profiling tool.
 
 ## Tips
 
-### Core Location UI: New way to get one-time location
+### `CoreLocationUI` framework
 
-[article](https://nemecek.be/blog/109/core-location-ui-new-way-to-get-one-time-location) by [Filip Němeček](https://twitter.com/nemecek_f)
+[Filip Němeček](https://twitter.com/nemecek_f) wrote a short [article](https://nemecek.be/blog/109/core-location-ui-new-way-to-get-one-time-location) reviewing a `CLLocationButton` that provides an easy, low-friction way to grant your application location access only when needed.
 
-### How do you go from completionHandler to async / await?
+### Refactoring completion closures to asynchronous methods
 
-YouTube [video](https://www.youtube.com/watch?v=9CI8O7iufDI) by [Vincent Pradeilles](https://twitter.com/v_pradeilles)
+Learn how to refactor legacy completion closure implementations to use iOS 15 `async`/`await` API in a YouTube [video](https://www.youtube.com/watch?v=9CI8O7iufDI) by [Vincent Pradeilles](https://twitter.com/v_pradeilles).
 
-### Xcode Column Breakpoints
+### Column breakpoints
 
-[article](https://useyourloaf.com/blog/xcode-column-breakpoints) by [Keith Harrison](https://twitter.com/kharrison)
+Xcode 13 aims to make debugging more productive and introduces column breakpoints which work like a more granular version of line breakpoints. [Keith Harrison](https://twitter.com/kharrison) illustrates how to use them in his [article](https://useyourloaf.com/blog/xcode-column-breakpoints).
 
-### Declare Swift protocol for a specific class
+### Specific class protocol
 
-Twitter [post](https://twitter.com/sarunw/status/1409270071176880131) by [Sarun Wongpatcharapakornand](https://twitter.com/sarunw). Additionally, an [article](https://sarunw.com/posts/how-to-declare-swift-protocol-for-specific-class)
+[Sarun Wongpatcharapakornand](https://twitter.com/sarunw) created a Twitter [post](https://twitter.com/sarunw/status/1409270071176880131) demonstrating that in Swift 5 developer can declare protocol for a specific class. Additionally, read his in-depth [article](https://sarunw.com/posts/how-to-declare-swift-protocol-for-specific-class) about the topic.
 
-### A trick to keep the Struct's Default Memberwise initializer in Swift
+### Keep the structture's default memberwise initializer
 
-[article](https://holyswift.app/a-trick-to-keep-the-structs-default-memberwise-initializer-in-swift) by [Leonardo Maia Pugliese](https://twitter.com/Leo_Pugliese)
+[Leonardo Maia Pugliese](https://twitter.com/Leo_Pugliese) in his [article](https://holyswift.app/a-trick-to-keep-the-structs-default-memberwise-initializer-in-swift) shared his know-how on how to add custom initializer to the structure without overwriting the default initializer.
 
-### Measuring scrolling performance with UI Tests
+### Measuring scrolling performance with UI test
 
-Twitter [post](https://twitter.com/mecid/status/1408071686587490304) by [Majid Jabrayilov](https://twitter.com/mecid)
+In Twitter [post](https://twitter.com/mecid/status/1408071686587490304) [Majid Jabrayilov](https://twitter.com/mecid) brings out that you can write a UI test that measures scrolling performance in your application that fails if performance is not satisfactory.
 
-### Why #if DEBUG Conditional Should Be Avoided in Library Code
+### Why `#if DEBUG` conditional should be avoided in libraries
 
-[article](https://holko.pl/2018/09/24/compilation-directives-in-libraries) by [Arek Holko](https://twitter.com/arekholko)
+[Arek Holko](https://twitter.com/arekholko) had written an [article](https://holko.pl/2018/09/24/compilation-directives-in-libraries) about an issue he had to solve when application running in Debug configuration unknowingly called library with Release configuration and proposes a substitute implementation when writing libraries.
 
 <br>
 <p align="center">
