@@ -136,27 +136,27 @@ MVVM offers multiple advantages over MVC (Model-View-Controller) such as reusabi
 
 ## Tutorials
 
-### Drag and Drop Tutorial for `SwiftUI`
+### Drag and drop in `SwiftUI`
 
-[tutorial](https://www.raywenderlich.com/21679742-drag-and-drop-tutorial-for-swiftui) by [Warren Burton](https://twitter.com/troutdev)
+Learn how to use the implicit collection drag and drop API in `SwiftUI` by building an application in a [tutorial](https://www.raywenderlich.com/21679742-drag-and-drop-tutorial-for-swiftui) by [Warren Burton](https://twitter.com/troutdev)
 
-### Using AsyncImage in `SwiftUI` for Loading Images Asynchronously
+### Load images asynchronously in `SwiftUI` using `AsyncImage`
 
-[article](https://www.appcoda.com/asyncimage) by [Simon Ng](https://twitter.com/simonng)
+[Simon Ng](https://twitter.com/simonng) created a [tutorial](https://www.appcoda.com/asyncimage) educating on how to work with `AsyncImage` view to load and display an image from the specified URL.
 
-### Swift actors tutorial - a beginner's guide to thread safe concurrency
+### A beginner's guide to thread-safe concurrency
 
-[article](https://theswiftdev.com/swift-actors-tutorial-a-beginners-guide-to-thread-safe-concurrency) by [Tibor Bödecs](https://twitter.com/tiborbodecs)
+Purpose of actors in Swift is to solve data-races and memory issues, learn how to start working with actors in [tutorial](https://theswiftdev.com/swift-actors-tutorial-a-beginners-guide-to-thread-safe-concurrency) by [Tibor Bödecs](https://twitter.com/tiborbodecs). Additionally, read an [article](https://www.avanderlee.com/swift/actors) by [Antoine van der Lee](https://twitter.com/twannl).
 
 ## Enhanced programming
 
 ### App Proxy Provider: Handling Flow Copying
 
-[Apple](https://twitter.com/Apple) provides [article](https://developer.apple.com/documentation/networkextension/app_proxy_provider/handling_flow_copying)
+[Apple](https://twitter.com/Apple) provides an [article](https://developer.apple.com/documentation/networkextension/app_proxy_provider/handling_flow_copying)
 
 ### Setting Up a Core Data Stack
 
-[Apple](https://twitter.com/Apple) provides [article](https://developer.apple.com/documentation/coredata/setting_up_a_core_data_stack)
+[Apple](https://twitter.com/Apple) provides an [article](https://developer.apple.com/documentation/coredata/setting_up_a_core_data_stack)
 
 ### Customizing Password AutoFill Rules
 
@@ -217,13 +217,13 @@ I like developing lightly, just mac, no external keyboard, additonal monitors, o
 
 [article](https://hacknicity.medium.com/a-simple-smart-search-algorithm-for-ios-in-swift-65f71b2f221a) by [Geoff Hackworth](https://twitter.com/geoffhackworth)
 
-### How iOS 15 makes your app launch faster
+### Faster application launch times in iOS 15
 
-[article](https://medium.com/geekculture/how-ios-15-makes-your-app-launch-faster-51cf0aa6c520) by [Noah Martin](https://twitter.com/sond813)
+[Noah Martin](https://twitter.com/sond813) carried out colossal investigation in iOS 15 dynamic link editor (dyld) improvement to use chained fixups format and reported his uncoverings in an [article](https://medium.com/geekculture/how-ios-15-makes-your-app-launch-faster-51cf0aa6c520).
 
 ### How to share an iOS distribution certificate
 
-[article](https://sarunw.com/posts/how-to-share-ios-distribution-certificate) by [Sarun Wongpatcharapakornand](https://twitter.com/sarunw)
+[Sarun Wongpatcharapakornand](https://twitter.com/sarunw) created a [guide](https://sarunw.com/posts/how-to-share-ios-distribution-certificate) navigating reader through the process of creating, exporting and importing of distribution certificate.
 
 ### Detecting memory leaks via tests
 
