@@ -4,18 +4,18 @@
 
 ![Issue](https://img.shields.io/badge/issue-1.7-informational.svg)
 
-**TODO:** Prefix
+Welcome back!
+
+Vacation time.
+I encourage you to take a well deserved rest, disconnect, clear your mental cache. Newsletter can wait, take care of yourself!
+
+Happy learning!
 
 ## News
 
-### Tax Category Setting Now Available in App Store Connect
+### Tax category setting now available in App Store Connect
 
-<!--
-The App Store makes it easy for you to manage transactions in 175 territories, and Apple administers tax on behalf of developers in 64 of those territories. Now App Store Connect provides the ability to assign tax categories to your apps and in-app purchases. These categories are based on your app's content (for example, videos, books, or news publications) and determine which tax regulations apply in each territory, allowing Apple to administer tax for you at specific rates.
-
-To assign categories, visit the Pricing and Availability section for your app in App Store Connect. If a category applies to your app, select it at the app level to apply it to the app and its associated in-app purchases. You can also manage each in-app purchase individually. Your selections will be applied to future transactions and you can view the new Transaction Tax report the first full month after you configure your settings. If you choose not to make any changes, your apps and in-app purchases will be assigned the App Store software category at the same tax rate used today. Adjust these settings at any time as the characterization of your apps or in-app purchases evolve or as tax legislation changes.
--->
-[article](https://developer.apple.com/news/?id=2bbbudbw)
+[Apple](https://twitter.com/Apple) in their news [article](https://developer.apple.com/news/?id=2bbbudbw) announced App Store Connect feature to assign tax categories to your application and in-app purchases. Categories are based on your application's content (e.g., videos, books, or news publications) and determine which tax regulations apply in each territory, allowing Apple to administer tax for you at specific rates.
 
 <!--more-->
 
@@ -114,25 +114,25 @@ private func spellOut() -> String {
 
 ## Fundamentals
 
-### Five tips to help you become a well-rounded developer
+### 5 tips to help you become a well-rounded developer
 
-[article](https://www.donnywals.com/five-tips-to-help-you-become-a-well-rounded-developer) by [Donny Wals](https://twitter.com/DonnyWals)
+[Donny Wals](https://twitter.com/DonnyWals) shares his opinion on how to grow as a developer in an [article](https://www.donnywals.com/five-tips-to-help-you-become-a-well-rounded-developer). No surprise, soft skills matter a lot.
 
 ### `lazy` in Swift
 
-YouTube [video](https://www.youtube.com/watch?v=xKoua1Mi6qE) by [Sean Allen](https://twitter.com/seanallen_dev) and YouTube [video](https://www.youtube.com/watch?v=JLg8C8IYICo) by [Vincent Pradeilles](https://twitter.com/v_pradeilles)
+A lazy stored property is a property whose initial value isn’t calculated until the first time it’s called. Both [Sean Allen](https://twitter.com/seanallen_dev) in his YouTube [video](https://www.youtube.com/watch?v=xKoua1Mi6qE) and [Vincent Pradeilles](https://twitter.com/v_pradeilles) in his YouTube [video](https://www.youtube.com/watch?v=JLg8C8IYICo) convey practical examples of lazy stored property applications.
 
 ### MVVM (Model-View-ViewModel) architectural design pattern
 
-YouTube [video](https://www.youtube.com/watch?v=FwGMU_Grnf8) by [Sean Allen](https://twitter.com/seanallen_dev). Additionally, [tutorial] on how to refactor MVC (Model-View-Controller) to MVVM  by [Chuck Krutsinger](https://twitter.com/CountermindLLC). Plus, an [article](https://johncodeos.com/how-to-implement-mvvm-pattern-with-swift-in-ios) by [John Codeos](https://twitter.com/johncodeos).
+MVVM offers multiple advantages over MVC (Model-View-Controller) such as reusability of views, reduced complexity, improved readability, increased expressiveness, and introduced testability. Learn about MVVM components and their employment in  `SwiftUI` in YouTube [video](https://www.youtube.com/watch?v=FwGMU_Grnf8) by [Sean Allen](https://twitter.com/seanallen_dev). Alternatively, follow [tutorial](https://www.raywenderlich.com/6733535-ios-mvvm-tutorial-refactoring-from-mvc), written by [Chuck Krutsinger](https://twitter.com/CountermindLLC), and refactor MVC to MVVM architectural design pattern. Additionally, [John Codeos](https://twitter.com/johncodeos) wrote an [article](https://johncodeos.com/how-to-implement-mvvm-pattern-with-swift-in-ios) describing building an application with MVVM architectural design pattern in mind.
 
-### Linting vs formatting
+### Linting versus formatting
 
-[article](https://jasonzurita.com/linting-and-formatting-swift-part-1) by [Jason Zurita](https://twitter.com/jasonalexzurita)
+[Jason Zurita](https://twitter.com/jasonalexzurita) wrote an [article](https://jasonzurita.com/linting-and-formatting-swift-part-1) making distinction between linting and formatting. 
 
-### What is a runloop?
+### What is a run loop?
 
-YouTube [video](https://www.youtube.com/watch?v=jk5UFJWc-2w) by [Valerie Don](https://twitter.com/valeriedon)
+[Valerie Don](https://twitter.com/valeriedon) answers "What is a run loop?" interview question in her YouTube [video](https://www.youtube.com/watch?v=jk5UFJWc-2w).
 
 ## Tutorials
 
@@ -255,7 +255,7 @@ Learn how to refactor legacy completion closure implementations to use iOS 15 `a
 
 ### Column breakpoints
 
-Xcode 13 aims to make debugging more productive and introduces column breakpoints which work like a more granular version of line breakpoints. [Keith Harrison](https://twitter.com/kharrison) illustrates how to use them in his [article](https://useyourloaf.com/blog/xcode-column-breakpoints).
+Xcode 13 aims to make debugging more productive and introduces column breakpoints which work like a more granular version of line breakpoints. [Keith Harrison](https://twitter.com/kharrison) illustrates how to use them in his 2 minute [article](https://useyourloaf.com/blog/xcode-column-breakpoints).
 
 ### Specific class protocol
 
