@@ -6,8 +6,7 @@
 
 Welcome back!
 
-Vacation time. ⚠️
-I encourage you to take a well deserved rest, disconnect, clear your mental cache. Newsletter can wait, take care of yourself!
+The summer vacation period is here, therefore, these issues of the newsletter might also seem slightly lighter than anticipated. I encourage you too to take a well-deserved break, disconnect, clear your mental cache. To be the best you need some rest, take care of yourself!
 
 Happy learning!
 
