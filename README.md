@@ -1,12 +1,12 @@
 <img width="100%" alt="import IdeaKit - Swift Monthly Newsletter" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/title.svg" />
 
-###### 0 minute read
+###### 0 minute read ⚠️
 
 ![Issue](https://img.shields.io/badge/issue-1.7-informational.svg)
 
 Welcome back!
 
-Vacation time.
+Vacation time. ⚠️
 I encourage you to take a well deserved rest, disconnect, clear your mental cache. Newsletter can wait, take care of yourself!
 
 Happy learning!
@@ -23,7 +23,7 @@ Happy learning!
 
 What Swift challenges are not? Swift challenges are not programming or mathematical problems that have universal solutions.
 What Swift challenges are? Swift challenges highlight problems with purpose to grant insight into Swift syntactical sugar and uncommon native APIs.
-Each consecutive newsletter's issue will provide solution(-s) (as well as explanation(-s) and resource hyperlink(-s), where applicable) to a problem described in issue before, besides following challenge.
+Each consecutive newsletter's issue will provide solution(-s) (as well as explanation(-s) and resource hyperlink(-s), where applicable) to a problem described in an issue before, besides following challenge.
 
 Let's start things slow, Swift challenge No. 1:
 
@@ -116,7 +116,7 @@ private func spellOut() -> String {
 
 ### 5 tips to help you become a well-rounded developer
 
-[Donny Wals](https://twitter.com/DonnyWals) shares his opinion on how to grow as a developer in an [article](https://www.donnywals.com/five-tips-to-help-you-become-a-well-rounded-developer). No surprise, soft skills matter a lot.
+[Donny Wals](https://twitter.com/DonnyWals) shares his opinion on how to grow as a developer in an [article](https://www.donnywals.com/five-tips-to-help-you-become-a-well-rounded-developer). No surprise, soft skills matter, a lot.
 
 ### `lazy` in Swift
 
@@ -128,7 +128,7 @@ MVVM offers multiple advantages over MVC (Model-View-Controller) such as reusabi
 
 ### Linting versus formatting
 
-[Jason Zurita](https://twitter.com/jasonalexzurita) wrote an [article](https://jasonzurita.com/linting-and-formatting-swift-part-1) making distinction between linting and formatting. 
+[Jason Zurita](https://twitter.com/jasonalexzurita) wrote an [article](https://jasonzurita.com/linting-and-formatting-swift-part-1) making distinction between linting and formatting.
 
 ### What is a run loop?
 
@@ -138,7 +138,7 @@ MVVM offers multiple advantages over MVC (Model-View-Controller) such as reusabi
 
 ### Drag and drop in `SwiftUI`
 
-Learn how to use the implicit collection drag and drop API in `SwiftUI` by building an application in a [tutorial](https://www.raywenderlich.com/21679742-drag-and-drop-tutorial-for-swiftui) by [Warren Burton](https://twitter.com/troutdev)
+Learn how to use the implicit collection drag and drop API in `SwiftUI` by building an application in a [tutorial](https://www.raywenderlich.com/21679742-drag-and-drop-tutorial-for-swiftui) by [Warren Burton](https://twitter.com/troutdev).
 
 ### Load images asynchronously in `SwiftUI` using `AsyncImage`
 
@@ -150,72 +150,66 @@ Purpose of actors in Swift is to solve data-races and memory issues, learn how t
 
 ## Enhanced programming
 
-### App Proxy Provider: Handling Flow Copying
+### Handling bidirectional stream of data copying with App Proxy Provider
 
-[Apple](https://twitter.com/Apple) provides an [article](https://developer.apple.com/documentation/networkextension/app_proxy_provider/handling_flow_copying)
+[Apple](https://twitter.com/Apple) provides an [article](https://developer.apple.com/documentation/networkextension/app_proxy_provider/handling_flow_copying) on using proxy-provider classes to exchange data streams and explaining how to read from the remote connection and write to the local bidirectional stream of data and vice versa.
 
-### Setting Up a Core Data Stack
+### Setting up Core Data stack
 
-[Apple](https://twitter.com/Apple) provides an [article](https://developer.apple.com/documentation/coredata/setting_up_a_core_data_stack)
+Assimilate how to set up the classes (collectively referred to as the Core Data stack) that manage and persist your application's objects in [Apple's](https://twitter.com/Apple) [article](https://developer.apple.com/documentation/coredata/setting_up_a_core_data_stack).
 
-### Customizing Password AutoFill Rules
+### Customizing password AutoFill rules
 
-[Apple](https://twitter.com/Apple) provides [article](https://developer.apple.com/documentation/security/password_autofill/customizing_password_autofill_rules)
+[Apple](https://twitter.com/Apple) supplies an [article](https://developer.apple.com/documentation/security/password_autofill/customizing_password_autofill_rules)
+enlightening how to add individual restrictions to your application's strong password rules using a combination of specification keywords.
 
-### Improve discoverability using Static Member Lookup in Generic Contexts
+### Improve discoverability using static member lookup in generic contexts
 
-[article](https://www.avanderlee.com/swift/static-member-lookup-generic-contexts) by [Antoine van der Lee](https://twitter.com/twannl)
+[SE-0299](https://github.com/apple/swift-evolution/blob/main/proposals/0299-extend-generic-static-member-lookup.md) proposal by [Pavel Yaskevich](https://www.linkedin.com/in/pavel-yaskevich-5b02a318/), [Sam Lazarus](https://twitter.com/slazaruseth), and [Matt Ricketson](https://twitter.com/ricketson_) has been implemented in Swift 5.5 and aims to relax restrictions on accessing static members on protocols to afford the same call-site legibility to generic APIs. Read an [article](https://www.avanderlee.com/swift/static-member-lookup-generic-contexts) by [Antoine van der Lee](https://twitter.com/twannl) where he offers practical example of the new feature.
 
 ### iOS 15 `SFSafariViewController` improvements
 
-[article](https://nemecek.be/blog/110/sfsafariviewcontroller-improvements-in-ios-15) by [Filip Němeček](https://twitter.com/nemecek_f)
+[Filip Němeček](https://twitter.com/nemecek_f) wrote an [article](https://nemecek.be/blog/110/sfsafariviewcontroller-improvements-in-ios-15) with reference to `SFSafariViewController` recently added options to run a custom extension on the web page content as well as preload content.
 
-### Swift concurency
+### Making a Swift Package Collection
 
-Swift Programming language book updated concurency [topic](https://docs.swift.org/swift-book/LanguageGuide/Concurrency.html)
+[Alejandro Martinez](https://twitter.com/alexito4) in his [article](https://alejandromp.com/blog/use-spm-collections-to-have-easy-access-to-your-favourite-packages) displays how you can describe a curated list of packages and associated metadata which makes it easier to discover an existing package for a particular use case.
 
-### Make a Swift Package Collection with your favorites
+### Table and collection view cell reloading improvements in iOS 15
 
-[article](https://alejandromp.com/blog/use-spm-collections-to-have-easy-access-to-your-favourite-packages) by [Alejandro Martinez](https://twitter.com/alexito4)
+In an [article](https://swiftsenpai.com/development/cells-reload-improvements-ios-15) [Lee Kah Seng](https://twitter.com/Lee_Kah_Seng) walks readers through iOS 15 diffable data source improvement that permits to reload value type items in addition to of reloading reference type items.
 
-### Table and Collection View Cells Reload Improvements in iOS 15
+### Elevate the structure of your Xcode projects
 
-[article](https://swiftsenpai.com/development/cells-reload-improvements-ios-15) by [Lee Kah Seng](https://twitter.com/Lee_Kah_Seng)
-
-### How to better structure your Xcode projects
-
-[article](https://screenplay.dev/blog/post/Xr88fIeCmhQN3iTkZt4v) by [Tomas Reimers](https://twitter.com/tomasreimers)
+[Tomas Reimers](https://twitter.com/tomasreimers) wrote an [article](https://screenplay.dev/blog/post/Xr88fIeCmhQN3iTkZt4v) where he dives into the details of what Xcode projects are, how do they work, and how you can better structure your projects for your iOS applications.
 
 ### Adopting `SwiftUI`
 
-[article](https://dev.to/newday-technology/adopting-swiftui-32go) by [Olivier Rigault](https://www.linkedin.com/in/origault)
+There has been an ongoing debate among the developer community about adopting `SwiftUI` since Apple introduced this framework back in 2019. [Olivier Rigault](https://www.linkedin.com/in/origault) in his [article](https://dev.to/newday-technology/adopting-swiftui-32go) shares the journey that he and his team embraced and challenged that they have faced by adopting `SwiftUI` in their iOS development process early.
 
-### An introduction to synchronizing access with Swift’s Actors
+### An introduction to synchronizing access with Swift’s actors
 
-[article](https://www.donnywals.com/an-introduction-to-synchronizing-access-with-swifts-actors) by [Donny Wals](https://twitter.com/DonnyWals)
+[Donny Wals](https://twitter.com/DonnyWals) wrote an [article](https://www.donnywals.com/an-introduction-to-synchronizing-access-with-swifts-actors) to illustrate how an object that isolates access to it's mutable state to empower developer to avoid runtime crashes by solving data races.
 
-### Speeding up with Xcode Behaviors
+### Using Xcode behaviors to speed up workflow
 
-[article](https://www.avanderlee.com/xcode/xcode-behaviours-optimized) by [Antoine van der Lee](https://twitter.com/twannl)
+Default behaviors help you already by showing, for example, the debug navigator when pausing on a breakpoint, in an [article](https://www.avanderlee.com/xcode/xcode-behaviours-optimized) by [Antoine van der Lee](https://twitter.com/twannl) learn how to customize Xcode's response to certain events with bahaviors to reduce the amount of required, mundane navigation in Xcode.
 
 ### Make blazing fast lists and collection views
 
-<!--
-Build consistently smooth scrolling list and collection views: Explore the lifecycle of a cell and learn how to apply that knowledge to eliminate rough scrolling and missed frames. We'll also show you how to improve your overall scrolling experience and avoid costly hitches, with optimized image loading and automatic cell prefetching. To get the most out of this video, we recommend a basic familiarity with diffable data sources and compositional layout.
--->
-[Apple's](https://twitter.com/Apple) WWDC21 [session](https://developer.apple.com/videos/play/wwdc2021/10252) by [Aditya Krishnadevan](https://twitter.com/caughtinflux) and [Patrick Metcalfe](https://twitter.com/PDucks32).
+View [Apple's](https://twitter.com/Apple) WWDC21 [session](https://developer.apple.com/videos/play/wwdc2021/10252) where [Aditya Krishnadevan](https://twitter.com/caughtinflux) and [Patrick Metcalfe](https://twitter.com/PDucks32) teach how to use diffable data source and cell registration APIs, refreshes viewers' undesrtanding of a lifecycle of a cell, and show how to improve overall scrolling experience with optimized image loading and automatic cell prefetching.
 
-### Xcode 13 Vim Mode
+### Xcode 13 Vim support
 
-I like developing lightly, just mac, no external keyboard, additonal monitors, or mouse. Using multiple virtual desktops and it works for me. Maybe it is time to forget touchbar as well? [video](https://nsscreencast.com/episodes/491-xcode-13-vim) by [Ben Scheirman](https://twitter.com/subdigital)
+I've always had minimalistic approach to my work environment, no additional monitors, external keyboard, or mouse. I use multiple virtual desktops, MacBook's integrated keyboard and trackpad, for me it simply works. Has the time come to remove the trackpad from the equation? Watch [video](https://nsscreencast.com/episodes/491-xcode-13-vim) where [Ben Scheirman](https://twitter.com/subdigital) instructs how to enable Vim key bindings and gives a quick tour of how to navigate using them.
 
-### Flaky tests resolving using Test Repetitions in Xcode
+### Using test repetitions in Xcode 13 to resolve flaky tests
 
-[article](https://www.avanderlee.com/debugging/flaky-tests-test-repetitions) by [Antoine van der Lee](https://twitter.com/twannl)
+[Antoine van der Lee](https://twitter.com/twannl) wrote an [article](https://www.avanderlee.com/debugging/flaky-tests-test-repetitions) to help you identify flaky tests and their possible causes, as well as proposes solutions to avoid introducing flaky tests in the first place. 
 
-### A Simple, Smart Search Algorithm for iOS in Swift
+### iOS simple search algorithm
 
-[article](https://hacknicity.medium.com/a-simple-smart-search-algorithm-for-ios-in-swift-65f71b2f221a) by [Geoff Hackworth](https://twitter.com/geoffhackworth)
+[Geoff Hackworth](https://twitter.com/geoffhackworth) shared an search algorithm, that he applied in several iOS applications, that is superior than a trivial substring match but not as complex as Xcode’s matching of method names in an [article](https://hacknicity.medium.com/a-simple-smart-search-algorithm-for-ios-in-swift-65f71b2f221a).
 
 ### Faster application launch times in iOS 15
 
@@ -227,7 +221,7 @@ I like developing lightly, just mac, no external keyboard, additonal monitors, o
 
 ### Detecting memory leaks via tests
 
-[article](https://aclima93.com/swift/2021/06/24/01.html) and [article](https://aclima93.com/swift/2021/07/23/01.html) by [António Lima](https://twitter.com/aclima93)
+[António Lima](https://twitter.com/aclima93) wrote an [article](https://aclima93.com/swift/2021/06/24/01.html) defining a memory leak and automating leak detection with test cases. In his supplementary [article](https://aclima93.com/swift/2021/07/23/01.html) he pursues automation of asserts for lingering references and the ability to use non-reference types such as structures and enumerations in tests.
 
 ## Tools
 
