@@ -8,6 +8,8 @@ Welcome back!
 
 The summer vacation period is here, therefore, these issues of the newsletter might also seem slightly lighter than anticipated. I encourage you too to take a well-deserved break, disconnect, clear your mental cache. To be the best you need some rest, take care of yourself!
 
+Secondly, I would like to share with you my celebratory mood as with the release of _Issue 4_ we meet our first mini-milestone, this is the 5<sup>th</sup> publication of the newsletter! Hooray for small miracles! 🎉
+
 Happy learning!
 
 ## News
