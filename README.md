@@ -106,7 +106,7 @@ Even as a simple problem as this has more clever solutions than the one your ini
 
 <br>
 <p align="center">
-<img width="25%" alt="Curator" src="curator.svg" />
+<img width="35%" alt="Curators" src="curators.svg" />
 <!--Character credit goes to [Pablo Stanley](https://twitter.com/pablostanley) with his [Open Peeps](https://www.openpeeps.com) hand-drawn illustration library.-->
 </p>
 <p align="center">
