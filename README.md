@@ -94,7 +94,10 @@ Even as a simple problem as this has more clever solutions than the one your ini
 
 ## Enhanced programming
 
-### Title
+### Placeholder view in `SwiftUI`
+
+Previously used, since then archived, Facebook's [Shimmer](https://github.com/facebookarchive/Shimmer) library
+[article](https://sarunw.com/posts/make-placeholder-view-in-swiftui-with-redacted) by [Sarun Wongpatcharapakornand](https://twitter.com/sarunw)
 
 ## Tools
 
