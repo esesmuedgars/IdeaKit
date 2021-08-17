@@ -4,7 +4,11 @@
 
 ![Issue](https://img.shields.io/badge/issue-1.8-informational.svg)
 
-Introduction
+Hey,
+
+new iPhone devices to be release next month
+
+Happy learning!  ⚠️
 
 ## News
 
@@ -42,7 +46,7 @@ Please note, this root certificate issuer has been updated from Symantec Corpora
 
 ## Swift challenge
 
-Prefix
+Prefix ⚠️
 
 ```swift
 // Swift challenge No. 1
@@ -106,19 +110,41 @@ private func spellOut() -> String {
 
 Swift challenge No. 2:
 
-Even as a simple problem as this has more clever solutions than the one your initial instinct suggests.
+<!--Even as a simple problem as this has more clever solutions than the one your initial instinct suggests.-->
 
 ```swift
+/**
 ...
+ */
 ```
 
 ## Fundamentals
 
-### Title
+### Unit testing: the pragmatic guide on where to start ⚠️
+
+[article](https://hybridcattt.com/blog/start-testing-pragmatic-guide) by (she/her) [Marina Gornostaeva](https://twitter.com/hybridcattt)
+
+### Copy-On-Assignment vs. Copy-On-Write in Swift ⚠️
+
+[article](https://aymanmoo.medium.com/copy-on-assignment-vs-copy-on-write-in-swift-c3016b343d06) by [Ayman Fayez](https://www.linkedin.com/in/ayman-fayez-7ab174156)
+
+### Implementing Feature Flagging in iOS ⚠️
+
+[article](https://digitalbunker.dev/2021/07/23/implementing-feature-flagging-in-ios) by [Aryaman Sharda](https://twitter.com/aryamansharda)
 
 ## Tutorials
 
-### Title
+### Apple iOS Developer course ⚠️
+
+[Apple](https://twitter.com/Apple) offers [tutorials](https://developer.apple.com/tutorials/app-dev-training/?utm_source=swiftlee&utm_medium=swiftlee_weekly&utm_campaign=issue_71) on both `SwiftUI` and `UIKit`
+
+### Resolver for iOS Dependency Injection ⚠️
+
+[tutorial](https://www.raywenderlich.com/22203552-resolver-for-ios-dependency-injection-getting-started) by (she/her) [Mina Ashna](https://twitter.com/minaashna)
+
+### SceneKit 3D Programming for iOS ⚠️
+
+[tutorial](https://www.raywenderlich.com/23483920-scenekit-3d-programming-for-ios-getting-started) by [Keegan Rush](https://twitter.com/rushkeegan)
 
 ## Enhanced programming
 
@@ -180,6 +206,18 @@ Alternatively, [article](https://sarunw.com/posts/different-ways-to-catch-throwi
 
 [article](https://sarunw.com/posts/setting-default-value-for-nsuserdefaults) by [Sarun Wongpatcharapakornand](https://twitter.com/sarunw)
 
+### Dependency Injection in Swift using latest Swift features ⚠️
+
+[article](https://www.avanderlee.com/swift/dependency-injection) by [Antoine van der Lee](https://twitter.com/twannl)
+
+### Benchmarking Swift Code Properly with Attabench ⚠️
+
+[article](https://swiftrocks.com/benchmarking-swift-code-properly-with-attabench) by [Bruno Rocha](https://twitter.com/rockbruno_)
+
+### Backporting new features with `@_alwaysEmitIntoClient`
+
+[article](https://www.fivestars.blog/articles/alwaysEmitIntoClient) by [Federico Zanetello](https://twitter.com/zntfdr)
+
 ## Tools
 
 ### Your AI pair programmer ⚠️
@@ -192,9 +230,10 @@ Hilarious Twitter [post](https://twitter.com/krzyzanowskim/status/14103205952214
 
 [article](http://www.alwaysrightinstitute.com/docz) by [Helge Heß](https://twitter.com/helje5)
 
-### (?) A Deep Dive into Airbnb’s Server-Driven UI System ⚠️ (Kotlin)
+### Swift Package Index ⚠️
 
-[article](https://medium.com/airbnb-engineering/a-deep-dive-into-airbnbs-server-driven-ui-system-842244c5f5) by [Ryan Brooks](https://www.linkedin.com/in/rbro112)
+Swift Package Collections
+[Swift Package Index](https://swiftpackageindex.com)
 
 ## Tips
 
@@ -209,6 +248,22 @@ Twitter [post](https://twitter.com/qdoug/status/1411948641292521478) by [Douglas
 ### Make Debugger Console Output Stand Out ⚠️
 
 [article](https://dasdom.dev/posts/changing-color-for-debugger-output) by [Dominik Hauser](https://twitter.com/dasdom)
+
+### Avoid index math in Collections ⚠️
+
+Twitter [post](https://twitter.com/olebegemann/status/1415351550847950848) by [Ole Begemann](https://twitter.com/olebegemann)
+
+### Retain-cycles in Combine ⚠️
+
+Twitter [post](https://twitter.com/eneko/status/1416143468070465537) by [Eneko Alonso](https://twitter.com/eneko)
+
+### When should you use a Failable Initializer? ⚠️
+
+YouTube [video](https://www.youtube.com/watch?v=bWWj8zgd--c) by [Vincent Pradeilles](https://twitter.com/v_pradeilles)
+
+### Assert XIB file exists ⚠️
+
+YouTube [video](https://www.youtube.com/watch?v=qowbAhsDuO0) by [Vincent Pradeilles](https://twitter.com/v_pradeilles)
 
 <br>
 <p align="center">
