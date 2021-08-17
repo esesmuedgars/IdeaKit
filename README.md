@@ -4,7 +4,7 @@
 
 ![Issue](https://img.shields.io/badge/issue-1.8-informational.svg)
 
-Hey,
+Hey!
 
 new iPhone devices to be release next month
 
