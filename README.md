@@ -4,11 +4,12 @@
 
 ![Issue](https://img.shields.io/badge/issue-1.8-informational.svg)
 
-Hey,
+Hey, hey!
 
-new iPhone devices to be release next month
+Apple has yet to set a date to parade iPhone 13, but September is the traditional launch month.
+The 14<sup>th</sup> of September. ⚠️
 
-Happy learning!  ⚠️
+Happy learning! ⚠️
 
 ## News
 
@@ -16,41 +17,22 @@ Happy learning!  ⚠️
 
 [Apple](https://twitter.com/Apple) has expanded its public beta program with software that was announced in early June during [WWDC21](https://developer.apple.com/wwdc21). Sign up to the [Apple Beta Software Program](https://beta.apple.com/sp/betaprogram), enroll your personal devices to access iOS 15, iPadOS 15, macOS Monterey, tvOS 15, and watchOS 8 public betas, and try out the latest features. Remember to back up all of your data before installing any beta software.
 
-### Upcoming tax and price changes for apps and in-app purchases ⚠️
+### Tax and price changes for applications and in-app purchases
 
-<!--
-When taxes or foreign exchange rates change, we sometimes need to update prices on the App Store in certain regions and/or adjust your proceeds.
-In the next few days, prices of apps and in-app purchases (excluding auto-renewable subscriptions) on the App Store will decrease in:
-South Africa
-United Kingdom
-All territories that use the Euro currency
-Prices will increase in Georgia and Tajikistan. The increases also consider the following tax changes, and Exhibit B of the Paid Applications Agreement has been updated to indicate that Apple collects and remits applicable taxes in these locations.
-Georgia: New value-added tax of 18%
-Tajikistan: New value-added tax of 18% that applies to developers based outside of Tajikistan
-Your proceeds will be adjusted accordingly and will be calculated based on the tax-exclusive price.
-In addition, your proceeds on the App Store in Italy will be increased to reflect a change to the Digital Services Tax effective rate.
-Once these changes go into effect, the Pricing and Availability section of My Apps will be updated. You can change the price of your apps and in-app purchases (including auto-renewable subscriptions) at any time in App Store Connect. If you offer subscriptions, you can choose to preserve prices for existing subscribers.
--->
-[article](https://developer.apple.com/news/?id=o0uodgu7) by [Apple](https://twitter.com/Apple)
+[Apple](https://twitter.com/Apple) in their news [article](https://developer.apple.com/news/?id=o0uodgu7) notify of decreased App Store prices of applications and in-app purchases (excluding auto-renewable subscriptions) in all territories that use the Euro currency, United Kingdom, and South Africa, however increased prices in Georgia and Tajikistan.
 
-### Get ready for a new Game Center authentication certificate ⚠️
+### Retrieve and use current Game Center authentication certificate
 
-<!--
-Starting August 4, 2021, a new certificate for server-based Game Center verification will be available via the publicKeyUrl. The previous certificate will no longer be available after this date. As a reminder, make sure your app always retrieves and uses the current publicKeyUrl value so it automatically uses the new certificate. If your app caches the certificate or hardcodes the certificate URL, it will require an update.
-
-Please note, this root certificate issuer has been updated from Symantec Corporation to DigiCert, Inc. Make sure to check that the new root certificate issuer is on your list of trusted CAs. You can download the trusted root CA (DigiCert trusted G4) here.
--->
-[article](https://developer.apple.com/news/?id=stttq465) by [Apple](https://twitter.com/Apple)
+[Apple](https://twitter.com/Apple) in their news [article](https://developer.apple.com/news/?id=stttq465) informs that a new certificate for server-based Game Center verification is available via the `publicKeyUrl` property of `fetchItems(forIdentityVerificationSignature:)` or `generateIdentityVerificationSignature` and cautions that previous certificate is no longer available.
+Please note, this root certificate issuer has been updated from Symantec Corporation to DigiCert, Inc. Validate that the new root certificate issuer is on your list of trusted certificate authorities. Download the trusted root [certificate authority](https://knowledge.digicert.com/content/dam/digicertknowledgebase/attachments/code-signing/roots/digicert-trusted-root-g4.cer).
 
 <!--more-->
 
 ## Swift challenge
 
-Prefix ⚠️
+Swift challenge No. 1:
 
 ```swift
-// Swift challenge No. 1
-
 // MARK: Solution A
 
 private func spellOut() -> String {
@@ -110,13 +92,21 @@ private func spellOut() -> String {
 
 Swift challenge No. 2:
 
-<!--Even as a simple problem as this has more clever solutions than the one your initial instinct suggests.-->
-
 ```swift
 /**
-...
+Survey if the file at path exists or not.
+Implement `checkIfExists(_:)` method.
  */
+
+func checkIfExists(_ fileURL: URL) -> Bool {
+    <#Bool#>
+}
 ```
+
+<!--
+If you are unsure if URL exists or not before opening it, just go ahead and open it as checking first will dublicate the amount of work the file system needs to perform.
+However, if you do not need to open the file but verfity if it exists using URL's check resource is reachable will work for vast majority of URLs and is recommended over getting a file system path and then checking with the file manager if the file exists.
+-->
 
 ## Fundamentals
 
