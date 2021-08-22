@@ -96,10 +96,10 @@ Swift challenge No. 2:
 ```swift
 /**
 Survey if the file at path exists or not.
-Implement `checkIfExists(_:)` method.
+Implement `checkIfFileExists(_:)` method.
  */
 
-func checkIfExists(_ fileURL: URL) -> Bool {
+func checkIfFileExists(_ fileURL: URL) -> Bool {
     <#Bool#>
 }
 ```
