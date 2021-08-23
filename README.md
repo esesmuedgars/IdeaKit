@@ -228,33 +228,29 @@ Swift Package Collections
 
 ## Tips
 
-### How to manually add existing certificates to the Fastlane match ⚠️
+### Manually adding existing certificates to the fastlane match
 
-Fastlane match stores your private keys and certificates in a git repo to sync them across machines.  This allows to easily onboard new team members and set up new Mac machines. [Sarun Wongpatcharapakornand](https://twitter.com/sarunw) in [article](https://sarunw.com/posts/how-to-manually-add-existing-certificates-to-fastlane-match) takes us through on how to import an existing certificate into the match repository.
+Fastlane match stores certificates, private keys, and provisioning profiles in a separate git repository, Google Cloud, or Amazon S3 to sync them across your development team. Sharing a single code signing identity simplifies code signing setup and prevents code signing issues. [Sarun Wongpatcharapakornand](https://twitter.com/sarunw) in his [article](https://sarunw.com/posts/how-to-manually-add-existing-certificates-to-fastlane-match) takes us through how to import an existing certificate into the match repository.
 
-### File name extensions in Xcode ⚠️
+### File extensions in Xcode
 
-[Douglas Hill](https://twitter.com/qdoug) in his Twitter [post](https://twitter.com/qdoug/status/1411948641292521478) demonstrates how to set in the upcoming Xcode 13 which filename extensions should be shown.
+[Douglas Hill](https://twitter.com/qdoug) in his Twitter [post](https://twitter.com/qdoug/status/1411948641292521478) demonstrates that in Xcode 13 developers can hide inferable file extensions.
 
-### Make Debugger Console Output Stand Out ⚠️
+### Making debugger console output stand out
 
-[Dominik Hauser](https://twitter.com/dasdom) in [article](https://dasdom.dev/posts/changing-color-for-debugger-output) demonstrates how to make Debugger Command output easier to find in the console by changing its color.
+[Dominik Hauser](https://twitter.com/dasdom) in his [article](https://dasdom.dev/posts/changing-color-for-debugger-output) demonstrates how to make debugger console output easier to find by customizing its color.
 
-### Avoid index math in Collections ⚠️
+### Avoiding retain cycles in `Combine`
 
-Ole Begemann](https://twitter.com/olebegemann) made a Twitter [post](https://twitter.com/olebegemann/status/1415351550847950848) with the reminder to avoid using index math in a Collection.
+[Eneko Alonso](https://twitter.com/eneko) in his Twitter [post](https://twitter.com/eneko/status/1416143468070465537) shares an example of the retain cycle remedy while working with `Combine` or any other escaping closure.
 
-### Retain-cycles in Combine ⚠️
+### When should you use a throwing initializer
 
-[Eneko Alonso](https://twitter.com/eneko) in his Twitter [post](https://twitter.com/eneko/status/1416143468070465537) shows us an example of the fix for the retain cycle while working with Combine or any other escaping closures.
+When constructing an object using a failable initializer, the result is an optional that either contains the object (when the initialization succeeded) or contains `nil` (when the initialization failed). [Vincent Pradeilles](https://twitter.com/v_pradeilles) in his YouTube [video](https://www.youtube.com/watch?v=bWWj8zgd--c) briefs that throwing initializer can be used to convey failure information.
 
-### When should you use a Failable Initializer? ⚠️
+### Assert xib files exist
 
-Failable initializer is an initializer that can fail. It creates an optional value of the type it initializes. [Vincent Pradeilles](https://twitter.com/v_pradeilles) in his YouTube [video](https://www.youtube.com/watch?v=bWWj8zgd--c) shows us how to use Failable Initializer. 
-
-### Assert XIB file exists ⚠️
-
-If you use a lot of Xibs in your project, [Vincent Pradeilles](https://twitter.com/v_pradeilles) in his YouTube [video](https://www.youtube.com/watch?v=qowbAhsDuO0) gives you a tip on how to easily implement tests that will make sure XIB file is present in the bundle for every class that expects it.
+In case a project you are working on relies a lot on xib files, [Vincent Pradeilles](https://twitter.com/v_pradeilles) in his YouTube [video](https://www.youtube.com/watch?v=qowbAhsDuO0) encourages you to implement tests that validate xib file for specified class is in the bundle.
 
 <br>
 <p align="center">
