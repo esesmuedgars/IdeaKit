@@ -228,33 +228,29 @@ Swift Package Collections
 
 ## Tips
 
-### How to manually add existing certificates to the Fastlane match ⚠️
+### Manually adding existing certificates to the fastlane match
 
-[article](https://sarunw.com/posts/how-to-manually-add-existing-certificates-to-fastlane-match) by [Sarun Wongpatcharapakornand](https://twitter.com/sarunw)
+Fastlane match stores certificates, private keys, and provisioning profiles in a separate git repository, Google Cloud, or Amazon S3 to sync them across your development team. Sharing a single code signing identity simplifies code signing setup and prevents code signing issues. [Sarun Wongpatcharapakornand](https://twitter.com/sarunw) in his [article](https://sarunw.com/posts/how-to-manually-add-existing-certificates-to-fastlane-match) takes us through how to import an existing certificate into the match repository.
 
-### File name extensions in Xcode ⚠️
+### File extensions in Xcode
 
-Twitter [post](https://twitter.com/qdoug/status/1411948641292521478) by [Douglas Hill](https://twitter.com/qdoug)
+[Douglas Hill](https://twitter.com/qdoug) in his Twitter [post](https://twitter.com/qdoug/status/1411948641292521478) demonstrates that in Xcode 13 developers can hide inferable file extensions.
 
-### Make Debugger Console Output Stand Out ⚠️
+### Making debugger console output stand out
 
-[article](https://dasdom.dev/posts/changing-color-for-debugger-output) by [Dominik Hauser](https://twitter.com/dasdom)
+[Dominik Hauser](https://twitter.com/dasdom) in his [article](https://dasdom.dev/posts/changing-color-for-debugger-output) demonstrates how to make debugger console output easier to find by customizing its color.
 
-### Avoid index math in Collections ⚠️
+### Avoiding retain cycles in `Combine`
 
-Twitter [post](https://twitter.com/olebegemann/status/1415351550847950848) by [Ole Begemann](https://twitter.com/olebegemann)
+[Eneko Alonso](https://twitter.com/eneko) in his Twitter [post](https://twitter.com/eneko/status/1416143468070465537) shares an example of the retain cycle remedy while working with `Combine` or any other escaping closure.
 
-### Retain-cycles in Combine ⚠️
+### When should you use a throwing initializer
 
-Twitter [post](https://twitter.com/eneko/status/1416143468070465537) by [Eneko Alonso](https://twitter.com/eneko)
+When constructing an object using a failable initializer, the result is an optional that either contains the object (when the initialization succeeded) or contains `nil` (when the initialization failed). [Vincent Pradeilles](https://twitter.com/v_pradeilles) in his YouTube [video](https://www.youtube.com/watch?v=bWWj8zgd--c) briefs that throwing initializer can be used to convey failure information.
 
-### When should you use a Failable Initializer? ⚠️
+### Assert xib files exist
 
-YouTube [video](https://www.youtube.com/watch?v=bWWj8zgd--c) by [Vincent Pradeilles](https://twitter.com/v_pradeilles)
-
-### Assert XIB file exists ⚠️
-
-YouTube [video](https://www.youtube.com/watch?v=qowbAhsDuO0) by [Vincent Pradeilles](https://twitter.com/v_pradeilles)
+In case a project you are working on relies a lot on xib files, [Vincent Pradeilles](https://twitter.com/v_pradeilles) in his YouTube [video](https://www.youtube.com/watch?v=qowbAhsDuO0) encourages you to implement tests that validate xib file for specified class is in the bundle.
 
 <br>
 <p align="center">
