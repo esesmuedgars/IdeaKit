@@ -230,31 +230,31 @@ Swift Package Collections
 
 ### How to manually add existing certificates to the Fastlane match ⚠️
 
-[article](https://sarunw.com/posts/how-to-manually-add-existing-certificates-to-fastlane-match) by [Sarun Wongpatcharapakornand](https://twitter.com/sarunw)
+Fastlane match stores your private keys and certificates in a git repo to sync them across machines.  This allows to easily onboard new team members and set up new Mac machines. [Sarun Wongpatcharapakornand](https://twitter.com/sarunw) in [article](https://sarunw.com/posts/how-to-manually-add-existing-certificates-to-fastlane-match) takes us through on how to import an existing certificate into the match repository.
 
 ### File name extensions in Xcode ⚠️
 
-Twitter [post](https://twitter.com/qdoug/status/1411948641292521478) by [Douglas Hill](https://twitter.com/qdoug)
+[Douglas Hill](https://twitter.com/qdoug) in his Twitter [post](https://twitter.com/qdoug/status/1411948641292521478) demonstrates how to set in the upcoming Xcode 13 which filename extensions should be shown.
 
 ### Make Debugger Console Output Stand Out ⚠️
 
-[article](https://dasdom.dev/posts/changing-color-for-debugger-output) by [Dominik Hauser](https://twitter.com/dasdom)
+[Dominik Hauser](https://twitter.com/dasdom) in [article](https://dasdom.dev/posts/changing-color-for-debugger-output) demonstrates how to make Debugger Command output easier to find in the console by changing its color.
 
 ### Avoid index math in Collections ⚠️
 
-Twitter [post](https://twitter.com/olebegemann/status/1415351550847950848) by [Ole Begemann](https://twitter.com/olebegemann)
+Ole Begemann](https://twitter.com/olebegemann) made a Twitter [post](https://twitter.com/olebegemann/status/1415351550847950848) with the reminder to avoid using index math in a Collection.
 
 ### Retain-cycles in Combine ⚠️
 
-Twitter [post](https://twitter.com/eneko/status/1416143468070465537) by [Eneko Alonso](https://twitter.com/eneko)
+[Eneko Alonso](https://twitter.com/eneko) in his Twitter [post](https://twitter.com/eneko/status/1416143468070465537) shows us an example of the fix for the retain cycle while working with Combine or any other escaping closures.
 
 ### When should you use a Failable Initializer? ⚠️
 
-YouTube [video](https://www.youtube.com/watch?v=bWWj8zgd--c) by [Vincent Pradeilles](https://twitter.com/v_pradeilles)
+Failable initializer is an initializer that can fail. It creates an optional value of the type it initializes. [Vincent Pradeilles](https://twitter.com/v_pradeilles) in his YouTube [video](https://www.youtube.com/watch?v=bWWj8zgd--c) shows us how to use Failable Initializer. 
 
 ### Assert XIB file exists ⚠️
 
-YouTube [video](https://www.youtube.com/watch?v=qowbAhsDuO0) by [Vincent Pradeilles](https://twitter.com/v_pradeilles)
+If you use a lot of Xibs in your project, [Vincent Pradeilles](https://twitter.com/v_pradeilles) in his YouTube [video](https://www.youtube.com/watch?v=qowbAhsDuO0) gives you a tip on how to easily implement tests that will make sure XIB file is present in the bundle for every class that expects it.
 
 <br>
 <p align="center">
