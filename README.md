@@ -211,20 +211,18 @@ Alternatively, [article](https://sarunw.com/posts/different-ways-to-catch-throwi
 
 ## Tools
 
-### Your AI pair programmer ⚠️
+### AI powered code assistant
 
-Access is limited to a small group of testers during the technical preview of GitHub Copilot. Sign up today for your chance to try it out and help us improve.
-[GitHub](https://twitter.com/github) [Copilot](https://copilot.github.com) get suggestions for whole lines or entire functions right inside your editor.
-Hilarious Twitter [post](https://twitter.com/krzyzanowskim/status/1410320595221463044) remark by [Marcin Krzyzanowski](https://twitter.com/krzyzanowskim)
+[GitHub Copilot](https://copilot.github.com) is available as a Visual Studio Code extension. It uses the provided context to synthesizessuggestions for whole lines or entire functions to match. During the technical preview of GitHub Copilot, access is limited to a small group of testers. Join the [waitlist](https://github.com/features/copilot/signup) if you would like to receive a chance to try it out.
+Additionaly, have a laught at a hilarious remark [Marcin Krzyzanowski](https://twitter.com/krzyzanowskim) made in his Twitter [post](https://twitter.com/krzyzanowskim/status/1410320595221463044) .
 
-### `DocC` archived and analyzed ⚠️
+### `DocC` archived and analyzed
 
-[article](http://www.alwaysrightinstitute.com/docz) by [Helge Heß](https://twitter.com/helje5)
+[Helge Heß](https://twitter.com/helje5) wrote an [article](http://www.alwaysrightinstitute.com/docz) about his investigation of `DocC` produced documentation archive. He found that `DocC` archive doesn't only contain a version of the documentation suitable for the Xcode Documentation Viewer but also generated documentation as a raw, parseable data, in a hierarchy of JSON files and images.
 
-### Swift Package Index ⚠️
+### Swift Package Index
 
-Swift Package Collections
-[Swift Package Index](https://swiftpackageindex.com)
+Selecting the proper dependencies is about more than just finding code that does what you need. Are the libraries you are choosing well maintained? How long have they been in development? Are they well tested? Picking high-quality packages is challenging, and the [Swift Package Index](https://swiftpackageindex.com) (a search engine for packages that support the Swift Package Manager) helps you make better decisions about your dependencies.
 
 ## Tips
 
