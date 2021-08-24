@@ -131,17 +131,17 @@ Feature toggles are used to enable or disable features during runtime and allow 
 
 ## Tutorials
 
-### Apple iOS Developer course ⚠️
+### Apple iOS developer tutorials
 
-[Apple](https://twitter.com/Apple) offers [tutorials](https://developer.apple.com/tutorials/app-dev-training/?utm_source=swiftlee&utm_medium=swiftlee_weekly&utm_campaign=issue_71) on both `SwiftUI` and `UIKit`
+[Apple](https://twitter.com/Apple) offers [tutorials](https://developer.apple.com/tutorials/app-dev-training) to learn the basics of Xcode, `SwiftUI`, and `UIKit` to create iOS applications.
 
-### Resolver for iOS Dependency Injection ⚠️
+### Dependency injection in iOS
 
-[tutorial](https://www.raywenderlich.com/22203552-resolver-for-ios-dependency-injection-getting-started) by (she/her) [Mina Ashna](https://twitter.com/minaashna)
+[Mina Ashna](https://twitter.com/minaashna) created a [tutorial](https://www.raywenderlich.com/22203552-resolver-for-ios-dependency-injection-getting-started) educating how to use [Resolver](https://github.com/hmlongco/Resolver) framework to implement dependency injection in SwiftUI iOS applications to achieve readable and maintainable codebases. She also goes over related topics such as imitating dependencies for unit testing and dependency inversion principle.
 
-### SceneKit 3D Programming for iOS ⚠️
+### 3D programming for iOS using `SceneKit`
 
-[tutorial](https://www.raywenderlich.com/23483920-scenekit-3d-programming-for-ios-getting-started) by [Keegan Rush](https://twitter.com/rushkeegan)
+Visit [tutorial](https://www.raywenderlich.com/23483920-scenekit-3d-programming-for-ios-getting-started) by [Keegan Rush](https://twitter.com/rushkeegan) if you would like to learn the fundamentals of 3D programming, lightings influence on scenes, and how to modify the user's perspective with cameras and constraints using [SceneKit](https://developer.apple.com/documentation/scenekit) framework.
 
 ## Enhanced programming
 
