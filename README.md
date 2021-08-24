@@ -145,26 +145,26 @@ Visit [tutorial](https://www.raywenderlich.com/23483920-scenekit-3d-programming-
 
 ## Enhanced programming
 
-### Grouping Tests into Substeps with Activities ⚠️
+### Grouping tests into substeps with activities
 
-[Apple](https://twitter.com/Apple) provides an [article](https://developer.apple.com/documentation/xctest/activities_and_attachments/grouping_tests_into_substeps_with_activities)
+[Apple](https://twitter.com/Apple) provides an [article](https://developer.apple.com/documentation/xctest/activities_and_attachments/grouping_tests_into_substeps_with_activities) 
+describing how to create named activities within lengthy test methods, such as UI tests or integration tests, to simplify test reports.
 
-### Authenticating Users with a Cryptographic Token ⚠️
+### Authenticating users with a cryptographic token
 
-[Apple](https://twitter.com/Apple) provides an [article](https://developer.apple.com/documentation/cryptotokenkit/authenticating_users_with_a_cryptographic_token)
+[Apple](https://twitter.com/Apple) has an [article](https://developer.apple.com/documentation/cryptotokenkit/authenticating_users_with_a_cryptographic_token) demonstrating how to grant access to the keychain by creating a smart card macOS application extension.
 
-### Building a Safari App Extension ⚠️
+### Building a Safari application extension
 
-[Apple](https://twitter.com/Apple) provides an [article](https://developer.apple.com/documentation/safariservices/safari_app_extensions/building_a_safari_app_extension)
+An [article](https://developer.apple.com/documentation/safariservices/safari_app_extensions/building_a_safari_app_extension) by [Apple](https://twitter.com/Apple) dictates the steps to build Safari Extension delivered as a part of macOS application. When a user runs an application for the first time, its extension immediately becomes available in Safari.
 
-### Placeholder view in `SwiftUI` ⚠️
+### Placeholder view in `SwiftUI`
 
-Previously used, since then archived, Facebook's [Shimmer](https://github.com/facebookarchive/Shimmer) library
-[article](https://sarunw.com/posts/make-placeholder-view-in-swiftui-with-redacted) by [Sarun Wongpatcharapakornand](https://twitter.com/sarunw)
+Previously, you might have resolved to depend on Facebook's [Shimmer](https://github.com/facebookarchive/Shimmer) library for an unobtrusive loading indicator functionality. [Sarun Wongpatcharapakornand](https://twitter.com/sarunw) wrote an [article](https://sarunw.com/posts/make-placeholder-view-in-swiftui-with-redacted) sharing that `SwiftUI` views have simple API to redact content in a way to be used as a placeholder before the actual content is loaded.
 
-### Why we got rid of most dependencies ⚠️
+### Why we got rid of most dependencies
 
-[article](https://chris.eidhof.nl/post/fewer-dependencies) by [Chris Eidhof](https://twitter.com/chriseidhof)
+[Chris Eidhof](https://twitter.com/chriseidhof) in his [article](https://chris.eidhof.nl/post/fewer-dependencies) shared his team's reasons for fewer dependencies in their website written in Swift.
 
 ### Starter Workflows with Xcode Cloud ⚠️
 
