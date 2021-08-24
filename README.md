@@ -107,21 +107,27 @@ func checkIfFileExists(_ fileURL: URL) -> Bool {
 <!--
 If you are unsure if URL exists or not before opening it, just go ahead and open it as checking first will dublicate the amount of work the file system needs to perform.
 However, if you do not need to open the file but verfity if it exists using URL's check resource is reachable will work for vast majority of URLs and is recommended over getting a file system path and then checking with the file manager if the file exists.
+
+```swift
+func checkIfFileExists(_ fileURL: URL) -> Bool {
+    <#Bool#>
+}
+```
 -->
 
 ## Fundamentals
 
-### Unit testing: the pragmatic guide on where to start ⚠️
+### Pragmatic guide to unit testing
 
-[article](https://hybridcattt.com/blog/start-testing-pragmatic-guide) by (she/her) [Marina Gornostaeva](https://twitter.com/hybridcattt)
+Unit testing facilitates changes and simplifies integration. In addition to giving confidence when refactoring code by confirming module works after introduced changes, executing tests before every commit saves you from accidentally committing a version that doesn’t compile. [Marina Gornostaeva](https://twitter.com/hybridcattt) in her [article](https://hybridcattt.com/blog/start-testing-pragmatic-guide) covers how to configure project for testing, differentiate between different kinds of tests, and approach seemingly untestable code.
 
-### Copy-On-Assignment vs. Copy-On-Write in Swift ⚠️
+### Copy-on-assignment and copy-on-write semantics
 
-[article](https://aymanmoo.medium.com/copy-on-assignment-vs-copy-on-write-in-swift-c3016b343d06) by [Ayman Fayez](https://www.linkedin.com/in/ayman-fayez-7ab174156)
+It is crucial to understand memory management to avoid performance issues and crashes. Read an [article](https://aymanmoo.medium.com/copy-on-assignment-vs-copy-on-write-in-swift-c3016b343d06) where [Ayman Fayez](https://www.linkedin.com/in/ayman-fayez-7ab174156) illustrates the difference between copy-on-assignment and copy-on-write semantics.
 
-### Implementing Feature Flagging in iOS ⚠️
+### Implementing feature flags in iOS
 
-[article](https://digitalbunker.dev/2021/07/23/implementing-feature-flagging-in-ios) by [Aryaman Sharda](https://twitter.com/aryamansharda)
+Feature toggles are used to enable or disable features during runtime and allow features to be tested even before they are completed and ready for release. [Aryaman Sharda](https://twitter.com/aryamansharda) wrote an [article](https://digitalbunker.dev/2021/07/23/implementing-feature-flagging-in-ios) explaining the benefits of feature flags as well as exhibiting how to implement them.
 
 ## Tutorials
 
