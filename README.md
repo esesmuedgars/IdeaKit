@@ -129,6 +129,10 @@ It is crucial to understand memory management to avoid performance issues and cr
 
 Feature toggles are used to enable or disable features during runtime and allow features to be tested even before they are completed and ready for release. [Aryaman Sharda](https://twitter.com/aryamansharda) wrote an [article](https://digitalbunker.dev/2021/07/23/implementing-feature-flagging-in-ios) explaining the benefits of feature flags as well as exhibiting how to implement them.
 
+### Error handling in Swift
+
+[Sarun Wongpatcharapakornand](https://twitter.com/sarunw) covers the majority of scenarios you could encounter while catching errors in an [article](https://sarunw.com/posts/different-ways-to-catch-throwing-errors-in-swift).
+
 ## Tutorials
 
 ### Apple iOS developer tutorials
@@ -166,38 +170,38 @@ Previously, you might have resolved to depend on Facebook's [Shimmer](https://gi
 
 [Chris Eidhof](https://twitter.com/chriseidhof) in his [article](https://chris.eidhof.nl/post/fewer-dependencies) shared his team's reasons for fewer dependencies in their website written in Swift.
 
-### Starter Workflows with Xcode Cloud ⚠️
+### Starter workflows with Xcode Cloud
 
-[article](https://www.alexanderlogan.co.uk/wwdc21/004-xcode-cloud) by [Alex Logan](https://twitter.com/swiftyalex)
+[Alex Logan](https://twitter.com/swiftyalex) wrote an [article](https://www.alexanderlogan.co.uk/wwdc21/004-xcode-cloud) escorting readers through a process of creating a workflow to distribute his application's beta version using Testflight on successful test completion with [Xcode Cloud](https://developer.apple.com/documentation/Xcode/Xcode-Cloud).
 
-### Preparing for Growth: Architecting Giant Apps for Scalability and Build Speed ⚠️
+### Architecting applications for scalability and build speed
 
-watch [presentation](https://www.youtube.com/watch?v=sZuI6z8qSmc) by [Bruno Rocha](https://twitter.com/rockbruno_)
+Watch a [presentation](https://www.youtube.com/watch?v=sZuI6z8qSmc) by [Bruno Rocha](https://twitter.com/rockbruno_) where he delivers a speech about developing a scalable application that has hudreds of features while preserving a good degree of flexibility and swift build times.
 
-### AppKit ⚠️
+### `AppKit` framework is done
 
-[article](https://kean.blog/post/appkit-is-done) about building [Pulse](https://kean.blog/pulse) (free, [open-source](https://github.com/kean/Pulse), powerful logging system for Apple Platforms) by [Alex Grebenyuk](https://twitter.com/a_grebenyuk)
+[Alex Grebenyuk](https://twitter.com/a_grebenyuk) crafted an [article](https://kean.blog/post/appkit-is-done) about building [Pulse](https://kean.blog/pulse) (powerful, [open-source](https://github.com/kean/Pulse) logging system for Apple platforms) application for macOS entirely in `SwiftUI`. Alex highlights some of the features and their implementations, in addition to supplying some valuable tips for working with `SwiftUI`.
 
-### Lessons from indie application developer with over 50 million downloads ⚠️
+### Lessons from indie application developer with over 50 million downloads
 
-listen to [podcast](https://subclub.co/episode/david-smith-widgetsmith-lessons-from-50-million-downloads) where [David Smith](https://twitter.com/_davidsmith)
+Listen to [Sub Club Podcast](https://subclub.co) [episode](https://subclub.co/episode/david-smith-widgetsmith-lessons-from-50-million-downloads) with [David Smith](https://twitter.com/_davidsmith) as he discusses his journey and what he has learned from his multiple successful and, eight times more, unsuccessful applications.
 
-### Using Swift in React Native application ⚠️
+### Using Swift in React Native application
 
-[article](https://dev.to/akinncar/how-to-use-swift-in-your-react-native-app-46mj) by [Akinn Rosa](https://twitter.com/akinncar)
+[Akinn Rosa](https://twitter.com/akinncar) wrote an [article](https://dev.to/akinncar/how-to-use-swift-in-your-react-native-app-46mj) reporting how 
+to create a bridge between Swift and Objective-C code and then exposing native Objective-C methods to React Native with yet another bridge (between Objective-C and JavaScript).
 
-### Defining dynamic colors in Swift ⚠️
+### Defining dynamic colors in Swift
 
-[article](https://www.swiftbysundell.com/articles/defining-dynamic-colors-in-swift) by [John Sundell](https://twitter.com/johnsundell)
+Learn how to programmatically create colors that adapt to the environment using either `SwiftUI` or `UIKit` in an [article](https://www.swiftbysundell.com/articles/defining-dynamic-colors-in-swift) by [John Sundell](https://twitter.com/johnsundell).
 
-### Serialization for Backward Compatibility in Swift ⚠️
+### Serialization for backward compatibility
 
-[article](https://medium.com/@lightricks-tech-blog/backwards-compatibility-in-swift-990d3ca05624) by [Dekel Avrahami](https://www.linkedin.com/in/dekel-avrahami-b999a1146)
+[Dekel Avrahami](https://www.linkedin.com/in/dekel-avrahami-b999a1146) shares with his team's gained experience from building [Facetune Video by Lightricks](https://apps.apple.com/us/app/facetune-video-by-lightricks/id1505478179) application and discoveries they made about serialization with backward compatibility in mind in an [article](https://medium.com/@lightricks-tech-blog/backwards-compatibility-in-swift-990d3ca05624).
 
-### How to use throwing properties to catch failures in Swift ⚠️
+### Using throwing properties to catch errors
 
-[article](https://www.avanderlee.com/swift/throwing-properties) by [Antoine van der Lee](https://twitter.com/twannl)
-Alternatively, [article](https://sarunw.com/posts/different-ways-to-catch-throwing-errors-in-swift) by [Sarun Wongpatcharapakornand](https://twitter.com/sarunw)
+In an [article](https://www.avanderlee.com/swift/throwing-properties), [Antoine van der Lee](https://twitter.com/twannl) guides readers through newly added improvement to Swift 5.5 — throwing properties.
 
 ### Setting default values for `UserDefaults`
 
