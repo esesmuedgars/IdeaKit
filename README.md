@@ -6,10 +6,9 @@
 
 Hey, hey!
 
-Apple has yet to set a date to parade iPhone 13, but September is the traditional launch month.
-The 14<sup>th</sup> of September. ⚠️
+Apple has yet to set the date to parade iPhone 13, but acording to rumours new devices will be anounced on Tuesday, the 14<sup>th</sup> of September.
 
-Happy learning! ⚠️
+Happy learning!
 
 ## News
 
