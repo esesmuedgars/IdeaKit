@@ -30,7 +30,7 @@ Download the trusted root [certificate authority](https://knowledge.digicert.com
 
 ## Swift challenge
 
-Swift challenge No. 1:
+Few possible solutions to Swift challenge No. 1:
 
 ```swift
 // MARK: Solution A
@@ -90,7 +90,7 @@ private func spellOut() -> String {
 }
 ```
 
-Swift challenge No. 2:
+Followed by Swift challenge No. 2:
 
 ```swift
 /**
@@ -150,8 +150,7 @@ Visit a [tutorial](https://www.raywenderlich.com/23483920-scenekit-3d-programmin
 
 ### Grouping tests into substeps with activities
 
-[Apple](https://twitter.com/Apple) provides an [article](https://developer.apple.com/documentation/xctest/activities_and_attachments/grouping_tests_into_substeps_with_activities) 
-describing how to create named activities within lengthy test methods, such as UI tests or integration tests, to simplify test reports.
+[Apple](https://twitter.com/Apple) provides an [article](https://developer.apple.com/documentation/xctest/activities_and_attachments/grouping_tests_into_substeps_with_activities) describing how to create named activities within lengthy test methods, such as UI tests or integration tests, to simplify test reports.
 
 ### Authenticating users with a cryptographic token
 
@@ -187,8 +186,7 @@ Listen to the [Sub Club Podcast](https://subclub.co) [episode](https://subclub.c
 
 ### Using Swift in React Native application
 
-[Akinn Rosa](https://twitter.com/akinncar) wrote an [article](https://dev.to/akinncar/how-to-use-swift-in-your-react-native-app-46mj) reporting how 
-to create a bridge between Swift and Objective-C code and then exposing native Objective-C methods to React Native with yet another bridge (between Objective-C and JavaScript).
+[Akinn Rosa](https://twitter.com/akinncar) wrote an [article](https://dev.to/akinncar/how-to-use-swift-in-your-react-native-app-46mj) reporting how to create a bridge between Swift and Objective-C code and then exposing native Objective-C methods to React Native with yet another bridge (between Objective-C and JavaScript).
 
 ### Defining dynamic colors in Swift
 
@@ -219,7 +217,7 @@ Dependency injection is a software design pattern that is a commonly used techni
 ### AI-powered code assistant
 
 [GitHub Copilot](https://copilot.github.com) is available as a Visual Studio Code extension. It uses the provided context to synthesizes suggestions for whole lines or entire functions to match. During the technical preview of GitHub Copilot, access is limited to a small group of testers. Join the [waitlist](https://github.com/features/copilot/signup) if you would like to receive a chance to try it out.
-Additionally, have a laugh at a hilarious remark [Marcin Krzyzanowski](https://twitter.com/krzyzanowskim) made in his Twitter [post](https://twitter.com/krzyzanowskim/status/1410320595221463044).
+Additionally, a hilarious remark [Marcin Krzyzanowski](https://twitter.com/krzyzanowskim) made in his Twitter [post](https://twitter.com/krzyzanowskim/status/1410320595221463044) made me laugh, check it out!
 
 ### `DocC` archived and analyzed
 
@@ -231,7 +229,7 @@ Selecting the proper dependencies is about more than just finding code that does
 
 ### Benchmarking Swift code with Attabench framework and GUI macOS application
 
-If you too have been benchmarking the speed of code by adding multiple timestamps using `Date` object and calculating the time difference, [Bruno Rocha](https://twitter.com/rockbruno_) in his [article](https://swiftrocks.com/benchmarking-swift-code-properly-with-attabench) suggest using the [Attabench](https://github.com/attaswift/Attabench) framework that is accompanied by a GUI macOS application for microbenchmarking. The tool compiles your application in the release configuration and repeatedly performs the same operation on random data of various sizes, while continuously charting the results which makes it ideal for seeing your algorithm's performance at a glance.
+If you too have been benchmarking the speed of code by adding multiple timestamps using `Date` object and calculating the time difference, [Bruno Rocha](https://twitter.com/rockbruno_) in his [article](https://swiftrocks.com/benchmarking-swift-code-properly-with-attabench) suggests using the [Attabench](https://github.com/attaswift/Attabench) framework that is accompanied by a GUI macOS application for microbenchmarking. The tool compiles your application in the release configuration and repeatedly performs the same operation on random data of various sizes, while continuously charting the results which makes it ideal for seeing your algorithm's performance at a glance.
 
 ## Tips
 
