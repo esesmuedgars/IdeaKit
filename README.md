@@ -199,21 +199,17 @@ listen to [podcast](https://subclub.co/episode/david-smith-widgetsmith-lessons-f
 [article](https://www.avanderlee.com/swift/throwing-properties) by [Antoine van der Lee](https://twitter.com/twannl)
 Alternatively, [article](https://sarunw.com/posts/different-ways-to-catch-throwing-errors-in-swift) by [Sarun Wongpatcharapakornand](https://twitter.com/sarunw)
 
-### Setting default values for `UserDefaults` ⚠️
+### Setting default values for `UserDefaults`
 
-[article](https://sarunw.com/posts/setting-default-value-for-nsuserdefaults) by [Sarun Wongpatcharapakornand](https://twitter.com/sarunw)
+[Sarun Wongpatcharapakornand](https://twitter.com/sarunw) wrote an [article](https://sarunw.com/posts/setting-default-value-for-nsuserdefaults) bringing to our attention that it isn't necessary to equate value to `nil` to determine if you must set initial value, instead use `UserDefaults` instance method to add default values of the specified dictionary to the registration domain.
 
-### Dependency Injection in Swift using latest Swift features ⚠️
+### Dependency injection using latest Swift features
 
-[article](https://www.avanderlee.com/swift/dependency-injection) by [Antoine van der Lee](https://twitter.com/twannl)
+Dependency injection is a software design pattern that is commonly used technique that enhances code reusability and  simplifies testing by allowing to substitute data. Read an [article](https://www.avanderlee.com/swift/dependency-injection) by [Antoine van der Lee](https://twitter.com/twannl) where he proposes alternative strategy for establishing dependency injection into a codebase.
 
-### Benchmarking Swift Code Properly with Attabench ⚠️
+### Backporting new features with `@_alwaysEmitIntoClient`
 
-[article](https://swiftrocks.com/benchmarking-swift-code-properly-with-attabench) by [Bruno Rocha](https://twitter.com/rockbruno_)
-
-### Backporting new features with `@_alwaysEmitIntoClient` ⚠️
-
-[article](https://www.fivestars.blog/articles/alwaysEmitIntoClient) by [Federico Zanetello](https://twitter.com/zntfdr)
+[Federico Zanetello](https://twitter.com/zntfdr) in his [article](https://www.fivestars.blog/articles/alwaysEmitIntoClient) educates how binary frameworks can make additive changes to their APIs while remaining binary-compatible with earlier versions of operating systems using `@_alwaysEmitIntoClient`.
 
 ## Tools
 
@@ -229,6 +225,10 @@ Additionaly, have a laught at a hilarious remark [Marcin Krzyzanowski](https://t
 ### Swift Package Index
 
 Selecting the proper dependencies is about more than just finding code that does what you need. Are the libraries you are choosing well maintained? How long have they been in development? Are they well tested? Picking high-quality packages is challenging, and the [Swift Package Index](https://swiftpackageindex.com) (a search engine for packages that support the Swift Package Manager) helps you make better decisions about your dependencies.
+
+### Benchmarking Swift code with Attabench framework and GUI macOS application
+
+If you too have been benchmarking the speed of code by adding multiple timestamps using `Date` object and calculating the time difference, [Bruno Rocha](https://twitter.com/rockbruno_) in his [article](https://swiftrocks.com/benchmarking-swift-code-properly-with-attabench) suggest to use [Attabench](https://github.com/attaswift/Attabench) framework that is accompanied by a GUI macOS application for microbenchmarking. The tool compiles your application in the release configuration and repeatedly performs the same operation on random data of various sizes, while continuously charting the results which makes it ideal for seeing your algorithm's performance at a glance.
 
 ## Tips
 
