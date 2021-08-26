@@ -94,8 +94,8 @@ Followed by Swift challenge No. 2:
 
 ```swift
 /**
-Survey if the file at path exists or not.
-Implement `checkIfFileExists(_:)` method.
+ Survey if the file at path exists or not.
+ Implement `checkIfFileExists(_:)` method.
  */
 
 func checkIfFileExists(_ fileURL: URL) -> Bool {
@@ -104,12 +104,20 @@ func checkIfFileExists(_ fileURL: URL) -> Bool {
 ```
 
 <!--
-If you are unsure if the URL exists or not before opening it, just go ahead and open it as checking first will duplicate the amount of work the file system needs to perform.
-However, if you do not need to open the file but verify if it exists using URL's check resource is reachable will work for the vast majority of URLs and is recommended over getting a file system path and then checking with the file manager if the file exists.
-
 ```swift
+// MARK: Solution
+
+/**
+ If you are unsure if the URL exists or not before opening it, just go ahead and open it as checking first will duplicate the amount of work the file system needs to perform.
+ However, if you do not need to open the file but verify if it exists using URL's `checkResourceIsReachable`instance method will work for the vast majority of URLs and
+ is recommended over getting a file system path and then checking with the file manager if the file exists.
+ */
 func checkIfFileExists(_ fileURL: URL) -> Bool {
-    <#Bool#>
+    do {
+        return try fileURL.checkResourceIsReachable()
+    } catch {
+        return false
+    }
 }
 ```
 -->
