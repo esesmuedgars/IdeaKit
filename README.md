@@ -2,59 +2,37 @@
 
 ###### 8 minute read
 
-![Issue](https://img.shields.io/badge/issue-1.7-informational.svg)
+![Issue](https://img.shields.io/badge/issue-1.8-informational.svg)
 
-Welcome back!
+Hey, hey!
 
-The summer vacation period is here, therefore, these issues of the newsletter might also seem slightly lighter than anticipated. I encourage you too to take a well-deserved break, disconnect, clear your mental cache. To be the best you need some rest, take care of yourself!
-
-Secondly, I would like to share with you my celebratory mood as with the release of _Issue 4_ we meet our first mini-milestone, this is the 5<sup>th</sup> publication of the newsletter! Hooray for small miracles! 🎉
+Apple has yet to set the date to parade iPhone 13, but according to rumors, new devices will be announced on Tuesday, the 14<sup>th</sup> of September.
 
 Happy learning!
 
 ## News
 
-### Tax category setting now available in App Store Connect
+### New public betas are available
 
-[Apple](https://twitter.com/Apple) in their news [article](https://developer.apple.com/news/?id=2bbbudbw) announced the App Store Connect feature to assign tax categories to your application and in-app purchases. Categories are based on your application's content (e.g., videos, books, or news publications) and determine which tax regulations apply in each territory, allowing Apple to administer tax for you at specific rates.
+[Apple](https://twitter.com/Apple) has expanded its public beta program with software that was announced in early June during [WWDC21](https://developer.apple.com/wwdc21). Sign up to the [Apple Beta Software Program](https://beta.apple.com/sp/betaprogram), enroll your personal devices to access iOS 15, iPadOS 15, macOS Monterey, tvOS 15, and watchOS 8 public betas, and try out the latest features. Remember to back up all of your data before installing any beta software.
+
+### Tax and price changes for applications and in-app purchases
+
+[Apple](https://twitter.com/Apple) in their news [article](https://developer.apple.com/news/?id=o0uodgu7) notifies of decreased App Store prices of applications and in-app purchases (excluding auto-renewable subscriptions) in all territories that use the Euro currency, United Kingdom, and South Africa, however, increased prices in Georgia and Tajikistan.
+
+### Retrieve and use current Game Center authentication certificate
+
+[Apple](https://twitter.com/Apple) in their news [article](https://developer.apple.com/news/?id=stttq465) informs that a new certificate for server-based Game Center verification is available via the `publicKeyUrl` property of `fetchItems(forIdentityVerificationSignature:)` or `generateIdentityVerificationSignature` and cautions that the previous certificate is no longer available.
+Please note, this root certificate issuer has been updated from Symantec Corporation to DigiCert, Inc. Validate that the new root certificate issuer is on your list of trusted certificate authorities.
+Download the trusted root [certificate authority](https://knowledge.digicert.com/content/dam/digicertknowledgebase/attachments/code-signing/roots/digicert-trusted-root-g4.cer).
 
 <!--more-->
 
 ## Swift challenge
 
-What Swift challenges are not? Swift challenges are not programming or mathematical problems that have universal solutions.
-What Swift challenges are? Swift challenges highlight problems with the purpose to grant insight into Swift syntactical sugar and uncommon native APIs.
-Each consecutive newsletter's issue will provide a solution (as well as explanation and resource hyperlink, where applicable) to a problem described in an issue before, besides the following challenge.
-
-Let's start things slowly, Swift challenge No. 1:
-
-Even as a simple problem as this has more clever solutions than the one your initial instinct suggests.
+Few possible solutions to Swift challenge No. 1:
 
 ```swift
-/**
-For numbers in the range between 0 and 9 return spelled out number value.
-Implement `spellOut` method.
- */
-
-extension Int {
-    /// Spell out number in the range from 0 to 9 (e.g., calling `0.spelledOut` returns `"Zero"`).
-    /// - returns: Capitalized, spelled out number value.
-    var spelledOut: String {
-        assert(0...9 ~= self, "Value is out-of-bounds")
-         
-        return spellOut()
-    }
-     
-    private func spellOut() -> String {
-        <#String#>
-    }
-}
-```
-
-<!--
-```swift
-// Swift challenge No. 1
-
 // MARK: Solution A
 
 private func spellOut() -> String {
@@ -111,170 +89,204 @@ private func spellOut() -> String {
     return number.capitalized
 }
 ```
+
+Followed by Swift challenge No. 2:
+
+```swift
+/**
+ Survey if the file at path exists or not.
+ Implement `checkIfFileExists(_:)` method.
+ */
+
+func checkIfFileExists(_ fileURL: URL) -> Bool {
+    <#Bool#>
+}
+```
+
+<!--
+```swift
+// MARK: Solution A
+
+func checkIfFileExists(_ fileURL: URL) -> Bool {
+    guard fileURL.isFileURL else {
+        return false
+    }
+    
+    return FileManager.default.fileExists(atPath: fileURL.path)
+}
+
+// MARK: Solution B
+
+/**
+ If you are unsure if the URL exists or not before opening it, just go ahead and open it as checking first will duplicate the amount of work the file system needs to perform.
+ However, if you do not need to open the file but verify if it exists using URL's `checkResourceIsReachable`instance method will work for the vast majority of URLs and
+ is recommended over getting a file system path and then checking with the file manager if the file exists.
+ */
+
+func checkIfFileExists(_ fileURL: URL) -> Bool {
+    guard fileURL.isFileURL else {
+        return false
+    }
+    
+    do {
+        return try fileURL.checkResourceIsReachable()
+    } catch {
+        return false
+    }
+}
+```
 -->
 
 ## Fundamentals
 
-### 5 tips to help you become a well-rounded developer
+### A pragmatic guide to unit testing
 
-[Donny Wals](https://twitter.com/DonnyWals) shares his opinion on how to grow as a developer in an [article](https://www.donnywals.com/five-tips-to-help-you-become-a-well-rounded-developer). No surprise, soft skills matter, a lot.
+Unit testing facilitates changes and simplifies integration. In addition to giving confidence when refactoring code by confirming module works after introduced changes, executing tests before every commit saves you from accidentally committing a version that doesn’t compile. [Marina Gornostaeva](https://twitter.com/hybridcattt) in her [article](https://hybridcattt.com/blog/start-testing-pragmatic-guide) covers how to configure the project for testing, differentiate between different kinds of tests, and approach seemingly untestable code.
 
-### `lazy` in Swift
+### Copy-on-assignment and copy-on-write semantics
 
-A lazy stored property is a property whose initial value isn’t calculated until the first time it’s called. Both [Sean Allen](https://twitter.com/seanallen_dev) in his YouTube [video](https://www.youtube.com/watch?v=xKoua1Mi6qE) and [Vincent Pradeilles](https://twitter.com/v_pradeilles) in his YouTube [video](https://www.youtube.com/watch?v=JLg8C8IYICo) convey practical examples of lazy stored property applications.
+It is crucial to understand memory management to avoid performance issues and crashes. Read an [article](https://aymanmoo.medium.com/copy-on-assignment-vs-copy-on-write-in-swift-c3016b343d06) where [Ayman Fayez](https://www.linkedin.com/in/ayman-fayez-7ab174156) illustrates the difference between copy-on-assignment and copy-on-write semantics.
 
-### MVVM (Model-View-ViewModel) architectural design pattern
+### Implementing feature flags in iOS
 
-MVVM offers multiple advantages over MVC (Model-View-Controller) such as reusability of views, reduced complexity, improved readability, increased expressiveness, and introduced testability. Learn about MVVM components and their employment in  `SwiftUI` in a YouTube [video](https://www.youtube.com/watch?v=FwGMU_Grnf8) by [Sean Allen](https://twitter.com/seanallen_dev). Alternatively, follow the [tutorial](https://www.raywenderlich.com/6733535-ios-mvvm-tutorial-refactoring-from-mvc), written by [Chuck Krutsinger](https://twitter.com/CountermindLLC), and refactor MVC to MVVM architectural design pattern. Additionally, [John Codeos](https://twitter.com/johncodeos) wrote an [article](https://johncodeos.com/how-to-implement-mvvm-pattern-with-swift-in-ios) describing building an application with a MVVM architectural design pattern in mind.
+Feature toggles are used to enable or disable features during runtime and allow features to be tested even before they are completed and ready for release. [Aryaman Sharda](https://twitter.com/aryamansharda) wrote an [article](https://digitalbunker.dev/2021/07/23/implementing-feature-flagging-in-ios) explaining the benefits of feature flags as well as exhibiting how to implement them.
 
-### Linting versus formatting
+### Error handling in Swift
 
-[Jason Zurita](https://twitter.com/jasonalexzurita) wrote an [article](https://jasonzurita.com/linting-and-formatting-swift-part-1) making the distinction between linting and formatting.
-
-### What is a run loop?
-
-[Valerie Don](https://twitter.com/valeriedon) answers the "What is a run loop?" interview question in her YouTube [video](https://www.youtube.com/watch?v=jk5UFJWc-2w).
+[Sarun Wongpatcharapakornand](https://twitter.com/sarunw) covers the majority of scenarios you could encounter while catching errors in an [article](https://sarunw.com/posts/different-ways-to-catch-throwing-errors-in-swift).
 
 ## Tutorials
 
-### Drag and drop in `SwiftUI`
+### Apple iOS developer tutorials
 
-Learn how to use the implicit collection drag and drop API in `SwiftUI` by building an application in a [tutorial](https://www.raywenderlich.com/21679742-drag-and-drop-tutorial-for-swiftui) by [Warren Burton](https://twitter.com/troutdev).
+[Apple](https://twitter.com/Apple) offers [tutorials](https://developer.apple.com/tutorials/app-dev-training) to learn the basics of Xcode, `SwiftUI`, and `UIKit` to create iOS applications.
 
-### Load images asynchronously in `SwiftUI` using `AsyncImage`
+### Dependency injection in iOS
 
-[Simon Ng](https://twitter.com/simonng) created a [tutorial](https://www.appcoda.com/asyncimage) educating on how to work with `AsyncImage` view to load and display an image from the specified URL.
+[Mina Ashna](https://twitter.com/minaashna) created a [tutorial](https://www.raywenderlich.com/22203552-resolver-for-ios-dependency-injection-getting-started) educating how to use the [Resolver](https://github.com/hmlongco/Resolver) framework to implement dependency injection in SwiftUI iOS applications to achieve readable and maintainable codebases. She also goes over related topics such as imitating dependencies for unit testing and dependency inversion principle.
 
-### A beginner's guide to thread-safe concurrency
+### 3D programming for iOS using `SceneKit`
 
-The purpose of actors in Swift is to solve data-races and memory issues, learn how to start working with actors in a [tutorial](https://theswiftdev.com/swift-actors-tutorial-a-beginners-guide-to-thread-safe-concurrency) by [Tibor Bödecs](https://twitter.com/tiborbodecs). Additionally, read an [article](https://www.avanderlee.com/swift/actors) by [Antoine van der Lee](https://twitter.com/twannl).
+Visit a [tutorial](https://www.raywenderlich.com/23483920-scenekit-3d-programming-for-ios-getting-started) by [Keegan Rush](https://twitter.com/rushkeegan) if you would like to learn the fundamentals of 3D programming, lightings influence on scenes, and how to modify the user's perspective with cameras and constraints using the [SceneKit](https://developer.apple.com/documentation/scenekit) framework.
 
 ## Enhanced programming
 
-### Handling bidirectional stream of data copying with App Proxy Provider
+### Grouping tests into substeps with activities
 
-[Apple](https://twitter.com/Apple) provides an [article](https://developer.apple.com/documentation/networkextension/app_proxy_provider/handling_flow_copying) on using proxy-provider classes to exchange data streams and explaining how to read from the remote connection and write to the local bidirectional stream of data and vice versa.
+[Apple](https://twitter.com/Apple) provides an [article](https://developer.apple.com/documentation/xctest/activities_and_attachments/grouping_tests_into_substeps_with_activities) describing how to create named activities within lengthy test methods, such as UI tests or integration tests, to simplify test reports.
 
-### Setting up Core Data stack
+### Authenticating users with a cryptographic token
 
-Assimilate how to set up the classes (collectively referred to as the Core Data stack) that manage and persist your application's objects in [Apple's](https://twitter.com/Apple) [article](https://developer.apple.com/documentation/coredata/setting_up_a_core_data_stack).
+[Apple](https://twitter.com/Apple) has an [article](https://developer.apple.com/documentation/cryptotokenkit/authenticating_users_with_a_cryptographic_token) demonstrating how to grant access to the keychain by creating a smart card macOS application extension.
 
-### Customizing password AutoFill rules
+### Building a Safari application extension
 
-[Apple](https://twitter.com/Apple) supplies an [article](https://developer.apple.com/documentation/security/password_autofill/customizing_password_autofill_rules)
-enlightening how to add individual restrictions to your application's strong password rules using a combination of specification keywords.
+An [article](https://developer.apple.com/documentation/safariservices/safari_app_extensions/building_a_safari_app_extension) by [Apple](https://twitter.com/Apple) dictates the steps to build Safari Extension delivered as a part of a macOS application. When a user runs an application for the first time, its extension immediately becomes available in Safari.
 
-### Improve discoverability using static member lookup in generic contexts
+### Placeholder view in `SwiftUI`
 
-[SE-0299](https://github.com/apple/swift-evolution/blob/main/proposals/0299-extend-generic-static-member-lookup.md) proposal by [Pavel Yaskevich](https://www.linkedin.com/in/pavel-yaskevich-5b02a318), [Sam Lazarus](https://twitter.com/slazaruseth), and [Matt Ricketson](https://twitter.com/ricketson_) has been implemented in Swift 5.5 and aims to relax restrictions on accessing static members on protocols to afford the same call-site legibility to generic APIs. Read an [article](https://www.avanderlee.com/swift/static-member-lookup-generic-contexts) by [Antoine van der Lee](https://twitter.com/twannl) where he offers a practical example of the new feature.
+Previously, you might have resolved to depend on Facebook's [Shimmer](https://github.com/facebookarchive/Shimmer) library for an unobtrusive loading indicator functionality. [Sarun Wongpatcharapakornand](https://twitter.com/sarunw) wrote an [article](https://sarunw.com/posts/make-placeholder-view-in-swiftui-with-redacted) sharing that `SwiftUI` views have a simple API to redact content in a way to be used as a placeholder before the actual content is loaded.
 
-### iOS 15 `SFSafariViewController` improvements
+### Why did we got rid of most dependencies?
 
-[Filip Němeček](https://twitter.com/nemecek_f) wrote an [article](https://nemecek.be/blog/110/sfsafariviewcontroller-improvements-in-ios-15) regarding `SFSafariViewController` recently added options to run a custom extension on the web page content as well as preload content.
+[Chris Eidhof](https://twitter.com/chriseidhof) in his [article](https://chris.eidhof.nl/post/fewer-dependencies) shared his team's reasons for fewer dependencies in their website written in Swift.
 
-### Making a Swift Package Collection
+### Starter workflows with Xcode Cloud
 
-[Alejandro Martinez](https://twitter.com/alexito4) in his [article](https://alejandromp.com/blog/use-spm-collections-to-have-easy-access-to-your-favourite-packages) displays how you can describe a curated list of packages and associated metadata which makes it easier to discover an existing package for a particular use case.
+[Alex Logan](https://twitter.com/swiftyalex) wrote an [article](https://www.alexanderlogan.co.uk/wwdc21/004-xcode-cloud) escorting readers through a process of creating a workflow to distribute his application's beta version using Testflight on successful test completion with [Xcode Cloud](https://developer.apple.com/documentation/Xcode/Xcode-Cloud).
 
-### Table and collection view cell reloading improvements in iOS 15
+### Architecting applications for scalability and build speed
 
-In an [article](https://swiftsenpai.com/development/cells-reload-improvements-ios-15), [Lee Kah Seng](https://twitter.com/Lee_Kah_Seng) walks readers through iOS 15 diffable data source improvement that permits reloading value type items in addition to reloading reference type items.
+Watch a [presentation](https://www.youtube.com/watch?v=sZuI6z8qSmc) by [Bruno Rocha](https://twitter.com/rockbruno_) where he delivers a speech about developing a scalable application that has hundreds of features while preserving a good degree of flexibility and swift build times.
 
-### Elevate the structure of your Xcode projects
+### `AppKit` framework is done
 
-[Tomas Reimers](https://twitter.com/tomasreimers) wrote an [article](https://screenplay.dev/blog/post/Xr88fIeCmhQN3iTkZt4v) where he dives into the details of what Xcode projects are, how do they work, and how you can better structure your projects for your iOS applications.
+[Alex Grebenyuk](https://twitter.com/a_grebenyuk) crafted an [article](https://kean.blog/post/appkit-is-done) about building a [Pulse](https://kean.blog/pulse) (powerful, [open-source](https://github.com/kean/Pulse) logging system for Apple platforms) application for macOS entirely in `SwiftUI`. Alex highlights some of the features and their implementations, in addition to supplying some valuable tips for working with `SwiftUI`.
 
-### Adopting `SwiftUI`
+### Lessons from indie application developer with over 50 million downloads
 
-There has been an ongoing debate among the developer community about adopting `SwiftUI` since Apple introduced this framework back in 2019. [Olivier Rigault](https://www.linkedin.com/in/origault) in his [article](https://dev.to/newday-technology/adopting-swiftui-32go) shares the journey that he and his team embraced and challenged that they have faced by adopting `SwiftUI` in their iOS development process early.
+Listen to the [Sub Club Podcast](https://subclub.co) [episode](https://subclub.co/episode/david-smith-widgetsmith-lessons-from-50-million-downloads) with [David Smith](https://twitter.com/_davidsmith) as he discusses his journey and what he has learned from his multiple successful and, eight times more, unsuccessful applications.
 
-### An introduction to synchronizing access with Swift’s actors
+### Using Swift in React Native application
 
-[Donny Wals](https://twitter.com/DonnyWals) wrote an [article](https://www.donnywals.com/an-introduction-to-synchronizing-access-with-swifts-actors) to illustrate how an object that isolates access to its mutable state empowers developers to avoid runtime crashes by solving data races.
+[Akinn Rosa](https://twitter.com/akinncar) wrote an [article](https://dev.to/akinncar/how-to-use-swift-in-your-react-native-app-46mj) reporting how to create a bridge between Swift and Objective-C code and then exposing native Objective-C methods to React Native with yet another bridge (between Objective-C and JavaScript).
 
-### Using Xcode behaviors to speed up workflow
+### Defining dynamic colors in Swift
 
-Default behaviors help you already by showing, for example, the debug navigator when pausing on a breakpoint, in an [article](https://www.avanderlee.com/xcode/xcode-behaviours-optimized) by [Antoine van der Lee](https://twitter.com/twannl) learn how to customize Xcode's response to certain events with behaviors to reduce the amount of required, mundane navigation in Xcode.
+Learn how to programmatically create colors that adapt to the environment using either `SwiftUI` or `UIKit` in an [article](https://www.swiftbysundell.com/articles/defining-dynamic-colors-in-swift) by [John Sundell](https://twitter.com/johnsundell).
 
-### Make blazing-fast lists and collection views
+### Serialization for backward compatibility
 
-View [Apple's](https://twitter.com/Apple) WWDC21 [session](https://developer.apple.com/videos/play/wwdc2021/10252) where [Aditya Krishnadevan](https://twitter.com/caughtinflux) and [Patrick Metcalfe](https://twitter.com/PDucks32) teach how to use diffable data source and cell registration APIs, refreshes viewers' understanding of a lifecycle of a cell, and show how to improve overall scrolling experience with optimized image loading and automatic cell prefetching.
+[Dekel Avrahami](https://www.linkedin.com/in/dekel-avrahami-b999a1146) shares with his team's gained experience from building [Facetune Video by Lightricks](https://apps.apple.com/us/app/facetune-video-by-lightricks/id1505478179) application and discoveries they made about serialization with backward compatibility in mind in an [article](https://medium.com/@lightricks-tech-blog/backwards-compatibility-in-swift-990d3ca05624).
 
-### Xcode 13 Vim support
+### Using throwing properties to catch errors
 
-I've always had a minimalistic approach to my work environment, without additional monitors, external keyboard, or mouse. I use multiple virtual desktops, MacBook's integrated keyboard and trackpad, for me it simply works. Has the time come to remove the trackpad from the equation? Watch the [video](https://nsscreencast.com/episodes/491-xcode-13-vim) where [Ben Scheirman](https://twitter.com/subdigital) instructs how to enable Vim key bindings and gives a quick tour of how to navigate using them.
+In an [article](https://www.avanderlee.com/swift/throwing-properties), [Antoine van der Lee](https://twitter.com/twannl) guides readers through newly added improvement to Swift 5.5 — throwing properties.
 
-### Using test repetitions in Xcode 13 to resolve flaky tests
+### Setting default values for `UserDefaults`
 
-[Antoine van der Lee](https://twitter.com/twannl) wrote an [article](https://www.avanderlee.com/debugging/flaky-tests-test-repetitions) to help you identify flaky tests and their possible causes, as well as proposes solutions to avoid introducing flaky tests in the first place. 
+[Sarun Wongpatcharapakornand](https://twitter.com/sarunw) wrote an [article](https://sarunw.com/posts/setting-default-value-for-nsuserdefaults) bringing to our attention that it isn't necessary to equate value to `nil` to determine if you must set initial value, instead use the `UserDefaults` instance method to add default values of the specified dictionary to the registration domain.
 
-### A simple search algorithm in iOS
+### Dependency injection using the latest Swift features
 
-[Geoff Hackworth](https://twitter.com/geoffhackworth) shared a search algorithm, that he applied in several iOS applications, that is superior to a trivial substring match but not as complex as Xcode’s matching of method names in an [article](https://hacknicity.medium.com/a-simple-smart-search-algorithm-for-ios-in-swift-65f71b2f221a).
+Dependency injection is a software design pattern that is a commonly used technique that enhances code reusability and  simplifies testing by allowing to substitute data. Read an [article](https://www.avanderlee.com/swift/dependency-injection) by [Antoine van der Lee](https://twitter.com/twannl) where he proposes an alternative strategy for establishing dependency injection into a codebase.
 
-### Faster application launch times in iOS 15
+### Backporting new features with `@_alwaysEmitIntoClient`
 
-[Noah Martin](https://twitter.com/sond813) carried out a colossal investigation in iOS 15 dynamic link editor (dyld) improvement to use chained fixups format and reported his uncoverings in an [article](https://medium.com/geekculture/how-ios-15-makes-your-app-launch-faster-51cf0aa6c520).
-
-### How to share an iOS distribution certificate
-
-[Sarun Wongpatcharapakornand](https://twitter.com/sarunw) created a [guide](https://sarunw.com/posts/how-to-share-ios-distribution-certificate) navigating readers through the process of creating, exporting, and importing distribution certificates.
-
-### Detecting memory leaks via tests
-
-[António Lima](https://twitter.com/aclima93) wrote an [article](https://aclima93.com/swift/2021/06/24/01.html) defining a memory leak and automating leak detection with test cases. In his supplementary [article](https://aclima93.com/swift/2021/07/23/01.html), he pursues automation of asserts for lingering references and the ability to use non-reference types such as structures and enumerations in tests.
+[Federico Zanetello](https://twitter.com/zntfdr) in his [article](https://www.fivestars.blog/articles/alwaysEmitIntoClient) educates how binary frameworks can make additive changes to their APIs while remaining binary-compatible with earlier versions of operating systems using `@_alwaysEmitIntoClient`.
 
 ## Tools
 
-### Prioritize work with Quality of Service classes
+### AI-powered code assistant
 
-Mobile applications are competing to use finite resources — CPU (central processing unit), memory, network interfaces, etc. For application to remain responsive and efficient it is crucial to prioritize tasks. [Apple](https://twitter.com/Apple) provides [documentation](https://developer.apple.com/library/archive/documentation/Performance/Conceptual/EnergyGuide-iOS/PrioritizeWorkWithQoS.html) on QoS (Quality of Service) classes and describes their [classes'] intended type of work.
+[GitHub Copilot](https://copilot.github.com) is available as a Visual Studio Code extension. It uses the provided context to synthesizes suggestions for whole lines or entire functions to match. During the technical preview of GitHub Copilot, access is limited to a small group of testers. Join the [waitlist](https://github.com/features/copilot/signup) if you would like to receive a chance to try it out.
+Additionally, a hilarious remark [Marcin Krzyzanowski](https://twitter.com/krzyzanowskim) made in his Twitter [post](https://twitter.com/krzyzanowskim/status/1410320595221463044) made me laugh, check it out!
 
-### Analyze network traffic with a new instrument
+### `DocC` archived and analyzed
 
-[Charles Proxy](https://www.charlesproxy.com) has been a pivotal tool to inspect unencrypted and encrypted network traffic, it has various other features, but those are rarely required in a day-to-day development (if, however, you are looking for more advanced debugging [Emad Ghorbaninia](https://twitter.com/emadgnia) wrote a [tutorial](https://www.raywenderlich.com/22070831-advanced-charles-proxy-tutorial-for-ios) teaching how to configure Charles Proxy, manipulate requests and responses, automate using Rewrite and Repeat features, use breakpoints, filtering requests). Instruments 13 introduces HTTP traffic instrument, contained in the Network template, focusing on auditing the traffic coming from your application through the Apple Networking stack. Read an [article](https://michaelabadi.com/articles/analyse-http-instruments) by [Michael Abadi Santoso](https://twitter.com/michaelabadiii).
+[Helge Heß](https://twitter.com/helje5) wrote an [article](http://www.alwaysrightinstitute.com/docz) about his investigation of `DocC` produced documentation archive. He found that the `DocC` archive doesn't only contain a version of the documentation suitable for the Xcode Documentation Viewer but also generated documentation as raw, parseable data, in a hierarchy of JSON files and images.
 
-### 7 well-known iOS applications that collectively could save 500MB of user's storage
+### Swift Package Index
 
-[Noah Martin](https://twitter.com/sond813) shared his findings in an [article](https://medium.com/swlh/how-7-ios-apps-could-save-you-500mb-of-storage-a828782c973e) about common mistakes that are increasing application installation sizes discovered using [Emerge](https://www.emergetools.com) — binary size profiling tool.
+Selecting the proper dependencies is about more than just finding code that does what you need. Are the libraries you are choosing well maintained? How long have they been in development? Are they well tested? Picking high-quality packages is challenging, and the [Swift Package Index](https://swiftpackageindex.com) (a search engine for packages that support the Swift Package Manager) helps you make better decisions about your dependencies.
+
+### Benchmarking Swift code with Attabench framework and GUI macOS application
+
+If you too have been benchmarking the speed of code by adding multiple timestamps using `Date` object and calculating the time difference, [Bruno Rocha](https://twitter.com/rockbruno_) in his [article](https://swiftrocks.com/benchmarking-swift-code-properly-with-attabench) suggests using the [Attabench](https://github.com/attaswift/Attabench) framework that is accompanied by a GUI macOS application for microbenchmarking. The tool compiles your application in the release configuration and repeatedly performs the same operation on random data of various sizes, while continuously charting the results which makes it ideal for seeing your algorithm's performance at a glance.
 
 ## Tips
 
-### `CoreLocationUI` framework
+### Manually adding existing certificates to the fastlane match
 
-[Filip Němeček](https://twitter.com/nemecek_f) wrote a short [article](https://nemecek.be/blog/109/core-location-ui-new-way-to-get-one-time-location) reviewing a `CLLocationButton` that provides an easy, low-friction way to grant your application location access only when needed.
+Fastlane match stores certificates, private keys, and provisioning profiles in a separate git repository, Google Cloud, or Amazon S3 to sync them across your development team. Sharing a single code signing identity simplifies code signing setup and prevents code signing issues. [Sarun Wongpatcharapakornand](https://twitter.com/sarunw) in his [article](https://sarunw.com/posts/how-to-manually-add-existing-certificates-to-fastlane-match) takes us through how to import an existing certificate into the match repository.
 
-### Refactoring completion closures to asynchronous methods
+### File extensions in Xcode
 
-Learn how to refactor legacy completion closure implementations to use iOS 15 `async`/`await` API in a YouTube [video](https://www.youtube.com/watch?v=9CI8O7iufDI) by [Vincent Pradeilles](https://twitter.com/v_pradeilles).
+[Douglas Hill](https://twitter.com/qdoug) in his Twitter [post](https://twitter.com/qdoug/status/1411948641292521478) demonstrates that in Xcode 13 developers can hide inferable file extensions.
 
-### Column breakpoints
+### Making debugger console output stand out
 
-Xcode 13 aims to make debugging more productive and introduces column breakpoints that work as a more granular version of line breakpoints. [Keith Harrison](https://twitter.com/kharrison) illustrates how to use them in his 2-minute [article](https://useyourloaf.com/blog/xcode-column-breakpoints).
+[Dominik Hauser](https://twitter.com/dasdom) in his [article](https://dasdom.dev/posts/changing-color-for-debugger-output) demonstrates how to make debugger console output easier to find by customizing its color.
 
-### Specific class protocol
+### Avoiding retain cycles in `Combine`
 
-[Sarun Wongpatcharapakornand](https://twitter.com/sarunw) created a Twitter [post](https://twitter.com/sarunw/status/1409270071176880131) demonstrating that in Swift 5 developers can declare protocol for a specific class. Additionally, read his in-depth [article](https://sarunw.com/posts/how-to-declare-swift-protocol-for-specific-class) about the topic.
+[Eneko Alonso](https://twitter.com/eneko) in his Twitter [post](https://twitter.com/eneko/status/1416143468070465537) shares an example of the retain cycle remedy while working with `Combine` or any other escaping closure.
 
-### Keep the structure's default memberwise initializer
+### When should you use a throwing initializer?
 
-[Leonardo Maia Pugliese](https://twitter.com/Leo_Pugliese) in his [article](https://holyswift.app/a-trick-to-keep-the-structs-default-memberwise-initializer-in-swift) shared his know-how on how to add a custom initializer to the structure without overwriting the default initializer.
+When constructing an object using a failable initializer, the result is an optional that either contains the object (when the initialization succeeded) or contains `nil` (when the initialization failed). [Vincent Pradeilles](https://twitter.com/v_pradeilles) in his YouTube [video](https://www.youtube.com/watch?v=bWWj8zgd--c) briefs that throwing initializer can be used to convey failure information.
 
-### Measuring scrolling performance with UI test
+### Assert xib files exist
 
-In a Twitter [post](https://twitter.com/mecid/status/1408071686587490304), [Majid Jabrayilov](https://twitter.com/mecid) brings out that you can write a UI test that measures scrolling performance in your application that fails if performance is not satisfactory.
-
-### Why `#if DEBUG` conditional should be avoided in libraries
-
-[Arek Holko](https://twitter.com/arekholko) had written an [article](https://holko.pl/2018/09/24/compilation-directives-in-libraries) about an issue he had to solve when an application running in Debug configuration unknowingly called library with Release configuration and proposes a substitute implementation when writing libraries.
+In case a project you are working on relies a lot on xib files, [Vincent Pradeilles](https://twitter.com/v_pradeilles) in his YouTube [video](https://www.youtube.com/watch?v=qowbAhsDuO0) encourages you to implement tests that validate xib file for the specified class is in the bundle.
 
 <br>
 <p align="center">
-<img width="25%" alt="Curator" src="curator.svg" />
+<img width="35%" alt="Curators" src="curators.svg" />
 <!--Character credit goes to [Pablo Stanley](https://twitter.com/pablostanley) with his [Open Peeps](https://www.openpeeps.com) hand-drawn illustration library.-->
 </p>
 <p align="center">
-Thank you for taking the time to expand your knowledge! For additional study materials visit the <a href="https://github.com/esesmuedgars/IdeaKit/blob/issue3/README.md">previous issue</a>!
+Thank you for taking the time to expand your knowledge! For additional study materials visit the <a href="https://github.com/esesmuedgars/IdeaKit/blob/issue4/README.md">previous issue</a>!
 <br>
 <br>
 Found a topic insightful? You can add your comments and open a discussion using the comment section below.
