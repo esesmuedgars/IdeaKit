@@ -4,9 +4,9 @@
 
 ![Issue](https://img.shields.io/badge/issue-1.9-informational.svg)
 
-Hey, hey!
+Good morning and welcome back!
 
-Prefix
+iPhone 13 devices have been announced ⚠️
 
 Happy learning!
 
@@ -68,7 +68,9 @@ Next up, Swift challenge No. 3:
 
 ## Fundamentals
 
-### Title
+### Learning new application programming interfaces ⚠️
+
+Listen to [Empower Apps podcast](https://www.empowerapps.show) [episode](https://share.transistor.fm/s/31b2d4ab) with guest [Stewart Lynch](https://twitter.com/StewartLynch)
 
 ## Tutorials
 
@@ -76,7 +78,13 @@ Next up, Swift challenge No. 3:
 
 ## Enhanced programming
 
-### Title
+### Creating and customizing views and controls ⚠️
+
+[Apple](https://twitter.com/Apple) provides [sample code](https://developer.apple.com/documentation/uikit/mac_catalyst/uikit_catalog_creating_and_customizing_views_and_controls)
+
+### `AnyCancellable` in `Combine` ⚠️
+
+[article](https://www.donnywals.com/what-exactly-is-a-combine-anycancellable) by [Donny Wals](https://twitter.com/DonnyWals)
 
 ## Tools
 
@@ -84,7 +92,9 @@ Next up, Swift challenge No. 3:
 
 ## Tips
 
-### Title
+### Using `#function` for `String` values ⚠️
+
+Twitter [post](https://twitter.com/nicklockwood/status/1430429295994888198) by [Nick Lockwood](https://twitter.com/nicklockwood)
 
 <br>
 <p align="center">
