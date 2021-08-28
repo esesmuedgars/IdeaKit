@@ -105,14 +105,29 @@ func checkIfFileExists(_ fileURL: URL) -> Bool {
 
 <!--
 ```swift
-// MARK: Solution
+// MARK: Solution A
+
+func checkIfFileExists(_ fileURL: URL) -> Bool {
+    guard fileURL.isFileURL else {
+        return false
+    }
+    
+    return FileManager.default.fileExists(atPath: fileURL.path)
+}
+
+// MARK: Solution B
 
 /**
  If you are unsure if the URL exists or not before opening it, just go ahead and open it as checking first will duplicate the amount of work the file system needs to perform.
  However, if you do not need to open the file but verify if it exists using URL's `checkResourceIsReachable`instance method will work for the vast majority of URLs and
  is recommended over getting a file system path and then checking with the file manager if the file exists.
  */
+
 func checkIfFileExists(_ fileURL: URL) -> Bool {
+    guard fileURL.isFileURL else {
+        return false
+    }
+    
     do {
         return try fileURL.checkResourceIsReachable()
     } catch {
