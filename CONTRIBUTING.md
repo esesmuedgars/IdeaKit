@@ -9,8 +9,7 @@ Request access from [Līva Pilvere](https://people.accenture.com/People/user/liv
 
 ### Structure
 
-Conserning [Baltic Interactive blog](https://blog.accenture.com/design).
-Where `<!--more-->` seperator is inserted before _Body_ of the newsletter, which results title, introduction and _News_ section to  and "Continue reading" is inserted afterward.
+In [Baltic Interactive blog](https://blog.accenture.com/design)  `<!--more-->` seperator is inserted before _Body_ of the newsletter, which results title, introduction and _News_ section to  and "Continue reading" is inserted afterward.
 
 ```bash
 .
@@ -60,7 +59,26 @@ There is open proposal [#10](https://github.com/esesmuedgars/IdeaKit/issues/10) 
 <img alt="Find and Replace code" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/find_and_replace_code.png" />
 </p>
 
+- Update footer's author image (if applicable) and hyperlink to the previous issue.
+
+### Tags
+
+Static list of tags are used, that could be improved by adding only relevant ones (eg. use `tvOS` only if issue has an article about the topic).
+`Apple, IdeaKit, import IdeaKit, iOS, iPadOS, macOS, newsletter, swift, Swift Monthly Newsletter, tvOS, Xcode`
+
+Append comma seperated `Swift challenges` to the tags list if issue contains a challenge.
+
+### Categories
+
+_Swift_ subcategory of _Mobile_ category.
+
+### Swift challenges
+
+Spoiler
+
 ### Announcements
+
+Specify your own subject and edit permalink.
 
 Once a new newsletter's issue has been published, all subscribers of the blog will receive automatic e-mail announcements. However, to attract additional traffic manual announcements are required. Following is the list of channels that have been used for communication as well as message examples:
 
