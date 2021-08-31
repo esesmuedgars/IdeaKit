@@ -1,11 +1,13 @@
 # Contributing guidelines
 
-## Permissions
+## Distribution
 
-`Contributor` role is enough to create and publish posts, but at least `Editor` role is required to add images to the media library and add feature image of post.
-Contact [Līva Pilvere](https://people.accenture.com/People/user/liva.pilvere).
+### Permissions
 
-## Structure
+`Contributor` role is enough to create and publish posts, but at least `Editor` role is required to add images to the media library and add featured image to the blog post.
+Request access from [Līva Pilvere](https://people.accenture.com/People/user/liva.pilvere).
+
+### Structure
 
 Conserning [Baltic Interactive blog](https://blog.accenture.com/design).
 Where `<!--more-->` seperator is inserted before _Body_ of the newsletter, which results title, introduction and _News_ section to  and "Continue reading" is inserted afterward.
@@ -26,7 +28,39 @@ Where `<!--more-->` seperator is inserted before _Body_ of the newsletter, which
     └── Footnote
 ```
 
-## Announcements
+### Syntax conversion
+
+There is open proposal [#10](https://github.com/esesmuedgars/IdeaKit/issues/10) to automate Markdown to WordPress syntax conversion, but at the moment it is done manually:
+
+- Open `README.md` in Xcode;
+- Open Find and Replace in the document (`⌘` + `⌥` + `F`);
+- Keep default case-insensitive contains search condition;
+- Click the Insert Pattern button (+) to include line breaks, web addresses or special characters in search term;
+- Replace all `<#Line Break 1#>## <#Any Characters#><#Line Break 2#>` matches with `<#Line Break 1#><h3><#Any Characters#></h3><#Line Break 2#>` to convert syntax of titles:
+
+<p align="center">
+<img alt="Find and Replace titles" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/find_and_replace_titles.png" width="60%" />
+</p>
+
+- Replace all `<#Line Break 1#>### <#Any Characters#><#Line Break 2#>` matches with `<#Line Break 1#><h4><#Any Characters#></h4><#Line Break 2#>` to convert syntax of subtitles:
+
+<p align="center">
+<img alt="Find and Replace subtitles" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/find_and_replace_subtitles.png" width="60%" />
+</p>
+
+- Replace all `[<#Any Characters#>](<#Web Address#>)` matches with `<a href="<#Web Address#>"><#Any Characters#></a>` to convert syntax of hyperlinks:
+
+<p align="center">
+<img alt="Find and Replace hyperlinks" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/find_and_replace_hyperlinks.png" width="60%" />
+</p>
+
+- Replace all `` `<#Any Characters#>` `` matches with `<code><#Any Characters#></code>` to convert syntax of code:
+
+<p align="center">
+<img alt="Find and Replace code" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/find_and_replace_code.png" width="60%" />
+</p>
+
+### Announcements
 
 Once a new newsletter's issue has been published, all subscribers of the blog will receive automatic e-mail announcements. However, to attract additional traffic manual announcements are required. Following is the list of channels that have been used for communication as well as message examples:
 
@@ -186,7 +220,7 @@ Footer characters have been created using [Open Peeps](https://www.openpeeps.com
 
 ## Resources
 
-### Swift Newsletters
+### Swift newsletters
 
 - AppCoda Weekly [newsletter](http://digest.appcoda.com);
 - Awesome iOS [newsletter](https://ios.libhunt.com);
@@ -199,25 +233,32 @@ Footer characters have been created using [Open Peeps](https://www.openpeeps.com
 - Swift Weekly Brief [newsletter](https://swiftweeklybrief.com);
 - SwiftLee Weekly [newsletter](https://www.avanderlee.com);
 - This Week in Swift [newsletter](https://swiftnews.curated.co).
+<br>
 
-Subsribe to the newsletters (since it is for work related activities I've used Accenture e-mail).
-While setting-up you will have to approve all senders as they are sending their first e-mails.
-Create folder and add it to favorites.
-(optional) Create contacts for each newsletter (didn't help with whitelisting, nor due newsletter e-mails use contact names or images, but was a little more convenient to create rule).
-Create rule to add newsletterr e-mails to dedicated folder.
+- Subsribe to the newsletters (since it is for work related activities I've used Accenture e-mail);
+- Whitelist newsletter e-mails — while setting-up you will have to release and allow each sender (through [Bulk Email Digest](bulk.email.digest@accenture.com)) as they [authors] are sending their initial e-mails;
+- Optionally, create contact for each newsletter (makes it a little more convenient to create rule and contact images help differentiate newsletters at a glance):
 
 <p align="center">
-Subscribe to and whitelist newsletters:
-<img alt="Microsoft Outlook: Newsletter contacts" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/whitelisted_newsletter_contacts.png" width="100%" />
-<br>
-Create a rule to move e-mails from whitelisted newsletters to dedicated folder:
-<img alt="Microsoft Outlook: Move to folder rule" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/move_to_folder_rule.png" width="100%" />
-<br>
-All newsletter e-mails are stored in seperate folder:
-<img alt="Microsoft Outlook: Newsletters" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/newsletters.png" width="100% />
+<img alt="Microsoft Outlook: Newsletter contacts" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/whitelisted_newsletter_contacts.png" />
 </p>
 
-### Swift Podcasts
+- Create "Swift Newsletters" folder and add it to favorites;
+- Create a rule to move e-mails from whitelisted newsletters to dedicated folder:
+
+<p align="center">
+<img alt="Microsoft Outlook: Move to folder rule" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/move_to_folder_rule.png" />
+</p>
+
+All newsletters' issues are stored in seperate folder and doesn't cluster inbox.
+
+<p align="center">
+<img alt="Microsoft Outlook: Newsletters" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/newsletters.png" />
+</p>
+<br>
+<br>
+
+### Swift podcasts
 
 - Apple Events (video) [podcast](https://podcasts.apple.com/podcast/apple-events-video/id275834665);
 - Fireside Swift [podcast](https://podcasts.apple.com/podcast/fireside-swift/id1269435221);
@@ -237,10 +278,11 @@ All newsletter e-mails are stored in seperate folder:
 - Under the Radar [podcast](https://podcasts.apple.com/podcast/under-the-radar/id1055685246);
 - Waiting for Review [podcast](https://podcasts.apple.com/podcast/waiting-for-review/id1199635981).
 
-### Other Usefull Resources
+### Other useful resources
 
 - Apple Developer [News and Updates](https://developer.apple.com/news);
 - Swift Official [blog](https://swift.org/blog);
 - The Daily iOS Twitter [account](https://twitter.com/TheDailyiOS);
-- [Vincent Pradeilles's](https://twitter.com/v_pradeilles) YouTube [channel](https://www.youtube.com/c/VincentPradeilles).
-
+- Code Completion Twitter [account](https://twitter.com/CodeCompletion);
+- [Vincent Pradeilles's](https://twitter.com/v_pradeilles) YouTube [channel](https://www.youtube.com/c/VincentPradeilles);
+- [Codewars](https://www.codewars.com) platform.
