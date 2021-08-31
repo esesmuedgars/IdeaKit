@@ -9,7 +9,7 @@ Request access from [Līva Pilvere](https://people.accenture.com/People/user/liv
 
 ### Structure
 
-In [Baltic Interactive blog](https://blog.accenture.com/design)  `<!--more-->` seperator is inserted before _Body_ of the newsletter, which results title, introduction and _News_ section to  and "Continue reading" is inserted afterward.
+In _Baltic Interactive_ [blog](https://blog.accenture.com/design)  `<!--more-->` seperator is inserted before _Body_ of the newsletter, which results title, introduction and _News_ section to <#String#> and "Continue reading" is inserted afterward. ⚠️
 
 ```bash
 .
@@ -71,11 +71,11 @@ Use _Swift_ subcategory of _Mobile_ category.
 
 ### Swift challenges
 
-Spoiler
+Challenge spoiler warnings. ⚠️
 
 ### Announcements
 
-Specify your own subject and edit permalink.
+Specify your own subject and edit permalink. ⚠️
 
 Once a new newsletter's issue has been published, all subscribers of the blog will receive automatic e-mail announcements. However, to attract additional traffic manual announcements are required. Following is the list of channels that have been used for communication as well as message examples:
 
