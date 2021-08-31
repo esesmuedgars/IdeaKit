@@ -59,18 +59,15 @@ There is open proposal [#10](https://github.com/esesmuedgars/IdeaKit/issues/10) 
 <img alt="Find and Replace code" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/find_and_replace_code.png" />
 </p>
 
-- Update footer's author image (if applicable) and hyperlink to the previous issue.
+- Update footnote's image (if applicable) and hyperlink to the previous issue.
 
 ### Tags
 
-Static list of tags are used, that could be improved by adding only relevant ones (eg. use `tvOS` only if issue has an article about the topic).
-`Apple, IdeaKit, import IdeaKit, iOS, iPadOS, macOS, newsletter, swift, Swift Monthly Newsletter, tvOS, Xcode`
-
-Append comma seperated `Swift challenges` to the tags list if issue contains a challenge.
+Static list of tags are used (`Apple, IdeaKit, import IdeaKit, iOS, iPadOS, macOS, newsletter, swift, Swift Monthly Newsletter, tvOS, Xcode` append `Swift challenges` tag to the comma seperated list if issue contains a challenge) which could be improved by adding only relevant tags (e.g., use `tvOS` only if the issue has an article about the topic).
 
 ### Categories
 
-_Swift_ subcategory of _Mobile_ category.
+Use _Swift_ subcategory of _Mobile_ category.
 
 ### Swift challenges
 
