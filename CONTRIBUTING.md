@@ -39,25 +39,25 @@ There is open proposal [#10](https://github.com/esesmuedgars/IdeaKit/issues/10) 
 - Replace all `<#Line Break 1#>## <#Any Characters#><#Line Break 2#>` matches with `<#Line Break 1#><h3><#Any Characters#></h3><#Line Break 2#>` to convert syntax of titles:
 
 <p align="center">
-<img alt="Find and Replace titles" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/find_and_replace_titles.png" width="60%" />
+<img alt="Find and Replace titles" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/find_and_replace_titles.png" />
 </p>
 
 - Replace all `<#Line Break 1#>### <#Any Characters#><#Line Break 2#>` matches with `<#Line Break 1#><h4><#Any Characters#></h4><#Line Break 2#>` to convert syntax of subtitles:
 
 <p align="center">
-<img alt="Find and Replace subtitles" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/find_and_replace_subtitles.png" width="60%" />
+<img alt="Find and Replace subtitles" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/find_and_replace_subtitles.png" />
 </p>
 
 - Replace all `[<#Any Characters#>](<#Web Address#>)` matches with `<a href="<#Web Address#>"><#Any Characters#></a>` to convert syntax of hyperlinks:
 
 <p align="center">
-<img alt="Find and Replace hyperlinks" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/find_and_replace_hyperlinks.png" width="60%" />
+<img alt="Find and Replace hyperlinks" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/find_and_replace_hyperlinks.png" />
 </p>
 
 - Replace all `` `<#Any Characters#>` `` matches with `<code><#Any Characters#></code>` to convert syntax of code:
 
 <p align="center">
-<img alt="Find and Replace code" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/find_and_replace_code.png" width="60%" />
+<img alt="Find and Replace code" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/find_and_replace_code.png" />
 </p>
 
 ### Announcements
@@ -235,7 +235,7 @@ Footer characters have been created using [Open Peeps](https://www.openpeeps.com
 - This Week in Swift [newsletter](https://swiftnews.curated.co).
 <br>
 
-- Subsribe to the newsletters (since it is for work related activities I've used Accenture e-mail);
+- Subscribe to the newsletters (since it is for work related activities I've used Accenture e-mail);
 - Whitelist newsletter e-mails — while setting-up you will have to release and allow each sender (through [Bulk Email Digest](bulk.email.digest@accenture.com)) as they [authors] are sending their initial e-mails;
 - Optionally, create contact for each newsletter (makes it a little more convenient to create rule and contact images help differentiate newsletters at a glance):
 
@@ -255,7 +255,6 @@ All newsletters' issues are stored in seperate folder and doesn't cluster inbox.
 <p align="center">
 <img alt="Microsoft Outlook: Newsletters" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/newsletters.png" />
 </p>
-<br>
 <br>
 
 ### Swift podcasts
