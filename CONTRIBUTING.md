@@ -74,7 +74,7 @@ Z (issue version) - Month number of the issue (possible values are 1 - 12, when 
 
 ##### Example:
 
-It is October's issue of the first year of the newsletter. As it is the first year - the major version is `1`, October is 10<sup>th</th> month of the year, therefore, the minor version is `10`. That would make the newsletter's version `1.10`.
+It is October's issue of the first year of the newsletter. As it is the first year - the major version is `1`, October is 10<sup>th</sup> month of the year, therefore, the minor version is `10`. That would make the newsletter's version `1.10`.
 
 ## Tools
 
@@ -205,7 +205,17 @@ While setting-up you will have to approve all senders as they are sending their 
 Create folder and add it to favorites.
 (optional) Create contacts for each newsletter (didn't help with whitelisting, nor due newsletter e-mails use contact names or images, but was a little more convenient to create rule).
 Create rule to add newsletterr e-mails to dedicated folder.
-// Add images
+
+<p align="center">
+Subscribe to and whitelist newsletters:
+<img alt="Microsoft Outlook: Newsletter contacts" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/whitelisted_newsletter_contacts.png" width="100%" />
+<br>
+Create a rule to move e-mails from whitelisted newsletters to dedicated folder:
+<img alt="Microsoft Outlook: Move to folder rule" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/move_to_folder_rule.png" width="100%" />
+<br>
+All newsletter e-mails are stored in seperate folder:
+<img alt="Microsoft Outlook: Newsletters" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/newsletters.png" width="100% />
+</p>
 
 ### Swift Podcasts
 
