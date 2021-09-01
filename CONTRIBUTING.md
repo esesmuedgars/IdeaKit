@@ -79,15 +79,15 @@ Due to some problems having multiple valid solutions can greatly extend the news
 </p>
 
 - Upload a solution image to the [media library](https://blog.accenture.com/design/wp-admin/upload.php);
-- Add a caption to the image; ⚠️
+- Add a Caption to the image;
 - Select uploaded image and save to clipboard (`⌘` + `C`) it's Copy Link (Pro tip: Copy Link is generated from the original image name, I would recommend using random filenames instead of easily recognizable pattern to eliminate cheating option);
 - Click the Add Media button while editing the post to insert an image;
 - Select spoiler warning image;
 - Click the Insert into post button (which will insert selected image(-s) in cursors current location);
 - Downscale image to appropriate size;
 - Link spoiler warning image with solution image:
-    - In the visual editor, <#String#>; ⚠️
-    - In the textual editor, <#String#>. ⚠️
+    - In the visual editor, click on the image, click on the Edit button (✎) change Link To from `None` to `Custom URL` and insert Copy Link from clipboard (`⌘` + `V`);
+    - In the textual editor, add `href` attribute with Copy Link from clipboard to `img` tag.
 
 ### Announcements
 
