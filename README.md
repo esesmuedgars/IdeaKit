@@ -96,9 +96,13 @@ Listen to [Empower Apps podcast](https://www.empowerapps.show) [episode](https:/
 
 Twitter [post](https://twitter.com/nicklockwood/status/1430429295994888198) by [Nick Lockwood](https://twitter.com/nicklockwood)
 
+### Overriding argument's default value ⚠️
+
+YouTube [video](https://www.youtube.com/watch?v=2h8eJq_dCh4) by [Vincent Pradeilles](https://twitter.com/v_pradeilles)
+
 <br>
 <p align="center">
-<img width="35%" alt="Curators" src="curators.svg" />
+<img width="25%" alt="Curator" src="curator.svg" />
 <!--Character credit goes to [Pablo Stanley](https://twitter.com/pablostanley) with his [Open Peeps](https://www.openpeeps.com) hand-drawn illustration library.-->
 </p>
 <p align="center">
