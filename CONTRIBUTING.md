@@ -4,12 +4,12 @@
 
 ### Permissions
 
-`Contributor` role is enough to create and publish posts, but at least `Editor` role is required to add images to the media library and add featured image to the blog post.
+The `Contributor` role is enough to create and publish posts, but at least the `Editor` role is required to add images to the media library and add featured image to the blog post.
 Request access from [Līva Pilvere](https://people.accenture.com/People/user/liva.pilvere).
 
 ### Structure
 
-In _Baltic Interactive_ [blog](https://blog.accenture.com/design)  `<!--more-->` seperator is inserted before _Body_ of the newsletter, which results in title, introduction and _News_ section to be displayed in the blog's list of posts and "Continue reading" is inserted afterward, as well as this information is included in blog's subscriber e-mail notifications.
+In _Baltic Interactive_ [blog](https://blog.accenture.com/design)  `<!--more-->` separator is inserted before _Body_ of the newsletter, which results in the title, introduction, and _News_ section to be displayed in the blog's list of posts and "Continue reading" is inserted afterward, as well as this information is included in blog's subscriber e-mail notifications.
 
 ```bash
 .
@@ -34,7 +34,7 @@ There is open proposal [#10](https://github.com/esesmuedgars/IdeaKit/issues/10) 
 - Open `README.md` in Xcode;
 - Open Find and Replace in the document (`⌘` + `⌥` + `F`);
 - Keep default case-insensitive contains search condition;
-- Click the Insert Pattern button (+) to include line breaks, web addresses or special characters in search term;
+- Click the Insert Pattern button (+) to include line breaks, web addresses, or special characters in a search term;
 - Replace all `<#Line Break 1#>## <#Any Characters#><#Line Break 2#>` matches with `<#Line Break 1#><h3><#Any Characters#></h3><#Line Break 2#>` to convert syntax of titles:
 
 <p align="center">
@@ -63,7 +63,7 @@ There is open proposal [#10](https://github.com/esesmuedgars/IdeaKit/issues/10) 
 
 ### Tags
 
-Static list of tags are used (`Apple, IdeaKit, import IdeaKit, iOS, iPadOS, macOS, newsletter, swift, Swift Monthly Newsletter, tvOS, Xcode` append `Swift challenges` tag to the comma seperated list if issue contains a challenge) which could be improved by adding only relevant tags (e.g., use `tvOS` only if the issue has an article about the topic).
+A static list of tags are used (`Apple, IdeaKit, import IdeaKit, iOS, iPadOS, macOS, newsletter, swift, Swift Monthly Newsletter, tvOS, Xcode` append `Swift challenges` tag to the comma-separated list if issue contains a challenge) which could be improved by adding only relevant tags (e.g., use `tvOS` only if the issue has an article about the topic).
 
 ### Categories
 
@@ -72,22 +72,22 @@ Use _Swift_ subcategory of _Mobile_ category.
 ### Swift challenges
 
 [_import IdeaKit_ issue 4](https://github.com/esesmuedgars/IdeaKit/tree/issue4) introduced Swift challenges. From that point onward each consecutive newsletter's issue is providing a solution (as well as explanation and resource hyperlink, where applicable) to a problem described in an issue before, besides the following challenge.
-Due to some problems having multiple valid solutions it can greatly extend the newsletter, plus, if the reader did not read the previous issue he is robbed of a challenge by instantly presented solution. To avoid that spoiler warning image is added and linked with solution image:
+Due to some problems having multiple valid solutions can greatly extend the newsletter, plus, if the reader did not read the previous issue he is robbed of a challenge by an instantly presented solution. To avoid that spoiler warning image is added and linked with solution image:
 
 <p align="center">
 <img alt="Swift challenge solution spoiler warning" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/Swift_challenge_solution_spoiler_warning.png" width="60%" />
 </p>
 
 - Upload a solution image to the [media library](https://blog.accenture.com/design/wp-admin/upload.php);
-- Add caption to the image; ⚠️
-- Select uploaded image and save to clipboard (`⌘` + `C`) it's Copy Link (Pro tip: Copy Link is generated from the original image name, I would recommend using random filenames instead of easily recognisable pattern to eliminate cheating option);
-- Click the Add Media button while editing post to insert an image;
+- Add a caption to the image; ⚠️
+- Select uploaded image and save to clipboard (`⌘` + `C`) it's Copy Link (Pro tip: Copy Link is generated from the original image name, I would recommend using random filenames instead of easily recognizable pattern to eliminate cheating option);
+- Click the Add Media button while editing the post to insert an image;
 - Select spoiler warning image;
 - Click the Insert into post button (which will insert selected image(-s) in cursors current location);
 - Downscale image to appropriate size;
 - Link spoiler warning image with solution image:
-    - In visual editor, <#String#>; ⚠️
-    - In textual editor, <#String#>. ⚠️
+    - In the visual editor, <#String#>; ⚠️
+    - In the textual editor, <#String#>. ⚠️
 
 ### Announcements
 
@@ -130,16 +130,20 @@ X.Y
 <!--
 In case of the newsletter's complete revamp, an additional version could be introduced:
 
+```swift
 X.Y.Z
 
-X (major version) - (begins with 1, resets when newsletter's general curator is replaced or redesign takes place, etc.);
-Y (minor version) - Year number of the newsletter at current state (begins with 1, when minor version resets major version is incremented by one);
-Z (issue version) - Month number of the issue (possible values are 1 - 12, when issue version resets minor version is incremented by one).
+/**
+ X (major version) - (begins with 1, resets when newsletter's general curator is replaced or redesign takes place, etc.);
+ Y (minor version) - Year number of the newsletter at current state (begins with 1, when minor version resets major version is incremented by one);
+ Z (issue version) - Month number of the issue (possible values are 1 - 12, when issue version resets minor version is incremented by one).
+ */
+```
 -->
 
 ##### Example:
 
-It is October's issue of the first year of the newsletter. As it is the first year - the major version is `1`, October is 10<sup>th</sup> month of the year, therefore, the minor version is `10`. That would make the newsletter's version `1.10`.
+It is October's issue of the first year of the newsletter. As it is the first year - the major version is `1`, October is the 10<sup>th</sup> month of the year, therefore, the minor version is `10`. That would make the newsletter's version `1.10`.
 
 ## Tools
 
@@ -155,7 +159,7 @@ Estimated reading time is auto-generated for _Baltic Interactive_ [blog's](https
 
 Newsletter's featured images have been created using [Ray.so](https://ray.so) tool.
 
-_Baltic Interactive_ [blog's](https://blog.accenture.com/design) [media library](https://blog.accenture.com/design/wp-admin/upload.php) has featured images uploaded up to and including 36<sup>th</sup> issue, below are step-by-step guides to recreate the image:
+_Baltic Interactive_ [blog's](https://blog.accenture.com/design) [media library](https://blog.accenture.com/design/wp-admin/upload.php) has featured images uploaded up to and including issue 36, below are step-by-step guides to recreate the image:
 
 <p align="center">
 <img alt="Featured image example" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/contributing_featured_image.svg"  width="60%" />
@@ -169,7 +173,7 @@ _Baltic Interactive_ [blog's](https://blog.accenture.com/design) [media library]
     - Dark mode: `Disabled` (`D`);
     - Padding: `64` (`P`);
     - Language: `Swift` (`L`).
-- Open Chrome DevTools in Console panel (in Google Chrome `⌘` + `⌥` + `J`). Alternatively, you can right-click and element and select Inspect option;
+- Open Chrome DevTools in Console panel (in Google Chrome `⌘` + `⌥` + `J`). Alternatively, you can right-click an element and select Inspect option;
 - Update text colors to match Xcode's default light theme:
 ```javascript
 document.getElementsByClassName("vue-codemirror code-editor")[0].style.cssText = `
@@ -266,22 +270,22 @@ Footer characters have been created using [Open Peeps](https://www.openpeeps.com
 - This Week in Swift [newsletter](https://swiftnews.curated.co).
 <br>
 
-- Subscribe to the newsletters (since it is for work related activities I've used Accenture e-mail);
-- Whitelist newsletter e-mails — while setting-up you will have to release and allow each sender (through [Bulk Email Digest](bulk.email.digest@accenture.com)) as they [authors] are sending their initial e-mails;
-- Optionally, create contact for each newsletter (makes it a little more convenient to create rule and contact images help differentiate newsletters at a glance):
+- Subscribe to the newsletters (since it is for work-related activities I've used Accenture e-mail);
+- Whitelist newsletter e-mails — while setting up you will have to release and allow each sender (through [Bulk Email Digest](bulk.email.digest@accenture.com)) as they [authors] are sending their initial e-mails;
+- Optionally, create a contact for each newsletter (makes it a little more convenient to create the rule and contact images help differentiate newsletters at a glance):
 
 <p align="center">
 <img alt="Microsoft Outlook: Newsletter contacts" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/whitelisted_newsletter_contacts.png" />
 </p>
 
 - Create "Swift Newsletters" folder and add it to favorites;
-- Create a rule to move e-mails from whitelisted newsletters to dedicated folder:
+- Create a rule to move e-mails from whitelisted newsletters to a dedicated folder:
 
 <p align="center">
 <img alt="Microsoft Outlook: Move to folder rule" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/move_to_folder_rule.png" />
 </p>
 
-All newsletters' issues are stored in seperate folder and doesn't cluster inbox.
+All newsletters' issues are stored in a separate folder and don't clutter the inbox.
 
 <p align="center">
 <img alt="Microsoft Outlook: Newsletters" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/newsletters.png" />
