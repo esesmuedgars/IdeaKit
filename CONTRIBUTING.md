@@ -86,7 +86,7 @@ Due to some problems having multiple valid solutions can greatly extend the news
 - Click the Insert into post button (which will insert selected image(-s) in cursors current location);
 - Downscale image to appropriate size;
 - Link spoiler warning image with solution image:
-    - In the visual editor, click on the image, click on the Edit button (✎) change Link To from `None` to `Custom URL` and insert Copy Link from clipboard (`⌘` + `V`);
+    - In the visual editor, click on the image, click on the Edit button (✎) change Link To from `None` to `Custom URL`, and insert Copy Link from clipboard (`⌘` + `V`);
     - In the textual editor, add `href` attribute with Copy Link from clipboard to `img` tag.
 
 ### Announcements
