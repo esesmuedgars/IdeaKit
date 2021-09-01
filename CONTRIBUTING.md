@@ -9,7 +9,7 @@ Request access from [Līva Pilvere](https://people.accenture.com/People/user/liv
 
 ### Structure
 
-In _Baltic Interactive_ [blog](https://blog.accenture.com/design)  `<!--more-->` seperator is inserted before _Body_ of the newsletter, which results title, introduction and _News_ section to <#String#> and "Continue reading" is inserted afterward. ⚠️
+In _Baltic Interactive_ [blog](https://blog.accenture.com/design)  `<!--more-->` seperator is inserted before _Body_ of the newsletter, which results in title, introduction and _News_ section to be displayed in the blog's list of posts and "Continue reading" is inserted afterward, as well as this information is included in blog's subscriber e-mail notifications.
 
 ```bash
 .
@@ -71,11 +71,27 @@ Use _Swift_ subcategory of _Mobile_ category.
 
 ### Swift challenges
 
-Challenge spoiler warnings. ⚠️
+[_import IdeaKit_ issue 4](https://github.com/esesmuedgars/IdeaKit/tree/issue4) introduced Swift challenges. From that point onward each consecutive newsletter's issue is providing a solution (as well as explanation and resource hyperlink, where applicable) to a problem described in an issue before, besides the following challenge.
+Due to some problems having multiple valid solutions it can greatly extend the newsletter, plus, if the reader did not read the previous issue he is robbed of a challenge by instantly presented solution. To avoid that spoiler warning image is added and linked with solution image:
+
+<p align="center">
+<img alt="Swift challenge solution spoiler warning" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/Swift_challenge_solution_spoiler_warning.png" width="60%" />
+</p>
+
+- Upload a solution image to the [media library](https://blog.accenture.com/design/wp-admin/upload.php);
+- Add caption to the image; ⚠️
+- Select uploaded image and save to clipboard (`⌘` + `C`) it's Copy Link (Pro tip: Copy Link is generated from the original image name, I would recommend using random filenames instead of easily recognisable pattern to eliminate cheating option);
+- Click the Add Media button while editing post to insert an image;
+- Select spoiler warning image;
+- Click the Insert into post button (which will insert selected image(-s) in cursors current location);
+- Downscale image to appropriate size;
+- Link spoiler warning image with solution image:
+    - In visual editor, <#String#>; ⚠️
+    - In textual editor, <#String#>. ⚠️
 
 ### Announcements
 
-Specify your own subject and edit permalink. ⚠️
+Specify your own subject and edit permalink. My approach has been to shorten both of them (e.g., replace `Baltic Interactive: import IdeaKit – Swift Monthly Newsletter Issue 5` with `Baltic Interactive: import IdeaKit Issue 5` and edit `<#Generated URL Path#>/import-ideakit-swift-monthly-newsletter-issue-5/` to `<#Generated URL Path#>/import-ideakit-5/`).
 
 Once a new newsletter's issue has been published, all subscribers of the blog will receive automatic e-mail announcements. However, to attract additional traffic manual announcements are required. Following is the list of channels that have been used for communication as well as message examples:
 
@@ -270,7 +286,6 @@ All newsletters' issues are stored in seperate folder and doesn't cluster inbox.
 <p align="center">
 <img alt="Microsoft Outlook: Newsletters" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/CONTRIBUTING/newsletters.png" />
 </p>
-<br>
 
 ### Swift podcasts
 
