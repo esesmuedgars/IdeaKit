@@ -84,17 +84,17 @@ There are multiple ways to observe property changes, [Jesse Squires](https://twi
 
 ## Tutorials
 
-### `SwiftGen` for iOS ⚠️
+### `SwiftGen` for iOS
 
-[tutorial](https://www.raywenderlich.com/23709326-swiftgen-tutorial-for-ios) by [Andy Pereira](https://twitter.com/macandyp)
+Follow a [tutorial](https://www.raywenderlich.com/23709326-swiftgen-tutorial-for-ios) by [Andy Pereira](https://twitter.com/macandyp) to learn how to make your values of type `String` type-safe using [SwiftGen](https://github.com/SwiftGen/SwiftGen) (tool that automatically generates Swift code for project's resources).
 
-### One time passcode (OTP) user interface ⚠️
+### One-time passcode text-input user interface
 
-YouTube [video](https://www.youtube.com/watch?v=mHxAvSs914g) by [Kyle Lee](https://twitter.com/kilo_loco)
+In a YouTube [video](https://www.youtube.com/watch?v=mHxAvSs914g), [Kyle Lee](https://twitter.com/kilo_loco) created one-time passcode (OTP) entry text field.
 
-### The Composable Architecture (TCA) ⚠️
+### The Composable Architecture
 
-[tutorial](https://dev.to/atimca/the-composable-architecture-tutorial-29a9) by [Maxim Smirnov](https://twitter.com/atimca)
+[Maxim Smirnov](https://twitter.com/atimca) created a [tutorial](https://dev.to/atimca/the-composable-architecture-tutorial-29a9) demonstrating the concepts of [the Composable Architecture (TCA)](https://www.pointfree.co/collections/composable-architecture) by building a composable, modular, and testable product.
 
 ## Enhanced programming
 
