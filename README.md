@@ -6,27 +6,25 @@
 
 Good morning and welcome back!
 
-~~iPhone 13 devices have been announced~~
+This very minute, my cryptocurrency portfolio is profitable, so I am leaving Accenture to go on an adventure. Thank you for choosing _import IdeaKit_ as your go-to source of information on anything and everything Swift!
 
-If you would fancy to take ownership of the newsletter reach out to [Kaspars Auzarejs-Auzers](https://people.accenture.com/People/user/k.auzarejs-auzers) I shared with him [guidelines](https://github.com/esesmuedgars/IdeaKit/blob/latest/CONTRIBUTING.md) necessary to recreate the newsletter.
+I will not leave you hanging, when one door closes another one opens, therefore, to replace _import IdeaKit_ I suggest subscribing to three newsletters I enjoy reading the most — [iOS Dev Weekly](https://iosdevweekly.com) curated by [Dave Verwer](https://twitter.com/daveverwer), [Swift Weekly Brief](https://swiftweeklybrief.com) curated by [Kristaps Grinbergs](https://twitter.com/fassko), and [iOS Goodies](https://ios-goodies.com) curated by [Marius Constantinescu](https://twitter.com/marius_const).
 
-for obvious reason I will not present you with a new challenge, instead think of ways how you could improve software application you’re currently working on.
+Another step you can take to excel at your professional career is to create a Twitter account and follow active members of the Swift community, you can learn a great deal. If you'd like, you can also follow [me](https://twitter.com/esesmuedgars) where I don't post anything.
 
-Will not leave you hanging, I suggest three newsletter to subsribe to [iOS Dev Weekly](https://iosdevweekly.com) curated by [Dave Verwer](https://twitter.com/daveverwer), [Swift Weekly Brief](https://swiftweeklybrief.com) curated by [Kristaps Grinbergs](https://twitter.com/fassko), and [iOS Goodies](https://ios-goodies.com) curated by [Marius Constantinescu](https://twitter.com/marius_const). Another important thing is twitter.
+If you would fancy to take ownership of the newsletter reach out to [Kaspars Auzarejs-Auzers](https://people.accenture.com/People/user/k.auzarejs-auzers), I've shared [guidelines](https://github.com/esesmuedgars/IdeaKit/blob/latest/CONTRIBUTING.md) necessary to recreate the newsletter with him.
 
-If you'd like, follow me on Twitter where I don't post anything.
-
-Happy learning!  ⚠️
+Happy learning, au revoir!
 
 ## News
 
-### Additional banking information required in App Store Connect ⚠️
+### Additional banking information required in App Store Connect
 
-[Apple](https://twitter.com/Apple) in their news [article](https://developer.apple.com/news/?id=ep8chzr8)
+[Apple](https://twitter.com/Apple) in their news [article](https://developer.apple.com/news/?id=ep8chzr8) alerts that to avoid a potential, future interruption of payments from them, it is mandatory to add a valid address to the existent bank account information by the 22<sup>nd</sup> of October, 2021. Action requires Account Holders, Admins, or Finance role and can be done in the Agreements, Tax, and Banking section of the App Store Connect.
 
-### Package Collections ⚠️
+### Swift Package Collections
 
-Swift blog [post](https://swift.org/blog/package-collections) by [Tom Doron](https://twitter.com/tomerdoron)
+[Tom Doron](https://twitter.com/tomerdoron) had written a Swift blog [post](https://swift.org/blog/package-collections) announcing Package Collections addition to the Swift Package Manager in Swift 5.5, aiming to improve package discovery and to help select the right tool for the job.
 
 <!--more-->
 
@@ -67,6 +65,8 @@ func checkIfFileExists(_ fileURL: URL) -> Bool {
     }
 }
 ```
+
+For the reason mentioned above, I will not be presenting you with a new challenge, instead, I encourage you to think of the ways how you could improve software application you’re currently working on.
 
 ## Fundamentals
 
@@ -124,7 +124,7 @@ YouTube [video](https://www.youtube.com/watch?v=mHxAvSs914g) by [Kyle Lee](https
 
 ## Tools
 
-### The Importance of Restarting Your Accenture workstations running macOS ⚠️
+### The importance of restarting Accenture workstations running macOS ⚠️
 
 [article](https://blog.accenture.com/accenturemacworkstation/2021/09/02/the-importance-of-restarting-your-mac) by [Brandon Peek](https://people.accenture.com/People/user/brandon.w.peek)
 
@@ -139,29 +139,29 @@ YouTube [video](https://www.youtube.com/watch?v=mL54fosQphI) by [Kyle Lee](https
 
 ## Tips
 
-### Using `#function` for `String` values ⚠️
+### Using `#function` for `String` values
 
-Twitter [post](https://twitter.com/nicklockwood/status/1430429295994888198) by [Nick Lockwood](https://twitter.com/nicklockwood)
+In his Twitter [post](https://twitter.com/nicklockwood/status/1430429295994888198), [Nick Lockwood](https://twitter.com/nicklockwood) suggests using `#function` when implementing static properties of type `String` to avoid copy-paste errors.
 
-### Overriding argument's default value ⚠️
+### Overriding argument's default value
 
-YouTube [video](https://www.youtube.com/watch?v=2h8eJq_dCh4) by [Vincent Pradeilles](https://twitter.com/v_pradeilles)
+Watch YouTube [video](https://www.youtube.com/watch?v=2h8eJq_dCh4) by [Vincent Pradeilles](https://twitter.com/v_pradeilles) as he illustrates the pitfall of overriding a default value of an argument of an overriden method.
 
-### Compiler flags for Swift concurrency ⚠️
+### Compiler flags for Swift concurrency
 
-Twitter [post](https://twitter.com/olebegemann/status/1421144304127463427) by [Ole Begemann](https://twitter.com/olebegemann)
+[Ole Begemann](https://twitter.com/olebegemann) created a Twitter [post](https://twitter.com/olebegemann/status/1421144304127463427) stimulating to enable compiler flags that will identify unsafe constructs in case you are writing concurrent code.
 
-### Checking if Mobile Data is enabled  ⚠️
+### Checking if Mobile Data is enabled
 
-[article](https://nemecek.be/blog/119/how-to-check-if-mobile-data-is-enabled-for-your-app) by [Filip Němeček](https://twitter.com/nemecek_f)
+[Filip Němeček](https://twitter.com/nemecek_f) in his direct [article](https://nemecek.be/blog/119/how-to-check-if-mobile-data-is-enabled-for-your-app) shares how to indicate whether application can access cellular data.
 
-### Why you shouldn't result to using conditional view modifiers ⚠️
+### Why you shouldn't result to using conditional view modifiers
 
-[article](https://www.objc.io/blog/2021/08/24/conditional-view-modifiers) by [Chris Eidhof](https://twitter.com/chriseidhof)
+[Chris Eidhof](https://twitter.com/chriseidhof) described problems that conditional view modifies in `SwiftUI`  introduce. Read his [article](https://www.objc.io/blog/2021/08/24/conditional-view-modifiers) to understand why you should steer clear of implementing them.
 
-### Spell checking in Xcode ⚠️
+### Spell-checking in Xcode
 
-2-minute [article](https://sarunw.com/posts/spell-checking-in-xcode) by [Sarun Wongpatcharapakornand](https://twitter.com/sarunw)
+[Sarun Wongpatcharapakornand](https://twitter.com/sarunw) wrote a 2-minute [article](https://sarunw.com/posts/spell-checking-in-xcode) educating how to enable and use Xcode's hidden feature - spell-checking.
 
 <br>
 <p align="center">
@@ -175,6 +175,9 @@ Thank you for taking the time to expand your knowledge! For additional study mat
 Found a topic insightful? You can add your comments and open a discussion using the comment section below.
 <br>
 Help others improve their Swift knowledge by liking and sharing this post.
+<br>
+<br>
+Reach out in case you spot any errors! Feedback is also welcome.
 <br>
 <br>
 Subscribe to the <a href="https://blog.accenture.com/design">Baltic Interactive blog</a> and follow the <a href="https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI1Nzg0ODAwNDYwOCJ9/all">Riga Interactive Yammer community</a> for further insightful content!
