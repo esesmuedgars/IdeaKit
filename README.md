@@ -98,29 +98,29 @@ In a YouTube [video](https://www.youtube.com/watch?v=mHxAvSs914g), [Kyle Lee](ht
 
 ## Enhanced programming
 
-### Creating and customizing views and controls ⚠️
+### Creating and customizing views and controls
 
-[Apple](https://twitter.com/Apple) provides [sample code](https://developer.apple.com/documentation/uikit/mac_catalyst/uikit_catalog_creating_and_customizing_views_and_controls)
+[Apple](https://twitter.com/Apple) provides [sample code](https://developer.apple.com/documentation/uikit/mac_catalyst/uikit_catalog_creating_and_customizing_views_and_controls) guiding you through several types of customizations you can make in your iOS applications.
 
-### `AnyCancellable` in `Combine` ⚠️
+### `AnyCancellable` in `Combine`
 
-[article](https://www.donnywals.com/what-exactly-is-a-combine-anycancellable) by [Donny Wals](https://twitter.com/DonnyWals)
+[Donny Wals](https://twitter.com/DonnyWals) wrote an [article](https://www.donnywals.com/what-exactly-is-a-combine-anycancellable) exploring the implementation of `AnyCancellable` and explained classes' objects that we retain for our subscriptions.
 
-### Unit testing best practices ⚠️
+### The best practices of unit testing
 
-[article](https://medium.com/revolut/best-practices-for-unit-testing-at-revolut-45428879ca07) by [Arsen Gasparyan](https://twitter.com/ansenro)
+[Arsen Gasparyan](https://twitter.com/ansenro) shares the practices he applies when writing unit tests in an [article](https://medium.com/revolut/best-practices-for-unit-testing-at-revolut-45428879ca07). He reckons that following those practices makes writing unit tests easy and fun. 
 
-### `StaticString` ⚠️
+### `StaticString`
 
-[article](https://swiftrocks.com/staticstring-in-swift) by [Bruno Rocha](https://twitter.com/rockbruno_)
+In an [article](https://swiftrocks.com/staticstring-in-swift), [Bruno Rocha](https://twitter.com/rockbruno_) traverses into how `StaticString` is built in the compiler and expresses an opinion if you should be using it.
 
-### `#selector` and the responder chain ⚠️
+### `#selector` and the responder chain
 
-[article](https://dasdom.dev/posts/selector-and-the-responder-chain) by [Dominik Hauser](https://twitter.com/dasdom)
+[Dominik Hauser](https://twitter.com/dasdom) wroten an [article](https://dasdom.dev/posts/selector-and-the-responder-chain) reminding everyone that there is a responder chain and that we can use it to react to button events.
 
-### Reverse engineering `UIKit` to fix our top crash ⚠️
+### Reverse engineering `UIKit` to fix our hard-to-reproduce crash
 
-[article](https://pspdfkit.com/blog/2021/reverse-engineering-uikit) by [Adrian Kashivskyy](https://twitter.com/akashivskyy)
+[Adrian Kashivskyy](https://twitter.com/akashivskyy) in an [article](https://pspdfkit.com/blog/2021/reverse-engineering-uikit) shared what he had to go through to track down the root cause of hard-to-reproduce crash and how did he tackle those floating-point precision errors.
 
 ## Tools
 
