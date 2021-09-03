@@ -70,17 +70,17 @@ For the reason mentioned above, I will not be presenting you with a new challeng
 
 ## Fundamentals
 
-### Learning new application programming interfaces ⚠️
+### Learning new application programming interfaces
 
-Listen to [Empower Apps podcast](https://www.empowerapps.show) [episode](https://share.transistor.fm/s/31b2d4ab) with guest [Stewart Lynch](https://twitter.com/StewartLynch)
+Listen to [Empower Apps podcast](https://www.empowerapps.show) [episode](https://share.transistor.fm/s/31b2d4ab) with guest [Stewart Lynch](https://twitter.com/StewartLynch) as he shares, in his empirical experience, best approaches to learning new application programming interfaces.
 
-### iOS interview preparation ⚠️
+### iOS interview preparation
 
-YouTube [video series](https://www.youtube.com/watch?v=CBcuwRV4cPU&list=PLodDrxt4jmVDtxpFBpuPGk0X7BnB8lxBD) by [Aryaman Sharda](https://twitter.com/aryamansharda)
+Even if you do not intend to terminate your employement agreement you can't avoid having technical interviews as you are considered for a new assignment. I believe it is important to keep your finger on the pulse of Swift developer recruitment, to know the most common questions, and best replies, and be prepared to tackle any coding challenge. [Aryaman Sharda](https://twitter.com/aryamansharda) offers a YouTube [video series](https://www.youtube.com/watch?v=CBcuwRV4cPU&list=PLodDrxt4jmVDtxpFBpuPGk0X7BnB8lxBD) where he goes over different assesments presented at iOS developer role interviews.
 
-### Observing properties in Swift ⚠️
+### Observing properties in Swift
 
-[article](https://www.jessesquires.com/blog/2021/08/08/different-ways-to-observe-properties-in-swift) by [Jesse Squires](https://twitter.com/jesse_squires)
+There are multiple ways to observe property changes, [Jesse Squires](https://twitter.com/jesse_squires) showcases a few of those options in his [article](https://www.jessesquires.com/blog/2021/08/08/different-ways-to-observe-properties-in-swift).
 
 ## Tutorials
 
@@ -88,7 +88,7 @@ YouTube [video series](https://www.youtube.com/watch?v=CBcuwRV4cPU&list=PLodDrxt
 
 [tutorial](https://www.raywenderlich.com/23709326-swiftgen-tutorial-for-ios) by [Andy Pereira](https://twitter.com/macandyp)
 
-###  One time passcode (OTP) user interface ⚠️
+### One time passcode (OTP) user interface ⚠️
 
 YouTube [video](https://www.youtube.com/watch?v=mHxAvSs914g) by [Kyle Lee](https://twitter.com/kilo_loco)
 
