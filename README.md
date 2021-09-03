@@ -1,6 +1,6 @@
 <img width="100%" alt="import IdeaKit - Swift Monthly Newsletter" src="https://github.com/esesmuedgars/IdeaKit/blob/assets/title.svg" />
 
-###### 0 minute read
+###### 6 minute read
 
 ![Issue](https://img.shields.io/badge/issue-1.9-informational.svg)
 
@@ -12,7 +12,7 @@ I will not leave you hanging, when one door closes another one opens, therefore,
 
 Another step you can take to excel at your professional career is to create a Twitter account and follow active members of the Swift community, you can learn a great deal. If you'd like, you can also follow [me](https://twitter.com/esesmuedgars) where I don't post anything.
 
-If you would fancy to take ownership of the newsletter reach out to [Kaspars Auzarejs-Auzers](https://people.accenture.com/People/user/k.auzarejs-auzers), I've shared [guidelines](https://github.com/esesmuedgars/IdeaKit/blob/latest/CONTRIBUTING.md) necessary to recreate the newsletter with him.
+If you would fancy taking ownership of the newsletter, reach out to [Kaspars Auzarejs-Auzers](https://people.accenture.com/People/user/k.auzarejs-auzers), I've shared [guidelines](https://github.com/esesmuedgars/IdeaKit/blob/latest/CONTRIBUTING.md) necessary to recreate the newsletter with him.
 
 Happy learning, au revoir!
 
@@ -66,17 +66,17 @@ func checkIfFileExists(_ fileURL: URL) -> Bool {
 }
 ```
 
-For the reason mentioned above, I will not be presenting you with a new challenge, instead, I encourage you to think of the ways how you could improve software application you’re currently working on.
+For the reason mentioned above, I will not be presenting you with a new challenge, instead, I encourage you to think of the ways how you could improve the software application you’re currently working on.
 
 ## Fundamentals
 
 ### Learning new application programming interfaces
 
-Listen to [Empower Apps podcast](https://www.empowerapps.show) [episode](https://share.transistor.fm/s/31b2d4ab) with guest [Stewart Lynch](https://twitter.com/StewartLynch) as he shares, in his empirical experience, best approaches to learning new application programming interfaces.
+Listen to [Empower Apps podcast](https://www.empowerapps.show) [episode](https://share.transistor.fm/s/31b2d4ab) with guest [Stewart Lynch](https://twitter.com/StewartLynch) as he shares, in his empirical experience, the best approaches to learning new application programming interfaces.
 
 ### iOS interview preparation
 
-Even if you do not intend to terminate your employement agreement you can't avoid having technical interviews as you are considered for a new assignment. I believe it is important to keep your finger on the pulse of Swift developer recruitment, to know the most common questions, and best replies, and be prepared to tackle any coding challenge. [Aryaman Sharda](https://twitter.com/aryamansharda) offers a YouTube [video series](https://www.youtube.com/watch?v=CBcuwRV4cPU&list=PLodDrxt4jmVDtxpFBpuPGk0X7BnB8lxBD) where he goes over different assesments presented at iOS developer role interviews.
+Even if you do not intend to terminate your employment agreement you can't avoid having technical interviews as you are considered for a new assignment. I believe it is important to keep your finger on the pulse of Swift developer recruitment, to know the most common questions, and best replies, and to be prepared to tackle any coding challenge. [Aryaman Sharda](https://twitter.com/aryamansharda) offers a YouTube [video series](https://www.youtube.com/watch?v=CBcuwRV4cPU&list=PLodDrxt4jmVDtxpFBpuPGk0X7BnB8lxBD) where he goes over different assessments presented at iOS developer role interviews.
 
 ### Observing properties in Swift
 
@@ -86,15 +86,15 @@ There are multiple ways to observe property changes, [Jesse Squires](https://twi
 
 ### `SwiftGen` for iOS
 
-Follow a [tutorial](https://www.raywenderlich.com/23709326-swiftgen-tutorial-for-ios) by [Andy Pereira](https://twitter.com/macandyp) to learn how to make your values of type `String` type-safe using [SwiftGen](https://github.com/SwiftGen/SwiftGen) (tool that automatically generates Swift code for project's resources).
+Follow a [tutorial](https://www.raywenderlich.com/23709326-swiftgen-tutorial-for-ios) by [Andy Pereira](https://twitter.com/macandyp) to learn how to make your values of type `String` type-safe using [SwiftGen](https://github.com/SwiftGen/SwiftGen) (a tool that automatically generates Swift code for project's resources).
 
 ### One-time passcode text-input user interface
 
 In a YouTube [video](https://www.youtube.com/watch?v=mHxAvSs914g), [Kyle Lee](https://twitter.com/kilo_loco) created one-time passcode (OTP) entry text field.
 
-### The Composable Architecture
+### The Composable Architecture (TCA)
 
-[Maxim Smirnov](https://twitter.com/atimca) created a [tutorial](https://dev.to/atimca/the-composable-architecture-tutorial-29a9) demonstrating the concepts of [the Composable Architecture (TCA)](https://www.pointfree.co/collections/composable-architecture) by building a composable, modular, and testable product.
+[Maxim Smirnov](https://twitter.com/atimca) created a [tutorial](https://dev.to/atimca/the-composable-architecture-tutorial-29a9) demonstrating the concepts of [Composable Architecture](https://www.pointfree.co/collections/composable-architecture) by building a composable, modular, and testable product.
 
 ## Enhanced programming
 
@@ -116,21 +116,21 @@ In an [article](https://swiftrocks.com/staticstring-in-swift), [Bruno Rocha](htt
 
 ### `#selector` and the responder chain
 
-[Dominik Hauser](https://twitter.com/dasdom) wroten an [article](https://dasdom.dev/posts/selector-and-the-responder-chain) reminding everyone that there is a responder chain and that we can use it to react to button events.
+[Dominik Hauser](https://twitter.com/dasdom) wrote an [article](https://dasdom.dev/posts/selector-and-the-responder-chain) reminding everyone that there is a responder chain and that we can use it to react to button events.
 
 ### Reverse engineering `UIKit` to fix our hard-to-reproduce crash
 
-[Adrian Kashivskyy](https://twitter.com/akashivskyy) in an [article](https://pspdfkit.com/blog/2021/reverse-engineering-uikit) shared what he had to go through to track down the root cause of hard-to-reproduce crash and how did he tackle those floating-point precision errors.
+[Adrian Kashivskyy](https://twitter.com/akashivskyy) in an [article](https://pspdfkit.com/blog/2021/reverse-engineering-uikit) shared what he had to go through to track down the root cause of a hard-to-reproduce crash and how did he tackle the error.
 
 ## Tools
 
 ### The importance of restarting Accenture workstations running macOS
 
-[Brandon Peek](https://people.accenture.com/People/user/brandon.w.peek) published a [Mac Workstation Blog](https://blog.accenture.com/accenturemacworkstation) [post](https://blog.accenture.com/accenturemacworkstation/2021/09/02/the-importance-of-restarting-your-mac) reasoning why it is crucial to regularely reboot your Accenture-owned macOS device.
+[Brandon Peek](https://people.accenture.com/People/user/brandon.w.peek) published a [Mac Workstation Blog](https://blog.accenture.com/accenturemacworkstation) [post](https://blog.accenture.com/accenturemacworkstation/2021/09/02/the-importance-of-restarting-your-mac) reasoning why it is crucial to regularly reboot your Accenture-owned macOS device.
 
 ### Getting started with Amazon Web Services Amplify
 
-Recently, many talents became certified cloud professionals, to those of you I would like to say mazel tov! View a YouTube [video](https://www.youtube.com/watch?v=mL54fosQphI) by [Kyle Lee](https://twitter.com/kilo_loco) as he guides viewers through initial steps with Amazon Web Services [Amplify](https://aws.amazon.com/amplify) (a set of tools (e.g., open source framework, admin user interface, console) and services (e.g., static web hosting) to accelerate the development of software applications on Amazon Web Services).
+Recently, many talents became certified cloud professionals, to those of you I would like to say mazel tov! View a YouTube [video](https://www.youtube.com/watch?v=mL54fosQphI) by [Kyle Lee](https://twitter.com/kilo_loco) as he guides viewers through initial steps with Amazon Web Services [Amplify](https://aws.amazon.com/amplify) (a set of tools (e.g., open-source framework, admin user interface, console) and services (e.g., static web hosting) to accelerate the development of software applications on Amazon Web Services).
 
 ### Create App Store screenshots effortlessly
 
@@ -145,7 +145,7 @@ In his Twitter [post](https://twitter.com/nicklockwood/status/143042929599488819
 
 ### Overriding argument's default value
 
-Watch YouTube [video](https://www.youtube.com/watch?v=2h8eJq_dCh4) by [Vincent Pradeilles](https://twitter.com/v_pradeilles) as he illustrates the pitfall of overriding a default value of an argument of an overriden method.
+Watch a YouTube [video](https://www.youtube.com/watch?v=2h8eJq_dCh4) by [Vincent Pradeilles](https://twitter.com/v_pradeilles) as he illustrates the pitfall of overriding a default value of an argument of an overridden method.
 
 ### Compiler flags for Swift concurrency
 
@@ -153,7 +153,7 @@ Watch YouTube [video](https://www.youtube.com/watch?v=2h8eJq_dCh4) by [Vincent P
 
 ### Checking if Mobile Data is enabled
 
-[Filip Němeček](https://twitter.com/nemecek_f) in his direct [article](https://nemecek.be/blog/119/how-to-check-if-mobile-data-is-enabled-for-your-app) shares how to indicate whether application can access cellular data.
+[Filip Němeček](https://twitter.com/nemecek_f) in his direct [article](https://nemecek.be/blog/119/how-to-check-if-mobile-data-is-enabled-for-your-app) shares how to indicate whether an application can access cellular data.
 
 ### Why you shouldn't result to using conditional view modifiers
 
