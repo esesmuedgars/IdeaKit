@@ -124,18 +124,18 @@ YouTube [video](https://www.youtube.com/watch?v=mHxAvSs914g) by [Kyle Lee](https
 
 ## Tools
 
-### The importance of restarting Accenture workstations running macOS ⚠️
+### The importance of restarting Accenture workstations running macOS
 
-[article](https://blog.accenture.com/accenturemacworkstation/2021/09/02/the-importance-of-restarting-your-mac) by [Brandon Peek](https://people.accenture.com/People/user/brandon.w.peek)
+[Brandon Peek](https://people.accenture.com/People/user/brandon.w.peek) published a [Mac Workstation Blog](https://blog.accenture.com/accenturemacworkstation) [post](https://blog.accenture.com/accenturemacworkstation/2021/09/02/the-importance-of-restarting-your-mac) reasoning why it is crucial to regularely reboot your Accenture-owned macOS device.
 
-### Getting started with AWS Amplify ⚠️
+### Getting started with Amazon Web Services Amplify
 
-[AWS Amplify](https://aws.amazon.com/amplify)
-YouTube [video](https://www.youtube.com/watch?v=mL54fosQphI) by [Kyle Lee](https://twitter.com/kilo_loco)
+Recently, many talents became certified cloud professionals, to those of you I would like to say mazel tov! View a YouTube [video](https://www.youtube.com/watch?v=mL54fosQphI) by [Kyle Lee](https://twitter.com/kilo_loco) as he guides viewers through initial steps with Amazon Web Services [Amplify](https://aws.amazon.com/amplify) (a set of tools (e.g., open source framework, admin user interface, console) and services (e.g., static web hosting) to accelerate the development of software applications on Amazon Web Services).
 
-### Using fastlane to automating App Store screenshots ⚠️
+### Create App Store screenshots effortlessly
 
-[article](https://lickability.com/blog/automating-app-store-screenshots-with-fastlane-and-swiftui) by (her/she) [Daisy Ramos](https://twitter.com/daisyr317)
+In her [article](https://lickability.com/blog/automating-app-store-screenshots-with-fastlane-and-swiftui), [Daisy Ramos](https://twitter.com/daisyr317) shares how to 
+automate screenshot creation for the application submission to the App Store process utilizing fastlane [snapshot](https://docs.fastlane.tools/actions/snapshot) and fastlane [frameit](https://docs.fastlane.tools/actions/frameit) actions.
 
 ## Tips
 
